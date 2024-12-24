@@ -1,0 +1,199 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = StoresPlace_Front
+build_property.ProjectDir = C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/good1/source/repos/StoresLand/StoresPlace-Front/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = StoresPlace_Front.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/good1/source/repos/StoresLand/StoresPlace-Front/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = StoresPlace_Front.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/good1/source/repos/StoresLand/StoresPlace-Front/Categories/pgCategories.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = StoresPlace_Front.Categories.pgCategories.xaml
+build_metadata.AdditionalFiles.TargetPath = Categories\pgCategories.xaml
+build_metadata.AdditionalFiles.RelativePath = Categories\pgCategories.xaml
+
+[C:/Users/good1/source/repos/StoresLand/StoresPlace-Front/GlobalPages/pgInternetConnecation.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = StoresPlace_Front.GlobalPages.pgInternetConnecation.xaml
+build_metadata.AdditionalFiles.TargetPath = GlobalPages\pgInternetConnecation.xaml
+build_metadata.AdditionalFiles.RelativePath = GlobalPages\pgInternetConnecation.xaml
+
+[C:/Users/good1/source/repos/StoresLand/StoresPlace-Front/GlobalPages/pgUpdatePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = StoresPlace_Front.GlobalPages.pgUpdatePage.xaml
+build_metadata.AdditionalFiles.TargetPath = GlobalPages\pgUpdatePage.xaml
+build_metadata.AdditionalFiles.RelativePath = GlobalPages\pgUpdatePage.xaml
+
+[C:/Users/good1/source/repos/StoresLand/StoresPlace-Front/Global/GlobalControl/ctvActiveIndector.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = StoresPlace_Front.Global.GlobalControl.ctvActiveIndector.xaml
+build_metadata.AdditionalFiles.TargetPath = Global\GlobalControl\ctvActiveIndector.xaml
+build_metadata.AdditionalFiles.RelativePath = Global\GlobalControl\ctvActiveIndector.xaml
+
+[C:/Users/good1/source/repos/StoresLand/StoresPlace-Front/Login/pgIntroUser.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = StoresPlace_Front.Login.pgIntroUser.xaml
+build_metadata.AdditionalFiles.TargetPath = Login\pgIntroUser.xaml
+build_metadata.AdditionalFiles.RelativePath = Login\pgIntroUser.xaml
+
+[C:/Users/good1/source/repos/StoresLand/StoresPlace-Front/Login/pgLoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = StoresPlace_Front.Login.pgLoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Login\pgLoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Login\pgLoginPage.xaml
+
+[C:/Users/good1/source/repos/StoresLand/StoresPlace-Front/Login/pgLogUp.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = StoresPlace_Front.Login.pgLogUp.xaml
+build_metadata.AdditionalFiles.TargetPath = Login\pgLogUp.xaml
+build_metadata.AdditionalFiles.RelativePath = Login\pgLogUp.xaml
+
+[C:/Users/good1/source/repos/StoresLand/StoresPlace-Front/Login/pgResetPassword.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = StoresPlace_Front.Login.pgResetPassword.xaml
+build_metadata.AdditionalFiles.TargetPath = Login\pgResetPassword.xaml
+build_metadata.AdditionalFiles.RelativePath = Login\pgResetPassword.xaml
+
+[C:/Users/good1/source/repos/StoresLand/StoresPlace-Front/Main/MainControl/ctvTypeContainer.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = StoresPlace_Front.Main.MainControl.ctvTypeContainer.xaml
+build_metadata.AdditionalFiles.TargetPath = Main\MainControl\ctvTypeContainer.xaml
+build_metadata.AdditionalFiles.RelativePath = Main\MainControl\ctvTypeContainer.xaml
+
+[C:/Users/good1/source/repos/StoresLand/StoresPlace-Front/Main/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = StoresPlace_Front.Main.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Main\MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Main\MainPage.xaml
+
+[C:/Users/good1/source/repos/StoresLand/StoresPlace-Front/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = StoresPlace_Front.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/good1/source/repos/StoresLand/StoresPlace-Front/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = StoresPlace_Front.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/good1/source/repos/StoresLand/StoresPlace-Front/Settings/Control/ctvSettings.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = StoresPlace_Front.Settings.Control.ctvSettings.xaml
+build_metadata.AdditionalFiles.TargetPath = Settings\Control\ctvSettings.xaml
+build_metadata.AdditionalFiles.RelativePath = Settings\Control\ctvSettings.xaml
+
+[C:/Users/good1/source/repos/StoresLand/StoresPlace-Front/Settings/MyStores/MyStore/pgAddNewStore.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = StoresPlace_Front.Settings.MyStores.MyStore.pgAddNewStore.xaml
+build_metadata.AdditionalFiles.TargetPath = Settings\MyStores\MyStore\pgAddNewStore.xaml
+build_metadata.AdditionalFiles.RelativePath = Settings\MyStores\MyStore\pgAddNewStore.xaml
+
+[C:/Users/good1/source/repos/StoresLand/StoresPlace-Front/Settings/MyStores/MyStore/pgMyStorePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = StoresPlace_Front.Settings.MyStores.MyStore.pgMyStorePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Settings\MyStores\MyStore\pgMyStorePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Settings\MyStores\MyStore\pgMyStorePage.xaml
+
+[C:/Users/good1/source/repos/StoresLand/StoresPlace-Front/Settings/MyStores/MyStore/pgMyStores.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = StoresPlace_Front.Settings.MyStores.MyStore.pgMyStores.xaml
+build_metadata.AdditionalFiles.TargetPath = Settings\MyStores\MyStore\pgMyStores.xaml
+build_metadata.AdditionalFiles.RelativePath = Settings\MyStores\MyStore\pgMyStores.xaml
+
+[C:/Users/good1/source/repos/StoresLand/StoresPlace-Front/Settings/MyStores/Offers/pgAddNewOffer.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = StoresPlace_Front.Settings.MyStores.Offers.pgAddNewOffer.xaml
+build_metadata.AdditionalFiles.TargetPath = Settings\MyStores\Offers\pgAddNewOffer.xaml
+build_metadata.AdditionalFiles.RelativePath = Settings\MyStores\Offers\pgAddNewOffer.xaml
+
+[C:/Users/good1/source/repos/StoresLand/StoresPlace-Front/Settings/MyStores/pgAddNewCoupoun.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = StoresPlace_Front.Settings.MyStores.pgAddNewCoupoun.xaml
+build_metadata.AdditionalFiles.TargetPath = Settings\MyStores\pgAddNewCoupoun.xaml
+build_metadata.AdditionalFiles.RelativePath = Settings\MyStores\pgAddNewCoupoun.xaml
+
+[C:/Users/good1/source/repos/StoresLand/StoresPlace-Front/Settings/MyStores/pgSellYourStore.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = StoresPlace_Front.Settings.MyStores.pgSellYourStore.xaml
+build_metadata.AdditionalFiles.TargetPath = Settings\MyStores\pgSellYourStore.xaml
+build_metadata.AdditionalFiles.RelativePath = Settings\MyStores\pgSellYourStore.xaml
+
+[C:/Users/good1/source/repos/StoresLand/StoresPlace-Front/Settings/pgAppSettings.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = StoresPlace_Front.Settings.pgAppSettings.xaml
+build_metadata.AdditionalFiles.TargetPath = Settings\pgAppSettings.xaml
+build_metadata.AdditionalFiles.RelativePath = Settings\pgAppSettings.xaml
+
+[C:/Users/good1/source/repos/StoresLand/StoresPlace-Front/Settings/pgMySavedStores.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = StoresPlace_Front.Settings.pgMySavedStores.xaml
+build_metadata.AdditionalFiles.TargetPath = Settings\pgMySavedStores.xaml
+build_metadata.AdditionalFiles.RelativePath = Settings\pgMySavedStores.xaml
+
+[C:/Users/good1/source/repos/StoresLand/StoresPlace-Front/Settings/pgProfile.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = StoresPlace_Front.Settings.pgProfile.xaml
+build_metadata.AdditionalFiles.TargetPath = Settings\pgProfile.xaml
+build_metadata.AdditionalFiles.RelativePath = Settings\pgProfile.xaml
+
+[C:/Users/good1/source/repos/StoresLand/StoresPlace-Front/Settings/pgSettings.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = StoresPlace_Front.Settings.pgSettings.xaml
+build_metadata.AdditionalFiles.TargetPath = Settings\pgSettings.xaml
+build_metadata.AdditionalFiles.RelativePath = Settings\pgSettings.xaml
+
+[C:/Users/good1/source/repos/StoresLand/StoresPlace-Front/StoresForSell/StoreForSellPage/pgStoreForSellPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = StoresPlace_Front.StoresForSell.StoreForSellPage.pgStoreForSellPage.xaml
+build_metadata.AdditionalFiles.TargetPath = StoresForSell\StoreForSellPage\pgStoreForSellPage.xaml
+build_metadata.AdditionalFiles.RelativePath = StoresForSell\StoreForSellPage\pgStoreForSellPage.xaml
+
+[C:/Users/good1/source/repos/StoresLand/StoresPlace-Front/StoresForSell/StoresForSellMain/pgStoresForSell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = StoresPlace_Front.StoresForSell.StoresForSellMain.pgStoresForSell.xaml
+build_metadata.AdditionalFiles.TargetPath = StoresForSell\StoresForSellMain\pgStoresForSell.xaml
+build_metadata.AdditionalFiles.RelativePath = StoresForSell\StoresForSellMain\pgStoresForSell.xaml
+
+[C:/Users/good1/source/repos/StoresLand/StoresPlace-Front/Stores/Rateing/pgAddNewRate.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = StoresPlace_Front.Stores.Rateing.pgAddNewRate.xaml
+build_metadata.AdditionalFiles.TargetPath = Stores\Rateing\pgAddNewRate.xaml
+build_metadata.AdditionalFiles.RelativePath = Stores\Rateing\pgAddNewRate.xaml
+
+[C:/Users/good1/source/repos/StoresLand/StoresPlace-Front/Stores/StoresMain/pgStores.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = StoresPlace_Front.Stores.StoresMain.pgStores.xaml
+build_metadata.AdditionalFiles.TargetPath = Stores\StoresMain\pgStores.xaml
+build_metadata.AdditionalFiles.RelativePath = Stores\StoresMain\pgStores.xaml
+
+[C:/Users/good1/source/repos/StoresLand/StoresPlace-Front/Stores/StoresPage/pgStorePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = StoresPlace_Front.Stores.StoresPage.pgStorePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Stores\StoresPage\pgStorePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Stores\StoresPage\pgStorePage.xaml

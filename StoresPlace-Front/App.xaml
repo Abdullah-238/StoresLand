@@ -1,0 +1,33 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Application xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:StoresPlace_Front"
+             x:Class="StoresPlace_Front.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
+                <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
+
+                <ResourceDictionary>
+                    <Style TargetType="Button" x:Key="SecondaryButton">
+                        <Setter Property="BackgroundColor" Value="Transparent"></Setter>
+                        <Setter Property="BorderColor"  Value="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}"></Setter>
+                        <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}"></Setter>
+                        <Setter Property="BorderWidth" Value="1"></Setter>
+                        <Setter Property="MinimumHeightRequest" Value="22"/>
+                        <Setter Property="CornerRadius" Value="20"/>
+                    </Style>
+
+                    <Style TargetType="Button" x:Key="ThirdButton">
+                        <Setter Property="Background" Value="Transparent"></Setter>
+                        <Setter Property="MinimumHeightRequest" Value="22"/>
+                        <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}"/>
+                    </Style>
+                </ResourceDictionary>
+                
+                
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_PostProcessingItem Include="StoresPlace-Front.app/StoresPlace-Front">
+      <IsAppExtension>false</IsAppExtension>
+      <BCSymbolMapName>StoresPlace-Front.bcsymbolmap</BCSymbolMapName>
+      <NoDSymUtil>true</NoDSymUtil>
+      <dSYMSourcePathExists>false</dSYMSourcePathExists>
+      <NoSymbolStrip>true</NoSymbolStrip>
+      <dSYMInfoPlistRelativePath>StoresPlace-Front.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
+      <SymbolFile>\Users\abdullah\Library\Caches\Xamarin\mtbs\builds\StoresPlaceFront\73952e8a84a78bd520d2f4865a6c1cd04a442de480e4280a61250617b3a50121\obj\Debug\net8.0-ios\iossimulator-arm64\mtouch-symbols.list</SymbolFile>
+      <DSymName>StoresPlace-Front.app.dSYM</DSymName>
+      <SourceProjectPath>C:\Users\good1\source\repos\StoresPlace\StoresPlace-Front</SourceProjectPath>
+      <IsXPCService></IsXPCService>
+    </_PostProcessingItem>
+  </ItemGroup>
+</Project>

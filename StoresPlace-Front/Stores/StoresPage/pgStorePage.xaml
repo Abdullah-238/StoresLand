@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StoresPlace_Front.Stores.pgStorePage"
+              Title="{Binding Store.Name}"
+             xmlns:str="clr-namespace:StoresPlace_Front.Strings"
+             x:Name="StorePage"
+             Padding="24"
+             xmlns:Store="clr-namespace:StoresPlace_Front.Stores.StoresPage"
+             Shell.TabBarIsVisible="False"
+             IsBusy="{Binding IsBusy}"
+             Appearing="StorePage_Appearing"
+             Loaded="StorePage_Loaded"
+             NavigatedTo="StorePage_NavigatedTo"
+             >
+
+    <ContentPage.BindingContext>
+        <Store:StorePageViewModel/>
+    </ContentPage.BindingContext>
+
+
+    <Border StrokeShape="RoundRectangle 8" Stroke="{AppThemeBinding Light={StaticResource Gray100}, Dark={StaticResource Gray600}}" VerticalOptions="StartAndExpand">
+
+        <VerticalStackLayout  BackgroundColor="Transparent" Padding="12" Spacing="12">
+
+            <VerticalStackLayout  BindingContext="{Binding Store}"  Spacing="8">
+
+                <Border StrokeShape="RoundRectangle 8" Stroke="Transparent">
+                    <Grid RowDefinitions="*,*,*"   ColumnDefinitions="*,*"  RowSpacing="8"   ColumnSpacing="12" >
+
+                        <HorizontalStackLayout Grid.Row="0"  Spacing="8" >
+
+
+                            <Frame    CornerRadius="4"  BackgroundColor="Transparent" BorderColor="Transparent" HeightRequest="48" WidthRequest="48" >
+                                <Image  Source="{Binding Photo}" Aspect="AspectFill"  x:Name="imgCustomerImage"  HeightRequest="48" WidthRequest="48"/>
+                            </Frame>
+
+                            <VerticalStackLayout VerticalOptions="Center">
+                                <Label HorizontalTextAlignment="Start" Text="{Binding Name}" TextColor="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}" MaxLines="1"/>
+                                <HorizontalStackLayout Spacing="4">
+                                    <Image HeightRequest="18" WidthRequest="18" Source="location"/>
+                                    <Label Text="{Binding Address}"  MaxLines="1" FontSize="Caption" HorizontalTextAlignment="Start"/>
+                                </HorizontalStackLayout>
+                            </VerticalStackLayout>
+                        </HorizontalStackLayout>
+
+                        <HorizontalStackLayout Spacing="4"  Grid.Row="0"  Grid.Column="2"  HorizontalOptions="End" VerticalOptions="Start">
+                            <Image Source="star"/>
+                            <Label  FontSize="Micro" Text="{Binding Rating}" MaxLines="1" VerticalTextAlignment="Center"/>
+                            <!--<Label  FontSize="Micro"  HorizontalOptions="Start" VerticalTextAlignment="Center">
+                  <Label.FormattedText>
+                      <FormattedString>
+                          <Span Text="("/>
+                          <Span Text="{Binding NumberOfRates}"/>
+                          <Span Text=")"/>
+                      </FormattedString>
+                  </Label.FormattedText>
+              </Label>-->
+                        </HorizontalStackLayout>
+
+                    </Grid>
+                </Border>
+
+
+                <!--<Label TextColor="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}" FontSize="Caption" Text="{x:Static str:AppStrings.Category}" MaxLines="1" FontAttributes="Bold"/>
+                <Label FontSize="Caption" Text="{Binding CategoryName}" LineBreakMode="TailTruncation" MaxLines="2"/>
+
+                <Label TextColor="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}" FontSize="Caption"   Text="{x:Static str:AppStrings.Store_Type}" MaxLines="1" FontAttributes="Bold"/>
+                <Label FontSize="Caption" Text="{Binding TypeName}" LineBreakMode="TailTruncation" MaxLines="2"/>
+
+                <Label TextColor="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}" FontSize="Caption"   Text="{x:Static str:AppStrings.Address}" MaxLines="1" FontAttributes="Bold"/>
+                <Label FontSize="Caption" Text="{Binding Address}" LineBreakMode="TailTruncation" MaxLines="2"/>-->
+
+
+                <Label TextColor="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}" FontSize="Caption" FontAttributes="Bold"  Text="{x:Static str:AppStrings.Website}" MaxLines="1" />
+
+                <Border StrokeShape="RoundRectangle 20" Stroke="Transparent" HorizontalOptions="StartAndExpand" >
+                    <Label  Padding="12,4,12,4" Background="{AppThemeBinding Light={StaticResource PrimaryBrush}, Dark={StaticResource PrimaryBrush}}" TextColor="White"
+         FontSize="Caption" Text="{Binding Website}" LineBreakMode="TailTruncation" MaxLines="2"  TextTransform="Lowercase" TextDecorations="Underline">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer
+                                                  Command="{Binding Path=BindingContext.OpenUrl, Source={x:Reference StorePage}}"
+                                                  CommandParameter="{Binding Website}"/>
+                        </Label.GestureRecognizers>
+                    </Label>
+                </Border>
+
+            </VerticalStackLayout>
+
+
+
+            <Label  TextColor="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}" FontSize="Caption"   Text="{x:Static str:AppStrings.Offers}" MaxLines="1" FontAttributes="Bold"/>
+
+
+            <CollectionView  ItemsSource="{Binding Offers}" EmptyView="{x:Static str:AppStrings.No_offers}">
+
+                <CollectionView.ItemsLayout >
+                    <LinearItemsLayout ItemSpacing="4"  Orientation="Vertical" />
+                </CollectionView.ItemsLayout>
+
+                <CollectionView.ItemTemplate>
+                    <DataTemplate  >
+                        <Border StrokeShape="RoundRectangle 20"  Stroke="Transparent" HorizontalOptions="StartAndExpand" >
+                            <Label Padding="12,4,12,4" Background="{AppThemeBinding Light={StaticResource PrimaryBrush}, Dark={StaticResource PrimaryBrush}}"  TextColor="White"
+                                     FontSize="Caption" LineBreakMode="TailTruncation" MaxLines="2"    Text="{Binding .}"/>
+                        </Border>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            <Label  TextColor="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}" FontSize="Caption"   Text="{x:Static str:AppStrings.Coupons}" MaxLines="1" FontAttributes="Bold"/>
+
+            <CollectionView  ItemsSource="{Binding Coupons}" EmptyView="{x:Static str:AppStrings.No_Coupns}">
+
+                <CollectionView.ItemsLayout >
+                    <LinearItemsLayout  ItemSpacing="4" Orientation="Horizontal"  />
+                </CollectionView.ItemsLayout>
+
+                <CollectionView.ItemTemplate>
+                    <DataTemplate  >
+                        <Border StrokeShape="RoundRectangle 20"  Stroke="Transparent" HorizontalOptions="StartAndExpand" >
+                            <Label VerticalOptions="Center"  Padding="12,4,12,4" Background="{AppThemeBinding Light={StaticResource PrimaryBrush}, Dark={StaticResource PrimaryBrush}}"  TextColor="White"
+        FontSize="Caption" LineBreakMode="TailTruncation" MaxLines="2"    Text="{Binding .}"/>
+                        </Border>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+
+
+            <Grid   ColumnDefinitions="*,*" ColumnSpacing="8">
+
+
+                <Button 
+                        Text="{Binding IsRated}"    
+                        Command="{Binding Path=BindingContext.Rate, Source={x:Reference StorePage}}" 
+                        CommandParameter="{Binding Store.StoreID}"/>
+
+                <Button  Grid.Column="1" 
+                         Style="{StaticResource SecondaryButton}"
+                         Text="{Binding IsSaved}"   
+                         Command="{Binding Path=BindingContext.AddToSavedStores, Source={x:Reference StorePage}}" 
+                         CommandParameter="{Binding Store.StoreID}"/>
+
+            </Grid>
+
+
+
+
+
+
+            <!--<Button 
+Command="{Binding Path=BindingContext.CancelOrder, Source={x:Reference OrderPage}}" 
+CommandParameter="{Binding OrderNumber}" 
+ Grid.ColumnSpan="4" Grid.Row="4" Grid.Column="0" Text="{x:Static str:AppStrings.Cancel}" BackgroundColor="#FFDAD6" TextColor="Red"  />-->
+
+
+        </VerticalStackLayout>
+    </Border>
+
+</ContentPage>

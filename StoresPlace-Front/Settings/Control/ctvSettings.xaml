@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StoresPlace_Front.AppSettings.Control.ctvSettings"
+             x:Name="This">
+    <Border StrokeShape="RoundRectangle 4" Stroke="{AppThemeBinding Light={StaticResource Gray100}, Dark={StaticResource Gray700}}">
+            <Grid RowDefinitions="*" ColumnDefinitions="auto,auto,*" Padding="12"  BackgroundColor="Transparent" RowSpacing="8" ColumnSpacing="8">
+
+                <Image x:Name="IconImage"  Source="{Binding Icon, FallbackValue='settings'}" />
+
+                <Label FontSize="Caption" Text="{Binding CardTitle, FallbackValue='Card 0Title'}" HorizontalTextAlignment="Center" Grid.Column="1"/>
+
+                <!--<Image Source="arrow_forward_ios" HorizontalOptions="End"  Grid.Column="2"/>-->
+            </Grid>
+        </Border>
+    
+</ContentView>

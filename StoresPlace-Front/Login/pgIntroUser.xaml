@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StoresPlace_Front.pgIntroUser"
+             x:Name="IntroPage"
+             xmlns:str="clr-namespace:StoresPlace_Front.Strings"
+             NavigationPage.HasNavigationBar="False"
+             >
+
+
+    <ScrollView>
+        <VerticalStackLayout  Spacing="18" Padding="24"  VerticalOptions="Center"   >
+
+            <CarouselView x:Name="clvIntro" IndicatorView="IndicatorColor1"  
+                           WidthRequest="{OnPlatform iOS=300 , Android = 350}" HeightRequest="{OnPlatform iOS=100 , Android = 100}"  Loop="False">
+
+                <CarouselView.ItemsLayout>
+                    <LinearItemsLayout Orientation="Horizontal" SnapPointsAlignment="Center" SnapPointsType="MandatorySingle" />
+                </CarouselView.ItemsLayout>
+                
+                <CarouselView.ItemTemplate>
+                    <DataTemplate>
+                        <VerticalStackLayout HorizontalOptions="Center" Spacing="4" >
+                            <!--<Image Aspect="AspectFit" WidthRequest="{OnPlatform iOS=64 , Android =64}"  HeightRequest="{OnPlatform iOS=64 , Android =64}"  Source="{Binding Image}" />-->
+                            <Label Text="{Binding Title}" FontSize="Large" HorizontalTextAlignment="Center" TextColor="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}" FontAttributes="Bold"/>
+                            <Label Text="{Binding SubTitle}" FontSize="Small" MaxLines="2"  HorizontalTextAlignment="Center"/>
+                        </VerticalStackLayout>
+                    </DataTemplate>
+                </CarouselView.ItemTemplate>
+            </CarouselView>
+
+            <IndicatorView  x:Name="IndicatorColor1" HorizontalOptions="Center"  />
+
+
+            <Button Text="{x:Static str:AppStrings.Sign_in }"  Clicked="btLogin_Clicked"  />
+            <Button Text="{x:Static str:AppStrings.Create_Account }"  Clicked="Button_Clicked" Style="{StaticResource SecondaryButton}"/>
+            <Button Text="{x:Static str:AppStrings.Continue_As_Guest }"   Clicked="Continue_Clicked" Style="{StaticResource ThirdButton}"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+    
+
+</ContentPage>

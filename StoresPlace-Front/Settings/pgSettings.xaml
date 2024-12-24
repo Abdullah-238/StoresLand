@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StoresPlace_Front.pgSettings"
+             xmlns:controls="clr-namespace:StoresPlace_Front.AppSettings.Control"
+             x:Name="Settings"
+             Shell.NavBarIsVisible="False"
+             xmlns:str="clr-namespace:StoresPlace_Front.Strings"
+             xmlns:Control="clr-namespace:StoresPlace_Front.Global.GlobalControl"
+             
+             Appearing="Settings_Appearing"
+             >
+
+
+
+    <ScrollView>
+        <VerticalStackLayout Padding="24,48,24,24" Spacing="12" HorizontalOptions="End">
+
+
+            <Label Text="{x:Static str:AppStrings.Accept_Terms }" FontSize="Large"/>
+
+
+            <controls:ctvSettings Icon="personn" CardTitle="{x:Static str:AppStrings.Profile }">
+                <controls:ctvSettings.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                </controls:ctvSettings.GestureRecognizers>
+            </controls:ctvSettings>
+
+            <controls:ctvSettings Icon="location0" CardTitle="{x:Static str:AppStrings.Add_New_Store }">
+                <controls:ctvSettings.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_5"/>
+                </controls:ctvSettings.GestureRecognizers>
+            </controls:ctvSettings>
+            
+            <controls:ctvSettings Icon="listalt" CardTitle="{x:Static str:AppStrings.My_Stores }">
+                <controls:ctvSettings.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_1"/>
+                </controls:ctvSettings.GestureRecognizers>
+            </controls:ctvSettings>
+
+
+            <controls:ctvSettings Icon="location0" CardTitle="{x:Static str:AppStrings.Saved_stores }">
+                <controls:ctvSettings.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_6"/>
+                </controls:ctvSettings.GestureRecognizers>
+            </controls:ctvSettings>
+
+            <controls:ctvSettings Icon="settings" CardTitle="{x:Static str:AppStrings.Settings }">
+                <controls:ctvSettings.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_4"/>
+                </controls:ctvSettings.GestureRecognizers>
+            </controls:ctvSettings>
+
+
+    
+
+            <Button x:Name="btnSignIn" Style="{StaticResource ThirdButton}" Text="{x:Static str:AppStrings.Sign_Out }" Clicked="Button_Clicked"/>
+
+            <Control:ctvActiveIndector x:Name="ctvActiveIndector1"  IsRunning="False" TranslationY="-50" />
+
+
+        </VerticalStackLayout>
+
+    </ScrollView>
+</ContentPage>
+

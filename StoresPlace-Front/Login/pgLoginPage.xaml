@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StoresPlace_Front.pgLoginPage"
+             Title="{x:Static str:AppStrings.Sign_in }"
+             NavigationPage.HasNavigationBar="True"
+             xmlns:str="clr-namespace:StoresPlace_Front.Strings"
+             xmlns:Control="clr-namespace:StoresPlace_Front.Global.GlobalControl"
+             >
+
+
+    <ScrollView >
+        <VerticalStackLayout VerticalOptions="Center" Padding="24"  Spacing="24">
+
+            <Label  Text="{x:Static str:AppStrings.Please_enter_your_email_and_password_to_access_your_account }" />
+
+            <Entry  Placeholder="{x:Static str:AppStrings.Email }"    MaxLength="50"  x:Name="enEmail" TextChanged="enEmail_TextChanged" />
+            <Entry  Placeholder="{x:Static str:AppStrings.Password }"  IsPassword="True" MaxLength="50"  x:Name="enPassword" TextChanged="enEmail_TextChanged" />
+
+
+            <Button Text="{x:Static str:AppStrings.Sign_in }"   Clicked="btLogin_Clicked" x:Name="btLogin"  />
+            <Button Text="{x:Static str:AppStrings.Create_Account }" Style="{StaticResource SecondaryButton}" Clicked="Button_Clicked"/>
+            <Button Text="{x:Static str:AppStrings.Reset_Password }" Style="{StaticResource ThirdButton}" Clicked="Button_Clicked_1" />
+
+
+            <Control:ctvActiveIndector x:Name="ctvActiveIndector1"  IsRunning="False"/>
+
+
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+
+</ContentPage>

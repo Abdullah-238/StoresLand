@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StoresPlace_Front.StoresForSell.pgStoresForSell"
+             Title="{x:Static str:AppStrings.Stores_for_sale}"
+             Shell.NavBarIsVisible="False"
+             xmlns:str="clr-namespace:StoresPlace_Front.Strings"
+             xmlns:Store="clr-namespace:StoresPlace_Front.StoresForSell.StoresForSell"
+             x:Name="StorePage"
+
+             Loaded="StorePage_Loaded"
+             >
+   
+
+    <ContentPage.BindingContext>
+        <Store:StoresForSellViewModel/>
+    </ContentPage.BindingContext>
+
+
+
+
+    <RefreshView  x:Name="refresh"  Refreshing="RefreshView_Refreshing">
+
+        <ScrollView>
+
+            <VerticalStackLayout Padding="24" Spacing="12">
+
+                <VerticalStackLayout >
+                    <CollectionView   ItemsSource="{Binding Stores}">
+
+                        <CollectionView.ItemsLayout >
+                            <LinearItemsLayout ItemSpacing="4" Orientation="Vertical"  />
+                        </CollectionView.ItemsLayout>
+
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate  >
+                                <Border  StrokeShape="RoundRectangle 4" BackgroundColor="Transparent"  Stroke="{AppThemeBinding Light={StaticResource Gray100}, Dark={StaticResource Gray700}}">
+
+                                    <Grid RowDefinitions="*,*"   ColumnDefinitions="*,*"  RowSpacing="8"   ColumnSpacing="12" BackgroundColor="Transparent" Padding="12">
+
+                                        <HorizontalStackLayout   Spacing="8" >
+
+
+                                            <Frame   CornerRadius="4"  BackgroundColor="Transparent" BorderColor="Transparent" HeightRequest="48" WidthRequest="48" >
+                                                <Image HeightRequest="48" WidthRequest="48"  Aspect="AspectFill"  Source="{Binding Photo}"/>
+                                            </Frame>
+
+                                            <VerticalStackLayout VerticalOptions="Center">
+                                                <Label Text="{Binding Name}" TextColor="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource Primary}}" MaxLines="1"/>
+                                                <HorizontalStackLayout Spacing="4">
+                                                    <Image HeightRequest="18" WidthRequest="18" Source="location"/>
+                                                    <Label Text="{Binding Address}"  MaxLines="1"/>
+                                                </HorizontalStackLayout>
+                                            </VerticalStackLayout>
+                                        </HorizontalStackLayout>
+
+                                        <HorizontalStackLayout Spacing="4"    Grid.Column="2"  HorizontalOptions="End" VerticalOptions="Center">
+                                            <Image Source="star"/>
+                                            <Label  FontSize="Caption" Text="{Binding Rating}" MaxLines="1"/>
+                                          
+                                        </HorizontalStackLayout>
+
+                                        <Border Grid.Row="1"  BackgroundColor="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource Primary}}"   
+                                                 HorizontalOptions="Start" Padding="10,2,10,2"  StrokeShape="RoundRectangle 100" Stroke="Transparent" >
+                                            <Label  FontSize="Caption"  HorizontalOptions="Start">
+                                       <Label.FormattedText>
+                                           <FormattedString>
+                                               <Span Text="{Binding Price}"/>
+                                               <Span Text="{x:Static str:AppStrings.Ryial}"/>
+                                           </FormattedString>
+                                       </Label.FormattedText>
+                                   </Label>
+                                        </Border>
+
+                                   
+                                        <Grid.GestureRecognizers>
+                                            <TapGestureRecognizer 
+                                                          Command="{Binding Path=BindingContext.SelectStore, Source={x:Reference StorePage}}"
+                                                          CommandParameter="{Binding StoreID}"></TapGestureRecognizer>
+                                        </Grid.GestureRecognizers>
+
+                                    </Grid>
+                                </Border>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </VerticalStackLayout>
+
+                <ActivityIndicator IsVisible="{Binding IsBusy}" IsRunning="{Binding IsBusy}" Color="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}"  />
+
+            </VerticalStackLayout>
+        </ScrollView>
+    </RefreshView>
+</ContentPage>

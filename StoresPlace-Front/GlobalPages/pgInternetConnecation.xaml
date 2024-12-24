@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StoresPlace_Front.GlobalPages.pgInternetConnecation"
+             Title="pgInternetConnecation"
+              NavigationPage.HasBackButton="False"
+             Shell.NavBarIsVisible="False"
+             Shell.TabBarIsVisible="False"
+             xmlns:str="clr-namespace:StoresPlace_Front.Strings"
+             >
+    <VerticalStackLayout VerticalOptions="Center" Padding="24" Spacing="24">
+
+        <Image Source="sensors_off" HeightRequest="128" WidthRequest="128"/>
+        <Label 
+     Text="{x:Static str:AppStrings.You_don_t_have_access_to_internet }"
+     VerticalOptions="Center" 
+     HorizontalOptions="Center" />
+
+        <Button
+            
+     Text="{x:Static str:AppStrings.Reconnect }"
+            Clicked="Button_Clicked"/>
+    </VerticalStackLayout>
+    
+</ContentPage>

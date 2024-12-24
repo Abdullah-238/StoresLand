@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StoresPlace_Front.Stores.Rateing.pgAddNewRate"
+             xmlns:str="clr-namespace:StoresPlace_Front.Strings"
+             Title="{x:Static str:AppStrings.Rate_store}" 
+             NavigatedTo="ContentPage_NavigatedTo"
+             >
+    
+    <ScrollView>
+        
+            <Grid VerticalOptions="Center" Padding="24"  ColumnDefinitions="*" RowDefinitions="*,*,*,*,*,*,*" RowSpacing="12">
+
+            <Label Text="{x:Static str:AppStrings.Please_enter_your_rate_and_review}" />
+
+            <HorizontalStackLayout HorizontalOptions="Center"  Grid.Row="3">
+                    <ImageButton Source="star" HeightRequest="48" WidthRequest="48" x:Name="sta" Clicked="sta_Clicked"/>
+                    <ImageButton Source="star_empty" HeightRequest="48" WidthRequest="48"  x:Name="star2" Clicked="star2_Clicked"/>
+                    <ImageButton Source="star_empty" HeightRequest="48" WidthRequest="48" x:Name="star3" Clicked="star3_Clicked"/>
+                    <ImageButton Source="star_empty" HeightRequest="48" WidthRequest="48" x:Name="star4" Clicked="star4_Clicked"/>
+                    <ImageButton Source="star_empty" HeightRequest="48" WidthRequest="48" x:Name="star5" Clicked="star5_Clicked" />
+                </HorizontalStackLayout>
+
+                <Border Grid.Row="4">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="4"/>
+                    </Border.StrokeShape>
+                    <Editor x:Name="edtDesc"  Placeholder="Please enter your Complain here"  HeightRequest="100" MaxLength="180"
+                            BackgroundColor="{AppThemeBinding Light={StaticResource Gray50}, Dark={StaticResource Gray950}}"  />
+                </Border>
+
+
+            <Button Grid.Row="6" Text="{x:Static str:AppStrings.Send}" x:Name="btCreate" Clicked="Button_Clicked"  />
+
+            </Grid>
+        </ScrollView>
+
+</ContentPage>

@@ -1,0 +1,12 @@
+C:\Users\good1\source\repos\StoresLand\StoresLand-API\bin\Debug\net8.0\StoresLand-API.deps.json
+C:\Users\good1\source\repos\StoresLand\StoresLand-API\bin\Debug\net8.0\StoresLand-API.dll
+C:\Users\good1\source\repos\StoresLand\StoresLand-API\bin\Debug\net8.0\StoresLand-API.pdb
+C:\Users\good1\source\repos\StoresLand\StoresLand-API\obj\Debug\net8.0\StoresLand-API.csproj.AssemblyReference.cache
+C:\Users\good1\source\repos\StoresLand\StoresLand-API\obj\Debug\net8.0\StoresLand-API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\good1\source\repos\StoresLand\StoresLand-API\obj\Debug\net8.0\StoresLand-API.AssemblyInfoInputs.cache
+C:\Users\good1\source\repos\StoresLand\StoresLand-API\obj\Debug\net8.0\StoresLand-API.AssemblyInfo.cs
+C:\Users\good1\source\repos\StoresLand\StoresLand-API\obj\Debug\net8.0\StoresLand-API.csproj.CoreCompileInputs.cache
+C:\Users\good1\source\repos\StoresLand\StoresLand-API\obj\Debug\net8.0\StoresLand-API.dll
+C:\Users\good1\source\repos\StoresLand\StoresLand-API\obj\Debug\net8.0\refint\StoresLand-API.dll
+C:\Users\good1\source\repos\StoresLand\StoresLand-API\obj\Debug\net8.0\StoresLand-API.pdb
+C:\Users\good1\source\repos\StoresLand\StoresLand-API\obj\Debug\net8.0\ref\StoresLand-API.dll

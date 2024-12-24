@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StoresPlace_Front.Settings.MyStores.pgSellYourStore"
+             Title="{x:Static str:AppStrings.Sell_your_store}"
+             xmlns:str="clr-namespace:StoresPlace_Front.Strings"
+             Shell.TabBarIsVisible="False"
+             Appearing="ContentPage_Appearing"
+             xmlns:Control="clr-namespace:StoresPlace_Front.Global.GlobalControl">
+   
+
+    <ScrollView>
+
+        <VerticalStackLayout  Padding="24"  Spacing="24" >
+
+            <Label Text="{x:Static str:AppStrings.Please_enter_the_price}" />
+
+            <Entry MaxLength="10" Keyboard="Numeric" x:Name="enStorePrice"></Entry>
+
+
+
+            <HorizontalStackLayout  Spacing="0" >
+                <CheckBox VerticalOptions="Center" x:Name="ckbIsPaid"/>
+                <Label VerticalTextAlignment="Center" Text="{x:Static str:AppStrings.is_Paid }" />
+            </HorizontalStackLayout>
+            
+            <Button Text="{x:Static str:AppStrings.Send }" x:Name="btAddYourStoreToSell"   Clicked="btAddYourStoreToSell_Clicked" />
+            
+            
+
+            <ActivityIndicator x:Name="ctvActiveIndector1"  IsVisible="{Binding IsBusy}" IsRunning="{Binding IsBusy}" Color="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}"  />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

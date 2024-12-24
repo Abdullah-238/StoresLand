@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StoresPlace_Front.AppSettings.pgAppSettings"
+             xmlns:str="clr-namespace:StoresPlace_Front.Strings"
+             Shell.TabBarIsVisible="False"
+             Title="{x:Static str:AppStrings.Settings}"> 
+    <VerticalStackLayout Padding="24,24,24,24" Spacing="8">
+
+
+        <Label Text="{x:Static str:AppStrings.App_Them }"/>
+
+        <Grid RowDefinitions="*,*,*" ColumnDefinitions="*" >
+            <RadioButton x:Name="ckDarkMode"  Content="{x:Static str:AppStrings.Dark }" CheckedChanged="RadioButton_CheckedChanged"  />
+            <RadioButton x:Name="ckLigthMode" Content="{x:Static str:AppStrings.Light }" CheckedChanged="ckLigthMode_CheckedChanged" Grid.Row="1"/>
+            <RadioButton x:Name="ckDefulatMode" Content="{x:Static str:AppStrings.Default }" CheckedChanged="ckDefulatMode_CheckedChanged" Grid.Row="2"/>
+        </Grid>
+
+        <Button  Text="{x:Static str:AppStrings.Delete_Account }"  ImageSource="x
+                 " Clicked="Button_Clicked"   BorderWidth="1" Style="{StaticResource ThirdButton}"  />
+
+
+    </VerticalStackLayout>
+</ContentPage>

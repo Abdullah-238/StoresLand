@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StoresPlace_Front.Categories.pgCategories"
+             Title="{x:Static str:AppStrings.Categories}"
+             xmlns:str="clr-namespace:StoresPlace_Front.Strings"
+             Shell.TabBarIsVisible="False"
+             Loaded="ContentPage_Loaded"
+             x:Name="CategoriesPage"
+             xmlns:Categories="clr-namespace:StoresPlace_Front.Categories"
+             >
+
+ 
+    <ScrollView>
+        <VerticalStackLayout Padding="24" Spacing="12">
+            <Label x:Name="lblTypeName" />
+
+           
+            <VerticalStackLayout >
+                <CollectionView   ItemsSource="{Binding Categories}"  >
+
+                    <CollectionView.ItemsLayout >
+
+                        <GridItemsLayout HorizontalItemSpacing="4" VerticalItemSpacing="4" Orientation="Vertical"  Span="2"/>
+                    </CollectionView.ItemsLayout>
+                    <CollectionView.ItemTemplate>
+                            <DataTemplate  >
+                            <Border StrokeShape="RoundRectangle 4" Stroke="{AppThemeBinding Light={StaticResource Gray100}, Dark={StaticResource Gray700}}" >
+                                <HorizontalStackLayout  Spacing="4"  BackgroundColor="Transparent" >
+                                    <Label  Padding="12" FontSize="Micro" Text="{Binding }"/>
+
+                                    <HorizontalStackLayout.GestureRecognizers>
+                                        <TapGestureRecognizer 
+                                            Command="{Binding Path=BindingContext.ChooseCategory, Source={x:Reference CategoriesPage}}"
+                                            CommandParameter="{Binding .}"/>
+                                    </HorizontalStackLayout.GestureRecognizers>
+                                </HorizontalStackLayout>
+                               
+                            </Border>
+                        </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </VerticalStackLayout>
+
+
+            <ActivityIndicator TranslationY="-50" Color="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}" IsVisible="{Binding IsBusy}" IsRunning="{Binding IsBusy}"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

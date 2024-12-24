@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StoresPlace_Front.Settings.MyStores.pgAddNewCoupoun"
+             Title="{x:Static str:AppStrings.Add_New_Coupoun}"
+             xmlns:str="clr-namespace:StoresPlace_Front.Strings"
+             Shell.TabBarIsVisible="False"
+             xmlns:Control="clr-namespace:StoresPlace_Front.Global.GlobalControl"
+             Appearing="ContentPage_Appearing">
+    
+
+    <ScrollView>
+
+        <VerticalStackLayout  Padding="24"  Spacing="24" >
+
+            <Label Text="{x:Static str:AppStrings.Please_enter_your_Coupon_details}" />
+
+            <Entry MaxLength="50" x:Name="enCoupon"/>
+
+
+            <HorizontalStackLayout  Spacing="0" >
+                <CheckBox VerticalOptions="Center" x:Name="ckbIsActive"/>
+                <Label VerticalTextAlignment="Center" Text="{x:Static str:AppStrings.Active }" />
+            </HorizontalStackLayout>
+
+                <Label Text="{x:Static str:AppStrings.Expiration_Date }" />
+                <DatePicker x:Name="dtpExpiredDate"  />
+
+
+            <Button Text="{x:Static str:AppStrings.Save }" x:Name="btAddNewCoupoun"   Clicked="btAddNewCoupoun_Clicked" />
+
+            <ActivityIndicator x:Name="ctvActiveIndector1"  IsVisible="{Binding IsBusy}" IsRunning="{Binding IsBusy}" Color="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}"  />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

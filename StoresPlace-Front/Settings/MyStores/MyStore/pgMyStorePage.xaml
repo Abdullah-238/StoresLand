@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StoresPlace_Front.Settings.MyStores.pgMyStorePage"
+             x:Name="StorePage"
+             Title="{Binding Store.Name}"
+             xmlns:str="clr-namespace:StoresPlace_Front.Strings"
+             Padding="24"
+            Shell.TabBarIsVisible="False"
+             Loaded="ContentPage_Loaded"
+             xmlns:Store="clr-namespace:StoresPlace_Front.Settings.MyStores.MyStore.MyStoreViewModel"
+            Appearing="StorePage_Appearing"
+             >
+
+    <ContentPage.BindingContext>
+        <Store:MyStorePageViewModel/>
+    </ContentPage.BindingContext>
+
+    <ScrollView>
+
+
+        <Border StrokeShape="RoundRectangle 8" Stroke="Transparent" >
+
+            <VerticalStackLayout  BackgroundColor="{AppThemeBinding Light={StaticResource Gray100}, Dark={StaticResource Gray600}}" Padding="12" Spacing="8">
+
+                <VerticalStackLayout Spacing="8" BindingContext="{Binding Store}">
+
+                    <Border StrokeShape="RoundRectangle 8" Stroke="Transparent">
+                        <Grid RowDefinitions="*,*,*"   ColumnDefinitions="*,*"  RowSpacing="8"   ColumnSpacing="12" >
+
+                            <HorizontalStackLayout Grid.Row="0"  Spacing="8" >
+
+
+                                <Frame   CornerRadius="99"  BackgroundColor="{StaticResource Gray500}" HeightRequest="48" WidthRequest="48" >
+                                    <Image  Source="{Binding Photo}" Aspect="Fill"  x:Name="imgCustomerImage"  HeightRequest="50" WidthRequest="50"/>
+                                </Frame>
+
+                                <VerticalStackLayout VerticalOptions="Center">
+                                    <Label HorizontalTextAlignment="Start" Text="{Binding Name}" TextColor="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}" MaxLines="1"/>
+                                    <HorizontalStackLayout Spacing="4">
+                                        <Image HeightRequest="18" WidthRequest="18" Source="location"/>
+                                        <Label Text="{Binding DistrictsName}"  MaxLines="1" FontSize="Caption" HorizontalTextAlignment="Start"/>
+                                    </HorizontalStackLayout>
+                                </VerticalStackLayout>
+                            </HorizontalStackLayout>
+
+                            <HorizontalStackLayout Spacing="4"  Grid.Row="0"  Grid.Column="2"  HorizontalOptions="End" VerticalOptions="End">
+                                <Image Source="star"/>
+                                <Label  FontSize="Caption" Text="{Binding Rating}" MaxLines="1" VerticalTextAlignment="Center"/>
+                                <!--<Label  FontSize="Micro"  HorizontalOptions="Start" VerticalTextAlignment="Center">
+                  <Label.FormattedText>
+                      <FormattedString>
+                          <Span Text="("/>
+                          <Span Text="{Binding NumberOfRates}"/>
+                          <Span Text=")"/>
+                      </FormattedString>
+                  </Label.FormattedText>
+              </Label>-->
+                            </HorizontalStackLayout>
+
+                        </Grid>
+                    </Border>
+
+
+                    <Label FontSize="Caption"   Text="{x:Static str:AppStrings.Category}" MaxLines="1" FontAttributes="Bold"/>
+                    <Label FontSize="Caption" Text="{Binding CategoryName}" LineBreakMode="TailTruncation" MaxLines="2"/>
+
+                    <Label FontSize="Caption"   Text="{x:Static str:AppStrings.Store_Type}" MaxLines="1" FontAttributes="Bold"/>
+                    <Label FontSize="Caption" Text="{Binding TypeName}" LineBreakMode="TailTruncation" MaxLines="2"/>
+
+                    <Label FontSize="Caption"   Text="{x:Static str:AppStrings.Address}" MaxLines="1" FontAttributes="Bold"/>
+                    <Label FontSize="Caption" Text="{Binding Address}" LineBreakMode="TailTruncation" MaxLines="2"/>
+
+
+                    <Label FontSize="Caption"   Text="{x:Static str:AppStrings.Website}" MaxLines="1" FontAttributes="Bold"/>
+
+                    <Border StrokeShape="RoundRectangle 20" Stroke="Transparent" HorizontalOptions="StartAndExpand" >
+                        <Label  Padding="12,4,12,4" Background="{AppThemeBinding Light={StaticResource PrimaryBrush}, Dark={StaticResource PrimaryBrush}}" TextColor="White"
+         FontSize="Caption" Text="{Binding Website}" LineBreakMode="TailTruncation" MaxLines="2"  TextTransform="Lowercase" TextDecorations="Underline">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer
+                                                  Command="{Binding Path=BindingContext.OpenUrl, Source={x:Reference StorePage}}"
+                                                  CommandParameter="{Binding Website}"/>
+                            </Label.GestureRecognizers>
+                        </Label>
+                    </Border>
+
+                </VerticalStackLayout>
+
+                <Label FontSize="Caption"   Text="{x:Static str:AppStrings.Number_of_store_visits}" MaxLines="1" FontAttributes="Bold"/>
+
+                <Label FontSize="Caption"   Text="{Binding NumbersOfClick}" MaxLines="1" FontAttributes="Bold"/>
+
+
+
+                <Label FontSize="Caption"   Text="{x:Static str:AppStrings.Offers}" MaxLines="1" FontAttributes="Bold"/>
+
+
+                <CollectionView  ItemsSource="{Binding Offers}" EmptyView="{x:Static str:AppStrings.No_offers}">
+
+                    <CollectionView.ItemsLayout >
+                        <LinearItemsLayout ItemSpacing="4" Orientation="Vertical"  />
+                    </CollectionView.ItemsLayout>
+
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate  >
+                                <HorizontalStackLayout Spacing="4">
+                                    
+                                <ImageButton CornerRadius="1" HeightRequest="24" WidthRequest="24" BorderColor="Red" BorderWidth="1" Source="deletered"   
+                                             Command="{Binding Path=BindingContext.DeleteOfferCommand, Source={x:Reference StorePage}}" CommandParameter="{Binding OfferID}"></ImageButton>
+
+                                <ImageButton CornerRadius="1" HeightRequest="24" WidthRequest="24" BorderColor="{StaticResource Primary}" BorderWidth="1" Source="edit"   
+                                             Command="{Binding Path=BindingContext.UpdateOfferCommand, Source={x:Reference StorePage}}" CommandParameter="{Binding .}"></ImageButton>
+                                    
+                                <Label Padding="12,4,12,4" Background="{AppThemeBinding Light={StaticResource PrimaryBrush}, Dark={StaticResource PrimaryBrush}}"  TextColor="White"
+                                           FontSize="Caption" LineBreakMode="TailTruncation" MaxLines="2"    Text="{Binding  Offer}"/>
+                                  
+                                </HorizontalStackLayout>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+
+                <Label FontSize="Caption"   Text="{x:Static str:AppStrings.Coupons}" MaxLines="1" FontAttributes="Bold"/>
+
+
+                <CollectionView  ItemsSource="{Binding Coupons}" EmptyView="{x:Static str:AppStrings.No_Coupns}" >
+
+                    <CollectionView.ItemsLayout >
+                        <LinearItemsLayout ItemSpacing="4" Orientation="Vertical"  />
+                    </CollectionView.ItemsLayout>
+
+                    <CollectionView.ItemTemplate >
+                        <DataTemplate  >
+
+                            <HorizontalStackLayout Spacing="4">
+
+                                <ImageButton CornerRadius="1" HeightRequest="24" WidthRequest="24" BorderColor="Red" BorderWidth="1" Source="deletered"   
+                                 Command="{Binding Path=BindingContext.DeleteCouponCommand, Source={x:Reference StorePage}}" CommandParameter="{Binding CouponID}"></ImageButton>
+
+                                <ImageButton CornerRadius="1" HeightRequest="24" WidthRequest="24" BorderColor="{StaticResource Primary}" BorderWidth="1" Source="edit"   
+                                Command="{Binding Path=BindingContext.UpdateCouponCommand, Source={x:Reference StorePage}}" CommandParameter="{Binding .}"></ImageButton>
+
+                                <Label Padding="12,4,12,4" Background="{AppThemeBinding Light={StaticResource PrimaryBrush}, Dark={StaticResource PrimaryBrush}}"  TextColor="White"
+                                    FontSize="Caption" LineBreakMode="TailTruncation" MaxLines="2"    Text="{Binding Coupon}"/>
+                            </HorizontalStackLayout>
+
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+
+                <!--<Button 
+Command="{Binding Path=BindingContext.CancelOrder, Source={x:Reference OrderPage}}" 
+CommandParameter="{Binding OrderNumber}" 
+ Grid.ColumnSpan="4" Grid.Row="4" Grid.Column="0" Text="{x:Static str:AppStrings.Cancel}" BackgroundColor="#FFDAD6" TextColor="Red"  />-->
+
+
+
+                <Button Command="{Binding }" Text="{x:Static str:AppStrings.Add_New_Offer}" Clicked="Button_Clicked" />
+
+                <Button Command="{Binding }" Text="{x:Static str:AppStrings.Add_New_Coupoun}" Clicked="Button_Clicked_1" />
+
+                <Button Command="{Binding }" Text="{x:Static str:AppStrings.Sell_your_store}" Clicked="Button_Clicked_3" />
+                
+                <Button Text="{x:Static str:AppStrings.Update }" x:Name="btUpdateStore"  Style="{StaticResource SecondaryButton}"  Clicked="btUpdateStore_Clicked"  />
+
+                <Button Command="{Binding }" Text="{x:Static str:AppStrings.Delete_Store}" Clicked="Button_Clicked_2" BackgroundColor="Transparent" BorderColor="Red" BorderWidth="1" TextColor="Red"/>
+
+                <ActivityIndicator TranslationY="-250" x:Name="LoadingIndicator"  IsVisible="{Binding IsBusy}" IsRunning="{Binding IsBusy}" Color="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}"  />
+
+                
+            </VerticalStackLayout>
+        </Border>
+
+
+    </ScrollView>
+
+
+
+</ContentPage>

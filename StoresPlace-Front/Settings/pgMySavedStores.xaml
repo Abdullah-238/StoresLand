@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StoresPlace_Front.Settings.pgMySavedStores"
+             xmlns:str="clr-namespace:StoresPlace_Front.Strings"
+             x:Name="PersonStore"
+             Title="{x:Static str:AppStrings.Saved_stores}"
+             Shell.TabBarIsVisible="False"
+             xmlns:Control="clr-namespace:StoresPlace_Front.Global.GlobalControl"
+             Appearing="PersonStore_Appearing"
+             xmlns:Store="clr-namespace:StoresPlace_Front.Stores.StoresMain">
+
+
+   
+
+
+
+    <ContentPage.BindingContext>
+        <Store:StoreViewModel></Store:StoreViewModel>
+    </ContentPage.BindingContext>
+
+
+    <RefreshView  x:Name="refresh"  Refreshing="RefreshView_Refreshing">
+        <ScrollView>
+
+            <StackLayout Padding="24">
+                <CollectionView ItemsSource="{Binding MySavedStores}" EmptyView="{x:Static str:AppStrings.There_are_no_stores_saved}">
+
+                    <CollectionView.ItemsLayout >
+                        <LinearItemsLayout ItemSpacing="4" Orientation="Vertical" />
+                    </CollectionView.ItemsLayout>
+
+                    <CollectionView.ItemTemplate>
+
+                        <DataTemplate>
+
+                            <Border StrokeShape="RoundRectangle 8" Stroke="Transparent">
+                                <Grid RowDefinitions="*"   ColumnDefinitions="*,*"  RowSpacing="8"   ColumnSpacing="12" BackgroundColor="{AppThemeBinding Light={StaticResource Gray100}, Dark={StaticResource Gray600}}" Padding="12">
+
+                                
+                                    <HorizontalStackLayout   Spacing="8" >
+
+                                        <Frame   CornerRadius="99"  BackgroundColor="{StaticResource Gray500}" HeightRequest="32" WidthRequest="32" >
+                                            <Image  Source="{Binding Photo}" Aspect="Fill"  x:Name="imgCustomerImage"  HeightRequest="34" WidthRequest="34"/>
+                                        </Frame>
+
+                                        <VerticalStackLayout VerticalOptions="Center">
+                                            <Label HorizontalTextAlignment="Start" Text="{Binding Name}" TextColor="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource Primary}}" MaxLines="1"/>
+                                            <HorizontalStackLayout Spacing="4">
+                                                <Image HeightRequest="18" WidthRequest="18" Source="location"/>
+                                                <Label Text="{Binding DistrictsName}"  MaxLines="1" FontSize="Caption" HorizontalTextAlignment="Start"/>
+                                            </HorizontalStackLayout>
+                                        </VerticalStackLayout>
+                                    </HorizontalStackLayout>
+
+                                    <HorizontalStackLayout Spacing="4" Grid.Row="1"  Grid.Column="2"  HorizontalOptions="End" VerticalOptions="Start">
+                                        <Image HorizontalOptions="Center" Source="star"/>
+                                        <Label  FontSize="Caption" VerticalTextAlignment="Center"  HorizontalTextAlignment="Center" Text="{Binding Rating}" MaxLines="1"/>
+                                    </HorizontalStackLayout>
+
+                                    <Grid.GestureRecognizers>
+                                        <TapGestureRecognizer 
+                                        Command="{Binding Path=BindingContext.MoveToSavedStoreCommand, Source={x:Reference PersonStore}}"
+                                        CommandParameter="{Binding StoreID}"></TapGestureRecognizer>
+                                    </Grid.GestureRecognizers>
+
+                                </Grid>
+                            </Border>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+
+                </CollectionView>
+
+                <ActivityIndicator IsVisible="{Binding IsBusy}" IsRunning="{Binding IsBusy}" TranslationY="-50"  />
+
+            </StackLayout>
+        </ScrollView>
+    </RefreshView>
+
+
+
+
+
+
+</ContentPage>

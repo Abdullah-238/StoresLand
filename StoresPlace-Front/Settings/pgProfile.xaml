@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StoresPlace_Front.AppSettings.pgProfile"
+             Title="{x:Static str:AppStrings.Profile}"
+             xmlns:str="clr-namespace:StoresPlace_Front.Strings"
+             Shell.TabBarIsVisible="False"
+             Loaded="ContentPage_Loaded"
+             >
+    <ScrollView>
+        <VerticalStackLayout  Padding="24"  Spacing="24" >
+
+
+            <Label Text="{x:Static str:AppStrings.Update_Information }"  FontSize="Large" HorizontalTextAlignment="Start" />
+
+            <Label Text="{x:Static str:AppStrings.Please_complete_to_update  }"    />
+
+            <!--<Frame CornerRadius="99"  BackgroundColor="{StaticResource Gray500}" HeightRequest="84" WidthRequest="84" >
+                <Image  />
+                <Image x:Name="imgCustomerImage"  HeightRequest="64" WidthRequest="64">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"></TapGestureRecognizer>
+                    </Image.GestureRecognizers>
+                </Image>
+            </Frame>-->
+
+            <Entry  Placeholder="{x:Static str:AppStrings.Namee}"    Text="{Binding Name}"     MaxLength="50"  x:Name="enName" />
+
+            <Grid ColumnDefinitions="auto,*" ColumnSpacing="4">
+                <Entry  Text="{x:Static str:AppStrings.Country_Code}"   IsEnabled="False"  />
+                <Entry  Placeholder="{x:Static str:AppStrings.Phone}" Text="{Binding Phone}"   Grid.Column="1"    MaxLength="9"  x:Name="enPhone"   Keyboard="Numeric"/>
+            </Grid>
+
+            <Entry  Placeholder="{x:Static str:AppStrings.Email}"  Text="{Binding Email}"     MaxLength="50"  x:Name="enEmail"    />
+            <Entry  Placeholder="{x:Static str:AppStrings.Password}"     MaxLength="50"  x:Name="enPassword" IsPassword="True"     />
+
+            <Button Text="{x:Static str:AppStrings.Update}" x:Name="btCreate"   Clicked="btCreate_Clicked"  />
+           
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

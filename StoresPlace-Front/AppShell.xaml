@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="StoresPlace_Front.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:StoresPlace_Front"
+    xmlns:Stores="clr-namespace:StoresPlace_Front.StoresForSell"
+    Shell.FlyoutBehavior="Disabled"
+    xmlns:str="clr-namespace:StoresPlace_Front.Strings"
+    Title="StoresPlace">
+
+
+    <TabBar >
+
+        <ShellContent 
+        Icon="home"
+        Title="{x:Static str:AppStrings.Home }"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />
+
+        <ShellContent 
+         Icon="sell"
+         Title="{x:Static str:AppStrings.Stores_for_sale }"
+         ContentTemplate="{DataTemplate Stores:pgStoresForSell}"
+         Route="StoresForSell" />
+
+
+        <ShellContent 
+        Icon="account"
+        Title="{x:Static str:AppStrings.Account }"
+        ContentTemplate="{DataTemplate local:pgSettings}"
+        Route="Settings" />
+
+    </TabBar>
+
+</Shell>

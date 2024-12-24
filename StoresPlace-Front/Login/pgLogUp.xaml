@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StoresPlace_Front.pgLogUp" 
+             Title="{x:Static str:AppStrings.Sigh_Up}"
+             NavigationPage.HasNavigationBar="True"
+             xmlns:str="clr-namespace:StoresPlace_Front.Strings"
+             xmlns:Control="clr-namespace:StoresPlace_Front.Global.GlobalControl" >
+
+    <ScrollView>
+        <VerticalStackLayout VerticalOptions="Center" Padding="24"  Spacing="24" >
+
+            <Label Text="{x:Static str:AppStrings.Log_In_Desc }"   />
+
+            <Entry  Placeholder="{x:Static str:AppStrings.Namee }"         MaxLength="50"  x:Name="enName" />
+
+            <Grid ColumnDefinitions="auto,*" ColumnSpacing="4">
+                <Entry  Text="{x:Static str:AppStrings.Country_Code }"   IsEnabled="False"  />
+                <Entry  Placeholder="{x:Static str:AppStrings.Phone}"    Grid.Column="1"    MaxLength="9"  x:Name="enPhone"   Keyboard="Numeric"/>
+            </Grid>
+
+            <Entry  Placeholder="{x:Static str:AppStrings.Email }"  MaxLength="50"  x:Name="enEmail"    />
+            <Entry  Placeholder="{x:Static str:AppStrings.Password }"  MaxLength="50"  x:Name="enPassword"    IsPassword="True"  />
+            <Entry  Placeholder="{x:Static str:AppStrings.RePassword }"  MaxLength="50"  x:Name="EnRePassword"    IsPassword="True" />
+
+            <!--TextChanged="enEmail_TextChanged"-->
+
+            <HorizontalStackLayout >
+                <CheckBox x:Name="ckTerms" />
+                <Label Text="{x:Static str:AppStrings.Accept_Terms}" VerticalOptions="Center"  LineBreakMode="TailTruncation" FontSize="Caption"/>
+            </HorizontalStackLayout>
+
+
+            <Button Text="{x:Static str:AppStrings.Create_Account }" x:Name="btCreate"   Clicked="btCreate_Clicked"  />
+            <Button Text="{x:Static str:AppStrings.Sign_in }"  Style="{StaticResource SecondaryButton}" x:Name="btSignIn" Clicked="btSignIn_Clicked"/>
+            <Button Text="{x:Static str:AppStrings.Continue_As_Guest }" Style="{StaticResource ThirdButton}" x:Name="btContinue" Clicked="btContinue_Clicked" />
+
+            <Control:ctvActiveIndector x:Name="ctvActiveIndector1"  IsRunning="False"/>
+
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

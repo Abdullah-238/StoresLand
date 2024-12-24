@@ -1,0 +1,1220 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>StoresPlace-Front</name>
+    </assembly>
+    <members>
+        <member name="T:StoresPlace_Front.Strings.AppStrings">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Accept_Terms">
+            <summary>
+              Looks up a localized string similar to Accept all terms ,conditions and privacy policy.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Account">
+            <summary>
+              Looks up a localized string similar to Account.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Active">
+            <summary>
+              Looks up a localized string similar to Active.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Add">
+            <summary>
+              Looks up a localized string similar to Add.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Add_New_Coupoun">
+            <summary>
+              Looks up a localized string similar to Add new coupoun.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Add_New_Offer">
+            <summary>
+              Looks up a localized string similar to Add new offer.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Add_New_Store">
+            <summary>
+              Looks up a localized string similar to Add your store.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Address">
+            <summary>
+              Looks up a localized string similar to Address.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.App_Them">
+            <summary>
+              Looks up a localized string similar to App Them.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Are_you_sure_you_want_to_delete_your_account">
+            <summary>
+              Looks up a localized string similar to Are you sure you want to delete your account?.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Are_you_sure_you_want_to_delete_your_coupon">
+            <summary>
+              Looks up a localized string similar to Are you sure you want to delete your coupon.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Are_you_sure_you_want_to_delete_your_offer">
+            <summary>
+              Looks up a localized string similar to Are you sure you want to delete this  offer ?.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Are_you_sure_you_want_to_delete_your_store">
+            <summary>
+              Looks up a localized string similar to Are you sure you want to delete your store.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Awaiting_order_receipt">
+            <summary>
+              Looks up a localized string similar to Awaiting order receipt.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Back">
+            <summary>
+              Looks up a localized string similar to Back.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Cancel">
+            <summary>
+              Looks up a localized string similar to Cancel.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Canceled">
+            <summary>
+              Looks up a localized string similar to Canceled.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Cant_Complete_your_register">
+            <summary>
+              Looks up a localized string similar to Can&apos;t complete your registration.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Cant_send_Complain">
+            <summary>
+              Looks up a localized string similar to Cant send complaint.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Cant_send_Order">
+            <summary>
+              Looks up a localized string similar to Cant send order.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Categories">
+            <summary>
+              Looks up a localized string similar to Categories.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Category">
+            <summary>
+              Looks up a localized string similar to Category.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Choose_Items">
+            <summary>
+              Looks up a localized string similar to Choose Items.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Chosee_best_methoud_to_paid">
+            <summary>
+              Looks up a localized string similar to Choose best method to paid.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.City">
+            <summary>
+              Looks up a localized string similar to City.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Clothes_scheduling">
+            <summary>
+              Looks up a localized string similar to Clothes Scheduling.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Clothing_available_for_scheduling">
+            <summary>
+              Looks up a localized string similar to Clothing available for scheduling.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Commercial_Number">
+            <summary>
+              Looks up a localized string similar to Commercial Number.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Complain">
+            <summary>
+              Looks up a localized string similar to Complain.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Complain_sent_Successfully">
+            <summary>
+              Looks up a localized string similar to Complain sent Successfully.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Complains">
+            <summary>
+              Looks up a localized string similar to Complains.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Complete">
+            <summary>
+              Looks up a localized string similar to Completed.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Continue_As_Guest">
+            <summary>
+              Looks up a localized string similar to Continue as guest.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Country_Code">
+            <summary>
+              Looks up a localized string similar to 966.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Coupon_delete_failed">
+            <summary>
+              Looks up a localized string similar to Coupon delete failed.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.coupon_deleted_Succefully">
+            <summary>
+              Looks up a localized string similar to Coupon deleted successfully.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Coupons">
+            <summary>
+              Looks up a localized string similar to Coupons.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Create_Account">
+            <summary>
+              Looks up a localized string similar to Create Account.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Dark">
+            <summary>
+              Looks up a localized string similar to Dark Mode.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Data_saved_failed">
+            <summary>
+              Looks up a localized string similar to Data saved failed.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Data_Saved_Successfully">
+            <summary>
+              Looks up a localized string similar to Data Saved Successfully.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Default">
+            <summary>
+              Looks up a localized string similar to Default.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Delete_Account">
+            <summary>
+              Looks up a localized string similar to Delete Account.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Delete_Store">
+            <summary>
+              Looks up a localized string similar to Delete Store.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Dilevry">
+            <summary>
+              Looks up a localized string similar to Delivery.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.District">
+            <summary>
+              Looks up a localized string similar to District.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Do_you_want_to_cancel_this_order">
+            <summary>
+              Looks up a localized string similar to Do you want to cancel this order.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Dollapp">
+            <summary>
+              Looks up a localized string similar to Dollapp.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Dollappy">
+            <summary>
+              Looks up a localized string similar to Dollapp.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Done">
+            <summary>
+              Looks up a localized string similar to Done.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Drawers">
+            <summary>
+              Looks up a localized string similar to Drawers.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Email">
+            <summary>
+              Looks up a localized string similar to Email.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Email_or_password_not_correct_please_check_then_try_again">
+            <summary>
+              Looks up a localized string similar to Email or password is not correct. Please check and try again.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Error">
+            <summary>
+              Looks up a localized string similar to Error.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Error_opening_the_website">
+            <summary>
+              Looks up a localized string similar to Error opening the website.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Expiration_Date">
+            <summary>
+              Looks up a localized string similar to Expiration date.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.For_Example_Press_Street">
+            <summary>
+              Looks up a localized string similar to For example: Al Shafa Street.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Home">
+            <summary>
+              Looks up a localized string similar to Home.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.If_there_is_no_website__you_can_leave_it_blank">
+            <summary>
+              Looks up a localized string similar to If there is no website, you can leave it blank..
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.In_Progress">
+            <summary>
+              Looks up a localized string similar to In Progress.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.In_the_laundry">
+            <summary>
+              Looks up a localized string similar to In the laundry.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Internt">
+            <summary>
+              Looks up a localized string similar to Internt.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.is_Paid">
+            <summary>
+              Looks up a localized string similar to Is Paid.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Item_Name">
+            <summary>
+              Looks up a localized string similar to Item Name.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Laundry">
+            <summary>
+              Looks up a localized string similar to Home.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Light">
+            <summary>
+              Looks up a localized string similar to Light Mode.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Local_Store">
+            <summary>
+              Looks up a localized string similar to Local Store.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Local_Stores">
+            <summary>
+              Looks up a localized string similar to Local Stores.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Location">
+            <summary>
+              Looks up a localized string similar to Location.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Location_access">
+            <summary>
+              Looks up a localized string similar to Location access is required for this feature. Please enable location services in your device settings.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Log_In_Desc">
+            <summary>
+              Looks up a localized string similar to Please complete the following information to finish the registration process.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.My_Store">
+            <summary>
+              Looks up a localized string similar to My Store.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.My_Stores">
+            <summary>
+              Looks up a localized string similar to My stores.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Namee">
+            <summary>
+              Looks up a localized string similar to Name .
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.New">
+            <summary>
+              Looks up a localized string similar to New.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.New_Complain">
+            <summary>
+              Looks up a localized string similar to New Complaint.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Next">
+            <summary>
+              Looks up a localized string similar to Next.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.No">
+            <summary>
+              Looks up a localized string similar to NO.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.No_Coupns">
+            <summary>
+              Looks up a localized string similar to No coupns.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.No_offers">
+            <summary>
+              Looks up a localized string similar to No offers.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Note">
+            <summary>
+              Looks up a localized string similar to Note.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Note_to_Identify_the_Piece">
+             <summary>
+               Looks up a localized string similar to Note to Identify the Piece:
+            For example, a red T-shirt with black stripes.
+             </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Notifications">
+            <summary>
+              Looks up a localized string similar to Notifications.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Number_of_store_visits">
+            <summary>
+              Looks up a localized string similar to Number of store visits.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Offer_deleted_failed">
+            <summary>
+              Looks up a localized string similar to Offer delete failed.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Offer_deleted_Succefully">
+            <summary>
+              Looks up a localized string similar to Offer deleted successfully.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Offers">
+            <summary>
+              Looks up a localized string similar to Offers.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Ok">
+            <summary>
+              Looks up a localized string similar to Ok.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Online_Store">
+            <summary>
+              Looks up a localized string similar to Online Store.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Online_Stores">
+            <summary>
+              Looks up a localized string similar to Online Stores.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Order">
+            <summary>
+              Looks up a localized string similar to Order.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Order_Canceled_Successfully">
+            <summary>
+              Looks up a localized string similar to Order Canceled Successfully.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Order_Details">
+            <summary>
+              Looks up a localized string similar to Order Details.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Order_Sent_Successfully">
+            <summary>
+              Looks up a localized string similar to Order Sent Successfully.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Order_Sent_Successfully_Number">
+            <summary>
+              Looks up a localized string similar to Order Sent Successfully Number.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Orders">
+            <summary>
+              Looks up a localized string similar to Orders.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Paid">
+            <summary>
+              Looks up a localized string similar to Paid.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Paid_Amount">
+            <summary>
+              Looks up a localized string similar to The amount to be paid.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Password">
+            <summary>
+              Looks up a localized string similar to Password.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Password_not_matched">
+            <summary>
+              Looks up a localized string similar to Password does not match.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Pay_a_percentage_of_purchases">
+            <summary>
+              Looks up a localized string similar to Pay a percentage of purchases.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Payment_per_piece">
+            <summary>
+              Looks up a localized string similar to Payment per piece.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Phone">
+            <summary>
+              Looks up a localized string similar to Phone Number.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Place_Order">
+            <summary>
+              Looks up a localized string similar to Place Order.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Please_Check_Intenet">
+            <summary>
+              Looks up a localized string similar to Please check that you have an internet connection.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Please_Check_Webiste_link">
+            <summary>
+              Looks up a localized string similar to Please check webiste link.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Please_complete_to_update">
+            <summary>
+              Looks up a localized string similar to Please complete your information to finish the update process.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Please_enter_a_least_24_letter">
+            <summary>
+              Looks up a localized string similar to Please enter a least 24 letter.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.please_enter_a_valid_password">
+            <summary>
+              Looks up a localized string similar to please enter a valid password.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Please_enter_another_email_this_email_is_Exist">
+            <summary>
+              Looks up a localized string similar to Please enter another email; this email already exists.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Please_enter_another_phone_this_phone_is_Exist">
+            <summary>
+              Looks up a localized string similar to Please enter another phone number; this phone number already exists..
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Please_enter_the_price">
+            <summary>
+              Looks up a localized string similar to Please enter the price.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Please_Enter_Valid_Email">
+            <summary>
+              Looks up a localized string similar to Please enter a valid email.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Please_Enter_Valid_Phone">
+            <summary>
+              Looks up a localized string similar to Please enter a valid phone number.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Please_enter_your_Complain_here">
+            <summary>
+              Looks up a localized string similar to Please enter your complaint here.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Please_enter_your_Coupon_details">
+            <summary>
+              Looks up a localized string similar to Please enter your coupon details.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Please_enter_your_email_and_password_to_access_your_account">
+            <summary>
+              Looks up a localized string similar to Please enter your email and password to access your account.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Please_enter_your_offer_details">
+            <summary>
+              Looks up a localized string similar to Please enter your offer details.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Please_enter_your_rate_and_review">
+            <summary>
+              Looks up a localized string similar to Please enter your rating and review.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Please_fill_all_fields_before_continue">
+            <summary>
+              Looks up a localized string similar to Please fill in all fields before continuing.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Please_Select_a_region">
+            <summary>
+              Looks up a localized string similar to Select region.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Please_select_at_least_8_items">
+            <summary>
+              Looks up a localized string similar to Please select at least 8 items.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Please_select_at_least_one_items">
+            <summary>
+              Looks up a localized string similar to Please select at least one item.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Please_Select_city">
+            <summary>
+              Looks up a localized string similar to select city.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Please_Select_district">
+            <summary>
+              Looks up a localized string similar to select district.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Please_Select_Location">
+            <summary>
+              Looks up a localized string similar to Please select a location.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Please_Select_region">
+            <summary>
+              Looks up a localized string similar to select a region.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Please_select_the_store_location">
+            <summary>
+              Looks up a localized string similar to Please select the store location.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Please_select_your_store_Category">
+            <summary>
+              Looks up a localized string similar to Please select your store category.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Please_select_your_store_type">
+            <summary>
+              Looks up a localized string similar to Please select your store type.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Please_sign_in_to_Complete_process">
+            <summary>
+              Looks up a localized string similar to Please sign in to complete the process.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Please_try_again_later">
+            <summary>
+              Looks up a localized string similar to Please try again later.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Previous_Order">
+            <summary>
+              Looks up a localized string similar to Previous Order.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Price">
+            <summary>
+              Looks up a localized string similar to Price.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Price_Detiles">
+            <summary>
+              Looks up a localized string similar to Price Detiles.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Price_List">
+            <summary>
+              Looks up a localized string similar to Price List.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.productive_families">
+            <summary>
+              Looks up a localized string similar to Productive families.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Profile">
+            <summary>
+              Looks up a localized string similar to Profile.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Rate">
+            <summary>
+              Looks up a localized string similar to Rate.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Rate_store">
+            <summary>
+              Looks up a localized string similar to Rate store.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Rates">
+            <summary>
+              Looks up a localized string similar to Rates.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Receiving_Date">
+            <summary>
+              Looks up a localized string similar to Receiving Date.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Reconnect">
+            <summary>
+              Looks up a localized string similar to Reconnect.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Region">
+            <summary>
+              Looks up a localized string similar to Region.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Remain">
+            <summary>
+              Looks up a localized string similar to Remain.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Remove">
+            <summary>
+              Looks up a localized string similar to Remove.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Remove_store">
+            <summary>
+              Looks up a localized string similar to Remove store.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.RePassword">
+            <summary>
+              Looks up a localized string similar to Re-enter Password.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Reset_Password">
+            <summary>
+              Looks up a localized string similar to Reset Password.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Return_time">
+            <summary>
+              Looks up a localized string similar to Return time.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Review">
+            <summary>
+              Looks up a localized string similar to Under Review.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Ryial">
+            <summary>
+              Looks up a localized string similar to  r.s.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Save">
+            <summary>
+              Looks up a localized string similar to Save.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Save_Store">
+            <summary>
+              Looks up a localized string similar to Save store.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Saved_stores">
+            <summary>
+              Looks up a localized string similar to Saved stores.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.scheduled">
+            <summary>
+              Looks up a localized string similar to scheduled.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.scheduled_clothes">
+            <summary>
+              Looks up a localized string similar to Scheduled Clothes.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Search">
+            <summary>
+              Looks up a localized string similar to Search.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Select_Items">
+            <summary>
+              Looks up a localized string similar to Select Items.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Select_Location">
+            <summary>
+              Looks up a localized string similar to Select Location.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Select_Order">
+            <summary>
+              Looks up a localized string similar to Select Order.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Select_the_items_you_want_to_pay_for">
+            <summary>
+              Looks up a localized string similar to Select the items you want to pay for.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Sell_your_store">
+            <summary>
+              Looks up a localized string similar to Sell your store.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Send">
+            <summary>
+              Looks up a localized string similar to Send.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Send_New_Clothes">
+            <summary>
+              Looks up a localized string similar to Send New Clothes.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Send_Order">
+            <summary>
+              Looks up a localized string similar to Send Order.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Service_Introduction">
+            <summary>
+              Looks up a localized string similar to Service Introduction.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Service_Request">
+            <summary>
+              Looks up a localized string similar to Service Request.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Services">
+            <summary>
+              Looks up a localized string similar to Services.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Settings">
+            <summary>
+              Looks up a localized string similar to Settings.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Sigh_Up">
+            <summary>
+              Looks up a localized string similar to Sign Up.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Sign_in">
+            <summary>
+              Looks up a localized string similar to Sign In.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Sign_Out">
+            <summary>
+              Looks up a localized string similar to Sign Out.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Start_Now">
+            <summary>
+              Looks up a localized string similar to Start Now.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Store">
+            <summary>
+              Looks up a localized string similar to Store.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Store_created_successfully">
+            <summary>
+              Looks up a localized string similar to Store created successfully.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Store_Details">
+            <summary>
+              Looks up a localized string similar to Store Details.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Store_Type">
+            <summary>
+              Looks up a localized string similar to Store Type.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Stores">
+            <summary>
+              Looks up a localized string similar to Stores.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Stores_for_sale">
+            <summary>
+              Looks up a localized string similar to Stores for sale.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Tax">
+            <summary>
+              Looks up a localized string similar to Tax.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Terms_Conditions">
+            <summary>
+              Looks up a localized string similar to Terms Conditions.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Thank_you_for_your_rating">
+            <summary>
+              Looks up a localized string similar to Thank you for your rating.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.The_cart_is_empty">
+            <summary>
+              Looks up a localized string similar to The cart is empty.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.The_request_has_been_successfully_submitted">
+            <summary>
+              Looks up a localized string similar to The request has been successfully submitted.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.The_request_was_not_submitted_successfully">
+            <summary>
+              Looks up a localized string similar to The request was not submitted successfully.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.The_store_has_been_added_successfully">
+            <summary>
+              Looks up a localized string similar to The store has been added successfully.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.The_store_has_been_deleted_successfully">
+            <summary>
+              Looks up a localized string similar to The store has been deleted successfully.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.The_store_has_been_remove_successfully">
+            <summary>
+              Looks up a localized string similar to The store has been remove successfully.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.The_store_has_not_been_deleted_successfully">
+            <summary>
+              Looks up a localized string similar to The store has not been deleted successfully.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.The_store_was_not_added_successfully">
+            <summary>
+              Looks up a localized string similar to The store was not added successfully.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.The_store_was_not_remove_successfully">
+            <summary>
+              Looks up a localized string similar to The store was not remove successfully.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.There_are_no_stores_saved">
+            <summary>
+              Looks up a localized string similar to There are no stores saved.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Total">
+            <summary>
+              Looks up a localized string similar to Total.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Update">
+            <summary>
+              Looks up a localized string similar to Update.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Update_Information">
+            <summary>
+              Looks up a localized string similar to Update Information.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Update_Rate">
+            <summary>
+              Looks up a localized string similar to Update rate.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Update_Version">
+            <summary>
+              Looks up a localized string similar to A new version of the app is available.                                              Please update to continue.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Upload_Image">
+            <summary>
+              Looks up a localized string similar to Upload Image.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.User_Deleted_Successfully">
+            <summary>
+              Looks up a localized string similar to User Deleted Successfully.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.User_was_not_deleted_Successfully_please_contact_with_us">
+            <summary>
+              Looks up a localized string similar to User was not deleted successfully. Please contact us.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Warining">
+            <summary>
+              Looks up a localized string similar to Warining.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.We_use_the_commercial_registration_number_to_verify_the_store">
+            <summary>
+              Looks up a localized string similar to We use the commercial registration number to verify the store.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Website">
+            <summary>
+              Looks up a localized string similar to Website.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Yes">
+            <summary>
+              Looks up a localized string similar to Yes.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.You_don_t_have_access_to_internet">
+            <summary>
+              Looks up a localized string similar to You don&apos;t have access to internet.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.you_dont_have_any_order">
+            <summary>
+              Looks up a localized string similar to you don&apos;t have any orders.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.your_complain_has_been_sent_successfully_Complain_number">
+            <summary>
+              Looks up a localized string similar to your complain has been sent successfully number.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Your_Coupon_has_been_added_falied">
+            <summary>
+              Looks up a localized string similar to Your coupon has been added falied.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Your_Coupon_has_been_added_successfully">
+            <summary>
+              Looks up a localized string similar to Your coupon has been added successfully.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Your_offer_has_been_added_falied">
+            <summary>
+              Looks up a localized string similar to Your offer has failed to be added..
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Your_offer_has_been_added_successfully">
+            <summary>
+              Looks up a localized string similar to Your offer has been added successfully.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.your_order_cancel_failed">
+            <summary>
+              Looks up a localized string similar to Your order cancel failed.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.your_order_cancel_successfully">
+            <summary>
+              Looks up a localized string similar to User was not deleted successfully. Please contact us.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.your_order_has_been_canceled_successfully_number">
+            <summary>
+              Looks up a localized string similar to your order has been canceled successfully number .
+            </summary>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Button.TextColorTo(Microsoft.Maui.Controls.Button,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_DatePicker.TextColorTo(Microsoft.Maui.Controls.DatePicker,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Editor.TextColorTo(Microsoft.Maui.Controls.Editor,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Entry.TextColorTo(Microsoft.Maui.Controls.Entry,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_InputView.TextColorTo(Microsoft.Maui.Controls.InputView,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Label.TextColorTo(Microsoft.Maui.Controls.Label,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Picker.TextColorTo(Microsoft.Maui.Controls.Picker,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_RadioButton.TextColorTo(Microsoft.Maui.Controls.RadioButton,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_SearchBar.TextColorTo(Microsoft.Maui.Controls.SearchBar,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_TimePicker.TextColorTo(Microsoft.Maui.Controls.TimePicker,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+    </members>
+</doc>

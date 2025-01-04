@@ -18,7 +18,7 @@
     </ContentPage.BindingContext>
 
 
-    <Border StrokeShape="RoundRectangle 4" Stroke="{AppThemeBinding Light={StaticResource Gray100}, Dark={StaticResource Gray600}}" >
+    <Border StrokeShape="RoundRectangle 4" Stroke="{AppThemeBinding Light={StaticResource Gray100}, Dark={StaticResource Gray600}}" VerticalOptions="StartAndExpand">
 
         <VerticalStackLayout  BackgroundColor="Transparent" Padding="12" Spacing="8">
 
@@ -30,53 +30,47 @@
                         <HorizontalStackLayout Grid.Row="0"  Spacing="8" >
 
 
-                            <Frame   CornerRadius="99"  BackgroundColor="{StaticResource Gray500}" HeightRequest="48" WidthRequest="48" >
-                                <Image  Source="{Binding Photo}" Aspect="Fill"  x:Name="imgCustomerImage"  HeightRequest="50" WidthRequest="50"/>
+
+
+                            <Frame    CornerRadius="4"  BackgroundColor="Transparent" BorderColor="Transparent" HeightRequest="48" WidthRequest="48" >
+                                <Image  Source="{Binding Photo}" Aspect="AspectFill"  x:Name="imgCustomerImage"  HeightRequest="48" WidthRequest="48"/>
                             </Frame>
 
                             <VerticalStackLayout VerticalOptions="Center">
-                                <Label HorizontalTextAlignment="Start" Text="{Binding Name}" TextColor="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}" MaxLines="1"/>
+                                <Label FontAttributes="Bold" HorizontalTextAlignment="Start" Text="{Binding Name}" TextColor="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}" MaxLines="1"/>
                                 <HorizontalStackLayout Spacing="4">
                                     <Image HeightRequest="18" WidthRequest="18" Source="location"/>
-                                    <Label Text="{Binding DistrictsName}"  MaxLines="1" FontSize="Caption" HorizontalTextAlignment="Start"/>
+                                    <Label VerticalTextAlignment="Center" FontSize="Micro" Text="{Binding Address}"  MaxLines="1"  HorizontalTextAlignment="Start"/>
                                 </HorizontalStackLayout>
                             </VerticalStackLayout>
                         </HorizontalStackLayout>
 
-                        <HorizontalStackLayout Spacing="4"  Grid.Row="0"  Grid.Column="2"  HorizontalOptions="End" VerticalOptions="End">
+                        <HorizontalStackLayout Spacing="4"  Grid.Row="0"  Grid.Column="2"  HorizontalOptions="End" VerticalOptions="Start">
                             <Image Source="star"/>
-                            <Label  FontSize="Caption" Text="{Binding Rating}" MaxLines="1" VerticalTextAlignment="Center"/>
-                            
+                            <Label  FontSize="Micro" Text="{Binding Rating}" MaxLines="1" VerticalTextAlignment="Center"/>
                             <!--<Label  FontSize="Micro"  HorizontalOptions="Start" VerticalTextAlignment="Center">
-                  <Label.FormattedText>
-                      <FormattedString>
-                          <Span Text="("/>
-                          <Span Text="{Binding NumberOfRates}"/>
-                          <Span Text=")"/>
-                      </FormattedString>
-                  </Label.FormattedText>
-              </Label>-->
+    <Label.FormattedText>
+        <FormattedString>
+            <Span Text="("/>
+            <Span Text="{Binding NumberOfRates}"/>
+            <Span Text=")"/>
+        </FormattedString>
+    </Label.FormattedText>
+</Label>-->
                         </HorizontalStackLayout>
 
                     </Grid>
                 </Border>
 
 
-                <Label TextColor="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}" FontSize="Caption" Text="{x:Static str:AppStrings.Category}" MaxLines="1" FontAttributes="Bold"/>
-                <Label  FontSize="Caption" Text="{Binding CategoryName}" LineBreakMode="TailTruncation" MaxLines="2"/>
-
-                <Label TextColor="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}" FontSize="Caption"   Text="{x:Static str:AppStrings.Store_Type}" MaxLines="1" FontAttributes="Bold"/>
-                <Label FontSize="Caption" Text="{Binding TypeName}" LineBreakMode="TailTruncation" MaxLines="2"/>
-
-                <Label TextColor="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}" FontSize="Caption"   Text="{x:Static str:AppStrings.Address}" MaxLines="1" FontAttributes="Bold"/>
-                <Label FontSize="Caption" Text="{Binding Address}" LineBreakMode="TailTruncation" MaxLines="2"/>
-
 
                 <Label TextColor="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}" FontSize="Caption"  Text="{x:Static str:AppStrings.Website}" MaxLines="1" />
 
                 <Border StrokeShape="RoundRectangle 20" Stroke="Transparent" HorizontalOptions="StartAndExpand" >
                     <Label  Padding="12,4,12,4" Background="{AppThemeBinding Light={StaticResource PrimaryBrush}, Dark={StaticResource PrimaryBrush}}" TextColor="White"
-         FontSize="Caption" Text="{Binding Website}" LineBreakMode="TailTruncation" MaxLines="2"  TextTransform="Lowercase" TextDecorations="Underline">
+                         FontSize="Caption"                             
+                            Text="{Binding Website ,TargetNullValue={x:Static str:AppStrings.No_Website}}" 
+                         LineBreakMode="TailTruncation" MaxLines="2"  TextTransform="Lowercase" TextDecorations="Underline">
                         <Label.GestureRecognizers>
                             <TapGestureRecognizer
                                                   Command="{Binding Path=BindingContext.OpenUrl, Source={x:Reference StoreForSell}}"

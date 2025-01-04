@@ -82,6 +82,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = StoresPlace_Front.Login.pg
 build_metadata.AdditionalFiles.TargetPath = Login\pgResetPassword.xaml
 build_metadata.AdditionalFiles.RelativePath = Login\pgResetPassword.xaml
 
+[C:/Users/good1/source/repos/StoresLand/StoresPlace-Front/Login/pgResetPasswordAndChangePassword.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = StoresPlace_Front.Login.pgResetPasswordAndChangePassword.xaml
+build_metadata.AdditionalFiles.TargetPath = Login\pgResetPasswordAndChangePassword.xaml
+build_metadata.AdditionalFiles.RelativePath = Login\pgResetPasswordAndChangePassword.xaml
+
 [C:/Users/good1/source/repos/StoresLand/StoresPlace-Front/Main/MainControl/ctvTypeContainer.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = StoresPlace_Front.Main.MainControl.ctvTypeContainer.xaml
@@ -154,6 +160,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = StoresPlace_Front.Settings
 build_metadata.AdditionalFiles.TargetPath = Settings\pgAppSettings.xaml
 build_metadata.AdditionalFiles.RelativePath = Settings\pgAppSettings.xaml
 
+[C:/Users/good1/source/repos/StoresLand/StoresPlace-Front/Settings/pgMore.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = StoresPlace_Front.Settings.pgMore.xaml
+build_metadata.AdditionalFiles.TargetPath = Settings\pgMore.xaml
+build_metadata.AdditionalFiles.RelativePath = Settings\pgMore.xaml
+
 [C:/Users/good1/source/repos/StoresLand/StoresPlace-Front/Settings/pgMySavedStores.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = StoresPlace_Front.Settings.pgMySavedStores.xaml
@@ -171,6 +183,12 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = StoresPlace_Front.Settings.pgSettings.xaml
 build_metadata.AdditionalFiles.TargetPath = Settings\pgSettings.xaml
 build_metadata.AdditionalFiles.RelativePath = Settings\pgSettings.xaml
+
+[C:/Users/good1/source/repos/StoresLand/StoresPlace-Front/StoresForSell/pgStoresForSellPreMain.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = StoresPlace_Front.StoresForSell.pgStoresForSellPreMain.xaml
+build_metadata.AdditionalFiles.TargetPath = StoresForSell\pgStoresForSellPreMain.xaml
+build_metadata.AdditionalFiles.RelativePath = StoresForSell\pgStoresForSellPreMain.xaml
 
 [C:/Users/good1/source/repos/StoresLand/StoresPlace-Front/StoresForSell/StoreForSellPage/pgStoreForSellPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

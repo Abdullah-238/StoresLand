@@ -10,21 +10,26 @@ namespace StoresLand_API.Stores
     {
         public int? StoreID { get; set; }
         public string Name { get; set; }
-        public string CommercialNumber { get; set; }
+        public string? CommercialNumber { get; set; }
         public int? DistrictsID { get; set; }
-        public string Website { get; set; }
-        public string Address { get; set; }
+        public string? Website { get; set; }
+        public string? Address { get; set; }
         public int? CategoryID { get; set; }
         public int? TypeID { get; set; }
         public byte? Rating { get; set; }
         public decimal? NumberOfRates { get; set; }
         public byte? Status { get; set; }
         public decimal? NumbersOfClick { get; set; }
-        public string Photo { get; set; }
+        public string? Photo { get; set; }
         public int? PeronID { get; set; }
 
 
-        public StoreDTO(int? storeid, string name, string commercialnumber, int? districtsid, string website, string address, int? categoryid, int? typeid, byte? rating, decimal? numberofrates, byte? status, decimal? numbersofclick, string photo, int? peronid)
+        public string? Phone { get; set; }
+        public int? CityID { get; set; }
+        public string? Email { get; set; }
+
+        public StoreDTO(int? storeid, string name, string? commercialnumber, int? districtsid, string? website, string? address, int? categoryid,
+            int? typeid, byte? rating, decimal? numberofrates, byte? status, decimal? numbersofclick, string? photo, int? peronid, string? phone, int? cityID, string? email)
         {
             this.StoreID = storeid;
             this.Name = name;
@@ -40,31 +45,35 @@ namespace StoresLand_API.Stores
             this.NumbersOfClick = numbersofclick;
             this.Photo = photo;
             this.PeronID = peronid;
+            this.Phone = phone;
+            this.CityID = cityID;
+            this.Email = email;
 
         }
+
     }
 
     public class StoreDetailsDTO
     {
         public string Name { get; set; }
-        public string RegionName { get; set; }
-        public string CityName { get; set; }
-        public string DistrictsName { get; set; }
-        public string CommercialNumber { get; set; }
-        public string Website { get; set; }
-        public string Address { get; set; }
-        public string CategoryName { get; set; }
-        public string TypeName { get; set; }
+        public string? RegionName { get; set; }
+        public string? CityName { get; set; }
+        public string? DistrictsName { get; set; }
+        public string? CommercialNumber { get; set; }
+        public string? Website { get; set; }
+        public string? Address { get; set; }
+        public string? CategoryName { get; set; }
+        public string? TypeName { get; set; }
         public byte? Rating { get; set; }
         public decimal? NumberOfRates { get; set; }
-        public string StoreStatus { get; set; }
+        public string? StoreStatus { get; set; }
         public decimal? NumbersOfClick { get; set; }
-        public string Photo { get; set; }
-        public string PersonName { get; set; }
+        public string? Photo { get; set; }
+        public string? PersonName { get; set; }
         public int? StoreID { get; set; }
 
-        public StoreDetailsDTO(string name, string regionName, string cityName, string districtsName, string commercialNumber, string website, string address,
-            string categoryName, string typeName, byte? rating, decimal? numberOfRates, string storeStatus, decimal? numbersOfClick, string photo, string personName, int? storeID)
+        public StoreDetailsDTO(string name, string? regionName, string? cityName, string? districtsName, string? commercialNumber, string? website, string? address,
+            string? categoryName, string? typeName, byte? rating, decimal? numberOfRates, string? storeStatus, decimal? numbersOfClick, string photo, string personName, int? storeID)
         {
             Name = name;
             RegionName = regionName;

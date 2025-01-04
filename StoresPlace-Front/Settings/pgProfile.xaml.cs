@@ -20,7 +20,14 @@ public partial class pgProfile : ContentPage
 
     private async void btCreate_Clicked(object sender, EventArgs e)
     {
-        
+        if (!clsValidation.ValidateEmail(enEmail.Text))
+        {
+            await DisplayAlert(AppStrings.Email, AppStrings.Please_Enter_Valid_Email, AppStrings.Ok);
+
+            return;
+        }
+
+
         if (string.IsNullOrEmpty(enEmail.Text) || string.IsNullOrEmpty(enName.Text) || string.IsNullOrEmpty(enPhone.Text))
         {
             await DisplayAlert(null, AppStrings.Please_fill_all_fields_before_continue, AppStrings.Ok);

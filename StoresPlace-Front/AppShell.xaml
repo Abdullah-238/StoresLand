@@ -13,15 +13,16 @@
     <TabBar >
 
         <ShellContent 
-        Icon="home"
+        Icon="store"
         Title="{x:Static str:AppStrings.Home }"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
 
         <ShellContent 
-         Icon="sell"
-         Title="{x:Static str:AppStrings.Stores_for_sale }"
-         ContentTemplate="{DataTemplate Stores:pgStoresForSell}"
+          
+         Icon="storeforsale"
+         Title="{x:Static str:AppStrings.Stores_for_sale }" 
+         ContentTemplate="{DataTemplate Stores:pgStoresForSellPreMain}"
          Route="StoresForSell" />
 
 

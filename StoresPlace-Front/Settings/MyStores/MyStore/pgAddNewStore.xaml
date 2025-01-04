@@ -44,6 +44,10 @@
 
                 <Label FontSize="Micro" TextColor="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}" Text="{x:Static str:AppStrings.For_Example_Press_Street }" />
 
+                <Entry Text="{Binding Phone}" Placeholder="{x:Static str:AppStrings.Phone }"  MaxLength="10"  x:Name="EnPhone"     />
+
+                <Entry Text="{Binding Email}" Placeholder="{x:Static str:AppStrings.Email }"  MaxLength="200"  x:Name="EnEmail"     />
+
             </VerticalStackLayout>
 
 

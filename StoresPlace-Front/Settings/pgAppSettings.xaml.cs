@@ -12,6 +12,7 @@ public partial class pgAppSettings : ContentPage
 
         _LoadMode();
 
+
     }
 
     void _LoadMode()

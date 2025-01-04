@@ -34,7 +34,7 @@
             <Entry  Placeholder="{x:Static str:AppStrings.Email}"  Text="{Binding Email}"     MaxLength="50"  x:Name="enEmail"    />
             <Entry  Placeholder="{x:Static str:AppStrings.Password}"     MaxLength="50"  x:Name="enPassword" IsPassword="True"     />
 
-            <Button Text="{x:Static str:AppStrings.Update}" x:Name="btCreate"   Clicked="btCreate_Clicked"  />
+            <Button  Text="{x:Static str:AppStrings.Update}" x:Name="btCreate"   Clicked="btCreate_Clicked"  />
            
         </VerticalStackLayout>
     </ScrollView>

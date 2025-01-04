@@ -99,6 +99,8 @@ namespace StoresPlace_Front.Stores.StoresPage
             Rate = new Command<int?>(RateStore);
 
             _isSaved = AppStrings.Save;
+
+            _isRated = AppStrings.Rate_store;
         }
 
         public async void Load(int StoreID)
@@ -174,6 +176,12 @@ namespace StoresPlace_Front.Stores.StoresPage
 
         private async void RateStore(int? StoreID)
         {
+            if (clsGlobal.CurrentUser == null)
+            {
+                await Shell.Current.DisplayAlert(AppStrings.Error, AppStrings.Please_sign_in_to_Complete_process, AppStrings.Ok);
+                return;
+            }
+
             await Shell.Current.GoToAsync($"AddNewRate?storeID={StoreID}");
         }
 

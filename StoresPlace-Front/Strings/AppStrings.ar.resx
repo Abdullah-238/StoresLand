@@ -763,4 +763,52 @@
   <data name="Update_Rate" xml:space="preserve">
     <value>تحديث التقييم</value>
   </data>
+  <data name="Welcome_to " xml:space="preserve">
+    <value>مرحبا بكم في</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>الإصدار</value>
+  </data>
+  <data name="This_is_a_trial_version" xml:space="preserve">
+    <value>نسخة تجريبية</value>
+  </data>
+  <data name="Sold_stores" xml:space="preserve">
+    <value>المتاجر المباعة</value>
+  </data>
+  <data name="No_Website" xml:space="preserve">
+    <value>لا يوجد موقع الكتروني</value>
+  </data>
+  <data name="It_should_contain_at_least_8_characters" xml:space="preserve">
+    <value>يجب ان تتكون كلمة المرور من 8 خانات على الاقل</value>
+  </data>
+  <data name="Please_enter_the_email_you_would_like_to_send_to_reset_your_password" xml:space="preserve">
+    <value>يرجى إدخال البريد الإلكتروني الذي ترغب في إرسال طلب إعادة تعيين كلمة المرور إليه</value>
+  </data>
+  <data name="code_has_been_sent_Please_check_your_email" xml:space="preserve">
+    <value>لقد تم إرسال بريد إلكتروني يحتوي على الرقم الموقت</value>
+  </data>
+  <data name="No_Stores" xml:space="preserve">
+    <value>لا يوجد متاجر</value>
+  </data>
+  <data name="Websites" xml:space="preserve">
+    <value>المواقع الالكترونية</value>
+  </data>
+  <data name="Applications" xml:space="preserve">
+    <value>التطبيقات</value>
+  </data>
+  <data name="The_temporary_code_has_been_sent_to_your_email_Please_try_again_after_15_minutes" xml:space="preserve">
+    <value>تم إرسال الرمز المؤقت إلى بريدك الإلكتروني. يُرجى المحاولة بعد 15 دقيقة</value>
+  </data>
+  <data name="Update_Password" xml:space="preserve">
+    <value>تحديث كلمة المرور</value>
+  </data>
+  <data name="Please_enter_the_temporary_code_sent_to_your_email" xml:space="preserve">
+    <value>الرجاء إدخال الرمز المؤقت المرسل إلى بريدك الإلكتروني</value>
+  </data>
+  <data name="The_temporary_code" xml:space="preserve">
+    <value>الرمز المؤقت</value>
+  </data>
+  <data name="Verification_of_the_temporary_code" xml:space="preserve">
+    <value>التحقق من الرمز المؤقت</value>
+  </data>
 </root>

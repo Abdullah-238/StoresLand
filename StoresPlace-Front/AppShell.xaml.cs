@@ -39,9 +39,11 @@ namespace StoresPlace_Front
 
 
 
-            Routing.RegisterRoute("StoresForSell", typeof(pgStoresForSell));
+            Routing.RegisterRoute("StoresForSellMain", typeof(pgStoresForSellPreMain));
 
-            Routing.RegisterRoute("StoresForSell/pgStoreForSellPage", typeof(pgStoreForSellPage));
+            Routing.RegisterRoute("StoresForSellMain/StoresForSell", typeof(pgStoresForSell));
+
+            Routing.RegisterRoute("StoresForSellMain/StoresForSell/pgStoreForSellPage", typeof(pgStoreForSellPage));
 
 
 

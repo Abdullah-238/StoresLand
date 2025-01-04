@@ -10,10 +10,9 @@
              >
     <VerticalStackLayout VerticalOptions="Center" Padding="24" Spacing="24">
 
-        <Image Source="sensors_off" HeightRequest="128" WidthRequest="128"/>
+        <Image Source="update" HeightRequest="48" WidthRequest="48"/>
         <Label Text="{x:Static str:AppStrings.Update_Version }" HorizontalTextAlignment="Center"  VerticalTextAlignment="Center" />
 
-        <Button   Text="{x:Static str:AppStrings.Update }"
- Clicked="Button_Clicked"/>
+        <Button   Text="{x:Static str:AppStrings.Update }" Clicked="Button_Clicked"/>
     </VerticalStackLayout>
 </ContentPage>

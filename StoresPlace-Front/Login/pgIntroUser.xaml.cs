@@ -38,11 +38,6 @@ public partial class pgIntroUser : ContentPage
 
     void _LoadIntroDetiles()
     {
-
-
-        //CultureInfo.CurrentCulture = new CultureInfo("ar-SA");
-        //CultureInfo.CurrentUICulture = new CultureInfo("ar-SA");
-
         if (CultureInfo.CurrentCulture.Name.StartsWith("ar"))
         {
 

@@ -19,7 +19,14 @@ public partial class pgLogUp : ContentPage
     private async void btCreate_Clicked(object sender, EventArgs e)
     {
 
-        
+        if (!clsValidation.ValidateEmail(enEmail.Text))
+        {
+            await DisplayAlert(AppStrings.Email, AppStrings.Please_Enter_Valid_Email, AppStrings.Ok);
+
+            return;
+        }
+
+
         if (string.IsNullOrEmpty(enEmail.Text) || string.IsNullOrEmpty(enPassword.Text)        ||
             string.IsNullOrEmpty(enName.Text)  || string.IsNullOrEmpty(enPhone.Text)    || 
             string.IsNullOrEmpty(EnRePassword.Text))
@@ -67,10 +74,10 @@ public partial class pgLogUp : ContentPage
         }
 
 
-        Person person =  new Person(null, enName.Text, enPhone.Text, enEmail.Text, clsUtil.ComputeHash(enPassword.Text),true);
+        Person person = await clsPerson.AddPerson(new Person(null, enName.Text, enPhone.Text, enEmail.Text, clsUtil.ComputeHash(enPassword.Text),true));
 
 
-        if (clsPerson.AddPerson(person) != null )
+        if (person != null )
         {
             ctvActiveIndector1.IsRunning = true;
 

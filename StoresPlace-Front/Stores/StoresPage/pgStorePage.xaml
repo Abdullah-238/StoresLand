@@ -36,10 +36,10 @@
                             </Frame>
 
                             <VerticalStackLayout VerticalOptions="Center">
-                                <Label HorizontalTextAlignment="Start" Text="{Binding Name}" TextColor="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}" MaxLines="1"/>
+                                <Label FontAttributes="Bold" HorizontalTextAlignment="Start" Text="{Binding Name}" TextColor="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}" MaxLines="1"/>
                                 <HorizontalStackLayout Spacing="4">
                                     <Image HeightRequest="18" WidthRequest="18" Source="location"/>
-                                    <Label Text="{Binding Address}"  MaxLines="1" FontSize="Caption" HorizontalTextAlignment="Start"/>
+                                    <Label  Text="{Binding Address}"  MaxLines="1" FontSize="Micro" HorizontalTextAlignment="Start"/>
                                 </HorizontalStackLayout>
                             </VerticalStackLayout>
                         </HorizontalStackLayout>
@@ -76,7 +76,9 @@
 
                 <Border StrokeShape="RoundRectangle 20" Stroke="Transparent" HorizontalOptions="StartAndExpand" >
                     <Label  Padding="12,4,12,4" Background="{AppThemeBinding Light={StaticResource PrimaryBrush}, Dark={StaticResource PrimaryBrush}}" TextColor="White"
-         FontSize="Caption" Text="{Binding Website}" LineBreakMode="TailTruncation" MaxLines="2"  TextTransform="Lowercase" TextDecorations="Underline">
+                            FontSize="Caption" 
+                            Text="{Binding Website ,TargetNullValue={x:Static str:AppStrings.No_Website}}" 
+                            LineBreakMode="TailTruncation" MaxLines="2"  TextTransform="Lowercase" TextDecorations="Underline">
                         <Label.GestureRecognizers>
                             <TapGestureRecognizer
                                                   Command="{Binding Path=BindingContext.OpenUrl, Source={x:Reference StorePage}}"

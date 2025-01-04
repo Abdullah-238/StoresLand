@@ -248,5 +248,24 @@ namespace StoresLand_API.Persons
             }
         }
 
+        public static async Task<bool> UpdatePass(string email, string password)
+        {
+            try
+            {
+                var response = await clsUtil.httpClient.GetAsync($"Persons/UpdatePass/{email}/{password}");
+
+                if (response.IsSuccessStatusCode)
+                {
+                    return true;
+                }
+            }
+            catch (Exception ex)
+            {
+                clsUtil.WriteExceptionError(ex.Message);
+            }
+
+            return false;
+        }
+
     }
 }

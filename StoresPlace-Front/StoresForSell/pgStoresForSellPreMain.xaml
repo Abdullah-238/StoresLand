@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StoresPlace_Front.StoresForSell.pgStoresForSellPreMain"
+             xmlns:controls="clr-namespace:StoresPlace_Front.Main.Controls"
+             xmlns:str="clr-namespace:StoresPlace_Front.Strings"
+             Title="{x:Static str:AppStrings.Stores_for_sale}"
+             NavigatedTo="ContentPage_NavigatedTo"
+             >
+
+
+    <AbsoluteLayout >
+        <!-- StackLayout with all the content -->
+        <StackLayout Padding="24" VerticalOptions="Start" Spacing="12" AbsoluteLayout.LayoutBounds="0, 0, 1, 1" AbsoluteLayout.LayoutFlags="All" x:Name="contentPage">
+
+
+            <controls:ctvTypeContainer Grid.Row="3" CardTitle="{x:Static str:AppStrings.Stores_for_sale}" >
+                <controls:ctvTypeContainer.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                </controls:ctvTypeContainer.GestureRecognizers>
+            </controls:ctvTypeContainer>
+
+            <!--<controls:ctvTypeContainer Grid.Row="4" CardTitle="{x:Static str:AppStrings.Sold_stores}">
+                <controls:ctvTypeContainer.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_1"/>
+                </controls:ctvTypeContainer.GestureRecognizers>
+            </controls:ctvTypeContainer>-->
+
+        </StackLayout>
+
+        <!-- ActivityIndicator placed on top of all controls, centered -->
+        <ActivityIndicator x:Name="LoadingIndicator"
+               Color="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}"
+               AbsoluteLayout.LayoutBounds="0.5, 0.5, AutoSize, AutoSize"
+               AbsoluteLayout.LayoutFlags="PositionProportional" />
+    </AbsoluteLayout>
+
+</ContentPage>

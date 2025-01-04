@@ -64,7 +64,7 @@ namespace StoresPlace_Front.StoresForSell.StoresForSell
 
             if (StoreID != null)
             {
-                await Shell.Current.GoToAsync($"pgStoreForSellPage?storeID={StoreID}");
+                await Shell.Current.GoToAsync($"StoresForSellMain/StoresForSell/pgStoreForSellPage?storeID={StoreID}");
             }
 
             IsBusy = false;

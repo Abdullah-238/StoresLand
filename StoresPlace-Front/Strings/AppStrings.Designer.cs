@@ -142,6 +142,15 @@ namespace StoresPlace_Front.Strings {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Applications.
+        /// </summary>
+        internal static string Applications {
+            get {
+                return ResourceManager.GetString("Applications", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Are you sure you want to delete your account?.
         /// </summary>
         internal static string Are_you_sure_you_want_to_delete_your_account {
@@ -300,6 +309,15 @@ namespace StoresPlace_Front.Strings {
         internal static string Clothing_available_for_scheduling {
             get {
                 return ResourceManager.GetString("Clothing_available_for_scheduling", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to code has been sent to your email. Please check your inbox.
+        /// </summary>
+        internal static string code_has_been_sent_Please_check_your_email {
+            get {
+                return ResourceManager.GetString("code_has_been_sent_Please_check_your_email", resourceCulture);
             }
         }
         
@@ -628,6 +646,15 @@ namespace StoresPlace_Front.Strings {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to It should contain at least 8 characters.
+        /// </summary>
+        internal static string It_should_contain_at_least_8_characters {
+            get {
+                return ResourceManager.GetString("It_should_contain_at_least_8_characters", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Item Name.
         /// </summary>
         internal static string Item_Name {
@@ -777,6 +804,24 @@ namespace StoresPlace_Front.Strings {
         internal static string No_offers {
             get {
                 return ResourceManager.GetString("No_offers", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to No stores.
+        /// </summary>
+        internal static string No_Stores {
+            get {
+                return ResourceManager.GetString("No_Stores", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to No website.
+        /// </summary>
+        internal static string No_Website {
+            get {
+                return ResourceManager.GetString("No_Website", resourceCulture);
             }
         }
         
@@ -1061,11 +1106,29 @@ namespace StoresPlace_Front.Strings {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Please enter the email you would like to send to reset your password.
+        /// </summary>
+        internal static string Please_enter_the_email_you_would_like_to_send_to_reset_your_password {
+            get {
+                return ResourceManager.GetString("Please_enter_the_email_you_would_like_to_send_to_reset_your_password", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Please enter the price.
         /// </summary>
         internal static string Please_enter_the_price {
             get {
                 return ResourceManager.GetString("Please_enter_the_price", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Please enter the temporary code sent to your email.
+        /// </summary>
+        internal static string Please_enter_the_temporary_code_sent_to_your_email {
+            get {
+                return ResourceManager.GetString("Please_enter_the_temporary_code_sent_to_your_email", resourceCulture);
             }
         }
         
@@ -1619,6 +1682,15 @@ namespace StoresPlace_Front.Strings {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Sold stores.
+        /// </summary>
+        internal static string Sold_stores {
+            get {
+                return ResourceManager.GetString("Sold_stores", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Start Now.
         /// </summary>
         internal static string Start_Now {
@@ -1790,11 +1862,38 @@ namespace StoresPlace_Front.Strings {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to The temporary code.
+        /// </summary>
+        internal static string The_temporary_code {
+            get {
+                return ResourceManager.GetString("The_temporary_code", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The temporary code has been sent to your email. Please try again after 15 minutes.
+        /// </summary>
+        internal static string The_temporary_code_has_been_sent_to_your_email_Please_try_again_after_15_minutes {
+            get {
+                return ResourceManager.GetString("The_temporary_code_has_been_sent_to_your_email_Please_try_again_after_15_minutes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to There are no stores saved.
         /// </summary>
         internal static string There_are_no_stores_saved {
             get {
                 return ResourceManager.GetString("There_are_no_stores_saved", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Trial version.
+        /// </summary>
+        internal static string This_is_a_trial_version {
+            get {
+                return ResourceManager.GetString("This_is_a_trial_version", resourceCulture);
             }
         }
         
@@ -1822,6 +1921,15 @@ namespace StoresPlace_Front.Strings {
         internal static string Update_Information {
             get {
                 return ResourceManager.GetString("Update_Information", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Update password.
+        /// </summary>
+        internal static string Update_Password {
+            get {
+                return ResourceManager.GetString("Update_Password", resourceCulture);
             }
         }
         
@@ -1871,6 +1979,24 @@ namespace StoresPlace_Front.Strings {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Verification of the temporary code.
+        /// </summary>
+        internal static string Verification_of_the_temporary_code {
+            get {
+                return ResourceManager.GetString("Verification_of_the_temporary_code", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Version.
+        /// </summary>
+        internal static string Version {
+            get {
+                return ResourceManager.GetString("Version", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Warining.
         /// </summary>
         internal static string Warining {
@@ -1894,6 +2020,24 @@ namespace StoresPlace_Front.Strings {
         internal static string Website {
             get {
                 return ResourceManager.GetString("Website", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Websites.
+        /// </summary>
+        internal static string Websites {
+            get {
+                return ResourceManager.GetString("Websites", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Welcome to .
+        /// </summary>
+        internal static string Welcome_to_ {
+            get {
+                return ResourceManager.GetString("Welcome_to ", resourceCulture);
             }
         }
         

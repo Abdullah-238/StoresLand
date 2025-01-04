@@ -10,7 +10,7 @@
              >
     <VerticalStackLayout VerticalOptions="Center" Padding="24" Spacing="24">
 
-        <Image Source="sensors_off" HeightRequest="128" WidthRequest="128"/>
+        <Image Source="no_intenet" HeightRequest="48" WidthRequest="48"/>
         <Label 
      Text="{x:Static str:AppStrings.You_don_t_have_access_to_internet }"
      VerticalOptions="Center" 

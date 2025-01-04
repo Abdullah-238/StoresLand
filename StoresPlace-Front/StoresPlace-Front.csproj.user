@@ -3,8 +3,8 @@
   <PropertyGroup>
     <IsFirstTimeProjectOpen>False</IsFirstTimeProjectOpen>
     <ActiveDebugFramework>net8.0-android</ActiveDebugFramework>
-    <ActiveDebugProfile>INFINIX X6831 (Android 13.0 - API 33)</ActiveDebugProfile>
-    <SelectedPlatformGroup>PhysicalDevice</SelectedPlatformGroup>
+    <ActiveDebugProfile>Small Phone API 31 (Android 12.0 - API 31)</ActiveDebugProfile>
+    <SelectedPlatformGroup>Emulator</SelectedPlatformGroup>
     <DefaultDevice>Small_Phone_API_31</DefaultDevice>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net8.0-android|AnyCPU'">
@@ -16,6 +16,9 @@
   </PropertyGroup>
   <ItemGroup>
     <EmbeddedResource Update="Strings\AppStrings.ar.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Strings\AppStrings.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
@@ -42,6 +45,9 @@
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Login\pgResetPassword.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Login\pgResetPasswordAndChangePassword.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Main\MainControl\ctvTypeContainer.xaml">
@@ -71,6 +77,9 @@
     <MauiXaml Update="Settings\pgAppSettings.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Settings\pgMore.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Settings\pgMySavedStores.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
@@ -78,6 +87,9 @@
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Settings\pgSettings.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="StoresForSell\pgStoresForSellPreMain.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="StoresForSell\StoreForSellPage\pgStoreForSellPage.xaml">

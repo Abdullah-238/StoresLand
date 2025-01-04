@@ -27,7 +27,7 @@
                             <DataTemplate  >
                             <Border StrokeShape="RoundRectangle 4" Stroke="{AppThemeBinding Light={StaticResource Gray100}, Dark={StaticResource Gray700}}" >
                                 <HorizontalStackLayout  Spacing="4"  BackgroundColor="Transparent" >
-                                    <Label  Padding="12" FontSize="Micro" Text="{Binding }"/>
+                                    <Label  Padding="12" FontSize="Caption" Text="{Binding }"/>
 
                                     <HorizontalStackLayout.GestureRecognizers>
                                         <TapGestureRecognizer 

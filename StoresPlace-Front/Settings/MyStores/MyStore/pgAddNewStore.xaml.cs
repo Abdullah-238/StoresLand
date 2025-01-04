@@ -58,7 +58,7 @@ public partial class pgAddNewStore : ContentPage
 
                 await sourceStream.CopyToAsync(localFileStream);
 
-                string publicUrl = $"http://abdullah0-001-site1.mtempurl.com/{fileName}";
+                string publicUrl = $"http://storesland.com/Images/{fileName}";
 
                 storeViewModel.Store.Photo = publicUrl;
 

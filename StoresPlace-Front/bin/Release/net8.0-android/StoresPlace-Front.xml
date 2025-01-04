@@ -65,6 +65,11 @@
               Looks up a localized string similar to App Them.
             </summary>
         </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Applications">
+            <summary>
+              Looks up a localized string similar to Applications.
+            </summary>
+        </member>
         <member name="P:StoresPlace_Front.Strings.AppStrings.Are_you_sure_you_want_to_delete_your_account">
             <summary>
               Looks up a localized string similar to Are you sure you want to delete your account?.
@@ -153,6 +158,11 @@
         <member name="P:StoresPlace_Front.Strings.AppStrings.Clothing_available_for_scheduling">
             <summary>
               Looks up a localized string similar to Clothing available for scheduling.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.code_has_been_sent_Please_check_your_email">
+            <summary>
+              Looks up a localized string similar to code has been sent to your email. Please check your inbox.
             </summary>
         </member>
         <member name="P:StoresPlace_Front.Strings.AppStrings.Commercial_Number">
@@ -335,6 +345,11 @@
               Looks up a localized string similar to Is Paid.
             </summary>
         </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.It_should_contain_at_least_8_characters">
+            <summary>
+              Looks up a localized string similar to It should contain at least 8 characters.
+            </summary>
+        </member>
         <member name="P:StoresPlace_Front.Strings.AppStrings.Item_Name">
             <summary>
               Looks up a localized string similar to Item Name.
@@ -418,6 +433,16 @@
         <member name="P:StoresPlace_Front.Strings.AppStrings.No_offers">
             <summary>
               Looks up a localized string similar to No offers.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.No_Stores">
+            <summary>
+              Looks up a localized string similar to No stores.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.No_Website">
+            <summary>
+              Looks up a localized string similar to No website.
             </summary>
         </member>
         <member name="P:StoresPlace_Front.Strings.AppStrings.Note">
@@ -576,9 +601,19 @@
               Looks up a localized string similar to Please enter another phone number; this phone number already exists..
             </summary>
         </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Please_enter_the_email_you_would_like_to_send_to_reset_your_password">
+            <summary>
+              Looks up a localized string similar to Please enter the email you would like to send to reset your password.
+            </summary>
+        </member>
         <member name="P:StoresPlace_Front.Strings.AppStrings.Please_enter_the_price">
             <summary>
               Looks up a localized string similar to Please enter the price.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Please_enter_the_temporary_code_sent_to_your_email">
+            <summary>
+              Looks up a localized string similar to Please enter the temporary code sent to your email.
             </summary>
         </member>
         <member name="P:StoresPlace_Front.Strings.AppStrings.Please_Enter_Valid_Email">
@@ -609,6 +644,11 @@
         <member name="P:StoresPlace_Front.Strings.AppStrings.Please_enter_your_offer_details">
             <summary>
               Looks up a localized string similar to Please enter your offer details.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Please_enter_your_rate_and_review">
+            <summary>
+              Looks up a localized string similar to Please enter your rating and review.
             </summary>
         </member>
         <member name="P:StoresPlace_Front.Strings.AppStrings.Please_fill_all_fields_before_continue">
@@ -671,6 +711,11 @@
               Looks up a localized string similar to Please sign in to complete the process.
             </summary>
         </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Please_try_again_later">
+            <summary>
+              Looks up a localized string similar to Please try again later.
+            </summary>
+        </member>
         <member name="P:StoresPlace_Front.Strings.AppStrings.Previous_Order">
             <summary>
               Looks up a localized string similar to Previous Order.
@@ -699,6 +744,21 @@
         <member name="P:StoresPlace_Front.Strings.AppStrings.Profile">
             <summary>
               Looks up a localized string similar to Profile.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Rate">
+            <summary>
+              Looks up a localized string similar to Rate.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Rate_store">
+            <summary>
+              Looks up a localized string similar to Rate store.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Rates">
+            <summary>
+              Looks up a localized string similar to Rates.
             </summary>
         </member>
         <member name="P:StoresPlace_Front.Strings.AppStrings.Receiving_Date">
@@ -861,6 +921,11 @@
               Looks up a localized string similar to Sign Out.
             </summary>
         </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Sold_stores">
+            <summary>
+              Looks up a localized string similar to Sold stores.
+            </summary>
+        </member>
         <member name="P:StoresPlace_Front.Strings.AppStrings.Start_Now">
             <summary>
               Looks up a localized string similar to Start Now.
@@ -904,6 +969,11 @@
         <member name="P:StoresPlace_Front.Strings.AppStrings.Terms_Conditions">
             <summary>
               Looks up a localized string similar to Terms Conditions.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Thank_you_for_your_rating">
+            <summary>
+              Looks up a localized string similar to Thank you for your rating.
             </summary>
         </member>
         <member name="P:StoresPlace_Front.Strings.AppStrings.The_cart_is_empty">
@@ -951,9 +1021,24 @@
               Looks up a localized string similar to The store was not remove successfully.
             </summary>
         </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.The_temporary_code">
+            <summary>
+              Looks up a localized string similar to The temporary code.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.The_temporary_code_has_been_sent_to_your_email_Please_try_again_after_15_minutes">
+            <summary>
+              Looks up a localized string similar to The temporary code has been sent to your email. Please try again after 15 minutes.
+            </summary>
+        </member>
         <member name="P:StoresPlace_Front.Strings.AppStrings.There_are_no_stores_saved">
             <summary>
               Looks up a localized string similar to There are no stores saved.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.This_is_a_trial_version">
+            <summary>
+              Looks up a localized string similar to Trial version.
             </summary>
         </member>
         <member name="P:StoresPlace_Front.Strings.AppStrings.Total">
@@ -969,6 +1054,16 @@
         <member name="P:StoresPlace_Front.Strings.AppStrings.Update_Information">
             <summary>
               Looks up a localized string similar to Update Information.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Update_Password">
+            <summary>
+              Looks up a localized string similar to Update password.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Update_Rate">
+            <summary>
+              Looks up a localized string similar to Update rate.
             </summary>
         </member>
         <member name="P:StoresPlace_Front.Strings.AppStrings.Update_Version">
@@ -991,6 +1086,16 @@
               Looks up a localized string similar to User was not deleted successfully. Please contact us.
             </summary>
         </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Verification_of_the_temporary_code">
+            <summary>
+              Looks up a localized string similar to Verification of the temporary code.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Version">
+            <summary>
+              Looks up a localized string similar to Version.
+            </summary>
+        </member>
         <member name="P:StoresPlace_Front.Strings.AppStrings.Warining">
             <summary>
               Looks up a localized string similar to Warining.
@@ -1004,6 +1109,16 @@
         <member name="P:StoresPlace_Front.Strings.AppStrings.Website">
             <summary>
               Looks up a localized string similar to Website.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Websites">
+            <summary>
+              Looks up a localized string similar to Websites.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Welcome_to_">
+            <summary>
+              Looks up a localized string similar to Welcome to .
             </summary>
         </member>
         <member name="P:StoresPlace_Front.Strings.AppStrings.Yes">

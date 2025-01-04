@@ -23,14 +23,22 @@ public class clsGlobal
 
     public static async void CheckForUpdateAsync()
     {
+
+        if (Connectivity.NetworkAccess != NetworkAccess.Internet)
+            return;
+
         var currentVersion = AppInfo.VersionString;
 
         var latestVersion = await clsAppSettings.GetVersionStringAsync();
 
-        if (currentVersion != latestVersion)
+        if (latestVersion != null)
         {
-            await AppShell.Current.GoToAsync("UpdatePage");
+            if (currentVersion != latestVersion)
+            {
+                await AppShell.Current.GoToAsync("UpdatePage");
+            }
         }
+        
     }
 
 };

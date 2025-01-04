@@ -11,5 +11,6 @@ namespace StoresPlace_Front.Global
 
         static public string ItemsLastUpdated = clsUtil.ComputeHash("ItemsLastUpdated");
 
+        static public string LastTimeRestPassword;
     }
 }

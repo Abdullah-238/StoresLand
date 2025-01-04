@@ -185,10 +185,6 @@
               "version": "[8.0.11, )",
               "autoReferenced": true
             },
-            "RestSharp": {
-              "target": "Package",
-              "version": "[112.1.0, )"
-            },
             "SQLitePCLRaw.bundle_green": {
               "target": "Package",
               "version": "[2.1.10, )"
@@ -270,10 +266,6 @@
               "version": "[8.0.11, )",
               "autoReferenced": true
             },
-            "RestSharp": {
-              "target": "Package",
-              "version": "[112.1.0, )"
-            },
             "SQLitePCLRaw.bundle_green": {
               "target": "Package",
               "version": "[2.1.10, )"
@@ -343,10 +335,6 @@
               "version": "[8.0.11, )",
               "autoReferenced": true
             },
-            "RestSharp": {
-              "target": "Package",
-              "version": "[112.1.0, )"
-            },
             "SQLitePCLRaw.bundle_green": {
               "target": "Package",
               "version": "[2.1.10, )"
@@ -371,6 +359,10 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.MacCatalyst.Ref.net8.0_18.0",
+              "version": "[18.0.8314, 18.0.8314]"
+            },
+            {
+              "name": "Microsoft.MacCatalyst.Runtime.maccatalyst-arm64.net8.0_18.0",
               "version": "[18.0.8314, 18.0.8314]"
             },
             {
@@ -411,10 +403,6 @@
               "target": "Package",
               "version": "[8.0.83, )"
             },
-            "RestSharp": {
-              "target": "Package",
-              "version": "[112.1.0, )"
-            },
             "SQLitePCLRaw.bundle_green": {
               "target": "Package",
               "version": "[2.1.10, )"
@@ -437,8 +425,24 @@
           "warn": true,
           "downloadDependencies": [
             {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Crossgen2.win-x64",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x64",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
               "name": "Microsoft.Windows.SDK.NET.Ref",
               "version": "[10.0.19041.54, 10.0.19041.54]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+              "version": "[8.0.11, 8.0.11]"
             }
           ],
           "frameworkReferences": {
@@ -466,6 +470,9 @@
           "#import": []
         },
         "iossimulator-x64": {
+          "#import": []
+        },
+        "maccatalyst-arm64": {
           "#import": []
         },
         "maccatalyst-x64": {

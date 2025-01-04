@@ -763,4 +763,52 @@ For example, a red T-shirt with black stripes</value>
   <data name="Update_Rate" xml:space="preserve">
     <value>Update rate</value>
   </data>
+  <data name="Welcome_to " xml:space="preserve">
+    <value>Welcome to </value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="This_is_a_trial_version" xml:space="preserve">
+    <value>Trial version</value>
+  </data>
+  <data name="Sold_stores" xml:space="preserve">
+    <value>Sold stores</value>
+  </data>
+  <data name="No_Website" xml:space="preserve">
+    <value>No website</value>
+  </data>
+  <data name="It_should_contain_at_least_8_characters" xml:space="preserve">
+    <value>It should contain at least 8 characters</value>
+  </data>
+  <data name="Please_enter_the_email_you_would_like_to_send_to_reset_your_password" xml:space="preserve">
+    <value>Please enter the email you would like to send to reset your password</value>
+  </data>
+  <data name="code_has_been_sent_Please_check_your_email" xml:space="preserve">
+    <value>code has been sent to your email. Please check your inbox</value>
+  </data>
+  <data name="No_Stores" xml:space="preserve">
+    <value>No stores</value>
+  </data>
+  <data name="Websites" xml:space="preserve">
+    <value>Websites</value>
+  </data>
+  <data name="Applications" xml:space="preserve">
+    <value>Applications</value>
+  </data>
+  <data name="The_temporary_code_has_been_sent_to_your_email_Please_try_again_after_15_minutes" xml:space="preserve">
+    <value>The temporary code has been sent to your email. Please try again after 15 minutes</value>
+  </data>
+  <data name="Update_Password" xml:space="preserve">
+    <value>Update password</value>
+  </data>
+  <data name="Please_enter_the_temporary_code_sent_to_your_email" xml:space="preserve">
+    <value>Please enter the temporary code sent to your email</value>
+  </data>
+  <data name="The_temporary_code" xml:space="preserve">
+    <value>The temporary code</value>
+  </data>
+  <data name="Verification_of_the_temporary_code" xml:space="preserve">
+    <value>Verification of the temporary code</value>
+  </data>
 </root>

@@ -5,23 +5,24 @@
              x:Name="This"
              >
 
-    <Border Stroke="Transparent" >
+    <Border   Stroke="{AppThemeBinding Light={StaticResource Gray100}, Dark={StaticResource Gray700}}"  >
 
         <Border.StrokeShape>
-            <RoundRectangle CornerRadius="4"  />
+            <RoundRectangle CornerRadius="4"   />
         </Border.StrokeShape>
 
-        <VerticalStackLayout   Spacing="12"  Padding="40" BackgroundColor="{AppThemeBinding Light={StaticResource Gray100}, Dark={StaticResource Gray700}}">
-
-            <!--<Frame BackgroundColor="{StaticResource Primary50}" HeightRequest="40" WidthRequest="40" BorderColor="Transparent" CornerRadius="6">
-            </Frame>-->
-
-            <!--<Image x:Name="IconImage"  Source="{Binding Icon, FallbackValue='home'}" Margin="24,24,24,0"/>-->
+        <HorizontalStackLayout  Margin="0" Spacing="12" BackgroundColor="Transparent" >
 
 
-            <Label FontAttributes="Bold" Text="{Binding CardTitle, FallbackValue='Online Store'}" HorizontalTextAlignment="Center"/>
+            <BoxView Color="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}" WidthRequest="6" VerticalOptions="FillAndExpand" />
 
-        </VerticalStackLayout>
+            <!--<Image x:Name="IconImage"  Source="{Binding Icon, FallbackValue='store'}" HeightRequest="48" WidthRequest="48" VerticalOptions="Start"  HorizontalOptions="Start"/>-->
+
+
+            <Label Padding="24,48,24,48" FontAttributes="Bold" Text="{Binding CardTitle, FallbackValue='Online Store'}" HorizontalTextAlignment="Start" 
+                   VerticalTextAlignment="Start" VerticalOptions="Center" HorizontalOptions="Center"/>
+
+        </HorizontalStackLayout>
     </Border>
 
 </ContentView>

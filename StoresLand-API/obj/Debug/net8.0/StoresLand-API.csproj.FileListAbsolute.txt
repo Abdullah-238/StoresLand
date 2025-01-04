@@ -6,6 +6,7 @@ C:\Users\good1\source\repos\StoresLand\StoresLand-API\obj\Debug\net8.0\StoresLan
 C:\Users\good1\source\repos\StoresLand\StoresLand-API\obj\Debug\net8.0\StoresLand-API.AssemblyInfoInputs.cache
 C:\Users\good1\source\repos\StoresLand\StoresLand-API\obj\Debug\net8.0\StoresLand-API.AssemblyInfo.cs
 C:\Users\good1\source\repos\StoresLand\StoresLand-API\obj\Debug\net8.0\StoresLand-API.csproj.CoreCompileInputs.cache
+C:\Users\good1\source\repos\StoresLand\StoresLand-API\obj\Debug\net8.0\StoresLand-API.sourcelink.json
 C:\Users\good1\source\repos\StoresLand\StoresLand-API\obj\Debug\net8.0\StoresLand-API.dll
 C:\Users\good1\source\repos\StoresLand\StoresLand-API\obj\Debug\net8.0\refint\StoresLand-API.dll
 C:\Users\good1\source\repos\StoresLand\StoresLand-API\obj\Debug\net8.0\StoresLand-API.pdb

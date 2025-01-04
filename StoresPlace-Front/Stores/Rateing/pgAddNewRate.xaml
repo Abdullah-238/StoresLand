@@ -25,7 +25,7 @@
                     <Border.StrokeShape>
                         <RoundRectangle CornerRadius="4"/>
                     </Border.StrokeShape>
-                    <Editor x:Name="edtDesc"  Placeholder="Please enter your Complain here"  HeightRequest="100" MaxLength="180"
+                <Editor x:Name="edtDesc"  Placeholder="{x:Static str:AppStrings.Please_enter_your_rate_and_review}"  HeightRequest="100" MaxLength="180"
                             BackgroundColor="{AppThemeBinding Light={StaticResource Gray50}, Dark={StaticResource Gray950}}"  />
                 </Border>
 

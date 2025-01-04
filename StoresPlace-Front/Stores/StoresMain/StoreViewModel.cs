@@ -1,9 +1,9 @@
-﻿
-using StoresLand_API.CitiesServices;
+﻿using StoresLand_API.CitiesServices;
 using StoresLand_API.DistrictServices;
 using StoresLand_API.RegionsServices;
 using StoresLand_API.SavedStoresServices;
 using StoresLand_API.Stores;
+using StoresPlace_Front.Sqlite;
 using StoresPlace_Front.Sqlite.Regions;
 using System.ComponentModel;
 using System.Globalization;
@@ -147,31 +147,26 @@ namespace StoresPlace_Front.Stores.StoresMain
 
         public async void _Load(string CategoryName)
         {
+
             _CategoryName = CategoryName;
+
+            //if (!clsRegionLite.IsRegionsSaved())
+            //{
+            //    List<RegionDTO> AllRegions = await clsRegion.GetAllRegions();
+
+            //    await clsRegionLite.SaveRegionsAsync(AllRegions);
+            //}
+
 
             if (CultureInfo.CurrentCulture.Name.StartsWith("ar"))
             {
-                if (!clsRegionArDataLite.isRegionsArSaved())
-                {
-                    Regions = await clsRegion.GetAllRegionsByNameAr();
-
-                    clsRegionArDataLite.SaveRegionsArAsync(Regions);
-                }
-
-                Regions = clsRegionArDataLite.LoadRegionsArAsync();
+                Regions = await clsRegionLite.GetAllRegionsByNameAr();
 
                 Stores = await clsStore.GetStoresByCategoryNameAr(CategoryName, clsGlobal.TypeID);
             }
             else
             {
-                if (!clsRegionEnDataLite.isRegionsEnSaved())
-                {
-                    Regions = await clsRegion.GetAllRegionsByNameEn();
-
-                    clsRegionEnDataLite.SaveRegionsEnAsync(Regions);
-                }
-
-                Regions = clsRegionEnDataLite.LoadRegionsEnAsync();
+                Regions = await clsRegionLite.GetAllRegionsByNameEn();
 
                 Stores = await clsStore.GetStoresByCategoryNameEn(CategoryName, clsGlobal.TypeID);
             }
@@ -204,15 +199,22 @@ namespace StoresPlace_Front.Stores.StoresMain
         {
             string selectedRegion = _selectedRegion;
 
+            //if (!clsCityLite.IsCitiesSaved())
+            //{
+            //    var cities = await clsCity.GetAllCities();
+
+            //     clsCityLite.SaveCities(cities);
+            //}
+
             if (CultureInfo.CurrentCulture.Name.StartsWith("ar"))
             {
-                Cities = await clsCity.GetAllCitiesByRegionNameAr(selectedRegion);
+                Cities = await clsCityLite.GetAllCitiesByRegionNameAr(selectedRegion);
 
                 Stores = await clsStore.GetStoresByCategoryNameArAndRegionNameAr(_CategoryName, selectedRegion, clsGlobal.TypeID);
             }
             else
             {
-                Cities = await clsCity.GetAllCitiesByRegionNameEn(selectedRegion);
+                Cities = await clsCityLite.GetAllCitiesByRegionNameEn(selectedRegion);
 
                 Stores = await clsStore.GetStoresByCategoryNameEnAndRegionNameEn(_CategoryName, selectedRegion, clsGlobal.TypeID);
             }
@@ -223,15 +225,22 @@ namespace StoresPlace_Front.Stores.StoresMain
         {
             string selectedCity = _selectedCity;
 
+            //if (!clsDistrictLite.IsDistrictsSaved())
+            //{
+            //    var districts = await clsDistrict.GetAllDistrictsAsync();
+
+            //     clsDistrictLite.SaveDistricts(districts);
+            //}
+
             if (CultureInfo.CurrentCulture.Name.StartsWith("ar"))
             {
-                Districts = await clsDistrict.GetDistrictsByCityNameAr(selectedCity); ;
+                Districts = await clsDistrictLite.GetAllDistrictByCityNameAr(selectedCity); ;
 
                 Stores = await clsStore.GetStoresByCategoryNameArAndCityNameAr(_CategoryName, selectedCity, clsGlobal.TypeID);
             }
             else
             {
-                Districts = await clsDistrict.GetDistrictsByCityNameEn(selectedCity); ;
+                Districts = await clsDistrictLite.GetAllDistrictByCityNameEn(selectedCity); ;
 
                 Stores = await clsStore.GetStoresByCategoryNameEnAndCityNameEn(_CategoryName, selectedCity, clsGlobal.TypeID);
             }

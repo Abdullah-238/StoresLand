@@ -2,12 +2,13 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="StoresPlace_Front.StoresForSell.pgStoresForSell"
-             Title="{x:Static str:AppStrings.Stores_for_sale}"
-             Shell.NavBarIsVisible="False"
+             Title="{x:Static str:AppStrings.Stores}"
+             Shell.NavBarIsVisible="True"
+             Shell.TabBarIsVisible="False"
              xmlns:str="clr-namespace:StoresPlace_Front.Strings"
              xmlns:Store="clr-namespace:StoresPlace_Front.StoresForSell.StoresForSell"
              x:Name="StorePage"
-
+             
              Loaded="StorePage_Loaded"
              >
    
@@ -46,33 +47,32 @@
                                             </Frame>
 
                                             <VerticalStackLayout VerticalOptions="Center">
-                                                <Label Text="{Binding Name}" TextColor="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource Primary}}" MaxLines="1"/>
+                                                <Label FontAttributes="Bold" Text="{Binding Name}" TextColor="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource Primary}}" MaxLines="1"/>
                                                 <HorizontalStackLayout Spacing="4">
                                                     <Image HeightRequest="18" WidthRequest="18" Source="location"/>
-                                                    <Label Text="{Binding Address}"  MaxLines="1"/>
+                                                    <Label VerticalTextAlignment="Center" FontSize="Micro" Text="{Binding Address}"  MaxLines="1"/>
                                                 </HorizontalStackLayout>
                                             </VerticalStackLayout>
                                         </HorizontalStackLayout>
 
                                         <HorizontalStackLayout Spacing="4"    Grid.Column="2"  HorizontalOptions="End" VerticalOptions="Center">
                                             <Image Source="star"/>
-                                            <Label  FontSize="Caption" Text="{Binding Rating}" MaxLines="1"/>
-                                          
+                                            <Label  FontSize="Micro" Text="{Binding Rating}" MaxLines="1" VerticalTextAlignment="Center"/>
                                         </HorizontalStackLayout>
 
                                         <Border Grid.Row="1"  BackgroundColor="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource Primary}}"   
                                                  HorizontalOptions="Start" Padding="10,2,10,2"  StrokeShape="RoundRectangle 100" Stroke="Transparent" >
                                             <Label  FontSize="Caption"  HorizontalOptions="Start">
-                                       <Label.FormattedText>
-                                           <FormattedString>
-                                               <Span Text="{Binding Price}"/>
-                                               <Span Text="{x:Static str:AppStrings.Ryial}"/>
-                                           </FormattedString>
-                                       </Label.FormattedText>
-                                   </Label>
+                                                <Label.FormattedText>
+                                                    <FormattedString>
+                                                        <Span Text="{Binding Price}" TextColor="White"/>
+                                                        <Span Text="{x:Static str:AppStrings.Ryial}" TextColor="White"/>
+                                                    </FormattedString>
+                                                </Label.FormattedText>
+                                            </Label>
                                         </Border>
 
-                                   
+
                                         <Grid.GestureRecognizers>
                                             <TapGestureRecognizer 
                                                           Command="{Binding Path=BindingContext.SelectStore, Source={x:Reference StorePage}}"

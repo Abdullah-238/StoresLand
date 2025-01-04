@@ -22,7 +22,7 @@
         <ScrollView>
 
             <StackLayout Padding="24">
-                <CollectionView ItemsSource="{Binding MyStores}">
+                <CollectionView ItemsSource="{Binding MyStores}" EmptyView="{x:Static str:AppStrings.No_Stores}">
 
                     <CollectionView.ItemsLayout >
                         <LinearItemsLayout ItemSpacing="4" Orientation="Vertical" />
@@ -31,9 +31,9 @@
                     <CollectionView.ItemTemplate>
 
                         <DataTemplate>
-                            
-                            <Border StrokeShape="RoundRectangle 8" Stroke="Transparent">
-                                <Grid RowDefinitions="*,*,*"   ColumnDefinitions="*,*"  RowSpacing="8"   ColumnSpacing="12" BackgroundColor="{AppThemeBinding Light={StaticResource Gray100}, Dark={StaticResource Gray600}}" Padding="12">
+
+                            <Border StrokeShape="RoundRectangle 4" Stroke="{AppThemeBinding Light={StaticResource Gray100}, Dark={StaticResource Gray700}}" >
+                                <Grid RowDefinitions="*,*,*"   ColumnDefinitions="*,*"  RowSpacing="8"   ColumnSpacing="12" BackgroundColor="Transparent" Padding="12">
 
                                     <Border Grid.Column="2"  BackgroundColor="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource Primary}}"   
                                             HorizontalOptions="End" Padding="10,2,10,2"  StrokeShape="RoundRectangle 100" Stroke="Transparent" >
@@ -42,33 +42,34 @@
 
                                     <HorizontalStackLayout Grid.Row="1"  Spacing="8" >
 
-                                        <Frame   CornerRadius="99"  BackgroundColor="{StaticResource Gray500}" HeightRequest="32" WidthRequest="32" >
-                                            <Image  Source="{Binding Photo}" Aspect="Fill"  x:Name="imgCustomerImage"  HeightRequest="34" WidthRequest="34"/>
+
+                                        <Frame   CornerRadius="4"  BackgroundColor="Transparent" BorderColor="Transparent" HeightRequest="48" WidthRequest="48" >
+                                            <Image HeightRequest="48" WidthRequest="48"  Aspect="AspectFill"  Source="{Binding Photo}"/>
                                         </Frame>
-                                        
-                                        
+
+
 
                                         <VerticalStackLayout VerticalOptions="Center">
-                                            <Label HorizontalTextAlignment="Start" Text="{Binding Name}" TextColor="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource Primary}}" MaxLines="1"/>
+                                            <Label FontAttributes="Bold" Text="{Binding Name}" TextColor="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource Primary}}" MaxLines="1"/>
                                             <HorizontalStackLayout Spacing="4">
                                                 <Image HeightRequest="18" WidthRequest="18" Source="location"/>
-                                                <Label Text="{Binding DistrictsName}"  MaxLines="1" FontSize="Caption" HorizontalTextAlignment="Start"/>
+                                                <Label Text="{Binding Address}"  MaxLines="1" VerticalTextAlignment="Center" FontSize="Micro"/>
                                             </HorizontalStackLayout>
                                         </VerticalStackLayout>
                                     </HorizontalStackLayout>
 
                                     <HorizontalStackLayout Spacing="4"  Grid.Row="1"  Grid.Column="2"  HorizontalOptions="End" VerticalOptions="Center">
                                         <Image Source="star"/>
-                                        <Label  FontSize="Caption" Text="{Binding Rating}" MaxLines="1"/>
+                                        <Label  FontSize="Micro" Text="{Binding Rating}" MaxLines="1" VerticalTextAlignment="Center"/>
                                         <!--<Label  FontSize="Caption"  HorizontalOptions="Start">
-                                            <Label.FormattedText>
-                                                <FormattedString>
-                                                    <Span Text="("/>
-                                                    <Span Text="{Binding NumberOfRates}"/>
-                                                    <Span Text=")"/>
-                                                </FormattedString>
-                                            </Label.FormattedText>
-                                        </Label>-->
+    <Label.FormattedText>
+        <FormattedString>
+            <Span Text="("/>
+            <Span Text="{Binding NumberOfRates}"/>
+            <Span Text=")"/>
+        </FormattedString>
+    </Label.FormattedText>
+</Label>-->
                                     </HorizontalStackLayout>
 
                                     <Grid.GestureRecognizers>

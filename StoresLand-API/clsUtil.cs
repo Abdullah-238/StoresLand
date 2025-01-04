@@ -18,10 +18,10 @@ namespace StoresLand_API
         {
             //BaseAddress = new Uri("http://localhost:5114/api/Order/")
 
-            BaseAddress = new Uri("http://StoresLand.com/api/")
+            BaseAddress = new Uri("http://StoresLand.com/api/api/")
 
         };
-        static void Send_Message(string Message)
+        static public void Send_Message(string Message, string Title, string To)
         {
             try
             {
@@ -31,11 +31,11 @@ namespace StoresLand_API
 
                 //set the addresses 
                 mail.From = new MailAddress("a.almohammadi0@gmail.com");
-                mail.To.Add("good1.1@hotmail.com");
+                mail.To.Add(To);
 
                 //set the content 
-                mail.Subject = "Provider App";
-                mail.Body = Message + " Time : " + DateTime.Now.ToString();
+                mail.Subject = Title;
+                mail.Body = Message;
                 //send the message 
                 SmtpClient smtp = new SmtpClient("smtp.gmail.com");
 
@@ -56,24 +56,7 @@ namespace StoresLand_API
 
         public static void WriteExceptionError(string Error)
         {
-
-
-
-            //string s = ConfigurationManager.AppSettings["BaseAddress"];
-
-
-
-
-            //  Send_Message(Error);
-
-            //string SourceName = "Sheen App";
-
-            //if (!EventLog.SourceExists(SourceName))
-            //{
-            //    EventLog.CreateEventSource(SourceName, "Application");
-            //}
-            //EventLog.WriteEntry(SourceName, ex.Message, EventLogEntryType.Error);
-
+           
         }
 
         public static string ComputeHash(string input)

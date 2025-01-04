@@ -22,6 +22,8 @@
             <Entry  Placeholder="{x:Static str:AppStrings.Email }"  MaxLength="50"  x:Name="enEmail"    />
             <Entry  Placeholder="{x:Static str:AppStrings.Password }"  MaxLength="50"  x:Name="enPassword"    IsPassword="True"  />
             <Entry  Placeholder="{x:Static str:AppStrings.RePassword }"  MaxLength="50"  x:Name="EnRePassword"    IsPassword="True" />
+            
+            <Label Text="{x:Static str:AppStrings.It_should_contain_at_least_8_characters }" TextColor="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}" FontSize="Micro"/>
 
             <!--TextChanged="enEmail_TextChanged"-->
 

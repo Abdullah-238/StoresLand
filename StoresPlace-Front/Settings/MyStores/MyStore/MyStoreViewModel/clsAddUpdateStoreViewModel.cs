@@ -1,26 +1,18 @@
-﻿using Microsoft.Maui.Storage;
-using StoresLand_API;
+﻿using StoresLand_API;
 using StoresLand_API.Categories;
-using StoresLand_API.CitiesServices;
-using StoresLand_API.DistrictServices;
 using StoresLand_API.RegionsServices;
 using StoresLand_API.Stores;
 using StoresLand_API.TypesServices;
+using StoresPlace_Front.Sqlite;
 using StoresPlace_Front.Sqlite.Regions;
 using StoresPlace_Front.Strings;
-using System;
-using System.Collections.Generic;
 using System.ComponentModel;
 using System.Globalization;
-using System.Linq;
 using System.Net;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Input;
 
-
 namespace StoresPlace_Front.Settings.SettingsViewModel
-{
+{   
     public class clsAddUpdateStoreViewModel : INotifyPropertyChanged
     {
         private bool _isBusy;
@@ -191,11 +183,11 @@ namespace StoresPlace_Front.Settings.SettingsViewModel
 
             if (CultureInfo.CurrentCulture.Name.StartsWith("ar"))
             {
-                Cities = await clsCity.GetAllCitiesByRegionNameAr(selectedRegion);
+                Cities = await clsCityLite.GetAllCitiesByRegionNameAr(selectedRegion);
             }
             else
             {
-                Cities = await clsCity.GetAllCitiesByRegionNameEn(selectedRegion);
+                Cities = await clsCityLite.GetAllCitiesByRegionNameEn(selectedRegion);
             }
 
         }
@@ -206,11 +198,11 @@ namespace StoresPlace_Front.Settings.SettingsViewModel
 
             if (CultureInfo.CurrentCulture.Name.StartsWith("ar"))
             {
-                Districts = await  clsDistrict.GetDistrictsByCityNameAr(selectedCity); ;
+                Districts = await  clsDistrictLite.GetAllDistrictByCityNameAr(selectedCity); 
             }
             else
             {
-                Districts = await clsDistrict.GetDistrictsByCityNameEn(selectedCity); ;
+                Districts = await clsDistrictLite.GetAllDistrictByCityNameEn(selectedCity); 
             }
         }
 
@@ -223,32 +215,36 @@ namespace StoresPlace_Front.Settings.SettingsViewModel
 
             if (CultureInfo.CurrentCulture.Name.StartsWith("ar"))
             {
-                if (!clsRegionArDataLite.isRegionsArSaved())
+                if (!clsRegionLite.IsRegionsSaved())
                 {
-                    clsRegionArDataLite.SaveRegionsArAsync(await clsRegion.GetAllRegionsByNameAr());
+                    List<RegionDTO> AllRegions = await clsRegion.GetAllRegions();
+
+                    await clsRegionLite.SaveRegionsAsync(AllRegions);
                 }
 
-                Regions = clsRegionArDataLite.LoadRegionsArAsync();
+                Regions = await clsRegionLite.GetAllRegionsByNameAr();
 
-                Types = await clsType.GetAllTypesAr();
+                Types = await clsTypeLite.GetAllTypesAr();
 
-                Categories = await clsCategory.GetAllCategoryAr();
+                Categories = await clsCategoryLite.GetAllCategoryAr();
             }
             else
             {
-                if (!clsRegionEnDataLite.isRegionsEnSaved())
+                if (!clsRegionLite.IsRegionsSaved())
                 {
-                    clsRegionEnDataLite.SaveRegionsEnAsync(await clsRegion.GetAllRegionsByNameEn());
+                    List<RegionDTO> AllRegions = await clsRegion.GetAllRegions();
+
+                    await clsRegionLite.SaveRegionsAsync(AllRegions);
                 }
 
-                Regions = clsRegionEnDataLite.LoadRegionsEnAsync();
+                Regions = await clsRegionLite.GetAllRegionsByNameEn();
 
-                Categories = await clsCategory.GetAllCategoryEn();
+                Categories = await clsCategoryLite.GetAllCategoryEn();
 
-                Types = await clsType.GetAllTypesEn();
+                Types = await clsTypeLite.GetAllTypesEn();
             }
 
-            Store = new StoreDTO(null, "", "", null, "", "", null, null, null, null, null, null, "", null);
+            Store = new StoreDTO(null, "", "", null, "", "", null, null, null, null, null, null, "", null,null , null , null);
             Store.Rating = 5;
             Store.NumbersOfClick = 1;
             Store.NumberOfRates = 1;
@@ -264,48 +260,49 @@ namespace StoresPlace_Front.Settings.SettingsViewModel
         {
             IsBusy = true;
 
-            Task.Delay(10);
-
             if (CultureInfo.CurrentCulture.Name.StartsWith("ar"))
             {
-                Regions = await clsRegion.GetAllRegionsByNameAr();
+                Regions = await clsRegionLite.GetAllRegionsByNameAr();
 
-                Store =await clsStore.GetStore(StoreID);
+                Store = await clsStore.GetStore(StoreID);
 
-                Types = await clsType.GetAllTypesAr();
+                Types = await clsTypeLite.GetAllTypesAr();
 
-                Categories =await clsCategory.GetAllCategoryAr();
+                Categories = await clsCategoryLite.GetAllCategoryAr();
 
-                SelectedCategory = await  clsCategory.GetCategoryNameArByCategoryID(Store.CategoryID);
 
-                SelectedType = await clsType.GetTypeNameArByTypeID(Store.TypeID);
 
-                SelectedRegion = await clsRegion.GetRegionNameArByDistrictsID(Store.DistrictsID);
+                SelectedRegion = await clsRegionLite.GetRegionNameArByDistrictsID(Store.DistrictsID);
 
-                SelectedCity =await clsCity.GetCityNameArByDistrictsID(Store.DistrictsID);
+                SelectedCity = await clsCityLite.GetCityNameArByDistrictsID(Store.DistrictsID);
 
-                SelectedDistrict = await clsDistrict.GetDistrictsNameEnByDistrictsID(Store.DistrictsID);
+                SelectedCategory = await  clsCategoryLite.GetCategoryNameArByCategoryID(Store.CategoryID);
+
+                SelectedType = await clsTypeLite.GetTypeNameArByTypeID(Store.TypeID);
+
+                SelectedDistrict = await clsDistrictLite.GetDistrictsNameArByDistrictsID(Store.DistrictsID);
 
             }
             else
             {
-                Regions =await clsRegion.GetAllRegionsByNameEn();
+                Regions =await clsRegionLite.GetAllRegionsByNameEn();
 
                 Store = await clsStore.GetStore(StoreID);
 
-                Categories = await clsCategory.GetAllCategoryEn();
+                Categories = await clsCategoryLite.GetAllCategoryEn();
 
-                Types = await clsType.GetAllTypesEn();
+                Types = await clsTypeLite.GetAllTypesEn();
 
-                SelectedCategory = await clsCategory.GetCategoryNameEnByCategoryID(Store.CategoryID);
 
-                SelectedType = await clsType.GetTypeNameEnByTypeID(Store.TypeID);
+                SelectedRegion = await clsRegionLite.GetRegionNameEnByDistrictsID(Store.DistrictsID);
 
-                SelectedRegion = await clsRegion.GetRegionNameEnByDistrictsID(Store.DistrictsID);
+                SelectedCity = await clsCityLite.GetCityNameEnByDistrictsID(Store.DistrictsID);
+    
+                SelectedCategory = await clsCategoryLite.GetCategoryNameEnByCategoryID(Store.CategoryID);
 
-                SelectedCity = await clsCity.GetCityNameEnByDistrictsID(Store.DistrictsID);
-
-                SelectedDistrict = await clsDistrict.GetDistrictsNameArByDistrictsID(Store.DistrictsID);
+                SelectedType = await clsTypeLite.GetTypeNameEnByTypeID(Store.TypeID);
+          
+                SelectedDistrict = await clsDistrictLite.GetDistrictsNameArByDistrictsID(Store.DistrictsID);
 
             }
 
@@ -347,6 +344,8 @@ namespace StoresPlace_Front.Settings.SettingsViewModel
                 return;
             }
 
+            if (string.IsNullOrEmpty(Store.Website))
+                Store.Website = null;
 
             if (SelectedCategory == null || SelectedCity == null || SelectedType == null || SelectedRegion == null)
             {
@@ -357,26 +356,31 @@ namespace StoresPlace_Front.Settings.SettingsViewModel
 
             IsBusy = true;
 
-            await Task.Delay(10);
 
             if (CultureInfo.CurrentCulture.Name.StartsWith("ar"))
             {
 
-                Store.TypeID = await clsType.GetTypeIDByTypeNameAr(SelectedType);
+                Store.TypeID = await clsTypeLite.GetTypeIDByTypeNameAr(SelectedType);
 
-                Store.CategoryID = await clsCategory.GetCategoryIDByCategoryNameAr(SelectedCategory);
+                Store.CategoryID = await clsCategoryLite.GetCategoryIDByCategoryNameAr(SelectedCategory);
 
                 if (SelectedDistrict != null)
-                    Store.DistrictsID = await clsDistrict.GetDistrictsIDByDistrictNameAr(SelectedDistrict);
+                    Store.DistrictsID = await clsDistrictLite.GetDistrictsIDByDistrictNameAr(SelectedDistrict);
+                else
+                    Store.DistrictsID = null;
             }
             else
             {
-                Store.TypeID = await clsType.GetTypeIDByTypeNameEn(SelectedType);
+                Store.TypeID = await clsTypeLite.GetTypeIDByTypeNameEn(SelectedType);
 
-                Store.CategoryID = await clsCategory.GetCategoryIDByCategoryNameEn(SelectedCategory);
+                Store.CategoryID = await clsCategoryLite.GetCategoryIDByCategoryNameEn(SelectedCategory);
 
                 if (SelectedDistrict != null)
-                    Store.DistrictsID = await clsDistrict.GetDistrictsIDByDistrictNameEn(SelectedDistrict);
+                    Store.DistrictsID = await clsDistrictLite.GetDistrictsIDByDistrictNameEn(SelectedDistrict);
+                else
+                    Store.DistrictsID = null;
+
+               // Store.CityID = await clsCity.G
             }
 
             if (ImagePath != Store.Photo)
@@ -386,7 +390,7 @@ namespace StoresPlace_Front.Settings.SettingsViewModel
 
             if (Store.StoreID != null )
             {
-                if (clsStore.UpdateStore(Store.StoreID, Store) != null)
+                if (await clsStore.UpdateStore(Store.StoreID, Store) != null)
                 {
                     IsBusy = true;
 
@@ -405,7 +409,7 @@ namespace StoresPlace_Front.Settings.SettingsViewModel
             }
             else
             {
-                if (clsStore.AddStore(Store) != null)
+                if (await clsStore.AddStore(Store) != null)
                 {
                     IsBusy = true;
 
@@ -450,7 +454,7 @@ namespace StoresPlace_Front.Settings.SettingsViewModel
 
                     await sourceStream.CopyToAsync(localFileStream);
 
-                    string publicUrl = $"http://abdullah0-001-site1.mtempurl.com/{fileName}";
+                    string publicUrl = $"http://storesland.com/Images/{fileName}";
 
                     Store.Photo = publicUrl;
 
@@ -462,7 +466,7 @@ namespace StoresPlace_Front.Settings.SettingsViewModel
         private async void UploadImageToFtpAsync()
         {
 
-            string ftpServer = "ftp://win6057.site4now.net", ftpUsername = @"abdullah0-001", ftpPassword = @"Qq-12341234", remoteFolder = "storesplace";    
+            string ftpServer = "ftp://win6057.site4now.net", ftpUsername = @"abdullah0-001", ftpPassword = @"Qq-12341234", remoteFolder = "storesplace/Images";    
 
             string fileName = Path.GetFileName(ImagePath); 
 

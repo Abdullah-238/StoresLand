@@ -34,28 +34,29 @@
 
                         <DataTemplate>
 
-                            <Border StrokeShape="RoundRectangle 8" Stroke="Transparent">
-                                <Grid RowDefinitions="*"   ColumnDefinitions="*,*"  RowSpacing="8"   ColumnSpacing="12" BackgroundColor="{AppThemeBinding Light={StaticResource Gray100}, Dark={StaticResource Gray600}}" Padding="12">
+                            <Border StrokeShape="RoundRectangle 4" Stroke="{AppThemeBinding Light={StaticResource Gray100}, Dark={StaticResource Gray700}}" >
+                                <Grid RowDefinitions="*"   ColumnDefinitions="*,*"  RowSpacing="8"   ColumnSpacing="12" BackgroundColor="Transparent" Padding="12">
 
                                 
                                     <HorizontalStackLayout   Spacing="8" >
 
-                                        <Frame   CornerRadius="99"  BackgroundColor="{StaticResource Gray500}" HeightRequest="32" WidthRequest="32" >
-                                            <Image  Source="{Binding Photo}" Aspect="Fill"  x:Name="imgCustomerImage"  HeightRequest="34" WidthRequest="34"/>
+                                        <Frame  CornerRadius="4"  BackgroundColor="Transparent" BorderColor="Transparent" HeightRequest="48" WidthRequest="48" >
+                                            <Image  Source="{Binding Photo}"   x:Name="imgCustomerImage"  HeightRequest="48" WidthRequest="48"  Aspect="AspectFill" />
                                         </Frame>
 
                                         <VerticalStackLayout VerticalOptions="Center">
-                                            <Label HorizontalTextAlignment="Start" Text="{Binding Name}" TextColor="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource Primary}}" MaxLines="1"/>
+                                            <Label FontAttributes="Bold" Text="{Binding Name}" TextColor="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource Primary}}" MaxLines="1"/>
                                             <HorizontalStackLayout Spacing="4">
                                                 <Image HeightRequest="18" WidthRequest="18" Source="location"/>
-                                                <Label Text="{Binding DistrictsName}"  MaxLines="1" FontSize="Caption" HorizontalTextAlignment="Start"/>
+                                                <Label VerticalTextAlignment="Center" FontSize="Micro" Text="{Binding Address}"  MaxLines="1"/>
                                             </HorizontalStackLayout>
                                         </VerticalStackLayout>
+                                        
                                     </HorizontalStackLayout>
 
                                     <HorizontalStackLayout Spacing="4" Grid.Row="1"  Grid.Column="2"  HorizontalOptions="End" VerticalOptions="Start">
-                                        <Image HorizontalOptions="Center" Source="star"/>
-                                        <Label  FontSize="Caption" VerticalTextAlignment="Center"  HorizontalTextAlignment="Center" Text="{Binding Rating}" MaxLines="1"/>
+                                        <Image Source="star"/>
+                                        <Label  FontSize="Micro" Text="{Binding Rating}" MaxLines="1" VerticalTextAlignment="Center"/>
                                     </HorizontalStackLayout>
 
                                     <Grid.GestureRecognizers>
@@ -71,7 +72,9 @@
 
                 </CollectionView>
 
-                <ActivityIndicator IsVisible="{Binding IsBusy}" IsRunning="{Binding IsBusy}" TranslationY="-50"  />
+
+                <ActivityIndicator IsVisible="{Binding IsBusy}" IsRunning="{Binding IsBusy}" Color="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}" TranslationY="-100"  />
+
 
             </StackLayout>
         </ScrollView>

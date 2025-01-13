@@ -114,6 +114,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = StoresPlace_Front.Settings
 build_metadata.AdditionalFiles.TargetPath = Settings\Control\ctvSettings.xaml
 build_metadata.AdditionalFiles.RelativePath = Settings\Control\ctvSettings.xaml
 
+[C:/Users/good1/source/repos/StoresLand/StoresPlace-Front/Settings/MyStores/Coupon/pgAddNewCoupoun.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = StoresPlace_Front.Settings.MyStores.Coupon.pgAddNewCoupoun.xaml
+build_metadata.AdditionalFiles.TargetPath = Settings\MyStores\Coupon\pgAddNewCoupoun.xaml
+build_metadata.AdditionalFiles.RelativePath = Settings\MyStores\Coupon\pgAddNewCoupoun.xaml
+
 [C:/Users/good1/source/repos/StoresLand/StoresPlace-Front/Settings/MyStores/MyStore/pgAddNewStore.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = StoresPlace_Front.Settings.MyStores.MyStore.pgAddNewStore.xaml
@@ -138,17 +144,11 @@ build_metadata.AdditionalFiles.ManifestResourceName = StoresPlace_Front.Settings
 build_metadata.AdditionalFiles.TargetPath = Settings\MyStores\Offers\pgAddNewOffer.xaml
 build_metadata.AdditionalFiles.RelativePath = Settings\MyStores\Offers\pgAddNewOffer.xaml
 
-[C:/Users/good1/source/repos/StoresLand/StoresPlace-Front/Settings/MyStores/pgAddNewCoupoun.xaml]
+[C:/Users/good1/source/repos/StoresLand/StoresPlace-Front/Settings/MyStores/SellYouStore/pgSellYourStore.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = StoresPlace_Front.Settings.MyStores.pgAddNewCoupoun.xaml
-build_metadata.AdditionalFiles.TargetPath = Settings\MyStores\pgAddNewCoupoun.xaml
-build_metadata.AdditionalFiles.RelativePath = Settings\MyStores\pgAddNewCoupoun.xaml
-
-[C:/Users/good1/source/repos/StoresLand/StoresPlace-Front/Settings/MyStores/pgSellYourStore.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = StoresPlace_Front.Settings.MyStores.pgSellYourStore.xaml
-build_metadata.AdditionalFiles.TargetPath = Settings\MyStores\pgSellYourStore.xaml
-build_metadata.AdditionalFiles.RelativePath = Settings\MyStores\pgSellYourStore.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = StoresPlace_Front.Settings.MyStores.SellYouStore.pgSellYourStore.xaml
+build_metadata.AdditionalFiles.TargetPath = Settings\MyStores\SellYouStore\pgSellYourStore.xaml
+build_metadata.AdditionalFiles.RelativePath = Settings\MyStores\SellYouStore\pgSellYourStore.xaml
 
 [C:/Users/good1/source/repos/StoresLand/StoresPlace-Front/Settings/pgAppSettings.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

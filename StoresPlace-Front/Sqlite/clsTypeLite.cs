@@ -1,4 +1,5 @@
 ﻿using Microsoft.Data.Sqlite;
+using StoresLand_API;
 using StoresLand_API.TypesServices;
 using System;
 using System.Collections.Generic;
@@ -37,7 +38,7 @@ namespace StoresPlace_Front.Sqlite
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message); // Replace with appropriate logging
+                clsUtil.WriteExceptionError(ex); // Replace with appropriate logging
             }
         }
 
@@ -88,7 +89,7 @@ namespace StoresPlace_Front.Sqlite
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message); // Replace with appropriate logging
+                clsUtil.WriteExceptionError(ex); // Replace with appropriate logging
             }
         }
 
@@ -120,7 +121,7 @@ namespace StoresPlace_Front.Sqlite
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message);
+                clsUtil.WriteExceptionError(ex);
             }
         }
 
@@ -152,7 +153,7 @@ namespace StoresPlace_Front.Sqlite
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message); // Replace with appropriate logging
+                clsUtil.WriteExceptionError(ex); // Replace with appropriate logging
             }
             return types;
         }
@@ -183,7 +184,7 @@ namespace StoresPlace_Front.Sqlite
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message); // Log the exception
+                clsUtil.WriteExceptionError(ex); // Log the exception
             }
 
             return isFound; // Returns true if any type is found, otherwise false
@@ -213,7 +214,7 @@ namespace StoresPlace_Front.Sqlite
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message);
+                clsUtil.WriteExceptionError(ex);
             }
             return typeNamesAr;
         }
@@ -242,7 +243,7 @@ namespace StoresPlace_Front.Sqlite
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message); // Replace with appropriate logging
+                clsUtil.WriteExceptionError(ex); // Replace with appropriate logging
             }
             return typeNamesEn;
         }
@@ -274,7 +275,7 @@ namespace StoresPlace_Front.Sqlite
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message); // Replace with appropriate logging
+                clsUtil.WriteExceptionError(ex); // Replace with appropriate logging
             }
             return null;
         }
@@ -306,7 +307,7 @@ namespace StoresPlace_Front.Sqlite
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message); // Replace with appropriate logging
+                clsUtil.WriteExceptionError(ex); // Replace with appropriate logging
             }
             return null;
         }
@@ -339,7 +340,7 @@ namespace StoresPlace_Front.Sqlite
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message);
+                clsUtil.WriteExceptionError(ex);
             }
             return null;
         }
@@ -363,7 +364,7 @@ namespace StoresPlace_Front.Sqlite
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message);
+                clsUtil.WriteExceptionError(ex);
             }
             return null;
         }
@@ -386,7 +387,7 @@ namespace StoresPlace_Front.Sqlite
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message);
+                clsUtil.WriteExceptionError(ex);
             }
             return null;
         }
@@ -394,6 +395,8 @@ namespace StoresPlace_Front.Sqlite
 
         public static async Task<int?> GetTypeIDByTypeNameEn(string typeNameEn)
         {
+            int? TypeID = 0; 
+
             try
             {
                 using (var connection = new SqliteConnection(clsSqliteString.connectionString))
@@ -404,19 +407,21 @@ namespace StoresPlace_Front.Sqlite
                     {
                         command.Parameters.AddWithValue("@TypeNameEn", typeNameEn);
                         var result = await command.ExecuteScalarAsync();
-                        return result as int?;
+                        TypeID = int.Parse(result.ToString()) ;
                     }
                 }
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message);
+                clsUtil.WriteExceptionError(ex);
             }
-            return null;
+            return TypeID;
         }
 
         public static async Task<int?> GetTypeIDByTypeNameAr(string typeNameAr)
         {
+            int? TypeID = 0;
+
             try
             {
                 using (var connection = new SqliteConnection(clsSqliteString.connectionString))
@@ -427,15 +432,15 @@ namespace StoresPlace_Front.Sqlite
                     {
                         command.Parameters.AddWithValue("@TypeNameAr", typeNameAr);
                         var result = await command.ExecuteScalarAsync();
-                        return result as int?;
+                        TypeID = int.Parse(result.ToString());
                     }
                 }
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message);
+                clsUtil.WriteExceptionError(ex);
             }
-            return null;
+            return TypeID;
         }
     }
 

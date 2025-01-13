@@ -811,4 +811,19 @@ For example, a red T-shirt with black stripes</value>
   <data name="Verification_of_the_temporary_code" xml:space="preserve">
     <value>Verification of the temporary code</value>
   </data>
+  <data name="Load_More" xml:space="preserve">
+    <value>Load more</value>
+  </data>
+  <data name="No_other_stores" xml:space="preserve">
+    <value>No other stores</value>
+  </data>
+  <data name="this_user_inactive" xml:space="preserve">
+    <value>This user inactive</value>
+  </data>
+  <data name="Inactive" xml:space="preserve">
+    <value>Inactive</value>
+  </data>
+  <data name="Please_enter_another_email_this_email_doesn't_Exist" xml:space="preserve">
+    <value>Please enter another email this email doesn't Exist</value>
+  </data>
 </root>

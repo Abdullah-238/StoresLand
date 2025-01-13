@@ -73,6 +73,13 @@
                 <Label TextColor="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}" FontSize="Caption"   Text="{x:Static str:AppStrings.Address}" MaxLines="1" FontAttributes="Bold"/>
                 <Label FontSize="Caption" Text="{Binding Address}" LineBreakMode="TailTruncation" MaxLines="2"/>
 
+                 <Label TextColor="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}" FontSize="Caption"   Text="{x:Static str:AppStrings.Email}" MaxLines="1" FontAttributes="Bold"/>
+                 <Label FontSize="Caption" Text="{Binding Email}" LineBreakMode="TailTruncation" MaxLines="2"/>
+
+                    <Label TextColor="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}" FontSize="Caption"   Text="{x:Static str:AppStrings.Email}" MaxLines="1" FontAttributes="Bold"/>
+                    <Label FontSize="Caption" Text="{Binding Phone}" LineBreakMode="TailTruncation" MaxLines="2"/>
+
+
 
                     <Label TextColor="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}" FontSize="Caption" FontAttributes="Bold"  Text="{x:Static str:AppStrings.Website}" MaxLines="1" />
 

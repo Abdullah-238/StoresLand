@@ -118,7 +118,7 @@
 	  <MauiXaml Update="Settings\Control\ctvSettings.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Settings\MyStores\pgAddNewCoupoun.xaml">
+	  <MauiXaml Update="Settings\MyStores\Coupon\pgAddNewCoupoun.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Settings\MyStores\Offers\pgAddNewOffer.xaml">
@@ -133,7 +133,7 @@
 	  <MauiXaml Update="Settings\MyStores\MyStore\pgMyStores.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Settings\MyStores\pgSellYourStore.xaml">
+	  <MauiXaml Update="Settings\MyStores\SellYouStore\pgSellYourStore.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Settings\pgAppSettings.xaml">
@@ -169,10 +169,6 @@
 	  <MauiXaml Update="Stores\Rateing\pgAddNewRate.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	</ItemGroup>
-
-	<ItemGroup>
-	  <Folder Include="Settings\SettingsViewModel\" />
 	</ItemGroup>
 
 	<ItemGroup>

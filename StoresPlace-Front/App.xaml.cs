@@ -1,8 +1,15 @@
 ﻿using Microsoft.Maui.Controls.Platform;
 using StoresLand_API;
+using StoresLand_API.Categories;
+using StoresLand_API.CitiesServices;
+using StoresLand_API.DistrictServices;
 using StoresLand_API.Persons;
+using StoresLand_API.RegionsServices;
+using StoresLand_API.TypesServices;
 using StoresPlace_Front.Global;
 using StoresPlace_Front.Main;
+using StoresPlace_Front.Sqlite;
+using StoresPlace_Front.Sqlite.Regions;
 
 namespace StoresPlace_Front
 {
@@ -24,8 +31,43 @@ namespace StoresPlace_Front
             _LoadAppTheme();
 
             await _LoginOptionAsync();
+
+            await SaveDataAsync();
         }
 
+
+        public async Task SaveDataAsync()
+        {
+
+            if (!clsRegionLite.TableExists())
+            {
+                List<RegionDTO> allRegions = await clsRegionLite.ReadRegionsFromFile();
+
+                List<CityDTO> cities = await clsCityLite.ReadCitiesFromFile();
+
+                List<DistrictDTO> csvData = await clsDistrictLite.ReadDistrictsFromFile();
+
+                await clsDistrictLite.SaveDistrictsAsync(csvData);
+
+                await clsRegionLite.SaveRegionsAsync(allRegions);
+
+                await clsCityLite.SaveCitiesAsync(cities);
+            }
+
+            if (!clsTypeLite.IsTypesSaved())
+            {
+                List<TypeDTO> types = await clsType.GetAllTypes();
+
+                await clsTypeLite.SaveTypesAsync(types);
+            }
+
+            if (!clsCategoryLite.IsCategoriesSaved())
+            {
+                List<CategoryDTO> Categories = await clsCategory.GetAllCategories();
+
+                await clsCategoryLite.SaveCategoriesAsync(Categories);
+            }
+        }
         async Task _LoginOptionAsync()
         {
             if (Preferences.ContainsKey(clsAppConstants.Email) && Preferences.ContainsKey(clsAppConstants.Password))
@@ -55,7 +97,6 @@ namespace StoresPlace_Front
         {
             string Mode = Preferences.Default.Get("Mode", "");
 
-
             switch (Mode)
             {
                 case "Default":
@@ -71,6 +112,9 @@ namespace StoresPlace_Front
                     Application.Current.UserAppTheme = AppTheme.Unspecified;
                     break;
             }
+
+            Preferences.Default.Set("Mode", Mode);
+
         }
     }
 }

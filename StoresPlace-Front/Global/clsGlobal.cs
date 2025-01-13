@@ -31,7 +31,7 @@ public class clsGlobal
 
         var latestVersion = await clsAppSettings.GetVersionStringAsync();
 
-        if (latestVersion != null)
+        if (!string.IsNullOrEmpty(latestVersion))
         {
             if (currentVersion != latestVersion)
             {

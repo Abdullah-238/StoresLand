@@ -1,0 +1,13 @@
+﻿1	RD	منطقة الرياض	Riyadh
+2	MQ	منطقة مكة المكرمة	Makkah
+3	MN	منطقة المدينة المنورة	Madinah
+4	QA	منطقة القصيم	Qassim
+5	SQ	المنطقة الشرقية	Eastern Province
+6	AS	منطقة عسير	Asir
+7	TB	منطقة تبوك	Tabuk
+8	HA	منطقة حائل	Hail
+9	SH	منطقة الحدود الشمالية	Northern Borders
+10	GA	منطقة جازان	Jazan
+11	NG	منطقة نجران	Najran
+12	BA	منطقة الباحة	Bahah
+13	GO	منطقة الجوف	Jawf

@@ -46,23 +46,26 @@ namespace StoresLand_API.StoresForSaleServices
         public string PersonName { get; set; }
         public int? StoreID { get; set; }
 
+        public string? Email { get; set; }
+
+        public string? Phone { get; set; }
         public decimal? Price { get; set; }
 
         public string StoresForSaleStatus { get; set; }
 
-        public StoresForSaleDetailsDTO(string name, string regionNameAr, string cityNameAr, string districtsNameAr, string commercialNumber, string website, string address,
-            string categoryNameAr, string typeNameAr, byte? rating, decimal? numberOfRates, string storeStatus, decimal? numbersOfClick, string photo, string personName,
-            int? storeid, decimal? price, string storesForsalestatus)
+        public StoresForSaleDetailsDTO(string name, string regionName, string cityName, string districtsName, string commercialNumber, string website, string address,
+            string categoryName, string typeName, byte? rating, decimal? numberOfRates, string storeStatus, decimal? numbersOfClick, string photo, string personName,
+            int? storeid, string? email, string? phone, decimal? price, string storesForsalestatus)
         {
             Name = name;
-            RegionName = regionNameAr;
-            CityName = cityNameAr;
-            DistrictsName = districtsNameAr;
+            RegionName = regionName;
+            CityName = cityName;
+            DistrictsName = districtsName;
             CommercialNumber = commercialNumber;
             Website = website;
             Address = address;
-            CategoryName = categoryNameAr;
-            TypeName = typeNameAr;
+            CategoryName = categoryName;
+            TypeName = typeName;
             Rating = rating;
             NumberOfRates = numberOfRates;
             StoreStatus = storeStatus;
@@ -70,6 +73,8 @@ namespace StoresLand_API.StoresForSaleServices
             Photo = photo;
             PersonName = personName;
             StoreID = storeid;
+            Email = email;
+            Phone = phone;
             Price = price;
             StoresForSaleStatus = storesForsalestatus;
         }
@@ -91,13 +96,12 @@ namespace StoresLand_API.StoresForSaleServices
                 else
                 {
                     string responseBody = await response.Content.ReadAsStringAsync();
-                    clsUtil.WriteExceptionError($"Status Code: {response.StatusCode}, Body: {responseBody}");
                     return null;
                 }
             }
             catch (Exception ex)
             {
-                clsUtil.WriteExceptionError(ex.Message);
+                clsUtil.WriteExceptionError(ex);
                 return null;
             }
         }
@@ -115,13 +119,13 @@ namespace StoresLand_API.StoresForSaleServices
                 else
                 {
                     string responseBody = await response.Content.ReadAsStringAsync();
-                    clsUtil.WriteExceptionError($"Status Code: {response.StatusCode}, Body: {responseBody}");
+
                     return null;
                 }
             }
             catch (Exception ex)
             {
-                clsUtil.WriteExceptionError(ex.Message);
+                clsUtil.WriteExceptionError(ex);
                 return null;
             }
         }
@@ -139,13 +143,13 @@ namespace StoresLand_API.StoresForSaleServices
                 else
                 {
                     string responseBody = await response.Content.ReadAsStringAsync();
-                    clsUtil.WriteExceptionError($"Status Code: {response.StatusCode}, Body: {responseBody}");
+
                     return false;
                 }
             }
             catch (Exception ex)
             {
-                clsUtil.WriteExceptionError(ex.Message);
+                clsUtil.WriteExceptionError(ex);
                 return false;
             }
         }
@@ -163,13 +167,13 @@ namespace StoresLand_API.StoresForSaleServices
                 else
                 {
                     string responseBody = await response.Content.ReadAsStringAsync();
-                    clsUtil.WriteExceptionError($"Status Code: {response.StatusCode}, Body: {responseBody}");
+
                     return null;
                 }
             }
             catch (Exception ex)
             {
-                clsUtil.WriteExceptionError(ex.Message);
+                clsUtil.WriteExceptionError(ex);
                 return null;
             }
         }
@@ -198,7 +202,7 @@ namespace StoresLand_API.StoresForSaleServices
             }
             catch (Exception ex)
             {
-                clsUtil.WriteExceptionError(ex.Message);
+                clsUtil.WriteExceptionError(ex);
             }
 
             return null;
@@ -227,12 +231,12 @@ namespace StoresLand_API.StoresForSaleServices
                 else
                 {
                     string responseBody = await response.Content.ReadAsStringAsync();
-                    clsUtil.WriteExceptionError($"Status Code: {response.StatusCode}, Body: {responseBody}");
+
                 }
             }
             catch (Exception ex)
             {
-                clsUtil.WriteExceptionError(ex.Message);
+                clsUtil.WriteExceptionError(ex);
             }
 
             return null;
@@ -251,13 +255,13 @@ namespace StoresLand_API.StoresForSaleServices
                 else
                 {
                     string responseBody = await response.Content.ReadAsStringAsync();
-                    clsUtil.WriteExceptionError($"Status Code: {response.StatusCode}, Body: {responseBody}");
+
                     return false;
                 }
             }
             catch (Exception ex)
             {
-                clsUtil.WriteExceptionError(ex.Message);
+                clsUtil.WriteExceptionError(ex);
                 return false;
             }
         }

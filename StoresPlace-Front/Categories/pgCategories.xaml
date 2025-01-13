@@ -10,42 +10,48 @@
              xmlns:Categories="clr-namespace:StoresPlace_Front.Categories"
              >
 
- 
-    <ScrollView>
-        <VerticalStackLayout Padding="24" Spacing="12">
-            <Label x:Name="lblTypeName" />
 
-           
-            <VerticalStackLayout >
-                <CollectionView   ItemsSource="{Binding Categories}"  >
+    <AbsoluteLayout>
 
-                    <CollectionView.ItemsLayout >
+        <ScrollView  Padding="24" AbsoluteLayout.LayoutBounds="0.5, 0.5, 1, 1" AbsoluteLayout.LayoutFlags="All">
+            <VerticalStackLayout  Spacing="12">
+                <Label x:Name="lblTypeName" />
 
-                        <GridItemsLayout HorizontalItemSpacing="4" VerticalItemSpacing="4" Orientation="Vertical"  Span="2"/>
-                    </CollectionView.ItemsLayout>
-                    <CollectionView.ItemTemplate>
+
+                <VerticalStackLayout >
+                    <CollectionView   ItemsSource="{Binding Categories}"  >
+
+                        <CollectionView.ItemsLayout >
+
+                            <GridItemsLayout HorizontalItemSpacing="4" VerticalItemSpacing="4" Orientation="Vertical"  Span="2"/>
+                        </CollectionView.ItemsLayout>
+                        <CollectionView.ItemTemplate>
                             <DataTemplate  >
-                            <Border StrokeShape="RoundRectangle 4" Stroke="{AppThemeBinding Light={StaticResource Gray100}, Dark={StaticResource Gray700}}" >
-                                <HorizontalStackLayout  Spacing="4"  BackgroundColor="Transparent" >
-                                    <Label  Padding="12" FontSize="Caption" Text="{Binding }"/>
+                                <Border StrokeShape="RoundRectangle 4" Stroke="{AppThemeBinding Light={StaticResource Gray100}, Dark={StaticResource Gray700}}" >
+                                    <HorizontalStackLayout  Spacing="4"  BackgroundColor="Transparent" >
+                                        <Label  Padding="12" FontSize="Caption" Text="{Binding }"/>
 
-                                    <HorizontalStackLayout.GestureRecognizers>
-                                        <TapGestureRecognizer 
+                                        <HorizontalStackLayout.GestureRecognizers>
+                                            <TapGestureRecognizer 
                                             Command="{Binding Path=BindingContext.ChooseCategory, Source={x:Reference CategoriesPage}}"
                                             CommandParameter="{Binding .}"/>
-                                    </HorizontalStackLayout.GestureRecognizers>
-                                </HorizontalStackLayout>
-                               
-                            </Border>
-                        </DataTemplate>
+                                        </HorizontalStackLayout.GestureRecognizers>
+                                    </HorizontalStackLayout>
+
+                                </Border>
+                            </DataTemplate>
                         </CollectionView.ItemTemplate>
                     </CollectionView>
                 </VerticalStackLayout>
 
 
-            <ActivityIndicator TranslationY="-50" Color="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}" IsVisible="{Binding IsBusy}" IsRunning="{Binding IsBusy}"/>
+            </VerticalStackLayout>
+        </ScrollView>
 
-        </VerticalStackLayout>
-    </ScrollView>
+        <ActivityIndicator IsVisible="{Binding IsBusy}" IsRunning="{Binding IsBusy}"
+                           Color="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}"
+                           AbsoluteLayout.LayoutBounds="0.5, 0.5, AutoSize, AutoSize"
+                           AbsoluteLayout.LayoutFlags="PositionProportional" />
 
+    </AbsoluteLayout>
 </ContentPage>

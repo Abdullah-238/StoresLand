@@ -1,6 +1,7 @@
 ﻿using StoresLand_API.Stores;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Net.Http.Json;
 using System.Text;
@@ -40,13 +41,13 @@ namespace StoresLand_API.SavedStoresServices
                 else
                 {
                     string responseBody = await response.Content.ReadAsStringAsync();
-                    clsUtil.WriteExceptionError($"Status Code: {response.StatusCode}, Body: {responseBody}");
+
                     return null;
                 }
             }
             catch (Exception ex)
             {
-                clsUtil.WriteExceptionError(ex.Message);
+                clsUtil.WriteExceptionError(ex);
                 return null;
             }
         }
@@ -64,12 +65,12 @@ namespace StoresLand_API.SavedStoresServices
                 else
                 {
                     string responseBody = await response.Content.ReadAsStringAsync();
-                    clsUtil.WriteExceptionError($"Status Code: {response.StatusCode}, Body: {responseBody}");
+
                 }
             }
             catch (Exception ex)
             {
-                clsUtil.WriteExceptionError(ex.Message);
+                clsUtil.WriteExceptionError(ex);
             }
 
             return false;
@@ -89,13 +90,13 @@ namespace StoresLand_API.SavedStoresServices
                 else
                 {
                     string responseBody = await response.Content.ReadAsStringAsync();
-                    clsUtil.WriteExceptionError($"Status Code: {response.StatusCode}, Body: {responseBody}");
+
                     return false;
                 }
             }
             catch (Exception ex)
             {
-                clsUtil.WriteExceptionError(ex.Message);
+                clsUtil.WriteExceptionError(ex);
                 return false;
             }
         }
@@ -113,13 +114,13 @@ namespace StoresLand_API.SavedStoresServices
                 else
                 {
                     string responseBody = await response.Content.ReadAsStringAsync();
-                    clsUtil.WriteExceptionError($"Status Code: {response.StatusCode}, Body: {responseBody}");
+
                     return false;
                 }
             }
             catch (Exception ex)
             {
-                clsUtil.WriteExceptionError(ex.Message);
+                clsUtil.WriteExceptionError(ex);
                 return false;
             }
         }
@@ -137,13 +138,13 @@ namespace StoresLand_API.SavedStoresServices
                 else
                 {
                     string responseBody = await response.Content.ReadAsStringAsync();
-                    clsUtil.WriteExceptionError($"Status Code: {response.StatusCode}, Body: {responseBody}");
+
                     return null;
                 }
             }
             catch (Exception ex)
             {
-                clsUtil.WriteExceptionError(ex.Message);
+                clsUtil.WriteExceptionError(ex);
                 return null;
             }
         }
@@ -161,61 +162,61 @@ namespace StoresLand_API.SavedStoresServices
                 else
                 {
                     string responseBody = await response.Content.ReadAsStringAsync();
-                    clsUtil.WriteExceptionError($"Status Code: {response.StatusCode}, Body: {responseBody}");
+
                     return null;
                 }
             }
             catch (Exception ex)
             {
-                clsUtil.WriteExceptionError(ex.Message);
+                clsUtil.WriteExceptionError(ex);
                 return null;
             }
         }
 
-        public static async Task<List<StoreDetailsDTO>> GetSavedStoreByPersonIDAr(int? personID)
+        public static async Task<ObservableCollection<StoreDetailsDTO>> GetSavedStoreByPersonIDAr(int? personID, int? PageNumber)
         {
             try
             {
-                var response = await clsUtil.httpClient.GetAsync($"SavedStores/GetSavedStoreByPersonIDAr/{personID}");
+                var response = await clsUtil.httpClient.GetAsync($"SavedStores/GetSavedStoreByPersonIDAr/{personID}/{PageNumber}");
 
                 if (response.IsSuccessStatusCode)
                 {
-                    return await response.Content.ReadFromJsonAsync<List<StoreDetailsDTO>>();
+                    return await response.Content.ReadFromJsonAsync<ObservableCollection<StoreDetailsDTO>>();
                 }
                 else
                 {
                     string responseBody = await response.Content.ReadAsStringAsync();
-                    clsUtil.WriteExceptionError($"Status Code: {response.StatusCode}, Body: {responseBody}");
+
                     return null;
                 }
             }
             catch (Exception ex)
             {
-                clsUtil.WriteExceptionError(ex.Message);
+                clsUtil.WriteExceptionError(ex);
                 return null;
             }
         }
 
-        public static async Task<List<StoreDetailsDTO>> GetSavedStoreByPersonIDEn(int? personID)
+        public static async Task<ObservableCollection<StoreDetailsDTO>> GetSavedStoreByPersonIDEn(int? personID, int? PageNumber)
         {
             try
             {
-                var response = await clsUtil.httpClient.GetAsync($"SavedStores/GetSavedStoreByPersonIDEn/{personID}");
+                var response = await clsUtil.httpClient.GetAsync($"SavedStores/GetSavedStoreByPersonIDEn/{personID}/{PageNumber}");
 
                 if (response.IsSuccessStatusCode)
                 {
-                    return await response.Content.ReadFromJsonAsync<List<StoreDetailsDTO>>();
+                    return await response.Content.ReadFromJsonAsync<ObservableCollection<StoreDetailsDTO>>();
                 }
                 else
                 {
                     string responseBody = await response.Content.ReadAsStringAsync();
-                    clsUtil.WriteExceptionError($"Status Code: {response.StatusCode}, Body: {responseBody}");
+
                     return null;
                 }
             }
             catch (Exception ex)
             {
-                clsUtil.WriteExceptionError(ex.Message);
+                clsUtil.WriteExceptionError(ex);
                 return null;
             }
         }
@@ -233,13 +234,13 @@ namespace StoresLand_API.SavedStoresServices
                 else
                 {
                     string responseBody = await response.Content.ReadAsStringAsync();
-                    clsUtil.WriteExceptionError($"Status Code: {response.StatusCode}, Body: {responseBody}");
+
                     return false;
                 }
             }
             catch (Exception ex)
             {
-                clsUtil.WriteExceptionError(ex.Message);
+                clsUtil.WriteExceptionError(ex);
                 return false;
             }
         }
@@ -257,13 +258,13 @@ namespace StoresLand_API.SavedStoresServices
                 else
                 {
                     string responseBody = await response.Content.ReadAsStringAsync();
-                    clsUtil.WriteExceptionError($"Status Code: {response.StatusCode}, Body: {responseBody}");
+
                     return false;
                 }
             }
             catch (Exception ex)
             {
-                clsUtil.WriteExceptionError(ex.Message);
+                clsUtil.WriteExceptionError(ex);
                 return false;
             }
         }

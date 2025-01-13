@@ -42,13 +42,14 @@ namespace StoresLand_API.Persons
                 else
                 {
                     string responseBody = await response.Content.ReadAsStringAsync();
-                    clsUtil.WriteExceptionError($"Status Code: {response.StatusCode}, Body: {responseBody}");
+
+
                     return null;
                 }
             }
             catch (Exception ex)
             {
-                clsUtil.WriteExceptionError(ex.Message);
+                clsUtil.WriteExceptionError(ex);
                 return null;
             }
         }
@@ -69,12 +70,12 @@ namespace StoresLand_API.Persons
                 else
                 {
                     string responseBody = await response.Content.ReadAsStringAsync();
-                    clsUtil.WriteExceptionError($"Status Code: {response.StatusCode}, Body: {responseBody}");
+
                 }
             }
             catch (Exception ex)
             {
-                clsUtil.WriteExceptionError(ex.Message);
+                clsUtil.WriteExceptionError(ex);
             }
 
             return null;
@@ -93,13 +94,13 @@ namespace StoresLand_API.Persons
                 else
                 {
                     string responseBody = await response.Content.ReadAsStringAsync();
-                    clsUtil.WriteExceptionError($"Status Code: {response.StatusCode}, Body: {responseBody}");
+
                     return false;
                 }
             }
             catch (Exception ex)
             {
-                clsUtil.WriteExceptionError(ex.Message);
+                clsUtil.WriteExceptionError(ex);
                 return false;
             }
         }
@@ -117,37 +118,13 @@ namespace StoresLand_API.Persons
                 else
                 {
                     string responseBody = await response.Content.ReadAsStringAsync();
-                    clsUtil.WriteExceptionError($"Status Code: {response.StatusCode}, Body: {responseBody}");
+
                     return null;
                 }
             }
             catch (Exception ex)
             {
-                clsUtil.WriteExceptionError(ex.Message);
-                return null;
-            }
-        }
-
-        public static async Task<List<Person>> GetAllPersons()
-        {
-            try
-            {
-                var response = await clsUtil.httpClient.GetAsync("Persons/GetAllPersons");
-
-                if (response.IsSuccessStatusCode)
-                {
-                    return await response.Content.ReadFromJsonAsync<List<Person>>();
-                }
-                else
-                {
-                    string responseBody = await response.Content.ReadAsStringAsync();
-                    clsUtil.WriteExceptionError($"Status Code: {response.StatusCode}, Body: {responseBody}");
-                    return null;
-                }
-            }
-            catch (Exception ex)
-            {
-                clsUtil.WriteExceptionError(ex.Message);
+                clsUtil.WriteExceptionError(ex);
                 return null;
             }
         }
@@ -165,13 +142,37 @@ namespace StoresLand_API.Persons
                 else
                 {
                     string responseBody = await response.Content.ReadAsStringAsync();
-                    clsUtil.WriteExceptionError($"Status Code: {response.StatusCode}, Body: {responseBody}");
+
                     return false;
                 }
             }
             catch (Exception ex)
             {
-                clsUtil.WriteExceptionError(ex.Message);
+                clsUtil.WriteExceptionError(ex);
+                return false;
+            }
+        }
+
+        public static async Task<bool> IsPersonActive(int? personID)
+        {
+            try
+            {
+                var response = await clsUtil.httpClient.GetAsync($"Persons/IsPersonActive/{personID}");
+
+                if (response.IsSuccessStatusCode)
+                {
+                    return await response.Content.ReadFromJsonAsync<bool>();
+                }
+                else
+                {
+                    string responseBody = await response.Content.ReadAsStringAsync();
+
+                    return false;
+                }
+            }
+            catch (Exception ex)
+            {
+                clsUtil.WriteExceptionError(ex);
                 return false;
             }
         }
@@ -189,13 +190,37 @@ namespace StoresLand_API.Persons
                 else
                 {
                     string responseBody = await response.Content.ReadAsStringAsync();
-                    clsUtil.WriteExceptionError($"Status Code: {response.StatusCode}, Body: {responseBody}");
+
                     return false;
                 }
             }
             catch (Exception ex)
             {
-                clsUtil.WriteExceptionError(ex.Message);
+                clsUtil.WriteExceptionError(ex);
+                return false;
+            }
+        }
+
+        public static async Task<bool> IsPersonActiveByEmail(string email)
+        {
+            try
+            {
+                var response = await clsUtil.httpClient.GetAsync($"Persons/IsPersonActiveByEmail/{email}");
+
+                if (response.IsSuccessStatusCode)
+                {
+                    return await response.Content.ReadFromJsonAsync<bool>();
+                }
+                else
+                {
+                    string responseBody = await response.Content.ReadAsStringAsync();
+
+                    return false;
+                }
+            }
+            catch (Exception ex)
+            {
+                clsUtil.WriteExceptionError(ex);
                 return false;
             }
         }
@@ -213,13 +238,13 @@ namespace StoresLand_API.Persons
                 else
                 {
                     string responseBody = await response.Content.ReadAsStringAsync();
-                    clsUtil.WriteExceptionError($"Status Code: {response.StatusCode}, Body: {responseBody}");
+
                     return false;
                 }
             }
             catch (Exception ex)
             {
-                clsUtil.WriteExceptionError(ex.Message);
+                clsUtil.WriteExceptionError(ex);
                 return false;
             }
         }
@@ -237,13 +262,13 @@ namespace StoresLand_API.Persons
                 else
                 {
                     string responseBody = await response.Content.ReadAsStringAsync();
-                    clsUtil.WriteExceptionError($"Status Code: {response.StatusCode}, Body: {responseBody}");
+
                     return null;
                 }
             }
             catch (Exception ex)
             {
-                clsUtil.WriteExceptionError(ex.Message);
+                clsUtil.WriteExceptionError(ex);
                 return null;
             }
         }
@@ -261,7 +286,7 @@ namespace StoresLand_API.Persons
             }
             catch (Exception ex)
             {
-                clsUtil.WriteExceptionError(ex.Message);
+                clsUtil.WriteExceptionError(ex);
             }
 
             return false;

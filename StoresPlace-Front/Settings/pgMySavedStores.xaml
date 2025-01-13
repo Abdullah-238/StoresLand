@@ -7,6 +7,7 @@
              Title="{x:Static str:AppStrings.Saved_stores}"
              Shell.TabBarIsVisible="False"
              xmlns:Control="clr-namespace:StoresPlace_Front.Global.GlobalControl"
+             Loaded="PersonStore_Loaded"
              Appearing="PersonStore_Appearing"
              xmlns:Store="clr-namespace:StoresPlace_Front.Stores.StoresMain">
 
@@ -21,63 +22,79 @@
 
 
     <RefreshView  x:Name="refresh"  Refreshing="RefreshView_Refreshing">
-        <ScrollView>
+        <AbsoluteLayout>
 
-            <StackLayout Padding="24">
-                <CollectionView ItemsSource="{Binding MySavedStores}" EmptyView="{x:Static str:AppStrings.There_are_no_stores_saved}">
+            <ScrollView  Padding="24" AbsoluteLayout.LayoutBounds="0.5, 0.5, 1, 1" AbsoluteLayout.LayoutFlags="All">
 
-                    <CollectionView.ItemsLayout >
-                        <LinearItemsLayout ItemSpacing="4" Orientation="Vertical" />
-                    </CollectionView.ItemsLayout>
+                <VerticalStackLayout  Spacing="12">
 
-                    <CollectionView.ItemTemplate>
+                    <CollectionView ItemsSource="{Binding MySavedStores}" EmptyView="{x:Static str:AppStrings.There_are_no_stores_saved}" >
 
-                        <DataTemplate>
+                        <CollectionView.ItemsLayout >
+                            <LinearItemsLayout ItemSpacing="4" Orientation="Vertical" />
+                        </CollectionView.ItemsLayout>
 
-                            <Border StrokeShape="RoundRectangle 4" Stroke="{AppThemeBinding Light={StaticResource Gray100}, Dark={StaticResource Gray700}}" >
-                                <Grid RowDefinitions="*"   ColumnDefinitions="*,*"  RowSpacing="8"   ColumnSpacing="12" BackgroundColor="Transparent" Padding="12">
+                        <CollectionView.ItemTemplate>
 
-                                
-                                    <HorizontalStackLayout   Spacing="8" >
+                            <DataTemplate>
 
-                                        <Frame  CornerRadius="4"  BackgroundColor="Transparent" BorderColor="Transparent" HeightRequest="48" WidthRequest="48" >
-                                            <Image  Source="{Binding Photo}"   x:Name="imgCustomerImage"  HeightRequest="48" WidthRequest="48"  Aspect="AspectFill" />
-                                        </Frame>
+                                <Border StrokeShape="RoundRectangle 4" Stroke="{AppThemeBinding Light={StaticResource Gray100}, Dark={StaticResource Gray700}}" >
+                                    <Grid RowDefinitions="*"   ColumnDefinitions="*,*"  RowSpacing="8"   ColumnSpacing="12" BackgroundColor="Transparent" Padding="12">
 
-                                        <VerticalStackLayout VerticalOptions="Center">
-                                            <Label FontAttributes="Bold" Text="{Binding Name}" TextColor="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource Primary}}" MaxLines="1"/>
-                                            <HorizontalStackLayout Spacing="4">
-                                                <Image HeightRequest="18" WidthRequest="18" Source="location"/>
-                                                <Label VerticalTextAlignment="Center" FontSize="Micro" Text="{Binding Address}"  MaxLines="1"/>
-                                            </HorizontalStackLayout>
-                                        </VerticalStackLayout>
-                                        
-                                    </HorizontalStackLayout>
 
-                                    <HorizontalStackLayout Spacing="4" Grid.Row="1"  Grid.Column="2"  HorizontalOptions="End" VerticalOptions="Start">
-                                        <Image Source="star"/>
-                                        <Label  FontSize="Micro" Text="{Binding Rating}" MaxLines="1" VerticalTextAlignment="Center"/>
-                                    </HorizontalStackLayout>
+                                        <HorizontalStackLayout   Spacing="8" >
 
-                                    <Grid.GestureRecognizers>
-                                        <TapGestureRecognizer 
+                                          
+
+                                            <Frame   CornerRadius="4"  BackgroundColor="Transparent" BorderColor="Transparent" HeightRequest="48" WidthRequest="48" >
+                                                <Image HeightRequest="48" WidthRequest="48"  Aspect="AspectFill"  Source="{Binding Photo}"/>
+                                            </Frame>
+
+                                            <VerticalStackLayout VerticalOptions="Center">
+                                                <Label FontAttributes="Bold" Text="{Binding Name}" TextColor="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource Primary}}" MaxLines="1"/>
+                                                <HorizontalStackLayout Spacing="4">
+                                                    <Image HeightRequest="18" WidthRequest="18" Source="location"/>
+                                                    <Label VerticalTextAlignment="Center" FontSize="Micro" Text="{Binding Address}"  MaxLines="1"/>
+                                                </HorizontalStackLayout>
+                                            </VerticalStackLayout>
+
+                                        </HorizontalStackLayout>
+
+                                        <HorizontalStackLayout Spacing="4" Grid.Row="1"  Grid.Column="2"  HorizontalOptions="End" VerticalOptions="Start">
+                                            <Image Source="star"/>
+                                            <Label  FontSize="Micro" Text="{Binding Rating}" MaxLines="1" VerticalTextAlignment="Center"/>
+                                        </HorizontalStackLayout>
+
+                                        <Grid.GestureRecognizers>
+                                            <TapGestureRecognizer 
                                         Command="{Binding Path=BindingContext.MoveToSavedStoreCommand, Source={x:Reference PersonStore}}"
                                         CommandParameter="{Binding StoreID}"></TapGestureRecognizer>
-                                    </Grid.GestureRecognizers>
+                                        </Grid.GestureRecognizers>
 
-                                </Grid>
-                            </Border>
-                        </DataTemplate>
-                    </CollectionView.ItemTemplate>
+                                    </Grid>
+                                </Border>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
 
-                </CollectionView>
-
-
-                <ActivityIndicator IsVisible="{Binding IsBusy}" IsRunning="{Binding IsBusy}" Color="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}" TranslationY="-100"  />
+                    </CollectionView>
 
 
-            </StackLayout>
-        </ScrollView>
+                    <Button x:Name="btnIsVisble" Text="{x:Static str:AppStrings.Load_More}" IsVisible="Hidden" Clicked="Button_Clicked" Style="{StaticResource ThirdButton}"/>
+
+
+
+                </VerticalStackLayout>
+
+            </ScrollView>
+
+            <ActivityIndicator IsVisible="{Binding IsBusy}" IsRunning="{Binding IsBusy}"
+                       Color="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}"
+                       AbsoluteLayout.LayoutBounds="0.5, 0.5, AutoSize, AutoSize"
+                       AbsoluteLayout.LayoutFlags="PositionProportional" />
+
+
+        </AbsoluteLayout>
+
     </RefreshView>
 
 

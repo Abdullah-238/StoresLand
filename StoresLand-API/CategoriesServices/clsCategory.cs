@@ -39,13 +39,13 @@ namespace StoresLand_API.Categories
                 else
                 {
                     string responseBody = await response.Content.ReadAsStringAsync();
-                    clsUtil.WriteExceptionError($"Status Code: {response.StatusCode}, Body: {responseBody}");
+
                     return null;
                 }
             }
             catch (Exception ex)
             {
-                clsUtil.WriteExceptionError(ex.Message);
+                clsUtil.WriteExceptionError(ex);
                 return null;
             }
         }
@@ -64,13 +64,13 @@ namespace StoresLand_API.Categories
                 else
                 {
                     string responseBody = await response.Content.ReadAsStringAsync();
-                    clsUtil.WriteExceptionError($"Status Code: {response.StatusCode}, Body: {responseBody}");
+
                     return null;
                 }
             }
             catch (Exception ex)
             {
-                clsUtil.WriteExceptionError(ex.Message);
+                clsUtil.WriteExceptionError(ex);
                 return null;
             }
         }
@@ -88,13 +88,13 @@ namespace StoresLand_API.Categories
                 else
                 {
                     string responseBody = await response.Content.ReadAsStringAsync();
-                    clsUtil.WriteExceptionError($"Status Code: {response.StatusCode}, Body: {responseBody}");
+
                     return null;
                 }
             }
             catch (Exception ex)
             {
-                clsUtil.WriteExceptionError(ex.Message);
+                clsUtil.WriteExceptionError(ex);
                 return null;
             }
         }

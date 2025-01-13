@@ -8,9 +8,9 @@
       <dSYMSourcePathExists>false</dSYMSourcePathExists>
       <NoSymbolStrip>true</NoSymbolStrip>
       <dSYMInfoPlistRelativePath>StoresPlace-Front.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
-      <SymbolFile>\Users\abdullah\Library\Caches\Xamarin\mtbs\builds\StoresPlaceFront\73952e8a84a78bd520d2f4865a6c1cd04a442de480e4280a61250617b3a50121\obj\Debug\net8.0-ios\iossimulator-arm64\mtouch-symbols.list</SymbolFile>
+      <SymbolFile>\Users\abdullah\Library\Caches\Xamarin\mtbs\builds\StoresPlaceFront\ed6673ace39874b2519e7f1a2ad59c2168cb12c14da4cf8006ced5bfee7a2a4e\obj\Debug\net8.0-ios\iossimulator-arm64\mtouch-symbols.list</SymbolFile>
       <DSymName>StoresPlace-Front.app.dSYM</DSymName>
-      <SourceProjectPath>C:\Users\good1\source\repos\StoresPlace\StoresPlace-Front</SourceProjectPath>
+      <SourceProjectPath>C:\Users\good1\source\repos\StoresLand\StoresPlace-Front</SourceProjectPath>
       <IsXPCService></IsXPCService>
     </_PostProcessingItem>
   </ItemGroup>

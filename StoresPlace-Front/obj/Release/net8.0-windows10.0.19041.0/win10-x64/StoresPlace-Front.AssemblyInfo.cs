@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StoresPlace-Front")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+96945a9d4af81c490a9507a47a4e1e07054d0d6f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+8018c75818a6d1887dec6101065e9baf7cd009fe")]
 [assembly: System.Reflection.AssemblyProductAttribute("StoresPlace-Front")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StoresPlace-Front")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

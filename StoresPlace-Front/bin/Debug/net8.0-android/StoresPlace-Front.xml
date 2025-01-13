@@ -335,6 +335,11 @@
               Looks up a localized string similar to In the laundry.
             </summary>
         </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Inactive">
+            <summary>
+              Looks up a localized string similar to Inactive.
+            </summary>
+        </member>
         <member name="P:StoresPlace_Front.Strings.AppStrings.Internt">
             <summary>
               Looks up a localized string similar to Internt.
@@ -363,6 +368,11 @@
         <member name="P:StoresPlace_Front.Strings.AppStrings.Light">
             <summary>
               Looks up a localized string similar to Light Mode.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Load_More">
+            <summary>
+              Looks up a localized string similar to Load more.
             </summary>
         </member>
         <member name="P:StoresPlace_Front.Strings.AppStrings.Local_Store">
@@ -433,6 +443,11 @@
         <member name="P:StoresPlace_Front.Strings.AppStrings.No_offers">
             <summary>
               Looks up a localized string similar to No offers.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.No_other_stores">
+            <summary>
+              Looks up a localized string similar to No other stores.
             </summary>
         </member>
         <member name="P:StoresPlace_Front.Strings.AppStrings.No_Stores">
@@ -589,6 +604,11 @@
         <member name="P:StoresPlace_Front.Strings.AppStrings.please_enter_a_valid_password">
             <summary>
               Looks up a localized string similar to please enter a valid password.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.Please_enter_another_email_this_email_doesn_t_Exist">
+            <summary>
+              Looks up a localized string similar to Please enter another email this email doesn&apos;t Exist.
             </summary>
         </member>
         <member name="P:StoresPlace_Front.Strings.AppStrings.Please_enter_another_email_this_email_is_Exist">
@@ -1039,6 +1059,11 @@
         <member name="P:StoresPlace_Front.Strings.AppStrings.This_is_a_trial_version">
             <summary>
               Looks up a localized string similar to Trial version.
+            </summary>
+        </member>
+        <member name="P:StoresPlace_Front.Strings.AppStrings.this_user_inactive">
+            <summary>
+              Looks up a localized string similar to This user inactive.
             </summary>
         </member>
         <member name="P:StoresPlace_Front.Strings.AppStrings.Total">

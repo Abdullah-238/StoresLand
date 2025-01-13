@@ -1,8 +1,12 @@
 ﻿using Newtonsoft.Json;
+using StoresLand_API;
 using StoresLand_API.Persons;
+using StoresLand_API.Stores;
+using System.Collections.ObjectModel;
 using System.Net.Http;
 using System.Net.Http.Json;
 using System.Text;
+using static System.Formats.Asn1.AsnWriter;
 
 namespace StoresLand_API.Stores
 {
@@ -70,10 +74,16 @@ namespace StoresLand_API.Stores
         public decimal? NumbersOfClick { get; set; }
         public string? Photo { get; set; }
         public string? PersonName { get; set; }
+
+        public string? Email { get; set; }
+
+        public string? Phone { get; set; }
+
         public int? StoreID { get; set; }
 
         public StoreDetailsDTO(string name, string? regionName, string? cityName, string? districtsName, string? commercialNumber, string? website, string? address,
-            string? categoryName, string? typeName, byte? rating, decimal? numberOfRates, string? storeStatus, decimal? numbersOfClick, string photo, string personName, int? storeID)
+            string? categoryName, string? typeName, byte? rating, decimal? numberOfRates, string? storeStatus, decimal? numbersOfClick,
+            string? photo, string? personName, string? email, string? phone, int? storeid)
         {
             Name = name;
             RegionName = regionName;
@@ -90,13 +100,13 @@ namespace StoresLand_API.Stores
             NumbersOfClick = numbersOfClick;
             Photo = photo;
             PersonName = personName;
-            StoreID = storeID;
+            Email = email;
+            Phone = phone;
+            StoreID = storeid;
         }
     }
-
     public class clsStore
     {
-
 
         public static async Task<StoreDTO> AddStore(StoreDTO store)
         {
@@ -114,17 +124,16 @@ namespace StoresLand_API.Stores
                 else
                 {
                     string responseBody = await response.Content.ReadAsStringAsync();
-                    clsUtil.WriteExceptionError($"Status Code: {response.StatusCode}, Body: {responseBody}");
+
                     return null;
                 }
             }
             catch (Exception ex)
             {
-                clsUtil.WriteExceptionError($"Exception in AddStore: {ex.Message}");
+                clsUtil.WriteExceptionError(ex);
                 return null;
             }
         }
-
 
         public static async Task<StoreDTO> UpdateStore(int? StoreID, StoreDTO store)
         {
@@ -143,12 +152,12 @@ namespace StoresLand_API.Stores
                 else
                 {
                     string responseBody = await response.Content.ReadAsStringAsync();
-                    clsUtil.WriteExceptionError($"Status Code: {response.StatusCode}, Body: {responseBody}");
+
                 }
             }
             catch (Exception ex)
             {
-                clsUtil.WriteExceptionError($"Exception in UpdateStore: {ex.Message}");
+                clsUtil.WriteExceptionError(ex);
             }
 
             return null;
@@ -166,7 +175,7 @@ namespace StoresLand_API.Stores
             }
             catch (Exception ex)
             {
-                clsUtil.WriteExceptionError($"Exception in GetStore: {ex.Message}");
+                clsUtil.WriteExceptionError(ex);
             }
             return null;
         }
@@ -183,13 +192,12 @@ namespace StoresLand_API.Stores
                 else
                 {
                     string responseBody = await response.Content.ReadAsStringAsync();
-                    clsUtil.WriteExceptionError($"Error in FindStoreAr: {response.StatusCode}, Body: {responseBody}");
                     return null;
                 }
             }
             catch (Exception ex)
             {
-                clsUtil.WriteExceptionError($"Exception in FindStoreAr: {ex.Message}");
+                clsUtil.WriteExceptionError(ex);
                 return null;
             }
         }
@@ -206,13 +214,12 @@ namespace StoresLand_API.Stores
                 else
                 {
                     string responseBody = await response.Content.ReadAsStringAsync();
-                    clsUtil.WriteExceptionError($"Error in FindStoreEn: {response.StatusCode}, Body: {responseBody}");
                     return null;
                 }
             }
             catch (Exception ex)
             {
-                clsUtil.WriteExceptionError($"Exception in FindStoreEn: {ex.Message}");
+                clsUtil.WriteExceptionError(ex);
                 return null;
             }
         }
@@ -226,224 +233,43 @@ namespace StoresLand_API.Stores
             }
             catch (Exception ex)
             {
-                clsUtil.WriteExceptionError($"Exception in DeleteStore: {ex.Message}");
+                clsUtil.WriteExceptionError(ex);
             }
             return false;
         }
-
-        public static async Task<List<StoreDTO>> GetAllStores()
+    
+        public static async Task<ObservableCollection<StoreDetailsDTO>> GetStoresByCategoryNameAr(string categoryNameAr, int? typeID,int ? PageNumber)
         {
             try
             {
-                var response = await clsUtil.httpClient.GetAsync("Stores/GetAllStores");
+                var response = await clsUtil.httpClient.GetAsync($"Stores/GetStoresByCategoryNameAr/{categoryNameAr}/{typeID}/{PageNumber}");
                 if (response.IsSuccessStatusCode)
                 {
-                    return await response.Content.ReadFromJsonAsync<List<StoreDTO>>();
+                    return await response.Content.ReadFromJsonAsync<ObservableCollection<StoreDetailsDTO>>();
                 }
             }
             catch (Exception ex)
             {
-                clsUtil.WriteExceptionError($"Exception in GetAllStores: {ex.Message}");
+                clsUtil.WriteExceptionError(ex);
             }
             return null;
         }
 
-        public static async Task<List<StoreDetailsDTO>> GetStoresByCategoryID(int categoryID)
+        public static async Task<ObservableCollection<StoreDetailsDTO>> GetStoresByCategoryNameEn(string categoryNameEn, int? typeID,int? PageNumber)
         {
             try
             {
-                var response = await clsUtil.httpClient.GetAsync($"Stores/GetStoresByCategoryID/{categoryID}");
+                var response = await clsUtil.httpClient.GetAsync($"Stores/GetStoresByCategoryNameEn/{categoryNameEn}/{typeID}/{PageNumber}");
                 if (response.IsSuccessStatusCode)
                 {
-                    return await response.Content.ReadFromJsonAsync<List<StoreDetailsDTO>>();
+                    return await response.Content.ReadFromJsonAsync<ObservableCollection<StoreDetailsDTO>>();
                 }
             }
             catch (Exception ex)
             {
-                clsUtil.WriteExceptionError($"Exception in GetStoresByCategoryID: {ex.Message}");
+                clsUtil.WriteExceptionError(ex);
             }
             return null;
-        }
-
-        public static async Task<List<StoreDetailsDTO>> GetStoresByCategoryNameAr(string categoryNameAr, int? typeID)
-        {
-            try
-            {
-                var response = await clsUtil.httpClient.GetAsync($"Stores/GetStoresByCategoryNameAr/{categoryNameAr}/{typeID}");
-                if (response.IsSuccessStatusCode)
-                {
-                    return await response.Content.ReadFromJsonAsync<List<StoreDetailsDTO>>();
-                }
-            }
-            catch (Exception ex)
-            {
-                clsUtil.WriteExceptionError($"Exception in GetStoresByCategoryNameAr: {ex.Message}");
-            }
-            return null;
-        }
-
-        public static async Task<List<StoreDetailsDTO>> GetStoresByCategoryNameEn(string categoryNameEn, int? typeID)
-        {
-            try
-            {
-                var response = await clsUtil.httpClient.GetAsync($"Stores/GetStoresByCategoryNameEn/{categoryNameEn}/{typeID}");
-                if (response.IsSuccessStatusCode)
-                {
-                    return await response.Content.ReadFromJsonAsync<List<StoreDetailsDTO>>();
-                }
-            }
-            catch (Exception ex)
-            {
-                clsUtil.WriteExceptionError($"Exception in GetStoresByCategoryNameEn: {ex.Message}");
-            }
-            return null;
-        }
-
-        public static async Task<List<StoreDetailsDTO>> GetStoresByCategoryNameArAndRegionNameAr(string categoryNameAr, string regionNameAr, int? typeID)
-        {
-            try
-            {
-                var response = await clsUtil.httpClient.GetAsync($"Stores/GetStoresByCategoryNameArAndRegionNameAr/{categoryNameAr}/{regionNameAr}/{typeID}");
-                if (response.IsSuccessStatusCode)
-                {
-                    return await response.Content.ReadFromJsonAsync<List<StoreDetailsDTO>>();
-                }
-            }
-            catch (Exception ex)
-            {
-                clsUtil.WriteExceptionError($"Exception in GetStoresByCategoryNameArAndRegionNameAr: {ex.Message}");
-            }
-            return null;
-        }
-
-        public static async Task<List<StoreDetailsDTO>> GetStoresByCategoryNameEnAndRegionNameEn(string categoryNameEn, string regionNameEn, int? typeID)
-        {
-            try
-            {
-                var response = await clsUtil.httpClient.GetAsync($"Stores/GetStoresByCategoryNameEnAndRegionNameEn/{categoryNameEn}/{regionNameEn}/{typeID}");
-                if (response.IsSuccessStatusCode)
-                {
-                    return await response.Content.ReadFromJsonAsync<List<StoreDetailsDTO>>();
-                }
-            }
-            catch (Exception ex)
-            {
-                clsUtil.WriteExceptionError($"Exception in GetStoresByCategoryNameEnAndRegionNameEn: {ex.Message}");
-            }
-            return null;
-        }
-
-        public static async Task<List<StoreDetailsDTO>> GetStoresByCategoryNameEnAndCityNameEn(string categoryNameEn, string cityNameEn, int? typeID)
-        {
-            try
-            {
-                var response = await clsUtil.httpClient.GetAsync($"Stores/GetStoresByCategoryNameEnAndCityNameEn/{categoryNameEn}/{cityNameEn}/{typeID}");
-                if (response.IsSuccessStatusCode)
-                {
-                    return await response.Content.ReadFromJsonAsync<List<StoreDetailsDTO>>();
-                }
-            }
-            catch (Exception ex)
-            {
-                clsUtil.WriteExceptionError($"Exception in GetStoresByCategoryNameEnAndCityNameEn: {ex.Message}");
-            }
-            return null;
-        }
-
-        public static async Task<List<StoreDetailsDTO>> GetStoresByCategoryNameArAndCityNameAr(string categoryNameAr, string cityNameAr, int? typeID)
-        {
-            try
-            {
-                var response = await clsUtil.httpClient.GetAsync($"Stores/GetStoresByCategoryNameArAndCityNameAr/{categoryNameAr}/{cityNameAr}/{typeID}");
-                if (response.IsSuccessStatusCode)
-                {
-                    return await response.Content.ReadFromJsonAsync<List<StoreDetailsDTO>>();
-                }
-            }
-            catch (Exception ex)
-            {
-                clsUtil.WriteExceptionError($"Exception in GetStoresByCategoryNameArAndCityNameAr: {ex.Message}");
-            }
-            return null;
-        }
-
-        public static async Task<List<StoreDetailsDTO>> GetStoresByCategoryNameArAndDistrictsNameAr(string categoryNameAr, string districtsNameAr, int? typeID)
-        {
-            try
-            {
-                var response = await clsUtil.httpClient.GetAsync($"Stores/GetStoresByCategoryNameArAndDistrictsNameAr/{categoryNameAr}/{districtsNameAr}/{typeID}");
-                if (response.IsSuccessStatusCode)
-                {
-                    return await response.Content.ReadFromJsonAsync<List<StoreDetailsDTO>>();
-                }
-            }
-            catch (Exception ex)
-            {
-                clsUtil.WriteExceptionError($"Exception in GetStoresByCategoryNameArAndDistrictsNameAr: {ex.Message}");
-            }
-            return null;
-        }
-
-        public static async Task<List<StoreDetailsDTO>> GetStoresByCategoryNameEnAndDistrictsNameEn(string categoryNameEn, string districtsNameEn, int? typeID)
-        {
-            try
-            {
-                var response = await clsUtil. httpClient.GetAsync($"Stores/GetStoresByCategoryNameEnAndDistrictsNameEn/{categoryNameEn}/{districtsNameEn}/{typeID}");
-                if (response.IsSuccessStatusCode)
-                {
-                    return await response.Content.ReadFromJsonAsync<List<StoreDetailsDTO>>();
-                }
-            }
-            catch (Exception ex)
-            {
-                clsUtil.WriteExceptionError($"Exception in GetStoresByCategoryNameEnAndDistrictsNameEn: {ex.Message}");
-            }
-            return null;
-        }
-
-
-        public static async Task<List<StoreDTO>> GetAllStoresByPersonID(int? PersonID)
-        {
-            try
-            {
-                var response = await clsUtil.httpClient.GetAsync($"Stores/GetAllStoresByPersonID/{PersonID}");
-                if (response.IsSuccessStatusCode)
-                {
-                    return await response.Content.ReadFromJsonAsync<List<StoreDTO>>();
-                }
-                else
-                {
-                    Console.WriteLine($"Error: {response.StatusCode}");
-                    return null;
-                }
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Error: {ex.Message}");
-                return null;
-            }
-        }
-
-        public static async Task<List<StoreDetailsDTO>> GetAllStoresInDetailsAr()
-        {
-            try
-            {
-                var response = await clsUtil.httpClient.GetAsync("Stores/GetAllStoresInDetailsAr");
-                if (response.IsSuccessStatusCode)
-                {
-                    return await response.Content.ReadFromJsonAsync<List<StoreDetailsDTO>>();
-                }
-                else
-                {
-                    Console.WriteLine($"Error: {response.StatusCode}");
-                    return null;
-                }
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Error: {ex.Message}");
-                return null;
-            }
         }
 
         public static async Task<List<StoreDetailsDTO>> GetAllStoresInDetailsByPersonIDAr(int? PersonID)
@@ -457,35 +283,12 @@ namespace StoresLand_API.Stores
                 }
                 else
                 {
-                    Console.WriteLine($"Error: {response.StatusCode}");
                     return null;
                 }
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Error: {ex.Message}");
-                return null;
-            }
-        }
-
-        public static async Task<List<StoreDetailsDTO>> GetAllStoresInDetailsEn()
-        {
-            try
-            {
-                var response = await clsUtil.httpClient.GetAsync("Stores/GetAllStoresInDetailsEn");
-                if (response.IsSuccessStatusCode)
-                {
-                    return await response.Content.ReadFromJsonAsync<List<StoreDetailsDTO>>();
-                }
-                else
-                {
-                    Console.WriteLine($"Error: {response.StatusCode}");
-                    return null;
-                }
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Error: {ex.Message}");
+                clsUtil.WriteExceptionError(ex);
                 return null;
             }
         }
@@ -501,13 +304,12 @@ namespace StoresLand_API.Stores
                 }
                 else
                 {
-                    Console.WriteLine($"Error: {response.StatusCode}");
                     return null;
                 }
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Error: {ex.Message}");
+                clsUtil.WriteExceptionError(ex);
                 return null;
             }
         }
@@ -532,17 +334,16 @@ namespace StoresLand_API.Stores
                 else
                 {
                     string responseBody = await response.Content.ReadAsStringAsync();
-                    clsUtil.WriteExceptionError($"Status Code: {response.StatusCode}, Body: {responseBody}");
+
                     return false;  // Update failed
                 }
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Error: {ex.Message}");
+                clsUtil.WriteExceptionError(ex);
                 return false;
             }
         }
-
 
         public static async Task<bool> UpdateStoreRatingWithOldRate(byte? Rate, byte? OldRate, int? StoreID)
         {
@@ -563,17 +364,219 @@ namespace StoresLand_API.Stores
                 else
                 {
                     string responseBody = await response.Content.ReadAsStringAsync();
-                    clsUtil.WriteExceptionError($"Status Code: {response.StatusCode}, Body: {responseBody}");
+
                     return false;  
                 }
             }
             catch (Exception ex)
             {
-                clsUtil.WriteExceptionError($"Exception: {ex.Message}");
+                clsUtil.WriteExceptionError(ex);
                 return false;
             }
         }
 
+
     }
 }
 
+
+
+
+//public static async Task<List<StoreDTO>> GetAllStores()
+//{
+//    try
+//    {
+//        var response = await clsUtil.httpClient.GetAsync("Stores/GetAllStores");
+//        if (response.IsSuccessStatusCode)
+//        {
+//            return await response.Content.ReadFromJsonAsync<List<StoreDTO>>();
+//        }
+//    }
+//    catch (Exception ex)
+//    {
+//        clsUtil.WriteExceptionError(ex);
+//    }
+//    return null;
+//}
+//public static async Task<List<StoreDetailsDTO>> GetStoresByCategoryID(int categoryID)
+//{
+//    try
+//    {
+//        var response = await clsUtil.httpClient.GetAsync($"Stores/GetStoresByCategoryID/{categoryID}");
+//        if (response.IsSuccessStatusCode)
+//        {
+//            return await response.Content.ReadFromJsonAsync<List<StoreDetailsDTO>>();
+//        }
+//    }
+//    catch (Exception ex)
+//    {
+//        clsUtil.WriteExceptionError(ex);
+//    }
+//    return null;
+//}
+
+//public static async Task<List<StoreDTO>> GetAllStoresByPersonID(int? PersonID)
+//{
+//    try
+//    {
+//        var response = await clsUtil.httpClient.GetAsync($"Stores/GetAllStoresByPersonID/{PersonID}");
+//        if (response.IsSuccessStatusCode)
+//        {
+//            return await response.Content.ReadFromJsonAsync<List<StoreDTO>>();
+//        }
+//        else
+//        {
+//            return null;
+//        }
+//    }
+//    catch (Exception ex)
+//    {
+//        clsUtil.WriteExceptionError(ex);
+//        return null;
+//    }
+//}
+
+//public static async Task<List<StoreDetailsDTO>> GetAllStoresInDetailsAr()
+//{
+//    try
+//    {
+//        var response = await clsUtil.httpClient.GetAsync("Stores/GetAllStoresInDetailsAr");
+//        if (response.IsSuccessStatusCode)
+//        {
+//            return await response.Content.ReadFromJsonAsync<List<StoreDetailsDTO>>();
+//        }
+//        else
+//        {
+//            return null;
+//        }
+//    }
+//    catch (Exception ex)
+//    {
+//        clsUtil.WriteExceptionError(ex);
+//        return null;
+//    }
+//}
+
+//public static async Task<List<StoreDetailsDTO>> GetAllStoresInDetailsEn()
+//{
+//    try
+//    {
+//        var response = await clsUtil.httpClient.GetAsync("Stores/GetAllStoresInDetailsEn");
+//        if (response.IsSuccessStatusCode)
+//        {
+//            return await response.Content.ReadFromJsonAsync<List<StoreDetailsDTO>>();
+//        }
+//        else
+//        {
+//            return null;
+//        }
+//    }
+//    catch (Exception ex)
+//    {
+//        clsUtil.WriteExceptionError(ex);
+//        return null;
+//    }
+//}
+
+
+//public static async Task<List<StoreDetailsDTO>> GetStoresByCategoryNameArAndRegionNameAr(string categoryNameAr, string regionNameAr, int? typeID)
+//{
+//    try
+//    {
+//        var response = await clsUtil.httpClient.GetAsync($"Stores/GetStoresByCategoryNameArAndRegionNameAr/{categoryNameAr}/{regionNameAr}/{typeID}");
+//        if (response.IsSuccessStatusCode)
+//        {
+//            return await response.Content.ReadFromJsonAsync<List<StoreDetailsDTO>>();
+//        }
+//    }
+//    catch (Exception ex)
+//    {
+//        clsUtil.WriteExceptionError($"Exception in GetStoresByCategoryNameArAndRegionNameAr: {ex.Message}");
+//    }
+//    return null;
+//}
+
+//public static async Task<List<StoreDetailsDTO>> GetStoresByCategoryNameEnAndRegionNameEn(string categoryNameEn, string regionNameEn, int? typeID)
+//{
+//    try
+//    {
+//        var response = await clsUtil.httpClient.GetAsync($"Stores/GetStoresByCategoryNameEnAndRegionNameEn/{categoryNameEn}/{regionNameEn}/{typeID}");
+//        if (response.IsSuccessStatusCode)
+//        {
+//            return await response.Content.ReadFromJsonAsync<List<StoreDetailsDTO>>();
+//        }
+//    }
+//    catch (Exception ex)
+//    {
+//        clsUtil.WriteExceptionError($"Exception in GetStoresByCategoryNameEnAndRegionNameEn: {ex.Message}");
+//    }
+//    return null;
+//}
+
+//public static async Task<List<StoreDetailsDTO>> GetStoresByCategoryNameEnAndCityNameEn(string categoryNameEn, string cityNameEn, int? typeID)
+//{
+//    try
+//    {
+//        var response = await clsUtil.httpClient.GetAsync($"Stores/GetStoresByCategoryNameEnAndCityNameEn/{categoryNameEn}/{cityNameEn}/{typeID}");
+//        if (response.IsSuccessStatusCode)
+//        {
+//            return await response.Content.ReadFromJsonAsync<List<StoreDetailsDTO>>();
+//        }
+//    }
+//    catch (Exception ex)
+//    {
+//        clsUtil.WriteExceptionError($"Exception in GetStoresByCategoryNameEnAndCityNameEn: {ex.Message}");
+//    }
+//    return null;
+//}
+
+//public static async Task<List<StoreDetailsDTO>> GetStoresByCategoryNameArAndCityNameAr(string categoryNameAr, string cityNameAr, int? typeID)
+//{
+//    try
+//    {
+//        var response = await clsUtil.httpClient.GetAsync($"Stores/GetStoresByCategoryNameArAndCityNameAr/{categoryNameAr}/{cityNameAr}/{typeID}");
+//        if (response.IsSuccessStatusCode)
+//        {
+//            return await response.Content.ReadFromJsonAsync<List<StoreDetailsDTO>>();
+//        }
+//    }
+//    catch (Exception ex)
+//    {
+//        clsUtil.WriteExceptionError($"Exception in GetStoresByCategoryNameArAndCityNameAr: {ex.Message}");
+//    }
+//    return null;
+//}
+
+//public static async Task<List<StoreDetailsDTO>> GetStoresByCategoryNameArAndDistrictsNameAr(string categoryNameAr, string districtsNameAr, int? typeID)
+//{
+//    try
+//    {
+//        var response = await clsUtil.httpClient.GetAsync($"Stores/GetStoresByCategoryNameArAndDistrictsNameAr/{categoryNameAr}/{districtsNameAr}/{typeID}");
+//        if (response.IsSuccessStatusCode)
+//        {
+//            return await response.Content.ReadFromJsonAsync<List<StoreDetailsDTO>>();
+//        }
+//    }
+//    catch (Exception ex)
+//    {
+//        clsUtil.WriteExceptionError($"Exception in GetStoresByCategoryNameArAndDistrictsNameAr: {ex.Message}");
+//    }
+//    return null;
+//}
+
+//public static async Task<List<StoreDetailsDTO>> GetStoresByCategoryNameEnAndDistrictsNameEn(string categoryNameEn, string districtsNameEn, int? typeID)
+//{
+//    try
+//    {
+//        var response = await clsUtil.httpClient.GetAsync($"Stores/GetStoresByCategoryNameEnAndDistrictsNameEn/{categoryNameEn}/{districtsNameEn}/{typeID}");
+//        if (response.IsSuccessStatusCode)
+//        {
+//            return await response.Content.ReadFromJsonAsync<List<StoreDetailsDTO>>();
+//        }
+//    }
+//    catch (Exception ex)
+//    {
+//        clsUtil.WriteExceptionError($"Exception in GetStoresByCategoryNameEnAndDistrictsNameEn: {ex.Message}");
+//    }
+//    return null;
+//}

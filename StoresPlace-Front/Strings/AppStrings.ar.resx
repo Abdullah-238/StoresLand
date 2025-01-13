@@ -811,4 +811,19 @@
   <data name="Verification_of_the_temporary_code" xml:space="preserve">
     <value>التحقق من الرمز المؤقت</value>
   </data>
+  <data name="Load_More" xml:space="preserve">
+    <value>تحميل المزيد</value>
+  </data>
+  <data name="No_other_stores" xml:space="preserve">
+    <value>لا يوجد متاجر اخرى</value>
+  </data>
+  <data name="this_user_inactive" xml:space="preserve">
+    <value>هذا المتسخدم غير فعال</value>
+  </data>
+  <data name="Inactive" xml:space="preserve">
+    <value>غير فعال</value>
+  </data>
+  <data name="Please_enter_another_email_this_email_doesn't_Exist" xml:space="preserve">
+    <value>يرجى إدخال بريد إلكتروني آخر؛ هذا البريد غير موجود  </value>
+  </data>
 </root>

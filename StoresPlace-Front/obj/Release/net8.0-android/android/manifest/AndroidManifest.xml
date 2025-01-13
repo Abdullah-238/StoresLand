@@ -18,19 +18,9 @@
   <!-- Required only if your app needs to access images or photos that other apps created -->
   <!-- Required only if your app needs to access videos that other apps created -->
   <!-- Required only if your app needs to access audio files that other apps created -->
-  <queries>
-    <intent>
-      <action android:name="android.intent.action.VIEW" />
-      <data android:scheme="http" />
-    </intent>
-    <intent>
-      <action android:name="android.intent.action.VIEW" />
-      <data android:scheme="https" />
-    </intent>
-  </queries>
   <permission android:name="com.companyname.storesplacefront.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature" />
   <uses-permission android:name="com.companyname.storesplacefront.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-  <application android:name="crc64253ec367ee4aea25.MainApplication" android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:extractNativeLibs="true" android:icon="@mipmap/appicon" android:label="Stores Place" android:supportsRtl="true" android:usesCleartextTraffic="true">
+  <application android:name="crc64253ec367ee4aea25.MainApplication" android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:extractNativeLibs="true" android:icon="@mipmap/appicon" android:label="Stores Place" android:supportsRtl="true">
     <receiver android:name="crc64e53d2f592022988e.ConnectivityBroadcastReceiver" android:enabled="true" android:exported="false" android:label="Essentials Connectivity Broadcast Receiver" />
     <activity android:name="crc64ba438d8f48cf7e75.IntermediateActivity" android:configChanges="orientation|screenSize" android:exported="false" />
     <receiver android:name="crc640a8d9a12ddbf2cf2.EnergySaverBroadcastReceiver" android:enabled="true" android:exported="false" android:label="Essentials Energy Saver Broadcast Receiver" />

@@ -628,6 +628,15 @@ namespace StoresPlace_Front.Strings {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Inactive.
+        /// </summary>
+        internal static string Inactive {
+            get {
+                return ResourceManager.GetString("Inactive", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Internt.
         /// </summary>
         internal static string Internt {
@@ -678,6 +687,15 @@ namespace StoresPlace_Front.Strings {
         internal static string Light {
             get {
                 return ResourceManager.GetString("Light", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Load more.
+        /// </summary>
+        internal static string Load_More {
+            get {
+                return ResourceManager.GetString("Load_More", resourceCulture);
             }
         }
         
@@ -804,6 +822,15 @@ namespace StoresPlace_Front.Strings {
         internal static string No_offers {
             get {
                 return ResourceManager.GetString("No_offers", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to No other stores.
+        /// </summary>
+        internal static string No_other_stores {
+            get {
+                return ResourceManager.GetString("No_other_stores", resourceCulture);
             }
         }
         
@@ -1084,6 +1111,15 @@ namespace StoresPlace_Front.Strings {
         internal static string please_enter_a_valid_password {
             get {
                 return ResourceManager.GetString("please_enter_a_valid_password", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Please enter another email this email doesn&apos;t Exist.
+        /// </summary>
+        internal static string Please_enter_another_email_this_email_doesn_t_Exist {
+            get {
+                return ResourceManager.GetString("Please_enter_another_email_this_email_doesn\'t_Exist", resourceCulture);
             }
         }
         
@@ -1894,6 +1930,15 @@ namespace StoresPlace_Front.Strings {
         internal static string This_is_a_trial_version {
             get {
                 return ResourceManager.GetString("This_is_a_trial_version", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This user inactive.
+        /// </summary>
+        internal static string this_user_inactive {
+            get {
+                return ResourceManager.GetString("this_user_inactive", resourceCulture);
             }
         }
         

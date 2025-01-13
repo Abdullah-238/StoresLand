@@ -15,7 +15,7 @@
   <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
   <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
   <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
-  <application android:allowBackup="true" android:icon="@mipmap/appicon" android:supportsRtl="true" android:usesCleartextTraffic="true" android:label="Stores Place" android:name="crc64253ec367ee4aea25.MainApplication" android:debuggable="true" android:extractNativeLibs="true">
+  <application android:allowBackup="true" android:icon="@mipmap/appicon" android:supportsRtl="true" android:label="Stores Place" android:name="crc64253ec367ee4aea25.MainApplication" android:debuggable="true" android:extractNativeLibs="true">
     <activity android:configChanges="density|orientation|smallestScreenSize|screenLayout|screenSize|uiMode" android:launchMode="singleTop" android:theme="@style/Maui.SplashTheme" android:name="crc64253ec367ee4aea25.MainActivity" android:exported="true">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
@@ -36,14 +36,4 @@
   <!-- Required only if your app needs to access images or photos that other apps created -->
   <!-- Required only if your app needs to access videos that other apps created -->
   <!-- Required only if your app needs to access audio files that other apps created -->
-  <queries>
-    <intent>
-      <action android:name="android.intent.action.VIEW" />
-      <data android:scheme="http" />
-    </intent>
-    <intent>
-      <action android:name="android.intent.action.VIEW" />
-      <data android:scheme="https" />
-    </intent>
-  </queries>
 </manifest>

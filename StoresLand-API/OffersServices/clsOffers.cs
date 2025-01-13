@@ -39,13 +39,14 @@ namespace StoresLand_API.Offers
                 else
                 {
                     string responseBody = await response.Content.ReadAsStringAsync();
-                    clsUtil.WriteExceptionError($"Status Code: {response.StatusCode}, Body: {responseBody}");
+
+
                     return null;
                 }
             }
             catch (Exception ex)
             {
-                clsUtil.WriteExceptionError(ex.Message);
+                clsUtil.WriteExceptionError(ex);
                 return null;
             }
         }
@@ -63,12 +64,12 @@ namespace StoresLand_API.Offers
                 else
                 {
                     string responseBody = await response.Content.ReadAsStringAsync();
-                    clsUtil.WriteExceptionError($"Status Code: {response.StatusCode}, Body: {responseBody}");
+
                 }
             }
             catch (Exception ex)
             {
-                clsUtil.WriteExceptionError(ex.Message);
+                clsUtil.WriteExceptionError(ex);
             }
 
             return false;
@@ -88,13 +89,13 @@ namespace StoresLand_API.Offers
                 else
                 {
                     string responseBody = await response.Content.ReadAsStringAsync();
-                    clsUtil.WriteExceptionError($"Status Code: {response.StatusCode}, Body: {responseBody}");
+
                     return false;
                 }
             }
             catch (Exception ex)
             {
-                clsUtil.WriteExceptionError(ex.Message);
+                clsUtil.WriteExceptionError(ex);
                 return false;
             }
         }
@@ -112,37 +113,13 @@ namespace StoresLand_API.Offers
                 else
                 {
                     string responseBody = await response.Content.ReadAsStringAsync();
-                    clsUtil.WriteExceptionError($"Status Code: {response.StatusCode}, Body: {responseBody}");
+
                     return null;
                 }
             }
             catch (Exception ex)
             {
-                clsUtil.WriteExceptionError(ex.Message);
-                return null;
-            }
-        }
-
-        public static async Task<List<OfferDTO>> GetAllOffers()
-        {
-            try
-            {
-                var response = await clsUtil.httpClient.GetAsync("Offer/GetAllOffers");
-
-                if (response.IsSuccessStatusCode)
-                {
-                    return await response.Content.ReadFromJsonAsync<List<OfferDTO>>();
-                }
-                else
-                {
-                    string responseBody = await response.Content.ReadAsStringAsync();
-                    clsUtil.WriteExceptionError($"Status Code: {response.StatusCode}, Body: {responseBody}");
-                    return null;
-                }
-            }
-            catch (Exception ex)
-            {
-                clsUtil.WriteExceptionError(ex.Message);
+                clsUtil.WriteExceptionError(ex);
                 return null;
             }
         }
@@ -161,13 +138,13 @@ namespace StoresLand_API.Offers
                 else
                 {
                     string responseBody = await response.Content.ReadAsStringAsync();
-                    clsUtil.WriteExceptionError($"Status Code: {response.StatusCode}, Body: {responseBody}");
+
                     return null;
                 }
             }
             catch (Exception ex)
             {
-                clsUtil.WriteExceptionError(ex.Message);
+                clsUtil.WriteExceptionError(ex);
                 return null;
             }
         }
@@ -185,13 +162,13 @@ namespace StoresLand_API.Offers
                 else
                 {
                     string responseBody = await response.Content.ReadAsStringAsync();
-                    clsUtil.WriteExceptionError($"Status Code: {response.StatusCode}, Body: {responseBody}");
+
                     return null;
                 }
             }
             catch (Exception ex)
             {
-                clsUtil.WriteExceptionError(ex.Message);
+                clsUtil.WriteExceptionError(ex);
                 return null;
             }
         }
@@ -209,13 +186,13 @@ namespace StoresLand_API.Offers
                 else
                 {
                     string responseBody = await response.Content.ReadAsStringAsync();
-                    clsUtil.WriteExceptionError($"Status Code: {response.StatusCode}, Body: {responseBody}");
+
                     return false;
                 }
             }
             catch (Exception ex)
             {
-                clsUtil.WriteExceptionError(ex.Message);
+                clsUtil.WriteExceptionError(ex);
                 return false;
             }
         }

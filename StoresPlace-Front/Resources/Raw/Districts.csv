@@ -1,0 +1,3732 @@
+﻿1,3,حي العمل,Al Amal Dist.
+2,3,حي النموذجية,Al Namudhajiyah Dist.
+3,3,حي الجرادية,Al Jarradiyah Dist.
+4,3,حي الصناعية,Al Sinaiyah Dist.
+5,3,حي منفوحة الجديدة,Manfuha Al Jadidah Dist.
+6,3,حي الفاخرية,Al Fakhiriyah Dist.
+7,3,حي الديرة,Al Dirah Dist.
+8,3,حي ام الحمام الشرقي,East Umm Al Hamam Dist.
+9,3,حي الشرفية,Al Sharafiyah Dist.
+10,3,حي الهدا,Al Hada Dist.
+11,3,حي المعذر الشمالي,North Mathar Dist.
+12,3,حي ام الحمام الغربي,West Umm Al Hamam Dist.
+13,3,حي الرحمانية,Ar Rahmaniyah Dist.
+14,3,حي لبن,Laban Dist.
+15,3,حي الرفيعة,Ar Rafiah Dist.
+16,3,حي الشهداء,Al Shohda Dist.
+17,3,حي الملك فهد,King Fahd Dist.
+18,3,حي السويدي,Al Suwaidi Dist.
+19,3,حي الحزم,Al Hazm Dist.
+20,3,حي عتيقة,Utayqah Dist.
+21,3,حي المربع,Al Murabba Dist.
+22,3,حي الفلاح,Al Falah Dist.
+23,3,حي الندى,Al Nada Dist.
+24,3,حي المرسلات,Al Mursalat Dist.
+25,3,حي النزهة,Al Nuzha Dist.
+26,3,حي الورود,Al Woroud Dist.
+27,3,حي الملك فيصل,King Faisal Dist.
+28,3,المدينة الصناعية الثانية,2nd Industrial City
+29,3,حي العزيزية,Al Aziziyah Dist.
+30,3,حي المنصورة,Al Mansurah Dist.
+31,3,حي غبيرة,Ghobairah Dist.
+32,3,حي الفاروق,Al Farooq Dist.
+33,3,حي الفيصلية,Al Faisaliyah Dist.
+34,3,حي الخالدية,Al Khalidiyah Dist.
+35,3,حي الجزيرة,Al Jazeerah Dist.
+36,3,حي السعادة,Al Saadah Dist.
+37,3,حي الناصرية,Al Nasiriyah Dist.
+38,3,حي المناخ,Al Manakh Dist.
+39,3,حي الدفاع,Al Difaa Dist.
+40,3,حي النور,Al Noor Dist.
+41,3,حي الملك عبدالله,King Abdullah Dist.
+42,3,حي الواحة,Al Wahah Dist.
+43,3,حي صلاح الدين,Salahuddin Dist.
+44,3,حي الملك عبدالعزيز,King Abdulaziz Dist.
+45,3,حي الوزارات,Al Wizarat Dist.
+46,3,حي سكيرينة,Skirinah Dist.
+47,3,حي الربوة,Ar Rabwah Dist.
+48,3,حي جرير,Jareer Dist.
+49,3,حي المعذر,Al Mathar Dist.
+50,3,حي الصالحية,As Salhiyah Dist.
+51,3,حي الملز,Al Malaz Dist.
+52,3,حي منفوحة,Manfuhah Dist.
+53,3,حي عليشة,Olaishah Dist.
+54,3,حي النهضة,Al Nahdah Dist.
+55,3,حي الخليج,Al Khaleej Dist.
+56,3,حي الضباط,Al Dhubbat Dist.
+57,3,حي السويدي الغربي,West Suwaidi Dist.
+58,3,حي ديراب,Dirab Dist.
+59,3,حي احد,Ohod Dist.
+60,3,حي نمار,Namar Dist.
+61,3,حي الشفا,Al Shifa Dist.
+62,3,حي المحمدية,Al Muhammadiyah Dist.
+63,3,حي السليمانية,Al Sulaimaniyah Dist.
+64,3,حي المروة,Al Marwah Dist.
+65,3,حي عكاظ,Okaz Dist.
+66,3,حي شبرا,Shubra Dist.
+67,3,حي الزهرة,Al Zahrah Dist.
+68,3,حي صياح,Siyah Dist.
+69,3,حي سلطانة,Sultanah Dist.
+70,3,حي اليمامة,Al Yamamah Dist.
+71,3,حي البديعة,Al Badiah Dist.
+72,3,حي المصانع,Al Masani Dist.
+73,3,حي القادسية,Al Qadisiyah Dist.
+74,3,حي الصفا,Al Safa Dist.
+75,3,حي العليا,Al Olaya Dist.
+76,3,حي الدريهمية,Al Duraihemiyah Dist.
+77,3,حي الاسكان,Al Iskan Dist.
+78,3,حي السلام,Al Salam Dist.
+79,3,حي المنار,Al Manar Dist.
+80,3,حي النسيم الشرقي,East Naseem Dist.
+81,3,حي القدس,Al Quds Dist.
+82,3,حي الوادي,Al Wadi Dist.
+83,3,حي النفل,Al Nafel Dist.
+84,3,حي المصيف,Al Maseef Dist.
+85,3,حي التعاون,Al Taawun Dist.
+86,3,حي الازدهار,Al Ezdihar Dist.
+87,3,حي الاندلس,Al Andalus Dist.
+88,3,حي الروضة,Al Rawdah Dist.
+89,3,حي الروابي,Al Rawabi Dist.
+90,3,حي الريان,Al Rayan Dist.
+91,3,حي ظهرة البديعة,Dhahrat Al Badeah Dist.
+92,3,حي النظيم,Al Nadheem Dist.
+93,3,حي الرماية,Al Rimayah Dist.
+94,3,حي البرية,Al Bariyah Dist.
+95,3,حي طيبة,Taybah Dist.
+96,3,حي المنصورية,Mansuriyah Dist.
+97,3,حي ضاحية نمار,Dahiyat Namar Dist.
+98,3,حي المصفاة,Al Misfat Dist.
+99,3,حي السفارات,Assafarat Dist.
+100,3,خشم العان,Khashm Al An
+101,3,حي قرطبة,Qurtubah Dist.
+102,3,حي طويق,Tuwaiq Dist.
+103,3,حي العوالي,Al Awaly Dist.
+104,3,حي الربيع,Ar Rabie Dist.
+105,3,حي المغرزات,Al Mughrazat Dist.
+106,3,حي السلي,Al Sulay Dist.
+107,3,حي العقيق,Al Aqeeq Dist.
+108,3,حي النخيل,Al Nakheel Dist.
+109,3,حي الغدير,Al Ghadeer Dist.
+110,3,حي المروج,Al Muruj Dist.
+111,3,حي العود,Al Oud Dist.
+112,3,حي ثليم,Thulaim Dist.
+113,3,حي الشميسي,Al Shumaisi Dist.
+114,3,حي الوشام,Al Wisham Dist.
+115,3,منتزه سلام,Salam Park
+116,3,حي الدوبية,Al Dubiyah Dist.
+117,3,حي معكال,Meakal Dist.
+118,3,حي جبرة,Jabrah Dist.
+119,3,حي القرى,Al Qura Dist.
+120,3,حي المرقب,Al Marqab Dist.
+121,3,حي الفوطة,Al Futah Dist.
+122,3,حي ام سليم,Umm Saleem Dist.
+123,3,حي الصحافة,Al Sahafah Dist.
+124,3,حي الرائد,Al Raed Dist.
+125,3,حي العريجاء الغربي,West Oraija Dist.
+126,3,حي العريجاء,Al Uraija Dist.
+127,3,حي العريجاء الوسطى,Middle Oraija Dist.
+128,3,حي الحمراء,Al Hamra Dist.
+129,3,حي الدار البيضاء,Al Dar Al Baida Dist.
+130,3,حي البطيحا,Al Butaiha Dist.
+131,3,حي الزهراء,Al Zahra Dist.
+132,3,حي الفيحاء,Al Fayha Dist.
+133,3,حي المؤتمرات,Al Mutamarat Dist.
+134,3,حي الوسيطاء,Al Wusayta Dist.
+135,3,حي الجنادرية,Al Janadriyah Dist.
+136,3,حي اشبيلية,Ishbiliyah Dist.
+137,3,حي المعيزلة,Al Maizalah Dist.
+138,3,حي اليرموك,Al Yarmuk Dist.
+139,3,حي المونسية,Al Munisiyah Dist.
+140,3,حي الخزامى,Al Khuzama Dist.
+141,3,عرقة,Irqah
+142,3,حي ظهرة لبن,Dhahrat Laban Dist.
+143,3,حي حطين,Hiteen Dist.
+144,3,حي الملقا,Al Malqa Dist.
+145,3,حي القيروان,Al Qairawan Dist.
+146,3,حي الياسمين,Al Yasmeen Dist.
+147,3,حي العارض,Al Arid Dist.
+148,3,مطار الملك خالد,King Khalid International Airport
+149,3,حي النرجس,Al Narjis Dist.
+150,3,جامعة الامام محمد بن سعود الاسلامية,Imam Muhammed Bin Saud Islamic University
+151,3,حي بنبان,Banban Dist.
+152,3,حي الرمال,Al Rimal Dist.
+153,3,حي غرناطة,Ghirnatah Dist.
+154,3,حي الدحو,Al Dahou Dist.
+155,3,حي العماجية,Al Ammajiyah Dist.
+156,3,حي هيت,Hyt Dist.
+157,3,حي الحائر,Al Haer Dist.
+158,3,حي ام الشعال,Umm Al Shaal Dist.
+159,3,حي الغنامية,Al Ghannamiyah Dist.
+160,3,حي عريض,Oraid Dist.
+161,3,حي بدر,Badr Dist.
+162,3,حي المهدية,Al Mahdiyah Dist.
+163,3,جامعة الملك سعود,King Saud University
+164,3,حي النسيم الغربي,West Naseem Dist.
+165,3,حي المشاعل,Al Mishael Dist.
+166,3,حي الندوة,Al Nadwah Dist.
+167,3,حي الرابية,Al Rabiyah Dist.
+168,3,حي وادي لبن,Wady Laban Dist.
+169,3,حي السدرة,Al Sidrah Dist.
+170,3,حي التضامن,Al Tadamun Dist.
+171,3,مدينة الملك عبدالله للطاقة,King Abdullah City For Energy
+172,3,حي البساتين,Al Basatin Dist.
+173,3,حي الرحاب,Al Rehab Dist.
+174,3,حي المجد,Al Majd Dist.
+175,3,حي الدانة,Al Danah Dist.
+176,3,حي الرسالة,Al Risalah Dist.
+177,3,حي الخير,Al Khair Dist.
+178,3,حي الفرسان,Al Fursan Dist.
+179,3,حي الشعلة,Al Sholah Dist.
+180,3,حي الراية,Al Rayah Dist.
+181,3,حي الزهور,Al Zahour Dist.
+182,3,حي الزاهر,Al Zaher Dist.
+183,3,حي المرجان,Al Marjan Dist.
+184,3,حي البيان,Al Bayan Dist.
+185,3,حي العلا,Al Ula Dist.
+186,3,حي المشرق,Al Mashriq Dist.
+187,3,حي النخبة,Al Nakhbah Dist.
+188,3,حي السحاب,Al Sahab Dist.
+189,3,حي الوسام,Al Wasam Dist.
+190,24,حي المرقب,Al Marqab Dist.
+191,24,حي اليرموك,Al Yarmuk Dist.
+192,24,حي الفيحاء,Al Fayha Dist.
+193,24,حي الملك فهد,King Fahd Dist.
+194,24,حي الملك سلمان,King Salman Dist.
+195,24,حي الملك عبدالعزيز,King Abdulaziz Dist.
+196,24,حي الاندلس,Al Andalus Dist.
+197,24,حي المطار,Al Matar Dist.
+198,24,حي الملك عبدالله,King Abdullah Dist.
+199,24,المنطقة الصناعية,Industrial Area
+200,24,حي الجامعيين,Al Jamiyin Dist.
+201,24,حي المروج,Al Muruj Dist.
+202,24,حي المستقبل,Al Mustaqbal Dist.
+203,153,حي البصيرة,Al Basirah Dist.
+204,153,حي الروضة,Ar Rawdah Dist.
+205,153,حي الرفيعة,Ar Rafiah Dist.
+206,162,حي البلد القديمة,Al Balad Al Qadimah Dist.
+207,162,حي الملك فهد,King Fahd Dist.
+208,162,حي السمرية,Al Samriyah Dist.
+209,162,حي القري,Al Qari Dist.
+210,162,حي الصناعية,Industrial Dist.
+211,162,حي الملك فيصل,King Faisal Dist.
+212,162,حي المرقب,Al Marqab Dist.
+213,162,حي شراف,Shiraf Dist.
+214,162,حي النموذجية,An Namudhajiyah Dist.
+215,162,حي الجزر,Al Jazur Dist.
+216,162,حي الصناعية الجديدة,New Industrial Dist.
+217,162,حي الشعيبة,Al Shuaibah Dist.
+218,162,حي الوسطة,Al Wusta Dist.
+219,162,حي الشمالية,Al Shamalia Dist.
+220,165,حي الياسمين,Al Yasmin Dist.
+221,165,حي الشبيلية,Ash Shibilyah Dist.
+222,165,حي العزيزية,Al Aziziyah Dist.
+223,165,حي الربعة,Ar Rabah Dist.
+224,165,حي الدوائر الحكومية,Goverment Departments Dist.
+225,165,حي القادسية,Al Qadisiyah Dist.
+226,165,حي بدر,Badr Dist.
+227,165,حي الشفا,Ash Shifa Dist.
+228,165,حي النزهة,An Nuzhah Dist.
+229,165,حي المصيف,Al Masif Dist.
+230,165,حي الحلة الطالعية,Al Halah At Taliyah Dist.
+231,165,حي الفتح,Al Fath Dist.
+232,165,حي النخيل,Al Nakhil Dist.
+233,165,حي المروج,Al Muruj Dist.
+234,165,حي اليرموك,Al Yarmuk Dist.
+235,165,حي النهضة,An Nahdah Dist.
+236,165,حي الزهور,Az Zuhur Dist.
+237,167,مدينة سدير للصناعة والأعمال,Sudair Industrial And Business City
+238,167,حي الملك عبدالله,King Abdullah Dist.
+239,167,حي الملك سعود,King Saud Dist.
+240,167,حي النهضة,An Nahdah Dist.
+241,167,حي الملك فهد,King Fahd Dist.
+242,167,حي الخالدية,Al Khalidiyah Dist.
+243,167,حي الخليج,Al Khalij Dist.
+244,167,حي منتزه,Muntazah Dist.
+245,167,حي العزيزية,Al Aziziyah Dist.
+246,167,حي الملك فيصل,King Faisal Dist.
+247,167,حي الياسمين,Al Yasmin Dist.
+248,167,حي الروضة,Ar Rawdah Dist.
+249,167,حي اليرموك,Al Yarmuk Dist.
+250,167,حي الملك عبدالعزيز,King Abdulaziz Dist.
+251,167,حي صناعية تمير,Tumair Industrial Dist.
+252,168,حي سلطانة,Sultanah Dist.
+253,168,حي الفيحاء,Al Fayha Dist.
+254,168,حي الروضه,Ar Rawdah Dist.
+255,168,حي السعاده,Al Saadah Dist.
+256,168,حي النهضه,Al Nahdah Dist.
+257,168,حي الورود,Al Wurud Dist.
+258,168,حي الأندلس,Al Andalus Dist.
+259,168,حي الفيصلية,Al Faisaliyah Dist.
+260,168,حي المصيف,Al Masif Dist.
+261,168,حي الخليج,Al Khalij Dist.
+262,168,حي النخيل,Al Nakhil Dist.
+263,168,حي الغدير,Al Ghadir Dist.
+264,270,حي حطين,Hiteen Dist.
+265,270,حي قرطبة,Qurtubah Dist.
+266,270,حي الفيصلية,Al Faisaliyah Dist.
+267,270,حي العزيزية,Al Aziziyah Dist.
+268,270,حي القدس,Al Quds Dist.
+269,270,حي الخالدية,Al Khalidiyah Dist.
+270,270,حي الروضة,Ar Rawdah Dist.
+271,270,حي الربوة,Ar Rabwah Dist.
+272,270,حي الريان,Ar Riyan Dist.
+273,270,حي النهضة,An Nahdah Dist.
+274,270,حي مرخ,Margh  Dist.
+275,270,حي الصناعية,As Sinaiyah Dist.
+276,270,حي بدر,Badr Dist.
+277,270,حي احد,Uhd Dist.
+278,270,حي طويق,Tuwik Dist.
+279,270,حي الفاروق,Al Farouq Dist.
+280,270,حي الصديق,As Sediq Dist.
+281,270,حي اليرموك,Al Yarmok Dist.
+282,270,حي اليمامة,Al Yamamah Dist.
+283,270,حي علقة,Alkah Dist.
+284,270,حي الدرعية,Al Deriyah Dist.
+285,270,حي المنتزة,Al Muntazah Dist.
+286,270,حي الاندلس,Al Andalus Dist.
+287,270,حي سمنان,Semnan Dist.
+288,270,حي السلام,As Salam Dist.
+289,270,حي السيح,As Sieh Dist.
+290,270,حي عريعرة,Urierah Dist.
+291,270,حي الورود,Al Wurud Dist.
+292,270,حي الملك عبدالله,King Abdullah Dist.
+293,270,حي الواحة,Al Wahah Dist.
+294,270,حي الازدهار,Al Izdihar Dist.
+295,270,حي الحمراء,Al Hamra Dist.
+296,270,حي اشبيليا,Ishbiliya Dist.
+297,270,حي غرناطة,Ghirnatah Dist.
+298,270,حي الياسمين,Al Yasmin Dist.
+299,270,حي الربيع,Ar Rabie Dist.
+300,270,حي السعادة,As Saadah Dist.
+301,270,حي النور,An Nur Dist.
+302,270,حي الخزامى,Al Khuzama Dist.
+303,270,حي النفل,An Naql Dist.
+304,270,حي الخليج,Al Khalij Dist.
+305,270,حي الفردوس,Al Fardus Dist.
+306,270,حي المنار,Al Manar Dist.
+307,270,حي القادسية,Al Qadisiyah Dist.
+308,270,حي الندى,An Nada Dist.
+309,270,حي الفروسية,Al Frosyah Dist.
+310,270,حي السيح,As Sieh Dist.
+311,270,الجوى,Al Jawa
+312,270,حي الملك سلمان,King Salman Dist.
+313,306,حي الورود,Al Wurud Dist.
+314,306,حي الزهور,Az Zuhur Dist.
+315,306,حي الاندلس,Al Andalus Dist.
+316,306,حي الربيع,Ar Rabie Dist.
+317,306,حي المصيف,Al Masiaf Dist.
+318,306,حي الياسمين,Al Yasmin Dist.
+319,306,حي الخزامى,Al Khuzama Dist.
+320,306,حي غرناطة,Ghirnatah Dist.
+321,306,حي الغدير,Al Ghadir Dist.
+322,306,حي الصناعية,As Sinaiyah Dist.
+323,306,حي النفل,An Naql Dist.
+324,306,حي البستان,Al Bustan Dist.
+325,306,حي النخيل,Al Nakhil Dist.
+326,306,حي المروج,Al Muruj Dist.
+327,418,حي شمال الاذاعة,Al Idhaah North Dist.
+328,418,حي المعارض,Al Maarid Dist.
+329,418,حي الاذاعة,Al Idhaah Dist.
+330,418,حي الملك فهد,King Fahd Dist.
+331,418,حي الملز,Al Malaz Dist.
+332,418,حي الاصفر,Al Asfar Dist.
+333,418,حي الحجاج,Al Hujjaj Dist.
+334,418,حي المهنيين,Al Mihaniyin Dist.
+335,418,حي النهضة,An Nahdah Dist.
+336,418,حي الملك فيصل,King Faisal  Dist.
+337,418,حي الصالحية,As Salhiyah Dist.
+338,418,حي العود,Al Uud Dist.
+339,418,حي المنفوحة,Al Manfuhah Dist.
+340,418,حي الصناعية,As Sinaiyah Dist.
+341,418,حي الخزان,Al Khazzan Dist.
+342,418,حي الملك خالد,King Khalid  Dist.
+343,418,حي السليمانية,As Sulaymaniyah Dist.
+344,418,الجامعية,Al Jamieyah
+345,443,حي الديرة القديمة,Ad Dirah Al Qadimah Dist.
+346,443,حي الخالدية,Al Khalidiyah Dist.
+347,443,حي العزيزية,Al Aziziyah Dist.
+348,443,حي الفيصلية,Al Faisaliyah Dist.
+349,443,حي الجنادرية,Al Janadriyah Dist.
+350,500,المنطقة الصناعية,Industrial Area
+351,500,حي غسلة,Gaslah Dist.
+352,500,حي الوقف,Al Wakf Dist.
+353,500,حي الشفاء,Ash Shifa Dist.
+354,500,حي الملك فهد,King Fahd Dist.
+355,500,حي الروضة,Ar Rawdah Dist.
+356,500,حي النسيم,Al Naseem Dist.
+357,500,حي الوشم,Al Washm Dist.
+358,500,حي الرحبة,Al Rehab Dist.
+359,574,حي الخالدية,Al Khalidiyah Dist.
+360,574,حي العزيزية,Al Aziziyah Dist.
+361,574,حي الياسمين,Al Yasmin Dist.
+362,574,حي النزهة,An Nuzhah Dist.
+363,574,حي الصناعية,As Sinaiyah Dist.
+364,574,حي الديرة,Ad Dirah Dist.
+365,574,حي الفيصلية,Al Faisaliyah Dist.
+366,574,حي الشرفية,Ash Sharafiyah Dist.
+367,574,حي النهضة,An Nahdah Dist.
+368,574,حي الشفا,Ash Shifa Dist.
+369,669,حي مشرفة,Mishrifah Dist.
+370,669,حي النزهة,An Nuzhah Dist.
+371,669,حي حطين,Hiteen Dist.
+372,669,حي الملك فهد,King Fahd Dist.
+373,669,حي الحرمين,Al Haramain Dist.
+374,669,حي السلام,As Salam Dist.
+375,669,حي الخليج,Al Khalij  Dist.
+376,669,حي الديرة,Ad Dirah Dist.
+377,669,حي الروضة,Ar Rawdah Dist.
+378,669,حي الفيصلية,Al Faisaliyah Dist.
+379,669,حي بدر,Badr Dist.
+380,669,حي الربوة,Ar Rabwah Dist.
+381,669,حي النهضة,An Nahdah Dist.
+382,669,حي القدس,Al Quds Dist.
+383,669,حي الصناعية,As Sinaiyah Dist.
+384,669,حي الخالدية,Al Khalidiyah Dist.
+385,669,حي العزيزية,Al Aziziyah Dist.
+386,669,حي الريان,Ar Rayan Dist.
+387,669,حي السنبلة,As Sunbulah Dist.
+388,669,حي الدرع,Ad Dar Dist.
+389,669,منطقة الاستراحات,Rest House Area
+390,669,حي مصده,Musaddah Dist.
+391,684,حي الشمالي,Al Shamali Dist.
+392,684,حى الخزان,Al Khazzan Dist.
+393,684,حي السعادة,As Saadah Dist.
+394,684,حي الشفاء,Ash Shifa Dist.
+395,684,حي النهضة,An Nahdah Dist.
+396,684,حي العزيزية,Al Aziziyah Dist.
+397,684,حي الفيحاء,Al Fayha Dist.
+398,684,حي الشهداء,Ash Shuhada Dist.
+399,701,حي الصناعية,Al Sinaiyah Dist.
+400,701,حي فيضة الفوازين,Faydat Al Fawazin Dist.
+401,701,حي التسعين,Al Teseen Dist.
+402,701,حي الذيابية,Al Diyabiyah Dist.
+403,701,حي برزان,Barzan Dist.
+404,701,حي الياسمين,Al Yasmin Dist.
+405,701,حي العقيشية,Al Aqishiyah Dist.
+406,701,حي البلد,Al Balad Dist.
+407,701,حي الملك فهد,King Fahd Dist.
+408,701,حي المسلخ,Al Maslakh Dist.
+409,701,حي المثوية,Al Mathawiyah Dist.
+410,701,حي التضامن,Al Tadamun Dist.
+411,701,حي مركز الشرارة,Markaz Al Shararh Dist.
+412,701,حي الرفيعة,Ar Rafiah Dist.
+413,701,حي الصالحية,As Salhiyah Dist.
+414,701,حي مشرفة,Mishrifah Dist.
+415,701,حي الملك فيصل,King Faisal Dist.
+416,701,حي صقرة,Saqrah Dist.
+417,701,حي صقرة الشمالي,Saqrah Northern Dist.
+418,701,حي الرديفة,Al Radifah Dist.
+419,701,حي البديعة,Al Badiah Dist.
+420,701,حي الزعيبة,Al Zuaibah Dist.
+421,701,حي الامير سلطان,Prince Sultan Dist.
+422,701,حي الفيصلية,Al Faisaliyah Dist.
+423,701,حي صحارى,Sahara Dist.
+424,701,حي العلوات,Al Alawat Dist.
+425,701,حي الشتينية,Al Shatiniyyah
+426,701,حي القسيمة,Al Qassima Dist.
+427,795,حي الديرة,Ad Dirah Dist.
+428,795,حي النخيل,Al Nakhil Dist.
+429,795,حي السد,As Sad Dist.
+430,795,حي الروضة,Ar Rawdah Dist.
+431,795,حي النهضة,An Nahdah Dist.
+432,795,حي الحزم,Al Hazm Dist.
+433,828,حي الملقاه,Al Malqah Dist.
+434,828,حي الفيصلية,Al Faisaliyah Dist.
+435,828,حي الثليما,Al Thilaima Dist.
+436,828,حي السلمانية,Al Salmaniyah Dist.
+437,828,حي الملك,Al Malik Dist.
+438,828,حي الدرعية,Al Diriyah Dist.
+439,828,حي الخالدية,Al Khalidiyah Dist.
+440,828,حي العاصمة,Al Asemah Dist.
+441,828,حي الطريف,Al Turaif Dist.
+442,828,حي الروقية,Al Rooqiyah Dist.
+443,828,حي السرحية,Al Sarhiyah Dist.
+444,828,حي الشهداء,Al Shohda Dist.
+445,828,حي ظهرة العودة غرب,West Dhahrat Al Oudah Dist.
+446,828,حي البليدا,Al Blaida Dist.
+447,828,حي العلب,Al Olab Dist.
+448,828,سلطانة,Sultanah
+449,828,حي ظهرة العودة شرق,East Dhahrat Al Oudah Dist.
+450,830,حي العين,Al Ain Dist.
+451,830,حي سلام,Salam Dist.
+452,830,حي العدل,Al Adel Dist.
+453,830,الكلية الحربية,Military College
+454,830,حي عقرباء,Aqraba Dist.
+455,830,حي الواحة,Al Wahah Dist.
+456,830,حي الشهداء,Ash Shuhada Dist.
+457,830,حي الوصيل,Al Waseel Dist.
+458,830,حي الوادي,Al Wadi Dist.
+459,830,حي هجرة بوضة,Bawdah Dist.
+460,830,حي نجد,Najd Dist.
+461,830,حي الامير سلطان,Prince Sultan Dist.
+462,839,المنطقة الصناعية,Industrial Area
+463,839,حي اليمامة,Al Yamamah Dist.
+464,839,حي الخالدية,Al Khalidiyah Dist.
+465,839,حي العزيزية,Al Aziziyah Dist.
+466,839,حي الورود 1,Al Wurud 1 Dist.
+467,839,حي النهضة,An Nahdah Dist.
+468,839,حي المنتزة,Al Muntazah Dist.
+469,839,حي البديع الغربي,Al Badi Al Gharbi Dist.
+470,839,حي العنقري,Al Anqari Dist.
+471,839,حي البديع الشرقي,Al Badi Ash Sharqi Dist.
+472,880,حي ابو سليم,Abu Salim Dist.
+473,880,حي السلام,As Salam Dist.
+474,880,حي الجزيرة,Al Jazirah Dist.
+475,880,حي المروج,Al Muruj Dist.
+476,880,حي الخليج,Al Khalij Dist.
+477,880,حي الربوة,Ar Rabwah Dist.
+478,880,حي الزهور,Az Zuhur Dist.
+479,880,حي البساتين,Al Basatin Dist.
+480,880,حي الواحة,Al Wahah Dist.
+481,880,حي الديرة,Ad Dirah Dist.
+482,880,حي الصناعية,As Sinaiyah Dist.
+483,880,حي الورود,Al Wurud Dist.
+484,880,حي الحزم,Al Hazm Dist.
+485,880,حي الجفونية,Al Jaffuniyyah Dist.
+486,880,حي الضريب,Ad Darib Dist.
+487,885,حي الوادي,Al Wadi Dist.
+488,885,حي الشفاء,Al Shifa Dist.
+489,885,حي الفيصلية,Al Faisaliyah Dist.
+490,885,حي البنفسج,Al Banafsaj Dist.
+491,885,حي الخليج,Al Khalij Dist.
+492,885,حي الخالدية,Al Khalidiyah Dist.
+493,885,حي السليمانية,Al Sulaymaniyah Dist.
+494,885,حي القدس,Al Quds Dist.
+495,885,حي الوفاء,Al Wafa Dist.
+496,885,حي الفيحاء,Al Fayha Dist.
+497,885,حي العزيزية,Al Aziziyah Dist.
+498,885,حي النزهة,Al Nuzhah Dist.
+499,885,حي الدار البيضاء,Al Dar Al Baida Dist.
+500,885,حي الدوحة,Al Dohah Dist.
+501,885,حي الفرعة,Al Farah Dist.
+502,885,حي النخيل,Al Nakhil Dist.
+503,885,حي الشعيبة,Al Shuaibah Dist.
+504,885,حي المريقب,Al Muraiqeb Dist.
+505,885,حي العروبة,Al Urubah Dist.
+506,885,حي الدهناء,Al Dahna Dist.
+507,885,حي أبا العبلان2,Aba Al Ablan 2 Dist.
+508,885,المنطقة الصناعية,Industrial Area
+509,885,حي أبا العبلان1,Aba Al Ablan 1 Dist.
+510,885,مخطط ج3,Subdivision Plan 3c
+511,885,مخطط ج1,Subdivision Plan 1c
+512,885,مخطط ج2,Subdivision Plan 2c
+513,885,مخطط ج4,Subdivision Plan 4c
+514,959,حي ام طلحة,Um Talha Dist.
+515,962,حي نجد,Najd Dist.
+516,962,حي ال هويمل,Al Hoymel Dist.
+517,962,حي الهفوف,Al Hufuf Dist.
+518,962,حي الوسيطا,Al Wusayta Dist.
+519,962,حي الرين الاعلى,Ar Rayn Al Aala Dist.
+520,962,حي المعيزيله,Al Muayzeleh Dist.
+521,962,حي العمار,Al Amar Dist.
+522,962,حي المعتلا,Al Maatala Dist.
+523,962,حي قبيبان,Qubeiban Dist.
+524,962,حي الملك فيصل,King Faisal Dist.
+525,962,حي عشيرة,Ashayra Dist.
+526,962,حي الغريبية,Al Gharibiya Dist.
+527,962,حي الملك فهد,King Fahd Dist.
+528,962,حي الفتح,Al Fath Dist.
+529,962,حي القميش,Al Qumish Dist.
+530,962,حي الرفايع,Ar Rafayie Dist.
+531,962,حي الرجع,Al Rajai Dist.
+532,962,حي الوسطى,Al Wusta Dist.
+533,962,حي عبلية,Ableya Dist.
+534,962,حي النور,An Noor Dist.
+535,962,حي القادسية,Al Qadisiyah Dist.
+536,962,حي الشعيفان,Al Shaeifan Dist.
+537,962,حي الريعانية,Al Rayaniyah Dist.
+538,962,حي الحنو,Al Hano Dist.
+539,962,حي الرواما,Al Rawama Dist.
+540,962,حي المثناه,Al Muthanna Dist.
+541,962,حي الفرعة,Al Fara Dist.
+542,962,حي الفردوس,Al Fardus Dist.
+543,962,حي الرفاع,Ar Rifaa Dist.
+544,962,حي الناصفه,Al Nasfah Dist.
+545,962,حي اليمامة,Al Yamamah Dist.
+546,962,حي المعترضة,Al Mutarida Dist.
+547,962,حي احد,Uhud Dist.
+548,962,حي النقيعه,Al Naqiea Dist.
+549,962,حي البدائع,Al Badayi Dist.
+550,962,حي الصفا,As Safa Dist.
+551,962,حي اليرموك,Al Yarmuk Dist.
+552,962,حي الشموع,Al Shumua Dist.
+553,962,حي الرفيعة,Ar Rafiah Dist.
+554,962,حي غرناطة,Ghirnatah Dist.
+555,962,حي الرين القديم,Ar Rayn Al Qadim Dist.
+556,990,حي الصناعية,Al Sinaiyah Dist.
+557,990,حي الحزيمية,Al Huzaymiyyah Dist.
+558,990,حي الصقورية,Al Suquriyyah Dist.
+559,990,حي المروج,Al Muruj Dist.
+560,990,حي شخيب,Shukhib Dist.
+561,990,حي طويق,Tuwik Dist.
+562,990,حي الأندلس,Al Andalus Dist.
+563,990,حي غرناطه,Ghirnatah Dist.
+564,990,حي الهدا,Al Hada Dist.
+565,990,حي العليا,Al Olaya Dist.
+566,990,حي نواره,Nawarah Dist.
+567,990,حي وسيلة,Waselah Dist.
+568,990,حي اللؤلؤة,Al Luluah Dist.
+569,990,حي الراشدية,Al Rashidiyah Dist.
+570,990,حي الغطغط,Al Ghtght Dist.
+571,990,حي الريف,Al Rif Dist.
+572,990,حي المحمدية,Al Muhammadiyah Dist.
+573,990,حي الواحة,Al Wahah Dist.
+574,990,حي الحزم,Al Hazm Dist.
+575,990,حي مشيرفة,Al Musherfah Dist.
+576,990,حي الجامعة,Al Jamiah Dist.
+577,990,حي الورود,Al Wurud Dist.
+578,990,حي الياسمين,Al Yasmin Dist.
+579,990,حي الشلال,Al Shlal Dist.
+580,1061,حي المصانع,Al Masani Dist.
+581,1061,حي البركة,Al Barakah Dist.
+582,1061,حي المنتزة,Al Muntazah Dist.
+583,1061,حي الصناعية الجديدة,New Industrial Dist.
+584,1061,حي السليمانية,As Sulaymaniyah Dist.
+585,1061,حي الصفاء,Al Safa Dist.
+586,1061,حي البرج,Al Burj Dist.
+587,1061,حي الورود,Al Wurud Dist.
+588,1061,حي السلام,As Salam Dist.
+589,1061,حي الرفيعة,Ar Rafiah Dist.
+590,1061,حي اليمامة,Al Yamamah Dist.
+591,1061,حي الخالدية,Al Khalidiyah Dist.
+592,1061,حي الخزامى,Al Khuzama Dist.
+593,1061,حي العزيزية,Al Aziziyah Dist.
+594,1061,حي مشرف,Mishrif Dist.
+595,1061,حي الراشدية,Ar Rashidiyyah Dist.
+596,1061,حي المنيفية,Al Munyfiyah Dist.
+597,1061,حي الناصفة,An Nasifah Dist.
+598,1061,حي البديعة,Al Badiah Dist.
+599,1061,حي المنصورة,Al Mansurah Dist.
+600,1061,حي النهضة,An Nahdah Dist.
+601,1061,حي النزهة,An Nuzhah Dist.
+602,1061,حي الريان,Ar Rayyan Dist.
+603,1061,حي الاندلس,Al Andalus Dist.
+604,1061,حي الفيصلية,Al Faisaliyah Dist.
+605,1061,حي الزاهر,Az Zahir Dist.
+606,1061,منطقة صناعية,Industrial Area
+607,1061,حي العالية,Al Aliyah Dist.
+608,1061,الهياثم,Al Hayathim
+609,1061,حي العدامة,Al Adamah Dist.
+610,1061,حي القطار,Al Qitar Dist.
+611,1061,المدينة الصناعية بالخرج,Al Kharj Industrial City
+612,1061,قاعدة الامير سلطان الجوية,Prince Sultan Air Base
+613,1061,حي الجامعة,Al Jamiah Dist.
+614,1061,حي جوهرة الخرج,Jawharat Al Kharj Dist.
+615,1061,حي المروج,Al Muruj Dist.
+616,1061,حي السحاب,As Sahab Dist.
+617,1061,حي اليرموك,Al Yarmuk Dist.
+618,1061,حي الاخضر,Al Akhdar Dist.
+619,1061,حي الروابي,Ar Rawabi Dist.
+620,1061,حي قرطبة,Qurtubah Dist.
+621,1061,حي الهدا,Al Hada Dist.
+622,1061,حي الحمراء,Al Hamra Dist.
+623,1073,حي الخالدية,Al Khalidiyah Dist.
+624,1073,حي الشفاء,Ash Shifa Dist.
+625,1073,حي السليمانية,As Sulaymaniyah Dist.
+626,1073,حي سدير,Sudayr Dist.
+627,1073,حي السعيدان,As Saydan Dist.
+628,1073,حي السماري,As Samari Dist.
+629,1073,حي العويمرية,Al Uwaymiriyah Dist.
+630,1073,حي الصحنة,Al Sahnah Dist.
+631,1073,حي العذراء,Al Adhra Dist.
+632,1073,حي الديرة,Ad Dirah Dist.
+633,1073,حي الناصرية,An Nasriyah Dist.
+634,1073,حي زميقة,Zamiqa Dist.
+635,1073,حي النهضة,An Nahdah Dist.
+636,1351,حي الخماسين الشمالي,Al Khamasin Al Shamali Dist.
+637,1351,حي اللدام الجنوبي,Al Ludam Al Janubi Dist.
+638,1351,حي الحديدية,Al Hadidiyah Dist.
+639,1351,حي القيروان,Al Qayrawan Dist.
+640,1351,حي المنتزه,Al Muntazah Dist.
+641,1351,حي الروضة,Al Rawdah Dist.
+642,1351,حي مقابل,Muqabil Dist.
+643,1351,حي صناعية الحديدية,Sinaiyat Al Hadidiyah Dist.
+644,1351,حي التقنية,Al Taqniyah Dist.
+645,1351,حي الرويساء,Al Ruwaysa Dist.
+646,1351,حي اللدام الشمالي,Al Ludam Al Shamali Dist.
+647,1351,حي آل عويمر,Al Uwaimir Dist.
+648,1351,حي الخماسين,Al Khamasin Dist.
+649,1351,حي الولامين,Al Walamin Dist.
+650,1351,حي المعتلاء,Al Muatala Dist.
+651,1351,حي صناعية الشرفا,Al Shurafa Industrial Dist.
+652,1351,حي الشرفا,Al Shurafa Dist.
+653,1351,حي ال عريمة,Al Uraimah Dist.
+654,1351,حي الزويراء,Al Zuwayra Dist.
+655,1351,حي الخالدية,Al Khalidiyah Dist.
+656,1351,حي النزهة,Al Nuzha Dist.
+657,1351,حي العزيزية,Al Aziziyah Dist.
+658,1351,حي نزوى,Nazwa Dist.
+659,1351,حي العقيق,Al Aqiq Dist.
+660,1351,حي الصالحية,As Salhiyah Dist.
+661,1351,حي ال تميم و الصالحية,Al Tamim Wal Salihiyyah Dist.
+662,1351,حي المدرسة العسكرية,Military School Dist.
+663,1351,حي العليا,Al Olaya Dist.
+664,1351,حي الحنابجة,Al Hanabijah Dist.
+665,1351,حي الورود,Al Wurud Dist.
+666,1351,حي المعتلاء الجنوبي,Al Muatala Al Janubi Dist.
+667,1351,حي النويعمة,Al Nuwayemah Dist.
+668,1351,حي القويز,Al Quwaiz Dist.
+669,1351,الحي الغربي,Al Gharbi Dist.
+670,1351,حي المستشفي,Al Mustashfa Dist.
+671,1361,حي النخيل,Al Nakhil Dist.
+672,1361,حي الروضة,Ar Rawdah Dist.
+673,1361,حي الشفاء,Ash Shifa Dist.
+674,1361,حي الديرة,Ad Dirah Dist.
+675,1361,حي الملك عبدالعزيز,King Abdulaziz Dist.
+676,1361,حي الزهرة,Az Zahrah Dist.
+677,3158,حي المدينة الجديدة,Al Madinah Al Jadidah Dist.
+678,3158,حي الركية,Ar Rukiyah Dist.
+679,3158,حي الحزيمية,Al Huzaimiyah Dist.
+680,3158,وسط المدينة,City Center
+681,3158,حي العثمانية,Al Uthmaniyah Dist.
+682,3158,حي الصناعية,As Sinaiyah Dist.
+683,3161,حي الورود,Al Wurud Dist.
+684,3161,حي خضار,Khudar Dist.
+685,3161,حي الباطن,Al Batin Dist.
+686,3161,حي النهضة,An Nahdah Dist.
+687,3161,حي الشعيب,Ash Shuaib Dist.
+688,3161,حي زياد,Ziyad Dist.
+689,3161,حي الفرعة,Al Farah Dist.
+690,3161,حي التضامن,Al Tadamun Dist.
+691,3161,حي المنار,Al Manar Dist.
+692,3161,حي المجد,Al Majd  Dist.
+693,3161,حي المصيف,Al Masiaf Dist.
+694,3161,حي الصدر,Al Sadr Dist.
+695,3161,حي المحمدية,Al Muhammadiyah Dist.
+696,3161,حي السلام,As Salam Dist.
+697,3161,حي الحلة,Al Hilah Dist.
+698,3165,الحلوة,Al Hilwah
+699,3165,حي الحزم,Al Hazm Dist.
+700,3174,حي الملك فهد,King Fahd Dist.
+701,3174,حي السحاب,As Sahab Dist.
+702,3174,حي الصالحية,As Salhiyah Dist.
+703,3174,حي الدوائر,Ad Dawair Dist.
+704,3174,حي العزيزية,Al Aziziyah Dist.
+705,3174,حي الفيصلية,Al Faisaliyah Dist.
+706,3174,حي الجفيدرية,Al Jufaidariyah Dist.
+707,3174,حي غصيبة,Ghusaiba Dist.
+708,3174,حي المبرز,Al Mubarraz Dist.
+709,3174,حي السعودية,As Saudia Dist.
+710,3174,حي الخالدية,Al Khalidiyah Dist.
+711,3174,بدائع الهواملة,Badai Al Hawamilah
+712,5,حي ج10,C10 Dist.
+713,5,حي ضاحية الاسكان,Dhahiyat Al Iskan  Dist.
+714,5,منطقة إمتداد ضاحية الإسكان,Dhahiyat Al Iskan Extension Area
+715,5,حي السيل الكبير,As Sail Al Kabeer  Dist.
+716,5,حي الهدا,Al Huda  Dist.
+717,5,حي الشفا,Ash Shifa  Dist.
+718,5,حي ج3,C3 Dist.
+719,5,حي ج4,C4 Dist.
+720,5,حي ج5,C5 Dist.
+721,5,حي ج43,C43 Dist.
+722,5,حي ج16,C16 Dist.
+723,5,حي ج18,C18 Dist.
+724,5,حي ج11,C11 Dist.
+725,5,حي ج12,C12 Dist.
+726,5,حي ج15,C15 Dist.
+727,5,حي ج17,C17 Dist.
+728,5,حي ج22,C22 Dist.
+729,5,حي ج23,C23 Dist.
+730,5,حي ج25,C25 Dist.
+731,5,حي ج26,C26 Dist.
+732,5,حي ج28,C28 Dist.
+733,5,حي ج29,C29 Dist.
+734,5,حي معشي,Maashi  Dist.
+735,5,حي القمرية,Al Qumariyyah  Dist.
+736,5,حي عودة,Awdah  Dist.
+737,5,حي السلامة,As Salamah  Dist.
+738,5,حي قروى,Qurwa  Dist.
+739,5,حي الصيانة,Al Siana Dist.
+740,5,حي سوق عكاظ,Suq Ukadh Dist.
+741,5,حي ج21,C21 Dist.
+742,5,حي ج44,C44 Dist.
+743,5,حي ج27,C27 Dist.
+744,5,حي الشهداء الجنوبية,Ashuhada Aljanubiyyah  Dist.
+745,5,حي شهار,Shihar  Dist.
+746,5,حي ج20,C20 Dist.
+747,5,حي نخب,Nakhab  Dist.
+748,5,حي حوايا الشمالية,Huwaya Ash Shamaliyyah Dist.
+749,5,حي الخالدية,Al Khalidiyah Dist.
+750,5,حي مسرة 1,Masarah 1 Dist.
+751,5,حي الربيع,Ar Rabie Dist.
+752,5,حي السلام,Al Salam Dist.
+753,5,حي الربوة,Ar Rabwah Dist.
+754,5,حي حوايا الجنوبية,Huwaya Al Janoubiyah  Dist.
+755,5,حي القطبية,Al Qutbiyyah  Dist.
+756,5,حي العارمية 2,Al Aarmiah 2 Dist.
+757,5,حي المعترض,Al Mutarid  Dist.
+758,5,حي الرويدف,Al Ruwaidaf Dist.
+759,5,حي الجوهرة,Al Jawharah  Dist.
+760,5,حي القميع,Qami Dist.
+761,5,حي جبرة,Jabrah Dist.
+762,5,حي الجفيجف,Al Jafijif Dist.
+763,5,حي الرحاب,Al Rehab Dist.
+764,5,حي ج1,C1 Dist.
+765,5,حي الحلقة الغربية,Al Halqah Al Gharbia Dist.
+766,5,حي ج6,C6 Dist.
+767,5,حي المثناه,Al Mathnah  Dist.
+768,5,حي الخضيرة,Hadera  Dist.
+769,5,حي ج37,C37 Dist.
+770,5,حي ج35,C35 Dist.
+771,5,حي الجال,Al Jal  Dist.
+772,5,حي السرور,As Sarur Dist.
+773,5,حي النسيم,Al Naseem Dist.
+774,5,حي المركزية,Al Markazia Dist.
+775,5,حي الريان,Ar Rayyan  Dist.
+776,5,حي شبرا,Shobra  Dist.
+777,5,حي الشرقية,Sharqia Dist.
+778,5,حي العقيق,Al Aqiq  Dist.
+779,5,حي العزيزية,Al Aziziyah Dist.
+780,5,حي ريحه,Riha  Dist.
+781,5,حي الوشحاء,Al Washha Dist.
+782,5,حي الشهداء الشمالية,Ashuhada Alshamaliyyah  Dist.
+783,5,حي ج9,C9 Dist.
+784,5,حي قوات الدفاع الجوي,Air Defense Forces Dist.
+785,5,حي الاسكان,Al Iskan Dist.
+786,5,حي المضباع,Al Mudhbah Dist.
+787,5,حي الواسط,Al Wasit  Dist.
+788,5,حي ج33,C33 Dist.
+789,5,حي النزهة,An Nuzhah Dist.
+790,5,حي ج8,C8 Dist.
+791,5,حي الضبط,Al Dhabt Dist.
+792,5,حي السويقة,Al Sawaiqa Dist.
+793,5,حي ج36,C36 Dist.
+794,5,حي مثمله,Masmla Dist.
+795,5,حي الحوية,Al Huwaya Dist.
+796,5,حي ج40,C40 Dist.
+797,5,حي ج41,C41 Dist.
+798,5,حي الاخباب,Akhbab Dist.
+799,5,حي القراحين,Alqrahin Dist.
+800,5,حي السداد,As Sadad Dist.
+801,5,حي أم العراد,Umm Alarad  Dist.
+802,5,حي الحدائق,Al Hadaek Dist.
+803,5,حي أم السباع,Al Sabaa  Dist.
+804,5,حي المعارض,Al Maarid  Dist.
+805,5,حي الردف,Ar Ruddaf Dist.
+806,5,حي ج32,C32 Dist.
+807,5,حي ج30,C30 Dist.
+808,5,حي ج31,C31 Dist.
+809,5,حي ج24,C24 Dist.
+810,5,حي الحلقة الشرقية,Al Halqah Asharqiyyah Dist.
+811,5,حي القيم الأسفل,Al Qayam Al Asfal Dist.
+812,5,المطار الدولي الجديد,New International Airport
+813,5,حي ج14,C14 Dist.
+814,5,حي ج13,C13 Dist.
+815,5,حي القيم الأعلى,Al Qayam Al Aala Dist.
+816,5,حي ج7,C7 Dist.
+817,5,حي ج19,C19 Dist.
+818,5,حي ج34,C34 Dist.
+819,5,حي العرج الأسفل,Al Urj Al Asfal Dist.
+820,5,جامعة الطائف الجديدة,New Taif University
+821,5,حي مسرة 2,Masarah 2 Dist.
+822,5,حي الفيصلية,Al Faisaliyah Dist.
+823,5,حي العرج الأعلى,Al Urj Al Aala Dist.
+824,5,حي ج39,C39 Dist.
+825,5,حي ج38,C38 Dist.
+826,5,حي الغمير,Al Ghumayr Dist.
+827,5,حي العارمية 1,Al Aarmiah 1 Dist.
+828,5,حي القديرة,Al Qadirah Dist.
+829,5,حي سديرة,Sudayrah Dist.
+830,6,حي العدل,Al Adl Dist.
+831,6,حي الروضة,Ar Rawdah Dist.
+832,6,حي المعابدة,Al Maabdah Dist.
+833,6,حي الخنساء,Al Khansa Dist.
+834,6,حي السليمانية,As Sulimaniyah Dist.
+835,6,حي الجميزة,Al Jummayzah Dist.
+836,6,حي جبل النور,Jabal An Nur Dist.
+837,6,حي الهنداوية,Al Hindawiyah Dist.
+838,6,حي الرصيفة,Ar Rusayfah Dist.
+839,6,حي جرهم,Jarham Dist.
+840,6,حي الخالدية,Al Khalidiyah Dist.
+841,6,حي المسفلة,Al Misfalah Dist.
+842,6,حي التقوى,At Taqwa Dist.
+843,6,حي كدي,Kudy Dist.
+844,6,حي القرارة والنقا,Al Qararah And An Naqa Dist.
+845,6,حي الحرم,Al Haram Dist.
+846,6,حي حارة الباب والشامية,Harat Al Bab And Ash Shamiyah Dist.
+847,6,حي التيسير,At Taysir Dist.
+848,6,حي جرول,Jarwal Dist.
+849,6,حي المشاعر,Al Mashair Dist.
+850,6,حي المرسلات,Al Mursalat Dist.
+851,6,حي العزيزية,Al Aziziyah Dist.
+852,6,حي الجامعة,Al Jamiah Dist.
+853,6,حي النسيم,Al Naseem Dist.
+854,6,حي الزهراء,Az Zahra Dist.
+855,6,حي الضيافة,Ad Diyafah Dist.
+856,6,حي البيبان,Al Bibyan Dist.
+857,6,حي الحجون,Al Hujun Dist.
+858,6,حي الطندباوي,At Tandabawi Dist.
+859,6,حي الشبيكة,Ash Shubaikah Dist.
+860,6,حي الهجلة,Al Hajlah Dist.
+861,6,حي المنصور,Al Mansur Dist.
+862,6,حي الكعكية,Al Kakiyah Dist.
+863,6,حي الشوقية,Ash Shawqiyah Dist.
+864,6,حي الهجرة,Al Hijrah Dist.
+865,6,حي بطحاء قريش,Batha Quraysh Dist.
+866,6,حي شرائع المجاهدين,Sharai Al Mujahidin Dist.
+867,6,حي العوالي,Al Awali Dist.
+868,6,حي الشرائع,Asharai  Dist.
+869,6,حي الراشدية,Ar Rashidiyah Dist.
+870,6,حي الخضراء,Al Khadra Dist.
+871,6,حي الملك فهد,King Fahd Dist.
+872,6,حي العكيشية,Al Ukayshiyah Dist.
+873,6,حي ولي العهد,Waly Al Ahd Dist.
+874,6,حي الاندلس,Al Andalus Dist.
+875,6,حي ريع زاخر,Ray Zakhir Dist.
+876,6,حي التنعيم,At Tanim Dist.
+877,6,حي الزاهر,Az Zahir Dist.
+878,6,حي شعب عامر وشعب علي,Shaib Amir And Shaib Ali Dist.
+879,6,حي اجياد,Ajyad Dist.
+880,6,حي الحمراء وام الجود,Al Hamra Umm Al Jud Dist.
+881,6,حي النزهة,An Nuzhah Dist.
+882,6,حي العتيبية,Al Utaybiyah Dist.
+883,6,حي الروابي,Ar Rawabi Dist.
+884,6,حي العمرة الجديدة,Al Umrah Al Jadidah Dist.
+885,6,حي السلامة,As Salamah Dist.
+886,6,حي البحيرات,Al Buhayrat Dist.
+887,6,حي النوارية,An Nawwariyah Dist.
+888,6,حي الشهداء,Ash Shuhada Dist.
+889,6,حي وادي جليل,Wadi Jalil Dist.
+890,6,حي العسيلة,Al Usaylah Dist.
+891,6,حي جعرانة,Jaranah Dist.
+892,6,حي البيعة,Al Biyah Dist.
+893,6,حي المغمس,Al Mughams Dist.
+894,6,حي التروية,At Tarwiyah Dist.
+895,6,حي الشرائع,Ash Sharia Dist.
+896,6,حي السلام,As Salam Dist.
+897,6,حي الكوثر,Al Kawthar Dist.
+898,18,حي الزمرد,Az Zomorod Dist.
+899,18,حي اللؤلؤ,Al Loaloa Dist.
+900,18,حي الياقوت,Al Yaqoot Dist.
+901,18,حي الصوارى,As Swaryee Dist.
+902,18,حي الامواج,Al Amwaj Dist.
+903,18,حي الشراع,Ash Sheraa Dist.
+904,18,حي الفردوس,Al Ferdous Dist.
+905,18,حي الفلاح,Al Falah Dist.
+906,18,حي الاصالة,Al Asalah Dist.
+907,18,حي مريخ,Mraykh Dist.
+908,18,حي الشروق,Ash Shrouk Dist.
+909,18,حي الامير فواز الشمالى,Al Amir Fawaz Ash Shamaly Dist.
+910,18,حي الرياض,Ar Riyadh Dist.
+911,18,حي الفروسية,Al Frosyah Dist.
+912,18,حي الرحمانية,Ar Rahmaniyah Dist.
+913,18,حي الصالحية,As Salhiyah Dist.
+914,18,حي الحمدانية,Al Hamadaniyah Dist.
+915,18,حي الريان,Ar Rayaan Dist.
+916,18,حي أم حبلين الغربية,Um Hableen Al Gharbiyyah Dist.
+917,18,حي بريمان,Bryman Dist.
+918,18,حي المنتزة,Al Montazah Dist.
+919,18,حي الثعالبة,Ath Thaalibah Dist.
+920,18,حي البلد,Al Balad Dist.
+921,18,حي الفاروق,Al Farouk Dist.
+922,18,حي العدل,Al Adel Dist.
+923,18,حي الهنداوية,Al Hindawiyah Dist.
+924,18,حي المحجر,Al Mahjar Dist.
+925,18,حي النهضة,An Nahdah Dist.
+926,18,حي الخالدية,Al Khalidiyah Dist.
+927,18,جامعة الملك عبدالعزيز,King Abdulaziz University
+928,18,حي النخيل,Al Nakhil Dist.
+929,18,حي البغدادية الشرقية,Al Baghdadiyah Ash Sharqiyah Dist.
+930,18,حي النزلة الشرقية,An Nazlah Ash Sharqiyah Dist.
+931,18,حي البوادي,Al Bawadi Dist.
+932,18,حي السلامة,As Salamah Dist.
+933,18,حي الثغر,Ath Thaghr Dist.
+934,18,حي الشرفية,Ash Sharafiyah Dist.
+935,18,قاعدة الملك فيصل البحرية,King Faisal Naval Base
+936,18,حي الشفا,Ash Shefaa Dist.
+937,18,حي السنابل,As Sanabel Dist.
+938,18,حي الهدى,Al Hada Dist.
+939,18,حي التضامن,Al Tadamun Dist.
+940,18,حي الكرامة,Al Karamah Dist.
+941,18,حي الرحمة,Ar Rahmah Dist.
+942,18,حي البركة,Al Barakah Dist.
+943,18,حي المسرة,Al Masarah Dist.
+944,18,حي المليساء,Al Moulysaa Dist.
+945,18,حي القوزين,Al Qouzeen Dist.
+946,18,حي الوادي,Al Wadi Dist.
+947,18,حي الفضيلة,Al Fadeylah Dist.
+948,18,حي التعاون,At Taawun Dist.
+949,18,حي السروات,As Sarawat Dist.
+950,18,حي الخمرة,Al Khomrah Dist.
+951,18,حي الضاحية,Ad Dahiah Dist.
+952,18,حي القرينية,Al Qryniah Dist.
+953,18,حي النزلة اليمانية,An Nazlah Al Yamaniyah Dist.
+954,18,حي النسيم,Al Naseem Dist.
+955,18,حي القريات,Al Quraiyat Dist.
+956,18,حي غليل,Ghulail Dist.
+957,18,حي الكندرة,Al Kandarah Dist.
+958,18,حي العمارية,Al Ammariyah Dist.
+959,18,حي الصحيفة,As Sahifah Dist.
+960,18,حي السبيل,As Sabil Dist.
+961,18,حي الروضة,Ar Rawdah Dist.
+962,18,حي بنى مالك,Bani Malik Dist.
+963,18,حي الفيصلية,Al Faisaliyah Dist.
+964,18,حي الرحاب,Al Rehab Dist.
+965,18,حي العزيزية,Al Aziziyah Dist.
+966,18,حي مشرفة,Mishrifah Dist.
+967,18,حي الورود,Al Wurud Dist.
+968,18,حي الواحة,Al Wahah Dist.
+969,18,حي ابرق الرغامة,Abruq Ar Rughamah Dist.
+970,18,حي السليمانية,As Sulaymaniyah Dist.
+971,18,حي الساحل,As Sahil Dist.
+972,18,حي البشائر,Al Bashaer Dist.
+973,18,حي المحمدية,Al Muhammadiyah Dist.
+974,18,حي الكوثر,Al Kawthar Dist.
+975,18,حي طيبة,Taibah Dist.
+976,18,حي النعيم,An Naim Dist.
+977,18,حي البساتين,Al Basatin Dist.
+978,18,حي الربوة,Ar Rabwah Dist.
+979,18,حي النزهة,An Nuzhah Dist.
+980,18,حي الصفا,As Safa Dist.
+981,18,حي المروة,Al Marwah Dist.
+982,18,حي السامر,As Samir Dist.
+983,18,حي الاجواد,Al Ajwad Dist.
+984,18,مطار الملك عبدالعزيز الدولي,King Abdulaziz International Airport
+985,18,حي المنار,Al Manar Dist.
+986,18,المنطقة الصناعية,Industrial Area
+987,18,حي الامير عبدالمجيد,Prince Abdul Majeed Dist.
+988,18,حي الوزيريه,Al Waziriyah Dist.
+989,18,حي الجوهرة,Al Jawharah Dist.
+990,18,حي الامير فواز الجنوبى,Al Amir Fawaz Al Janouby Dist.
+991,18,حي المتنزهات,Al Mutanazahat Dist.
+992,18,حي الجامعة,Al Jamiah Dist.
+993,18,حي الروابي,Ar Rawabi Dist.
+994,18,حي الفضل,Al Fadel Dist.
+995,18,حي ام السلم,Um Asalam Dist.
+996,18,حي البغدادية الغربية,Al Baghdadiyah Al Gharbiyah Dist.
+997,18,حي ابحر الشمالية,Abhur Ash Shamaliyah Dist.
+998,18,حي الرويس,Ar Ruwais Dist.
+999,18,حي بترومين,Petromin Dist.
+1000,18,حي الاندلس,Al Andalus Dist.
+1001,18,حي ابحر الجنوبية,Abhur Al Janubiyah Dist.
+1002,18,حي المرجان,Al Murjan Dist.
+1003,18,حي السرورية,As Sororyah Dist.
+1004,18,حي الاجاويد,Al Ajaweed Dist.
+1005,18,حي الشاطئ,Ash Shati Dist.
+1006,18,حي مدائن الفهد,Madain Al Fahd Dist.
+1007,18,حي الزهراء,Az Zahra Dist.
+1008,18,حي الحمراء,Al Hamra Dist.
+1009,18,حي الفيحاء,Al Fayha Dist.
+1010,18,حي بحرة,Bahrah Dist.
+1011,18,ميناء جدة الاسلامي,Jeddah Eslamic Seaport
+1012,18,حي الوفاء,Al Wafa Dist.
+1013,18,حي الحرازات,Al Harazat Dist.
+1014,18,حي المحاميد,Al Mahamid Dist.
+1015,18,المدينة الصناعية الثالثة,3rd Industrial City
+1016,18,حي الفنار,Al Fanar Dist.
+1017,18,حي السهل,Al Sahl Dist.
+1018,18,حي الدرة,Ad Durrah Dist.
+1019,18,حي المنارات,Al Manarat Dist.
+1020,18,حي الربيع,Ar Rabie Dist.
+1021,18,حي الحجاز,Al Hijaz Dist.
+1022,18,حي المزيرعة,Al Muzairah Dist.
+1023,18,حي الصفوة,Al Safwah Dist.
+1024,18,حي المستقبل,Al Mustaqbal Dist.
+1025,18,حي النجمة,An Najmah Dist.
+1026,18,حي القوس,Al Qus Dist.
+1027,18,حي الحفنة,Al Hafnah Dist.
+1028,18,حي الجزيرة,Al Jazirah Dist.
+1029,18,حي الشويضي,Al Shuwaidhi Dist.
+1030,18,حي الشرقية,Al Sharqiyyah Dist.
+1031,18,حي العشيرية,Al Ushayriyyah Dist.
+1032,18,حي أبو جعالة,Abu Jaalah Dist.
+1033,18,حي كتانة,Katanah Dist.
+1034,18,حي التلال,Al Talal Dist.
+1035,18,حي الرمال,Ar Rimal Dist.
+1036,18,حي المرسي,Al Mursi Dist.
+1037,18,حي المروج,Al Muruj Dist.
+1038,18,حي الخليج,Al Khalij Dist.
+1039,18,حي البحيرات,Al Buhayrat Dist.
+1040,18,حي الموج,Al Mawj Dist.
+1041,18,حي الغربية,Al Gharbiyyah Dist.
+1042,18,حي الزهور,Al Zahur Dist.
+1043,18,حي الهزاعية,Al Hazaiyah Dist.
+1044,18,حي العسلاء,Al Asla Dist.
+1045,18,حي العسلاء,Al Asla Dist.
+1046,18,حي بلدة ذهبان,Dhahban Town Dist.
+1047,18,حكومي,Governmental
+1048,18,حي العقيق,Al Aqiq Dist.
+1049,18,حي النور,Al Nur Dist.
+1050,18,حي صناعي,Industrial Dist.
+1051,18,حكومي,Governmental
+1052,18,حي الغدير,Al Ghadir Dist.
+1053,18,حي الفرقان,Al Furqan Dist.
+1054,18,حي طابة,Tabah Dist.
+1055,18,حي الرواسي,Al Rawasee Dist.
+1056,18,حي أم حبلين الشرقية,Um Hableen Al Sharqiyyah Dist.
+1057,18,حي قباء,Quba Dist.
+1058,18,حي الرابية,Al Rabiyah Dist.
+1059,18,حي العليا,Al 'Ulayya Dist.
+1060,18,حي البدور,Al Budur Dist.
+1061,18,حي المجامع,Al Majami Dist.
+1062,18,حي المرسلات,Al Mursalat Dist.
+1063,18,حي الأثير,Al Athir Dist.
+1064,18,حي صناعي,Industrial Dist.
+1065,18,حي الصفحة,Al Safhah Dist.
+1066,18,حي اليسر,Al Yusr Dist.
+1067,18,حي العبير,Al Abeer Dist.
+1068,377,حي الشفاء,Ash Shifa Dist.
+1069,377,حي انكاس,Inkas Dist.
+1070,377,حي الصليب الشرقي,As Silayyib Ash Sharqi Dist.
+1071,377,حي الصليب الغربي,As Silayyib Al Gharbi Dist.
+1072,377,حي المرجانية,Al Marjaniyah Dist.
+1073,377,حي الجود,Al Jud Dist.
+1074,377,حي الصبوح,As Sabuh Dist.
+1075,377,حي الفرنيسية الشرقية,Al Farnisiyyah Ash Sharqiyyah Dist.
+1076,377,حي السوق,As Suq Dist.
+1077,377,حي الصمد,As Samad Dist.
+1078,377,المنطقة الصناعية المرحلة الثانية والثالثة,Industrial Area Phase 2 And 3
+1079,1105,حي الفيصلية,Al Faisaliyah Dist.
+1080,1105,حي البرقاء,Al Barqa Dist.
+1081,1105,حي العزيزية,Al Aziziyah Dist.
+1082,1105,المغاربة,Al Magharbah
+1083,1105,حي الدف,Ad Duf Dist.
+1084,1105,حي السلام,As Salam Dist.
+1085,1105,حي فازع,Faza Dist.
+1086,1105,حي الفلج,Al Falaj Dist.
+1087,1105,حي الطلعة,At Talaah Dist.
+1088,1105,حي الشيوخ,Ash Shiyukh Dist.
+1089,1105,الصدر,As Sadr
+1090,1105,حي اللبدة,Al Lubdah Dist.
+1091,1105,حي الحميرات,Al Humayrat Dist.
+1092,1105,حي الروايضة,Ar Ruwaydah Dist.
+1093,1105,غران,Gharan
+1094,1248,حي الخالدية,Al Khalidiyah Dist.
+1095,1248,حي الناصرية,An Nasriyah Dist.
+1096,1248,حي الروضة,Ar Rawdah Dist.
+1097,1248,حي الحزم,Al Hazm Dist.
+1098,1248,حي النزهة,An Nuzhah Dist.
+1099,1248,حي الحديقة,Al Hadiqah Dist.
+1100,1248,حي الفيصلية,Al Faisaliyah Dist.
+1101,1248,حي المحمدية,Al Muhammadiyah Dist.
+1102,1248,حي السوق القديم,As Suq Al Qadim Dist.
+1103,1248,حي الحارثية,Al Harthiyah Dist.
+1104,1248,حي الهجرة,Al Hijrah Dist.
+1105,1248,حي الدغمية,Ad Daghmiyah Dist.
+1106,1257,حي النسيم,Al Naseem Dist.
+1107,1257,حي الصفاء,Al Safa Dist.
+1108,1257,حي العزيزية,Al Aziziyah Dist.
+1109,1257,حي النقابة,An Naqabah Dist.
+1110,1257,حي السلامة,As Salamah Dist.
+1111,1257,حي أبو شعيب,Abu Shuayb Dist.
+1112,1257,حي النخيل,Al Nakhil Dist.
+1113,1257,حي الخالدية,Al Khalidiyah Dist.
+1114,1257,حي الفيصلية,Al Faisaliyah Dist.
+1115,1257,حي سدر,Sedr Dist.
+1116,1257,حي غزيات,Ghaziyyat Dist.
+1117,1257,حي أبو عروة,Abu Urwah Dist.
+1118,1257,حي عين شمس,Ayn Shams Dist.
+1119,1257,حي الشهداء,Ash Shuhada Dist.
+1120,1390,حي رقم 7,No 7 Dist.
+1121,1390,حي ج1,C 1 Dist.
+1122,1390,حي رقم 3,No 3 Dist.
+1123,1390,حي رقم 5,No 5 Dist.
+1124,1390,حي رقم 4,No 4 Dist.
+1125,1390,حي رقم 2,No 2 Dist.
+1126,1390,حي رقم 9,No 9 Dist.
+1127,1390,حي رقم 1,No 1 Dist.
+1128,1390,حي رقم 8,No 8 Dist.
+1129,1390,حي رقم 10,No10 Dist.
+1130,1390,حي رقم 6,No 6 Dist.
+1131,1625,حي الشرقية,Ash Sharqiyyah Dist.
+1132,1625,حي الخالدية,Al Khalidiyah Dist.
+1133,1625,حي الناعمية,An Naimiyah Dist.
+1134,1625,حي الازهار,Al Azhar Dist.
+1135,1625,حي الغربي,Al Gharbi Dist.
+1136,1625,حي الرتبة,Ar Ratibah Dist.
+1137,1625,حي الشامية,Ash Shamiyah Dist.
+1138,1628,حي القوز,Al Qawz Dist.
+1139,1879,حي ثول,Thuwal Dist.
+1140,1879,جامعة الملك عبدالله للعلوم والتقنية,King Abdullah University Of Science And Technology
+1141,2156,حي السلام,As Salam Dist.
+1142,2156,حي منيف,Munif Dist.
+1143,2156,حي العلاوة,Al Allawah Dist.
+1144,2156,حي البلد,Al Balad Dist.
+1145,2156,حي كرا السردي,Kara As Sardi Dist.
+1146,2156,حي الخالدية,Al Khalidiyah Dist.
+1147,2156,حي السوق,As Suq Dist.
+1148,2800,حي الورود,Al Wurud Dist.
+1149,2800,حي الجدر,Al Judr Dist.
+1150,2800,حي الحزم,Al Hazm Dist.
+1151,2800,حي ملهي,Milhi Dist.
+1152,2800,حي الأغر,Al Aghar Dist.
+1153,2800,حي كويكب,Kuaykib Dist.
+1154,2800,حي الوزران,Al Waziran Dist.
+1155,2800,حي الدعيكة,Al Daika Dist.
+1156,2800,حي الجزء الشمالي,Al Juzu Al Shamali Dist.
+1157,2800,حي الملحة 1,Al Mulha 1 Dist.
+1158,2800,حى النطوف,Al Natouf Dist.
+1159,2800,حي البروج,Al Burouj Dist.
+1160,2800,حي السلم,Al Silm Dist.
+1161,2800,حى السلم القديم,Al Silm Al Qadim Dist.
+1162,2800,حي النزهة,Al Nuzha Dist.
+1163,2800,حي السوق القديم,As Suq Al Qadim Dist.
+1164,2800,حي الجدر الغربي,Al Judr Al Gharbi Dist.
+1165,2800,حي الملحة 2,Al Mulha 2 Dist
+1166,2800,حي العزيزية,Al Aziziyah Dist.
+1167,2800,حي الصالحية,As Salhiyah Dist.
+1168,2800,حي الجدر الشرقي,Al Judr Al Sharqi Dist.
+1169,3666,حي البيلسان,Bay La Sun Dist.
+1170,3666,حي نورسان,Nursun Dist.
+1171,3666,حي المروج,Murooj Dist.
+1172,3666,حي المرجان,Murjan Dist.
+1173,3666,حي جمان,Juman Dist.
+1174,3666,حي ليماس,Limas Dist.
+1175,3666,حي ريتان,Reetan Dist.
+1176,3666,حي التلال,At Talal Dist.
+1177,3666,حي المشرق,Mashreq Dist.
+1178,3666,حي الحجاز,Hejaz Dist.
+1179,3666,حي الدانة,Dana Dist.
+1180,3666,حي ميسان,Maysan Dist.
+1181,3666,حي الإنتاج,Entaj Dist.
+1182,3666,حي التنمية,Tanmiyah Dist.
+1183,3666,حي الحرير,Hareer Dist.
+1184,3666,حي المستقبل,Mustaqbal Dist.
+1185,3666,حي الأفق,Ofoq Dist.
+1186,3666,حي رسيل,Raseel Dist.
+1187,3666,منطقة البحيرة المحمية,Lagoon Preserved Area
+1188,3666,حي ميناء الملك عبد الله,King Abdullah Port Dist.
+1189,3666,حي الرواد,Ruwad Dist.
+1190,3666,حي التالة,Talah Dist.
+1191,3666,حي الورود,Al Wurud Dist.
+1192,23642,حي الصبغان,Al Sabghan Dist.
+1193,23642,حي غليل,Ghalil Dist.
+1194,23642,حي نمره المخطط,Nimra Al Mukhatat Dist.
+1195,23642,حي المبنى الشمالي,Al Mabna Al Shamali Dist.
+1196,23642,حي البارك,Al Bark Dist.
+1197,23642,مخطط المدارات,Al Madarat Subdivision Plan
+1198,23642,حي بني سهيم,Bani Suhaym Dist.
+1199,23642,حي الذنبه,Al Dhanbh Dist.
+1200,23642,مخطط جنوب نمره,Janub Nimrah Dist.
+1201,23642,حي المبنى الجنوبي,Al Mabna Al Janubi Dist.
+1202,23642,حي المستشفي,Al Mustashfi Dist.
+1203,14,حي خاخ,Khakh Dist.
+1204,14,حي السكب,As Sakb Dist.
+1205,14,حي الجصة,Al Jassah Dist.
+1206,14,حي رهط,Raht Dist.
+1207,14,حي بني بياضة,Bani Bayadah Dist.
+1208,14,حي نبلاء,Nubala Dist.
+1209,14,حي الشهباء,Ash Shahba Dist.
+1210,14,حي الرمانة,Ar Rumanah Dist.
+1211,14,حي ابو كبير,Abu Kabir Dist.
+1212,14,حي الغراء,Al Gharra Dist.
+1213,14,حي السد,As Sad Dist.
+1214,14,حي الجابرة,Al Jabirah Dist.
+1215,14,حي الرانوناء,Ar Ranuna Dist.
+1216,14,حي الحديقة,Al Hadiqah Dist.
+1217,14,حي ابو بريقاء,Abu Burayqa Dist.
+1218,14,حي الروابي,Ar Rawabi Dist.
+1219,14,حي القصواء,Al Qaswa Dist.
+1220,14,حي العصبة,Al Usbah Dist.
+1221,14,حي الخاتم,Al Khatim Dist.
+1222,14,حي العزيزية,Al Aziziyah Dist.
+1223,14,حي العهن,Al Ihn Dist.
+1224,14,حي ذو الحليفة,Dhu Al Hulayfah Dist.
+1225,14,حي وادي مهزور,Wadi Mahzur Dist.
+1226,14,حي الدويمة,Ad Duwaimah Dist.
+1227,14,حي وادي مذينب,Wadi Mudhainib Dist.
+1228,14,حي عين الخيف,Ayn Al Khif Dist.
+1229,14,حي عروة,Urwah Dist.
+1230,14,حي الظاهرة,Al Dhahirah Dist.
+1231,14,حي الشريبات,Ash Shuraybat Dist.
+1232,14,حي جماء أم خالد,Jima Um Khalid Dist.
+1233,14,حي الجمعة,Al Jumah Dist.
+1234,14,حي المغيسلة,Al Mughaisilah Dist.
+1235,14,حي قربان,Qurban Dist.
+1236,14,حي الدفاع,Ad Difa Dist.
+1237,14,حي سكة الحديد,Sikkah Al Hadid Dist.
+1238,14,حى حرة الوبرة,Hura Al Wabra Dist.
+1239,14,حي الاصيفرين,Al Usayfirin Dist.
+1240,14,حي النقاء,An Naqa Dist.
+1241,14,حي بني ظفر,Bani Dhafir Dist.
+1242,14,حي الاسكان,Al Iskan Dist.
+1243,14,حي الخالدية,Al Khalidiyah Dist.
+1244,14,حي الجماوات,Al Jamawat Dist.
+1245,14,حي المناخة,Al Manakhah Dist.
+1246,14,حي بضاعة,Badhaah Dist.
+1247,14,حي جشم,Josham Dist.
+1248,14,حي الهدراء,Al Hadra Dist.
+1249,14,حي السيح,As Sih Dist.
+1250,14,حي المصانع,Al Masani Dist.
+1251,14,حي القبلتين,Al Qiblatayn Dist.
+1252,14,حي السلام,As Salam Dist.
+1253,14,حي المبعوث,Al Mabuth Dist.
+1254,14,حي الجامعة,Al Jamiah Dist.
+1255,14,حي بني حارثة,Bani Harithah Dist.
+1256,14,حي بئر عثمان,Bir Uthman Dist.
+1257,14,حي شظاة,Shidhat Dist.
+1258,14,حي طيبة,Taibah Dist.
+1259,14,حي التلعة,Al Talaah Dist.
+1260,14,حي الملك فهد,King Fahd Dist.
+1261,14,حي البركة,Al Barakah Dist.
+1262,14,حي العيون,Al Eyun Dist.
+1263,14,حي الدار,Ad Dar Dist.
+1264,14,حي النخيل,Al Nakhil Dist.
+1265,14,حي الزهرة,Az Zahrah Dist.
+1266,14,حي الحفيا,Al Hafya Dist.
+1267,14,حي البلقاء,Al Balqa Dist.
+1268,14,حي كتانة,Kittanah Dist.
+1269,14,حي الصادقية,As Sadiqiyah Dist.
+1270,14,حي الغابة,Al Ghabah Dist.
+1271,14,حي وعيرة,Wairah Dist.
+1272,14,حي المطار,Al Matar Dist.
+1273,14,حي العريض,Al Ariydh Dist.
+1274,14,حي العنابس,Al Anabis Dist.
+1275,14,حي الفتح,Al Fath Dist.
+1276,14,حي الراية,Ar Rayah Dist.
+1277,14,حي مسجد الدرع,Masjid Ad Dara Dist.
+1278,14,حي السقيا,As Suqya Dist.
+1279,14,حي جبل عير,Jabal Ayr Dist.
+1280,14,حي الشافية,Ash Shafiyah Dist.
+1281,14,حي الشهداء,Ash Shuhada Dist.
+1282,14,حي جبل احد,Jabal Uhud Dist.
+1283,14,حي بني خدرة,Bani Khidrah Dist.
+1284,14,حي بني عبدالاشهل,Bani Abdul Ashhal Dist.
+1285,14,حي بني معاوية,Bani Muawiyah Dist.
+1286,14,حي ورقان,Warqan Dist.
+1287,14,حي شوران,Shuran Dist.
+1288,14,حي الصناعية,Industrial Dist.
+1289,14,حي الدويخلة,Ad Duwaikhilah Dist.
+1290,14,حي العاقول,Al Aqoul Dist.
+1291,14,حي وادي البطان,Wadi Al Battan Dist.
+1292,14,حي المليليح,Al Mulaylih Dist.
+1293,14,حي الاناهي,Al Anahi Dist.
+1294,14,حي وادي الحمض,Wadi  Al Hamdh Dist.
+1295,14,حى الخضراء,Al Khadhra Dist.
+1296,14,حي ابومرخة,Abumarkha Dist.
+1297,14,حى الصهلوج,Al Sahluj Dist.
+1298,14,حي المسبعة,Al Masbah Dist.
+1299,14,حي الضميرية,Al Dhamiria Dist.
+1300,14,حي ضعة,Dhaea Dist.
+1301,14,حي ام السيوف,Um Al Seouf Dist.
+1302,14,حي غراب,Ghorab Dist.
+1303,14,حى حضوضاء,Hadhawda Dist.
+1304,14,حي الشرائع,Al Sharayie Dist.
+1305,14,حى الصهوة,Al Sahwa Dist.
+1306,14,حي المندسة,Al Mundasa Dist.
+1307,14,حى القبيبة,Qubeiba Dist.
+1308,14,حي المزيين,Al Muzayiyn Dist.
+1309,14,حى بني النجار,Bani Al Najjar Dist.
+1310,14,حي حزرة الجنوب,Hazrat Al Janoub Dist.
+1311,14,حى ابو سدر,Abu Sidr Dist.
+1312,14,حى سد الغابة,Sad Al Ghaba Dist.
+1313,14,حى الحساء,Al Hisa Dist.
+1314,14,حي المدينة الصناعية,Industrial City Dist.
+1315,14,حى المفرحات,Al Mafrahat Dist.
+1316,14,حي الصويدرة,As Suwaydra Dist.
+1317,14,حي ابيار الماشي,Abyar Al Mashi Dist.
+1318,14,حي الفريش,Al Furaysh Dist.
+1319,14,حي الـنقـمى,An Ngma Dist.
+1320,14,الحرم الشريف,Al Haram  Al Sharif
+1321,199,حي العزيزية,Al Aziziyah Dist.
+1322,199,حي الصخيرات,As Sukhayrat Dist.
+1323,199,حي الرزيقية,Al Ruzayqiyah Dist.
+1324,199,حي المحاش,Al Mahash Dist.
+1325,199,حي السلام,As Salam Dist.
+1326,199,حي صدر الغربية,Sadr Al Gharbaiyah Dist.
+1327,199,حي ساق,Saq Dist.
+1328,199,حي الجديدة,Al Jadidah Dist.
+1329,288,حي الخالدية,Al Khalidiyah Dist.
+1330,288,حي الفيصلية,Al Faisaliyah Dist.
+1331,288,حي الروضة,Ar Rawdah Dist.
+1332,288,حي سلطانة,Sultanah Dist.
+1333,288,حي العزيزية,Al Aziziyah Dist.
+1334,288,حى الغزوة,Al Ghazwah Dist.
+1335,360,حي المنتزهات,Al Muntazahat Dist.
+1336,360,حي الوادى,Al Wadi Dist.
+1337,360,حي الورود,Al Wurud Dist.
+1338,360,حي النسيم,Al Naseem Dist.
+1339,360,حي ج5,C5 Dist.
+1340,360,حي الرياض,Ar Riyadh Dist.
+1341,360,حي اللجين,Al Lujain Dist.
+1342,360,حي الصفا,As Safa Dist.
+1343,360,حي ج3,C3 Dist.
+1344,360,حي ج4,C4 Dist.
+1345,360,حي الشفا,Ash Shifa  Dist.
+1346,360,حي الفيصلية,Al Faisaliyah Dist.
+1347,360,حي الشروق,Ash Shuruq Dist.
+1348,360,حي النهضة,An Nahdah Dist.
+1349,360,حي الروضة,Ar Rawdah Dist.
+1350,360,حي الروابى,Ar Rawabi Dist.
+1351,360,حي السامر,As Samir Dist.
+1352,360,حي الخالدية,Al Khalidiyah Dist.
+1353,360,حي العلم,Al Alam Dist.
+1354,360,حي ج1,C1 Dist.
+1355,360,حي الذهب,Al Dhahab Dist.
+1356,483,حي الياقوت,Al Yaqut Dist.
+1357,483,حي المرجان,Al Murjan Dist.
+1358,483,حي البقاع,Al Biqa Dist.
+1359,483,حي الرحاب,Al Rehab Dist.
+1360,483,حي النعيم,Al Naim Dist.
+1361,483,حي الازدهار,Al Izdihar Dist.
+1362,483,حي الياسمين,Al Yasmin Dist.
+1363,483,حي الدوحة,Al Doha Dist.
+1364,483,حي الفلاح,Al Falah Dist.
+1365,483,حي المصيف,Al Masif Dist.
+1366,483,حي الرمال,Al Rimal Dist.
+1367,483,حي العزيزية,Al Aziziyah Dist.
+1368,483,حي اليرموك,Al Yarmuk Dist.
+1369,483,حي العروبة,Al Urubah Dist.
+1370,483,حي النزهة,Al Nuzhah Dist.
+1371,483,حي الجار,Al Jar Dist.
+1372,483,حي الضباب,Al Dabab Dist.
+1373,483,حي المنار,Al Manar Dist.
+1374,483,حي اللؤلؤة,Al Luluah Dist.
+1375,483,حي الجامعة,Al Jamiah Dist.
+1376,483,حي المرسي,Al Mursi Dist.
+1377,483,حي الخليج,Al Khaleej Dist.
+1378,483,حي السلام,Al Salam Dist.
+1379,483,حي البندر,Al Bandar Dist.
+1380,483,حي الامارة,Al Amarah Dist.
+1381,483,حي الزهور,Al Zuhur Dist.
+1382,483,حي الشعلة,Al Sholah Dist.
+1383,483,الحرس الوطني,National Guard
+1384,483,حي التلال,Al Talal Dist.
+1385,483,حي الربيع,Ar Rabie Dist.
+1386,483,حي النخيل,Al Nakheel Dist.
+1387,483,حي النسيم,Al Naseem Dist.
+1388,483,حي قرطبة,Qurtubah Dist.
+1389,483,حي العصيلي,Al Usayli Dist.
+1390,483,حي الربوة,Ar Rabwah Dist.
+1391,483,حي السميري,Al Sumayri Dist.
+1392,483,حي الورود,Al Wurud Dist.
+1393,483,حي الفردوس,Al Ferdous Dist.
+1394,483,حي مشرفة,Mishrifah Dist.
+1395,483,حي الجابرية,Al Jabriyah Dist.
+1396,483,حي العقيق,Al Aqiq Dist.
+1397,483,حي الواحة,Al Wahah Dist.
+1398,483,حي المروج,Al Muruj Dist.
+1399,483,حي النهضة,Al Nahdah Dist.
+1400,483,حي الحوراء,Al Hawra Dist.
+1401,483,حي الصريف,Al Suraif Dist.
+1402,483,حي ينبع البلد,Yanbu Al Balad Dist.
+1403,483,حي البحيرة,Al Buhayrah Dist.
+1404,483,حي الحدائق,Al Hadaek Dist.
+1405,483,حي المجد,Al Majd Dist.
+1406,483,حي الصفا,Al Safa Dist.
+1407,483,حي غرناطة,Ghirnatah Dist.
+1408,483,حي الدانة,Al Dana Dist.
+1409,483,حي الرابية,Al Rabiyah Dist.
+1410,483,حي الغدير,Al Ghadir Dist.
+1411,483,حى المطار,Airport
+1412,483,حي الشفا,Al Shifa Dist.
+1413,483,حي الروابي,Al Rawabi Dist.
+1414,483,حي القادسية,Al Qadisiyah Dist.
+1415,483,حي الفيحاء,Al Fayha Dist.
+1416,483,منطقة الايداع واعادة التصنيع,Bonded And Reexport Zone
+1417,483,حي العشيرة,Al Asheyrah Dist.
+1418,483,حي البثنة,Al Bathnah Dist.
+1419,483,المنطقة الصناعية,Industrial Area
+1420,483,حي النجيل,An Nujayl Dist.
+1421,483,حي المروة,Al Marwah Dist.
+1422,483,حي الروضة,Al Rawdah Dist.
+1423,483,حي الريان,Al Rayyan Dist.
+1424,483,حي السويق,Al Sawaiq Dist.
+1425,483,حى رضوى,Radwa Dist.
+1426,483,حي الشاطئ,Al Shati Dist.
+1427,777,المنطقة الصناعية,Industrial Area
+1428,1053,حي الروضة,Ar Rawdah Dist.
+1429,1053,حي الغزوة,Al Ghazwah Dist.
+1430,1053,حي العدوة,Al Adwah Dist.
+1431,1053,حي الغزلاني,Al Ghuzlani Dist.
+1432,1053,حي ادمان,Idman Dist.
+1433,1053,حي الجديد,Al Jadid Dist.
+1434,1053,حي الشهداء,Ash Shuhada Dist.
+1435,9605,حي الجابرية,Al Jabriyah Dist.
+1436,9605,حي الياسمين,Al Yasmin Dist.
+1437,9605,حي الزهور,Al Zahur Dist.
+1438,9605,حي المروج,Al Muruj Dist.
+1439,9605,حي المشيريف,Al Mushayrif Dist.
+1440,9605,حي العيون,Al Oyoun Dist.
+1441,9605,حي النخيل,Al Nakhil Dist.
+1442,9605,حي الورود,Al Wurud Dist.
+1443,9605,حي البساتين,Al Basatin Dist.
+1444,9605,حي العزيزية,Al Aziziyah Dist.
+1445,9605,حي المهن,Al Mihan Dist.
+1446,9605,حي النواة,Al Nawah Dist.
+1447,9605,حي رضوى,Radwa Dist.
+1448,9605,حي عين النوى,Ayn Al Nawa Dist.
+1449,9605,حي الفهد,Al Fahd Dist.
+1450,9605,منطقة الصناعات الخفيفة,Light Industrial Park
+1451,9605,حي الصواري,Al Sawari Dist.
+1452,9605,حي السميري,Al Sumayri Dist.
+1453,9605,حي الفيصل,Al Faisal Dist.
+1454,9605,حي الخالد,Al Khalid Dist.
+1455,9605,حي الجار,Al Jar Dist.
+1456,9605,حي البثنة,Al Bathnah Dist.
+1457,9605,حي الصبح,Al Subh Dist.
+1458,9605,حي النهضة,Al Nahdah Dist.
+1459,9605,المنطقة الصناعية,Industrial Area
+1460,9605,حي الروضة,Al Rawdah Dist.
+1461,9605,حي النسيم,Al Naseem Dist.
+1462,9605,الواجهة البحرية,Sea Front
+1463,9605,حي السلمانية,Al Salmaniyah Dist.
+1464,11,حي اليرموك,Al Yarmouk Dist.
+1465,11,حي الرمال,Ar Rimal Dist.
+1466,11,حي المروة,Al Marwah Dist.
+1467,11,حي الخضر,Al Khudar Dist.
+1468,11,حي اللسيب,Al Lusayb Dist.
+1469,11,حي النور,Al Nur Dist.
+1470,11,حي رواق,Rawaq Dist.
+1471,11,حي القصيعة,Al Qusayah Dist.
+1472,11,حي الغدير,Al Ghadir Dist.
+1473,11,حي المروج,Al Muruj Dist.
+1474,11,حي السالمية,As Salmiya Dist.
+1475,11,حي الروابي,Al Rawabi Dist.
+1476,11,حي حويلان,Huwailan Dist.
+1477,11,حي الصباخ,As Sabbakh Dist.
+1478,11,حي واسط,Wasit Dist.
+1479,11,حي خضيراء,Khudayra Dist.
+1480,11,حي السلام,As Salam Dist.
+1481,11,حي الجنوب,Al Janub Dist.
+1482,11,حي الخليج,Al Khalij Dist.
+1483,11,حي الضاحي,Ad Dahi Dist.
+1484,11,حي خب البريدي,Khub Al Buraydi Dist.
+1485,11,حي السادة,As Sadah Dist.
+1486,11,حي العريمضي,Al Uraymdi Dist.
+1487,11,حي الهلال,Al Hilal Dist.
+1488,11,حي العجيبة,Al Ujaybah Dist.
+1489,11,حي البساتين,Al Basatin Dist.
+1490,11,حي النسيم,Al Naseem Dist.
+1491,11,حي الموطا,Al Mawta Dist.
+1492,11,حي التعليم,At Taalim Dist.
+1493,11,حي الجردة,Al Jardah Dist.
+1494,11,حي الصالحية,As Salhiyah Dist.
+1495,11,حي المريديسية,Al Muraydisiyyah Dist.
+1496,11,حي الشروق,Al Shorouq Dist.
+1497,11,حي خب الثنيان,Khub Ath Thanyan Dist.
+1498,11,حي الشماس,Ash Shammas Dist.
+1499,11,حي القادسية,Al Qadisiyah Dist.
+1500,11,حي الصفا,As Safa Dist.
+1501,11,حي الخبيب,Al Khabib Dist.
+1502,11,حي المرقب,Al Marqab Dist.
+1503,11,حي الربيع,Ar Rabie Dist.
+1504,11,حي الرفيعة,Ar Rafiah Dist.
+1505,11,حي الزرقاء,Az Zarqa Dist.
+1506,11,حي الحمر,Al Humar Dist.
+1507,11,حي الشفق,Ash Shafaq Dist.
+1508,11,حي القاع البارد,Al Qaa Al Barid Dist.
+1509,11,حي المنار,Al Manar Dist.
+1510,11,حي الوسيطا,Al Wusayta Dist.
+1511,11,حي الربوة,Ar Rabwah Dist.
+1512,11,حي المنتزه,Al Muntazah Dist.
+1513,11,حي الصفراء,As Safra Dist.
+1514,11,حي النقع,An Naqa Dist.
+1515,11,حي الفايزية,Al Fayziyah Dist.
+1516,11,حي النخيل,Al Nakhil Dist.
+1517,11,حي الروضه,Ar Rawdah Dist.
+1518,11,حي النفل,An Nafl Dist.
+1519,11,حي الإسكان,Al Iskan Dist.
+1520,11,حي الأخضر,Al Akhdar Dist.
+1521,11,حي الشقة,Ash Shiqah Dist.
+1522,11,حي الرابية,Ar Rabiyah Dist.
+1523,11,حي الريان,Ar Rayyan Dist.
+1524,11,حي النهضة,An Nahdah Dist.
+1525,11,حي الافق,Al Ufuq Dist.
+1526,11,حي الورود,Al Wurud Dist.
+1527,11,حي الخزامى,Al Khuzama Dist.
+1528,11,حي الجزيرة,Al Jazirah Dist.
+1529,11,حي الرحاب,Al Rehab Dist.
+1530,11,حي الحزم,Al Hazm Dist.
+1531,11,حي الفاروق,Al Farouq Dist.
+1532,11,حي التشليح,At Tashlih Dist.
+1533,80,حي حطين,Hiteen Dist.
+1534,80,حي سنام,Snam Dist.
+1535,80,حي الروضة,Ar Rawdah Dist.
+1536,80,حي الدوحة,Ad Dawhah Dist.
+1537,80,حي الحاجب,Al Hajeb Dist.
+1538,80,حي الرمال,Ar Rimal Dist.
+1539,80,حي الحفيرة,Al Hufayrah Dist.
+1540,80,حي الصفا,As Safa Dist.
+1541,80,حي الملك خالد,King Khalid Dist.
+1542,80,حي الملك فهد,King Fahd Dist.
+1543,80,حي الرياضى,Ar Riyadi Dist.
+1544,80,حي القيروان,Al Qirawan Dist.
+1545,80,حي غرناطة,Ghirnatah Dist.
+1546,80,حي قرطبة,Qurtubah Dist.
+1547,80,حي العقيق,Al Aqiq Dist.
+1548,80,حي الشفاء,Ash Shifa Dist.
+1549,80,حي المطار,Al Matar Dist.
+1550,80,حي السليمانية,As Sulimaniyah Dist.
+1551,80,حي الوسطى,Al Wusta Dist.
+1552,80,المنطقة الصناعية الثانية,2nd Industrial Area
+1553,80,المنطقة الصناعية الاولى,1st Industrial Area
+1554,80,حي الخليج,Al Khalij Dist.
+1555,80,حي المستودعات,Warehouse Dist.
+1556,80,حي الهداء,Al Hadaa Dist.
+1557,80,حي الصالحية,As Salhiyah Dist.
+1558,80,حي المنتزة,Al Muntazah Dist.
+1559,80,حي اليرموك,Al Yarmuk Dist.
+1560,80,حي النسيم,Al Naseem Dist.
+1561,80,حي الرحمانية,Ar Rahmaniyah Dist.
+1562,80,حي دمشية,Damshiah Dist.
+1563,80,حي المحمدية,Al Muhammadiyah Dist.
+1564,80,حي العبسة,Al Absiah Dist.
+1565,80,حي بدر,Badr Dist.
+1566,80,حي الوهلان,Al Wahlan Dist.
+1567,80,حي مليحة,Mlihah Dist.
+1568,80,حي مربيدة,Marbidah Dist.
+1569,80,حي العليا,Al Olaya Dist.
+1570,80,وسط المدينة,City Center
+1571,80,حي الريان,Ar Rayan Dist.
+1572,80,حي الفاخرية,Al Fakhriyah Dist.
+1573,80,حي النقيلية,An Nuqailiah Dist.
+1574,80,حي السحيمية,As Suhaymiyyah Dist.
+1575,80,حي البديعة,Al Badiah Dist.
+1576,80,حي السلام,As Salam Dist.
+1577,80,حي اشبيلية,Ishbiliyah Dist.
+1578,80,حي العونية,Al Awniyah Dist.
+1579,80,حي الحمراء,Al Hamra Dist.
+1580,80,حي الفيحاء,Al Fayha Dist.
+1581,80,حي الجامعي,Al Jamie Dist.
+1582,80,حي المروج,Al Muruj Dist.
+1583,80,حي اليمامة,Al Yamamah Dist.
+1584,80,حي القادسية,Al Qadisiyah Dist.
+1585,80,حي المنار,Al Manar Dist.
+1586,80,حي الاشرفية,Al Ashrafiyah Dist.
+1587,80,حي الخزامى,Al Khuzama Dist.
+1588,80,حي الروغاني,Ar Rawghani Dist.
+1589,80,حي الزهراء,Az Zahra Dist.
+1590,80,حي الصفراء,As Safraa Dist.
+1591,80,حي المباركية,Al Mubarkiah Dist.
+1592,80,حي المدوية,Al Mudwiah Dist.
+1593,80,حي اليرموك,Al Yarmuk Dist.
+1594,80,حي النظيم,An Nadheem Dist.
+1595,80,حي التحلية,At Tahliyah Dist.
+1596,80,حي الجزيرة,Al Jazirah Dist.
+1597,80,حي البستان,Al Bustan Dist.
+1598,80,حي الوفاء,Al Wafa Dist.
+1599,80,حي الزاهر,Az Zahir Dist.
+1600,80,حي الواحة,Al Wahah Dist.
+1601,80,حي سوق الماشية,Suq Al Mashiya Dist.
+1602,80,حي الجلده,Al Jaldah Dist.
+1603,80,حي الندى,An Nada Dist.
+1604,80,حي ربوة الحاجب,Rabwat Al Hajeb Dist.
+1605,80,حي الغضا,Al Kada Dist.
+1606,80,حي الشعيب,Ash Shuaib Dist.
+1607,80,حي البويطن,Al Buaiten Dist.
+1608,80,حي النرجس,An Narjis Dist.
+1609,80,حي عكاظ,Uqaz Dist.
+1610,80,حي النفود,An Nofoad Dist.
+1611,80,حي الوادي,Al Wadi Dist.
+1612,80,حي القصور,Al Qusor Dist.
+1613,80,حي الحديقة,Al Hadiqah Dist.
+1614,80,حي المصيف,Al Masif Dist.
+1615,80,حي الجوهرة,Al Jawharah Dist.
+1616,80,حي الثقافة,Athaqafah Dist.
+1617,80,حي المروة,Al Marwah Dist.
+1618,80,حي الفخامة,Al Fakamah Dist.
+1619,80,حي الفيصلية,Al Faisaliyah Dist.
+1620,80,حي الزغيبة,Az Zugaibah Dist.
+1621,80,حي الاسكان,Al Iskan Dist.
+1622,80,حي الحزم,Al Hazm Dist.
+1623,955,حي البساتين,Al Basatin Dist.
+1624,955,حي المنتزة,Al Montazah Dist.
+1625,955,حي الروضة,Al Rawdah Dist.
+1626,955,حي الزهرة,Al Zahrah Dist.
+1627,955,حي العليا,Al Olaya Dist.
+1628,955,حي العزيزية,Al Aziziyah Dist.
+1629,955,حي الازهار,Al Azhar Dist.
+1630,955,حي النزهة,Al Nuzhah Dist.
+1631,955,حي الجزيرة,Al Jazirah Dist.
+1632,955,حي النهضة,Al Nahdah Dist.
+1633,955,حي الاستراحات,Al Estrahat Dist.
+1634,955,حي الربوة,Ar Rabwah Dist.
+1635,1986,حي السلام,As Salam Dist.
+1636,1986,حي خصيبة,Khusayyibah Dist.
+1637,1986,حي البرود,Al Burud Dist.
+1638,1986,حي الفهيد,Al Fuhaid Dist.
+1639,1999,حي الخزان,Al Khazzan Dist.
+1640,1999,حي المرقب,Al Marqab Dist.
+1641,1999,حي التعليم,At Talim Dist.
+1642,1999,حي الجردة,Al Jardah Dist.
+1643,1999,حي النهضة,An Nahdah Dist.
+1644,1999,حي النزهة,An Nuzhah Dist.
+1645,1999,حي المنتزة,Al Montazah Dist.
+1646,2421,حي اليرموك,Al Yarmuk Dist.
+1647,2421,حي الروضة,Ar Rawdah Dist.
+1648,2421,حي الملك عبدالعزيز,King Abdulaziz Dist.
+1649,2421,حي الاحتفالات,Al Ihtifalat Dist.
+1650,2421,حي الصناعية,As Sinaiyah Dist.
+1651,2421,حي الملك فهد,King Fahd Dist.
+1652,2421,حي الحزم,Al Hazm Dist.
+1653,2421,حي التعليم,At Talim Dist.
+1654,2421,حي الربوة,Ar Rabwah Dist.
+1655,2421,حي القادسية,Al Qadisiyah Dist.
+1656,2421,حي الشفاء,Ash Shifa Dist.
+1657,2421,حي الجندل,Al Jandal Dist.
+1658,2421,حي وادي الرمة,Wadi Ar Rimma Dist.
+1659,2421,حي الملك فيصل,King Faisal Dist.
+1660,2421,حي المطار,Al Matar Dist.
+1661,2421,حي الزهرة,Az Zahrah Dist.
+1662,2421,حي الملك خالد,King Khalid Dist.
+1663,2421,حي السعادة,As Saadah Dist.
+1664,2421,حي قصر بن عقيل,Qasr Ibn Aqil Dist.
+1665,2421,حي الحوطة,Al Hutah Dist.
+1666,2421,حي المدينة,Al Madinah Dist.
+1667,2421,حي النخيل,Al Nakhil Dist.
+1668,2421,حي الروابي,Ar Rawabi Dist.
+1669,2421,حي الجريف,Al Juraif Dist.
+1670,2421,حي الربيع,Ar Rabie Dist.
+1671,2421,حي السلام,As Salam Dist.
+1672,2421,حي المنار,Al Manar Dist.
+1673,2421,حي بهجة,Bahjah Dist.
+1674,2421,حي النهضة,An Nahdah Dist.
+1675,2421,حي الشنانة الشمالية,Al Shinanah Ash Shamaliyyah Dist.
+1676,2421,حي الحمراء,Al Hamra Dist.
+1677,2421,حي الالغربي,Al Gharbi Dist.
+1678,2421,حي الريان,Ar Rayyan  Dist.
+1679,2421,حي الواحة,Al Wahah Dist.
+1680,2421,حي سوق الماشيه الجديد,Suq Mashiya Al Jadid Dist.
+1681,2421,حي الخليج,Al Khalij Dist.
+1682,2421,حي المصيف,Al Masif Dist.
+1683,2421,حي الاندلس,Al Andalus Dist.
+1684,2421,حي المروج,Al Muruj Dist.
+1685,2421,حي الورود,Al Wurud Dist.
+1686,2421,حي الفيصلية,Al Faisaliyah Dist.
+1687,2421,حي الشنانة الجنوبية,Al Shinanah Al Janubiyah Dist.
+1688,2448,حي النخيل,Al Nakhil Dist.
+1689,2448,حي الورود,Al Wurud Dist.
+1690,2448,حي المنتزه,Al Muntazah Dist.
+1691,2448,حي الصفراء,As Safra Dist.
+1692,2448,حي البستان,Al Bustan Dist.
+1693,2448,حي الجديدة,Al Jadidah Dist.
+1694,2448,حي الخزامى,Al Khuzama Dist.
+1695,2448,حي الخالدية,Al Khalidiyah Dist.
+1696,2448,حي الروضة,Ar Rawdah Dist.
+1697,2448,حي الحزم,Al Hazm Dist.
+1698,2448,حي الصناعية,As Sinaiyah Dist.
+1699,2448,حي قرطبة,Qurtubah Dist.
+1700,2448,حي السلام,As Salam Dist.
+1701,2448,حي القادسية,Al Qadisiyah Dist.
+1702,2448,حي القفيفة,Al Qifayfah Dist.
+1703,2448,حي ام عشيرة,Umm Ushayrah Dist.
+1704,2448,حي الصالحية,As Salhiyah Dist.
+1705,2467,حي الخزان,Al Khazzan Dist.
+1706,2467,حي النزهة,An Nuzhah Dist.
+1707,2467,حي القادسية,Al Qadisiyah Dist.
+1708,2467,حي النهضة,An Nahdah Dist.
+1709,2467,حي التعاون,At Taawun Dist.
+1710,2467,حي الافراح,Al Afrah Dist.
+1711,2467,حي القدس,Al Quds Dist.
+1712,2467,حي الحزم,Al Hazm Dist.
+1713,2467,حي زبيدة,Zubaiydah Dist.
+1714,2467,حي النفل,An Nafl Dist.
+1715,2481,حي ام ثلعة,Umm Thalaah Dist.
+1716,2481,حي العبيلة,Al Ubaylah Dist.
+1717,2481,حي العثمانية,Al Uthmaniyah Dist.
+1718,2481,حي الوسطى,Al Wusta Dist.
+1719,2481,حي الشيرمي,Ash Shayrami Dist.
+1720,2481,حي المستشفى,Al Mustashfa Dist.
+1721,2481,حي البساتين,Al Basatin Dist.
+1722,2481,حي الاندلس,Al Andalus Dist.
+1723,2481,حي النخيل,Al Nakhil Dist.
+1724,2481,حي الرمة,Ar Rimmah Dist.
+1725,2481,حي الصناعية,As Sinaiyah Dist.
+1726,2481,حي الاصفر,Al Asfar Dist.
+1727,2481,حي رامات,Ramat Dist.
+1728,2481,حي العليا,Al Olaya Dist.
+1729,2481,حي التعليم,At Taalim Dist.
+1730,2481,حي السلام,As Salam Dist.
+1731,2481,حي العبدلية,Al Abdaliyah Dist.
+1732,2481,حي الدحلة,Ad Dahlah Dist.
+1733,2486,حي السحابين الشمالي,As Sahabin Ash Shamali Dist.
+1734,2486,حي الخبراء القديمة,Al Khabra Al Qadima Dist.
+1735,2486,حي الياسمين,Al Yasmin Dist.
+1736,2486,حي النسيم,Al Naseem Dist.
+1737,2486,حي الورود,Al Wurud Dist.
+1738,2486,حي الأندلس,Al Andalus Dist.
+1739,2486,حي السحابين الجنوبي,As Sahabin Al Janubi Dist.
+1740,2486,حي الربوة,Ar Rabwah Dist.
+1741,2486,حي القدس,Al Quds Dist.
+1742,2486,حي الملاح,Al Mallah Dist.
+1743,2486,حى الرفيعة,Ar Rafiah Dist.
+1744,2486,حي الريان,Ar Rayan Dist.
+1745,2486,حي الروضة,Ar Rawdah Dist.
+1746,2486,حي الربيع,Ar Rabie Dist.
+1747,2486,حي الصناعية,As Sinaiyah Dist.
+1748,2629,حي البيضاء,Al Baida Dist.
+1749,2629,حي السلاح,As Silah Dist.
+1750,2630,حي الزهرة,Az Zahrah Dist.
+1751,2630,حي العزيزية,Al Aziziyah Dist.
+1752,2630,حي الهلالية,Al Halaliyah Dist.
+1753,2630,حي الخليج,Al Khalij Dist.
+1754,2630,حي الملك عبدالله,King Abdullah Dist.
+1755,2630,حي النهضة,An Nahdah Dist.
+1756,2630,حي النخيل,Al Nakhil Dist.
+1757,2630,حي الاسكان,Al Iskan Dist.
+1758,2630,حي الخالدية,Al Khalidiyah Dist.
+1759,2630,حي المحمدية,Al Muhammadiyah Dist.
+1760,2630,حي القادسية,Al Qadisiyah Dist.
+1761,2630,حي الصناعية,As Sinaiyah Dist.
+1762,2630,حي الريان,Ar Rayyan Dist.
+1763,2630,حي الامل,Al Amal Dist.
+1764,2630,حي الرياض,Ar Riyadh Dist.
+1765,2630,حي الديرة,Al Dirah Dist.
+1766,2630,حي المجد,Al Majd Dist.
+1767,2630,حي الربوة,Ar Rabwah Dist.
+1768,2630,حي الحمراء,Al Hamra Dist.
+1769,2630,حي الروابي,Ar Rawabi Dist.
+1770,2630,حي التقنية,Al Taqniyah Dist.
+1771,2630,حي المنتزة,Al Montazah Dist.
+1772,2777,حي الخبيب,Al Khabib Dist.
+1773,2777,حي المتحف,Al Mathaf Dist.
+1774,2777,حي النخيل,Al Nakhil Dist.
+1775,2777,حي الشفاء,Ash Shifa Dist.
+1776,2777,حي الشماس,Al Shamas Dist.
+1777,2777,حي البلاد,Al Bilad Dist.
+1778,2777,حي الفاروق,Al Farouq Dist.
+1779,2777,حي برزة,Barzah Dist.
+1780,2777,حي الواسط,Al Wasit Dist.
+1781,2777,حي البدع,Al Bada Dist.
+1782,2777,حي الجال,Al Jal Dist.
+1783,2777,حي الاندلس,Al Andalus Dist.
+1784,2777,حي الميدان,Al Midan Dist.
+1785,2777,حي السلام,As Salam Dist.
+1786,2777,حي الصفاء,Al Safa Dist.
+1787,2777,حي القادسية,Al Qadisiyah Dist.
+1788,2777,حي الصناعية,As Sinaiyah Dist.
+1789,2777,حي المتوكل,Al Mutawakil Dist.
+1790,2988,حي العزيزية,Al Aziziyah Dist.
+1791,2988,حي الاندلس,Al Andalus Dist.
+1792,2988,حي المصيف,Al Masif Dist.
+1793,2988,حي اليرموك,Al Yarmuk Dist.
+1794,2988,حي الروضة,Ar Rawdah Dist.
+1795,2988,حي الخليج,Al Khalij Dist.
+1796,2988,حي الفيحاء,Al Fayha Dist.
+1797,2988,حي الوادي,Al Wadi Dist.
+1798,2988,حي الربوة,Ar Rabwah Dist.
+1799,2988,حي المروج,Al Muruj Dist.
+1800,2988,حي الملك فهد,King Fahd Dist.
+1801,2988,حي الازدهار,Al Izdihar Dist.
+1802,2988,حي القدس,Al Quds Dist.
+1803,2988,حي السعادة,As Saadah Dist.
+1804,2988,حي الشفاء,Ash Shifa Dist.
+1805,2988,حي الياسمين,Al Yasmin Dist.
+1806,2988,حي الملك عبدالله,King Abdullah Dist.
+1807,2988,حي التعاون,At Taawun Dist.
+1808,2988,حي السلام,As Salam Dist.
+1809,2988,حي المنار,Al Manar Dist.
+1810,2988,حي الريان,Ar Rayan Dist.
+1811,2988,حي النهضة,An Nahdah Dist.
+1812,3030,فيضة ابان الاحمر,Faidat Aban Alahmar
+1813,3030,النويصفة,Al Nuwaisifah
+1814,3030,مشرفة عمودان,Mishrifat Amudan
+1815,3030,كفت,Kofat
+1816,3151,حي الرابية,Ar Rabiyah Dist.
+1817,3151,حي السلام,As Salam Dist.
+1818,3151,حي النخيل,Al Nakhil Dist.
+1819,3151,حي الربوة,Ar Rabwah Dist.
+1820,3151,حي المنتزه,Al Muntazah Dist.
+1821,3151,حي الجزيرة,Al Jazirah Dist.
+1822,3151,حي الملك عبدالله,King Abdullah Dist.
+1823,3151,حي غرناطة,Ghirnatah Dist.
+1824,3151,حي ج1,C1 Dist.
+1825,3151,حي المحمدية,Al Muhammadiyah Dist.
+1826,3151,حي الريان,Ar Rayan Dist.
+1827,3151,حي الرمثية,Ar Ramthyah Dist.
+1828,3151,حي الغربية,Al Gharbiyyah Dist.
+1829,3151,حي الصفا,As Safa Dist.
+1830,3151,حي القادسية,Al Qadisiyah Dist.
+1831,3151,حي حطين,Hiteen Dist.
+1832,3151,حي الوادي,Al Wadi Dist.
+1833,3151,حي اليرموك,Al Yarmuk Dist.
+1834,10872,فيضة السلمات,Faidat Al Salamat
+1835,10872,المرموثة الشمالية,Al Marmuthah Ash Shamaliyah
+1836,10872,الخريشاء,Al Kharisha
+1837,10872,المديري,Al Mudairy
+1838,12,حي الزهرة,Az Zahrah Dist.
+1839,12,حي المربدية,Al Marbidia Dist.
+1840,12,حي القدس,Al Quds Dist.
+1841,12,حي الجوهرة,Al Jawharah Dist.
+1842,12,حي الورود الثاني,Al Wurud 2nd Dist.
+1843,12,حي المهندسين,Al Muhandisin Dist.
+1844,12,حي عين موسى,Ayn Musa Dist.
+1845,12,حي الصقور,As Suqur Dist.
+1846,12,حي الواحة,Al Wahah Dist.
+1847,12,حي الهدا,Al Hada Dist.
+1848,12,حي الثليثية,Al Thulaythiyah Dist.
+1849,12,حي المعلمين,Al Muallimeen Dist.
+1850,12,حي العاصمة,Al Asimah Dist.
+1851,12,حي الأمراء,Al Omaraa Dist.
+1852,12,حي النخيل,Al Nakhil Dist.
+1853,12,حي العزيزية الثاني,Al Aziziyah 2nd Dist.
+1854,12,حي الحمراء الثالث,Al Hamra 3rd Dist.
+1855,12,حي المرقاب,Al Mirqab Dist.
+1856,12,حي الرابية,Ar Rabiyah Dist.
+1857,12,حي الحزام الأخضر,Al Hizam Al Akhdar Dist.
+1858,12,حي الجامعيين,Al Jamiyin Dist.
+1859,12,حي الروضة,Ar Rawdah Dist.
+1860,12,حي غرناطة,Ghirnatah Dist.
+1861,12,حي الصحافة,As Sahafah Dist.
+1862,12,حي ام خريسان,Um Khraisan Dist.
+1863,12,حي العليا,Al Olaya Dist.
+1864,12,حي الحمراء الثاني,Al Hamra 2nd Dist.
+1865,12,حي البدرية,Al Badriyah Dist.
+1866,12,حي السنيدية,As Sunaidah Dist.
+1867,12,حي المحمدية,Al Muhammadiyah Dist.
+1868,12,حي لذه,Ladhah Dist.
+1869,12,حي مجمع الدوائر الحكومية الثاني,Government Departments Complex 2nd  Dist.
+1870,12,حي المزروع الثاني,Al Mazrooa 2nd Dist.
+1871,12,حي الورود الثالث,Al Wurud 3rd Dist.
+1872,12,حي الربوه,Ar Rabwah Dist.
+1873,12,حي الرويضة,Ar Ruwaida Dist.
+1874,12,حي الرفيعة,Ar Rafiah Dist.
+1875,12,حي الحوراء,Al Hawra Dist.
+1876,12,حي الرقيقة,Ar Ruqaiqah Dist.
+1877,12,حي المزروع الاول,Al Mazrooa 1st Dist.
+1878,12,حي جوبا,Juba Dist.
+1879,12,حي البصيرة,Al Busairah Dist.
+1880,12,حي المروج الجنوبي,Al Muruj Southern Dist.
+1881,12,حي السليمانية,As Sulaimaniyah Dist.
+1882,12,حي الحمراء الأول,Al Hamra 1st Dist.
+1883,12,حي الشهابية,Ash Shihabiyah Dist.
+1884,12,حي العزيزية الأول,Al Aziziyah 1st Dist.
+1885,12,حي جامعة الملك فيصل الأول,King Faisal University 1st Dist.
+1886,12,حي المطار,Al Matar Dist.
+1887,12,حي هجر,Hajr Dist.
+1888,12,حي منسوبي التعليم الأول,Mansubi Al Taleem 1st Dist.
+1889,12,حي منيفة,Munifah Dist.
+1890,12,حي البندرية,Al Bandariyah Dist.
+1891,12,حي العويمرية,Al Uwaimiriyah Dist.
+1892,12,حي النايفية,An Nayfiyah Dist.
+1893,12,حي النسيم,Al Naseem Dist.
+1894,12,حي الدوحة,Al Doha Dist.
+1895,12,حي المثلث,Al Muthalath Dist.
+1896,12,حي الريان,Ar Rayyan Dist.
+1897,12,منطقة الغويبة الزراعية,Alghawbia Agricultural Area
+1898,12,حي الوسيطة,Al Wasitah Dist.
+1899,12,حي السلمانية الثاني,Al Salmaniyah 2nd Dist.
+1900,12,حي الشغيبية,Al Shagaibiyah Dist.
+1901,12,حي جامعة الملك فيصل الثالث,King Faisal University 3rd Dist.
+1902,12,حي الإسكان الأول,Al Iskan 1st Dist.
+1903,12,حي صويدرة,As Suwaidirah Dist.
+1904,12,حي الخالدية,Al Khalidiyah Dist.
+1905,12,حي السلمانية الرابع,Al Salmaniyah 4th Dist.
+1906,12,حي منسوبي التعليم الثاني,Mansubi Al Taleem 2nd Dist.
+1907,12,حي الورود الأول,Al Wurud 1st Dist.
+1908,12,حي الفيصلية الثاني,Al Faisaliyah 2nd Dist.
+1909,12,حي الناصرية,An Nasriyah Dist.
+1910,12,حي اللويمي,Al Luwaymi Dist.
+1911,12,حي الخدود,Al Khudud Dist.
+1912,12,حي السلمانية الثالث,Al Salmaniyah 3rd Dist.
+1913,12,حي المزروعية,Al Mazruiyah Dist.
+1914,12,حي المجيدية,Al Majidiyah Dist.
+1915,12,حي الملك فهد,King Fahd Dist.
+1916,12,حي التعاون,At Taawun Dist.
+1917,12,حي الدانة,Al Danah Dist.
+1918,12,حي الفردوس,Al Fardus Dist.
+1919,12,حي السيفة,As Saifa Dist.
+1920,12,حي الحفيرة,Al Hufayrah Dist.
+1921,12,حي السلمانية الأول,Al Salmaniyah 1st Dist.
+1922,12,حي الصالحية,As Salhiyah Dist.
+1923,12,حي المباركية,Al Mubarakiyah Dist.
+1924,12,جامعة الامام محمد بن سعود الاسلامية,Imam Muhammed Ibn Saud Islamic University
+1925,12,حي الفيصلية الأول,Al Faisaliyah 1st Dist.
+1926,12,حي الرفعة الجنوبية,Ar Refah Southern Dist.
+1927,12,حي جامعة الملك فيصل الثاني,King Faisal University 2nd Dist.
+1928,12,حي الإسكان الثاني,Al Iskan 2nd Dist.
+1929,12,المدينة الرياضية,Sports City
+1930,12,حي المروج الشمالي,Al Muruj Northern Dist.
+1931,12,مطار الأحساء,Al Ahsa Airport
+1932,12,حي الطالعية,Al Talayah Dist.
+1933,12,حي النعاثل,Al Naathel Dist.
+1934,12,حي الكوت,Al Koot Dist.
+1935,12,حي الرفعة الشمالية,Ar Refah Northern Dist.
+1936,12,حي الزهراء,Az Zahra Dist.
+1937,12,حي العسيلة,Al Aseelah Dist.
+1938,13,حي الخالدية الشمالية,Al Khalidiyah Ash Shamaliyah Dist.
+1939,13,حي الناصرية,An Nasriyah Dist.
+1940,13,حي الصناعية الاولى,1st Industrial Dist.
+1941,13,حي الفنار,Al Fanar Dist.
+1942,13,حي الأثير,Al Athir Dist.
+1943,13,حي الجلوية,Al Jalawiyah Dist.
+1944,13,حي النخيل,Al Nakhil Dist.
+1945,13,حي القزاز,Al Qazaz Dist.
+1946,13,حي البادية,Al Badiyah Dist.
+1947,13,حي الدواسر,Ad Dawasir Dist.
+1948,13,حي العنود,Al Anud Dist.
+1949,13,حي الشاطئ الغربي,Ash Shati Al Gharbi Dist.
+1950,13,حي الضباب,Ad Dabab Dist.
+1951,13,حي المنار,Al Manar Dist.
+1952,13,حي النور,An Nur Dist.
+1953,13,حي السلام,As Salam Dist.
+1954,13,حي الزهور,Az Zuhur Dist.
+1955,13,حي المريكبات,Al Muraikabat Dist.
+1956,13,حي النهضة,An Nahdah Dist.
+1957,13,حي ضاحية الملك فهد,Dahiyat Al Malik Fahd Dist.
+1958,13,حي السيف,As Saif Dist.
+1959,13,حي الصناعية,As Sinaiyah Dist.
+1960,13,حي احد,Uhud Dist.
+1961,13,حي بدر,Badr Dist.
+1962,13,حي الخليج,Al Khalij Dist.
+1963,13,حي الروضة,Ar Rawdah Dist.
+1964,13,حي طيبة,Taibah Dist.
+1965,13,حي الجامعيين,Al Jamiyin Dist.
+1966,13,حي الريان,Ar Rayyan Dist.
+1967,13,حي القادسية,Al Qadisiyah Dist.
+1968,13,حي غرناطة,Ghirnatah Dist.
+1969,13,حي العدامة,Al Adamah Dist.
+1970,13,حي الامير محمد بن سعود,Prince Muhammed Ibn Saud Dist.
+1971,13,حي الطبيشي,At Tubayshi Dist.
+1972,13,حي المزروعية,Al Mazruiyah Dist.
+1973,13,حي الصفا,As Safa Dist.
+1974,13,حي المنتزه,Al Muntazah Dist.
+1975,13,حي النزهة,An Nuzhah Dist.
+1976,13,حي الفردوس,Al Firdaws Dist.
+1977,13,حي قصر الخليج,Qasr Al Khalij Dist.
+1978,13,المدينة الصناعية الثانية,2nd Industrial City
+1979,13,مطار الملك فهد الدولي,King Fahd International Airport
+1980,13,حي الخضرية,Al Kuthriah Dist.
+1981,13,حي مدينة العمال,Madinat Al Ummal Dist.
+1982,13,حي العمامرة,Al Amamrah Dist.
+1983,13,حي البديع,Al Badi Dist.
+1984,13,حي الشاطئ الشرقي,Ash Shati Ash Sharqi Dist.
+1985,13,حي الفيحاء,Al Fayha Dist.
+1986,13,حي الشفاء,Ash Shifa Dist.
+1987,13,حي الراكة الشمالية,Ar Rakah Ash Shamaliyah Dist.
+1988,13,حي النورس,An Nawras Dist.
+1989,13,حي الفيصلية,Al Faisaliyah Dist.
+1990,13,حي الاتصالات,Al Itisalat Dist.
+1991,13,حي ابن خلدون,Ibn Khaldun Dist.
+1992,13,حي السوق,As Suq Dist.
+1993,13,حي الربيع,Ar Rabie Dist.
+1994,13,حي الحمراء,Al Hamra Dist.
+1995,13,حي البحيرة,Al Buhayrah Dist.
+1996,13,حي الجوهرة,Al Jawharah Dist.
+1997,13,حي الرابية,Ar Rabiyah Dist.
+1998,13,حي الدانة,Ad Danah Dist.
+1999,13,حي المحمدية,Al Muhammadiyah Dist.
+2000,13,حي العزيزية,Al Aziziyah Dist.
+2001,13,حي الواحة,Al Wahah Dist.
+2002,13,حي البساتين,Al Basatin Dist.
+2003,13,حي الاسكان,Al Iskan Dist.
+2004,13,مدينة الملك فيصل الجامعية,King Faisal University
+2005,13,حي الحسام,Al Hussam Dist.
+2006,13,حي ميناء الملك عبدالعزيز,King Abdul Aziz Seaport Dist.
+2007,13,حي النسيم,Al Naseem Dist.
+2008,13,حي الخالدية الجنوبية,Al Khalidiyah Al Janubiyah Dist.
+2009,13,حي الشعلة,Ash Shulah Dist.
+2010,13,حي الأنوار,Al Anwar Dist.
+2011,13,حي الأمل,Al Amal Dist.
+2012,13,حي الشرق,Ash Sharq Dist.
+2013,13,حي الهضبة,Al Hadabah Dist.
+2014,13,حي المطار,Al Matar Dist.
+2015,13,حي الأمانة,Al Amanah Dist.
+2016,13,حي الفرسان,Al Fursan Dist.
+2017,13,حي المها,Al Maha Dist.
+2018,13,حي الندى,An Nada Dist.
+2019,13,المدينة الصناعية الثالثة,3rd Industrial City
+2020,13,مدينة الملك سلمان للطاقة,King Salman Energy Park
+2021,13,حي الإسكان الجنوبي,Al Iskan Al Janubi Dist.
+2022,13,حي العروبة,Al Urubah Dist.
+2023,13,حي الاسكان الشمالي,Al Iskan Northren Dist.
+2024,13,حي الجود,Al Jud Dist.
+2025,31,حي التحلية,At Tahliyah Dist.
+2026,31,حي ابن سيناء,Ibn Sina Dist.
+2027,31,حي الحزام الاخضر,Al Hizam Al Akhdar Dist.
+2028,31,حي صناعية الثقبة,Sinaiyah Ath Thuqbah Dist.
+2029,31,حي التعاون,At Taawun Dist.
+2030,31,حي الراكة الجنوبية,Ar Rakah Al Janubiyah Dist.
+2031,31,حي الخبر الشمالية,Al Khubar Ash Shamaliyah Dist.
+2032,31,حي مدينة العمال,Madinat Al Ummal Dist.
+2033,31,حي العقربية,Al Aqrabiyah Dist.
+2034,31,حي الخبر الجنوبية,Al Khubar Al Janubiyah Dist.
+2035,31,حي الروابي,Ar Rawabi Dist.
+2036,31,حي اليرموك,Al Yarmok Dist.
+2037,31,حي قرطبة,Qurtubah Dist.
+2038,31,حي الجوهرة,Al Jawharah Dist.
+2039,31,حي الحزام الذهبي,Al Hizam Adh Dhahabi Dist.
+2040,31,حي الاندلس,Al Andalus Dist.
+2041,31,حي الهدا,Al Hada Dist.
+2042,31,حي البندرية,Al Bandariyah Dist.
+2043,31,حي البستان,Al Bustan Dist.
+2044,31,حي الثقبة,Ath Thuqbah Dist.
+2045,31,حي العليا,Al Olaya Dist.
+2046,31,حي الاسكان,Al Iskan Dist.
+2047,31,حي الحمراء,Al Hamra Dist.
+2048,31,حي الجسر,Al Jisr Dist.
+2049,31,حي الخزامى,Al Khuzama Dist.
+2050,31,المدينة الرياضية,Sports City
+2051,31,حي البحر,Al Bahar Dist.
+2052,31,حي الكورنيش,Al Kurnaish Dist.
+2053,31,حي صناعية الفوازية,Sinaiyah Al Fawaziyah Dist.
+2054,31,حي الساحل,As Sahil Dist.
+2055,31,حي الخور,Al Khawr Dist.
+2056,31,حي اشبيليا,Ishbiliya Dist.
+2057,31,حي البحيرة,Al Buhayrah Dist.
+2058,31,حي الشراع,Ash Sheraa Dist.
+2059,31,حي الكوثر,Al Kawthar Dist.
+2060,31,حي الرجاء,Ar Raja Dist.
+2061,31,حي الصواري,As Sawari Dist.
+2062,31,حي العقيق,Al Aqiq Dist.
+2063,31,حي المها,Al Maha Dist.
+2064,31,حي الامواج,Al Amwaj Dist.
+2065,31,حي اللؤلؤ,Al Lulu Dist.
+2066,31,حي المرجان,Al Murjan Dist.
+2067,31,حي السفن,As Sufun Dist.
+2068,31,حي الصدفة,As Sadafah Dist.
+2069,47,حي الربيع,Ar Rabie Dist.
+2070,47,حي الاسكان,Al Iskan Dist.
+2071,47,حي الجامعة,Al Jamiah Dist.
+2072,47,حي الرابية,Ar Rabiyah Dist.
+2073,47,حي التلال,At Talal Dist.
+2074,47,حي الشفاء,Ash Shifa Dist.
+2075,47,حي الوادي,Al Wadi Dist.
+2076,47,حي البلدية,Al Baladiyah Dist.
+2077,47,حي الصناعية,As Sinaiyah Dist.
+2078,47,حي العزيزية,Al Aziziyah Dist.
+2079,47,حي الفيحاء,Al Fayha Dist.
+2080,47,حي الربوة,Ar Rabwah Dist.
+2081,47,حي الباطن,Al Batin Dist.
+2082,47,حي المحمدية,Al Muhammadiyah Dist.
+2083,47,حي الخالدية,Al Khalidiyah Dist.
+2084,47,حي النهضة,An Nahdah Dist.
+2085,47,حي الصفاء,Al Safa Dist.
+2086,47,حي فليج,Fulaij Dist.
+2087,47,حي قرطبة,Qurtubah Dist.
+2088,47,حي الروضة,Ar Rawdah Dist.
+2089,47,حي السليمانية,As Sulimaniyah Dist.
+2090,47,حي الفيصلية,Al Faisaliyah Dist.
+2091,47,حي النزهة,An Nuzhah Dist.
+2092,47,حي المنار,Al Manar Dist.
+2093,47,حي اليرموك,Al Yarmuk Dist.
+2094,47,حي الريان,Ar Rayan Dist.
+2095,47,حي النايفية,An Nayfiyah Dist.
+2096,47,حي المروج,Al Muruj Dist.
+2097,47,حي النخيل,Al Nakhil Dist.
+2098,47,حي الواحة,Al Wahah Dist.
+2099,47,حي المصيف,Al Masif Dist.
+2100,47,حي غرناطة,Ghirnatah Dist.
+2101,47,حي ابو موسى الاشعري,Abu Musa Al Ashari Dist.
+2102,47,حي الخليج,Al Khalij Dist.
+2103,47,حي الرائد,Ar Raid Dist.
+2104,47,حي الورود,Al Wurud Dist.
+2105,55,حي الروضة,Ar Rawdah Dist.
+2106,55,حي الفيصلية,Al Faisaliyah Dist.
+2107,55,حي المحمدية,Al Muhammadiyah Dist.
+2108,55,حي النسيم,Al Naseem Dist.
+2109,55,حي الشفاء,Ash Shifa Dist.
+2110,55,حي الأندلس,Al Andalus Dist.
+2111,55,حي العزيزية,Al Aziziyah Dist.
+2112,55,حي الهداية,Al Hidaya Dist.
+2113,55,حي الصناعية,As Sinaiyah Dist.
+2114,55,حي الخالدية,Al Khalidiyah Dist.
+2115,67,حي البديع,Al Badi Dist.
+2116,67,منطقة المستودعات,Warehouse Area
+2117,67,حي المجيدية,Al Majidiyah Dist.
+2118,67,حي الشاطئ,Ash Shati Dist.
+2119,67,حي الفتح,Al Fath Dist.
+2120,67,حي الواحة,Al Wahah Dist.
+2121,67,حي المروج,Al Muruj Dist.
+2122,67,حي الصناعية,As Sinaiyah Dist.
+2123,67,حي الروضة,Ar Rawdah Dist.
+2124,67,حي الورود,Al Wurud Dist.
+2125,67,حي الرضا,Ar Rida Dist.
+2126,67,حي الجارودية,Al Jarudiyah Dist.
+2127,67,حي حلة محيش,Halat Mahish Dist.
+2128,67,حي الياقوت,Al Yaqut Dist.
+2129,67,حي البديعة,Al Badiah Dist.
+2130,67,حي الدبابية,Ad Dababiyyah Dist.
+2131,67,حي الخامسة,Al Khamisah Dist.
+2132,67,حي ام الجزم,Umm Al Jazm Dist.
+2133,67,حي بديعة البصري,Badiah Al Basri Dist.
+2134,67,حي المشتل,Al Mashtal Dist.
+2135,67,حي الزمرد,Az Zomorod Dist.
+2136,67,حي الناصرة,An Nasirah Dist.
+2137,67,حي البحاري,Al Bahari Dist.
+2138,67,حي مياس,Mayyas Dist.
+2139,67,حي الجواهر,Al Jawahir Dist.
+2140,67,حي الخزامى,Al Khuzama Dist.
+2141,67,حي التوبي,At Tawbi Dist.
+2142,67,حي الجراري,Al Jarrari Dist.
+2143,67,حي الشهباء,Ash Shahba Dist.
+2144,67,حي القديح,Al Qadih Dist.
+2145,67,حي المدارس,Al Madaris Dist.
+2146,67,حي الشماسيه,Ash Shamasiyyah Dist.
+2147,67,حي باب الساب,Bab As Sab Dist.
+2148,67,حي الجميمة,Al Jumaimah Dist.
+2149,67,حي المسعودية,Al Masudiyah Dist.
+2150,67,حي الخويلدية,Al Khuwaildiyah Dist.
+2151,67,حي العوامية,Al Awamiyah Dist.
+2152,67,حي الدويج,Ad Doij Dist.
+2153,67,حي الرابعة,Ar Rabiah Dist.
+2154,67,حي البستان,Al Bustan Dist.
+2155,67,حي الجزيرة,Al Jazirah Dist.
+2156,67,حي الشريعة,Ash Shariah Dist.
+2157,67,حي الوسادة,Al Wasadah Dist.
+2158,67,حي القلعة,Al Qalah Dist.
+2159,67,حي البوادي,Al Bawadi Dist.
+2160,67,حي الحسين,Al Husain Dist.
+2161,67,حي المدني,Al Madani Dist.
+2162,67,حي الثريا,Ath Thuraiya Dist.
+2163,67,حي الريف,Ar Rif Dist.
+2164,67,حي باب الشمال,Bab Madinah Ash Shamal Dist.
+2165,67,حي البحر,Al Bahr Dist.
+2166,67,حي الشويكة,Ash Shweikah Dist.
+2167,67,حي الوديعه,Al Wadiah Dist.
+2168,67,حي الكويكب,Kuwaikib Dist.
+2169,67,حي النرجس,An Narjis Dist.
+2170,67,حي الزهراء,Az Zahra Dist.
+2171,67,حي الزارة,Az Zarah Dist.
+2172,89,حي الرفاع,Ar Rifaa Dist.
+2173,89,حي الربوة,Ar Rabwah Dist.
+2174,89,حي الواحة,Al Wahah Dist.
+2175,89,حي غرناطة,Ghirnatah Dist.
+2176,89,حي الزهور,Az Zuhur Dist.
+2177,89,حي الروضة,Ar Rawdah Dist.
+2178,89,حي الربيع,Ar Rabie Dist.
+2179,89,حي قصر عالي,Qasr Aali Dist.
+2180,89,حي قرطبة,Qurtubah Dist.
+2181,89,حي الاندلس,Al Andalus Dist.
+2182,89,حي الخالدية,Al Khalidiyah Dist.
+2183,89,حي الصناعية,As Sinaiyah Dist.
+2184,89,حي السلام,As Salam Dist.
+2185,89,حي النزهة,An Nuzhah Dist.
+2186,89,حي المروج,Al Muruj Dist.
+2187,113,حي المرقاب,Al Merqab Dist.
+2188,113,حي طيبة,Tebah Dist.
+2189,113,حي الروضة,Al Rawdah Dist.
+2190,113,حي الضباب,Al Dabab Dist.
+2191,113,حي الواحة,Al Wahah Dist.
+2192,113,حي الطوية,Al Tawyah Dist.
+2193,113,حي الدانة,Al Dana Dist.
+2194,113,حي الصفاة,Al Safat Dist.
+2195,113,حي صناعية العريفي,Oraifi Industrial Dist.
+2196,113,حي اليرموك,Al Yarmuk Dist.
+2197,113,حي البستان,Al Bustan Dist.
+2198,113,حي التعاون,Al Taawun Dist.
+2199,113,حي ابو موسى الاشعري,Abu Musa Alashary Dist.
+2200,113,حي الجوهرة,Al Jawhara Dist.
+2201,113,حي غرناطة,Ghirnatah Dist.
+2202,113,حي السلام,Al Salam Dist.
+2203,113,حي الربوة,Ar Rabwah Dist.
+2204,113,حي البحر,Al Bahar Dist.
+2205,113,حي اشبلية,Ishbiliyah Dist.
+2206,113,حي الحمراء,Al Hamra Dist.
+2207,113,حي الخزامى,Al Khuzama Dist.
+2208,113,حي العزيزية,Al Aziziyah Dist.
+2209,113,حي قرطبة,Cordoba Dist.
+2210,113,حي الحويلات,Al Huwaylat Dist.
+2211,113,حي اللؤلؤ,Al Lualu Dist.
+2212,113,المنطقة الصناعية الاولى,1st Industrial Area
+2213,113,المنطقة الصناعية,Industrial Area
+2214,113,حي الشاطئ,Ash Shati Dist.
+2215,113,حي الاحساء,Al Ahsa Dist.
+2216,113,المنطقة الصناعية الثانية,2nd Industrial Area
+2217,113,المنطقة الصناعية الثالثة,3rd Industrial Area
+2218,113,حي ينبع,Yanbu Dist.
+2219,113,حي الفيحاء,Al Fayha Dist.
+2220,113,حي الخليج,Al Khalij Dist.
+2221,113,حي نجد,Najd Dist.
+2222,113,حي دارين,Darin Dist.
+2223,113,حي سدير,Sudayr Dist.
+2224,113,حي مكة,Makkah Dist.
+2225,113,حي الحجاز,Al Hijaz Dist.
+2226,113,حي الفردوس,Al Firdaws Dist.
+2227,113,حي الاندلس,Al Andalus Dist.
+2228,113,حي الفاروق,Al Farouq Dist.
+2229,113,حي القدس,Al Quds Dist.
+2230,113,حي جلمودة,Jalmudah Dist.
+2231,113,حي المطرفية,Al Matrafiyah Dist.
+2232,115,حي الصناعية,As Sinaiyah Dist.
+2233,115,حي التشاليح,At Tashalih Dist.
+2234,115,حي الربيع,Ar Rabie Dist.
+2235,115,حي العزيزية,Al Aziziyah Dist.
+2236,115,حي ج4,C4 Dist.
+2237,115,حي الخليج,Al Khalij Dist.
+2238,115,حي المحمدية,Al Muhammadiyah Dist.
+2239,115,حي الفيصلية,Al Faisaliyah Dist.
+2240,227,حي الدوحة الجنوبية,Ad Dawhah Al Janubiyah Dist.
+2241,227,حي الدانة الشمالية,Ad Danah Ash Shamaliyah Dist.
+2242,227,حي القصور,Al Qusur Dist.
+2243,227,حي الدوحة الشمالية,Ad Dawhah Ash Shamaliyah Dist.
+2244,227,حي الدانة الجنوبية,Ad Danah Al Janubiyah Dist.
+2245,227,حي الجامعة,Al Jamiah Dist.
+2246,227,حي الحرس الوطني,Al Haras Al Watani Dist.
+2247,227,حي تهامة,Tihamah Dist.
+2248,227,حي القشلة,Al Qashlah Dist.
+2249,227,حي هجر,Hajr Dist.
+2250,227,حي غرب الظهران,Gharb Adh Dhahran Dist.
+2251,227,جامعة الملك فهد للبترول والمعادن,King Fahd University Of Petroleum And Minerals
+2252,227,أجيال,Ajyal
+2253,243,حي الربوة,Ar Rabwah Dist.
+2254,243,حي قرطبة,Qurtubah Dist.
+2255,243,حي الصناعية,As Sinaiyah Dist.
+2256,243,حي النزهة,An Nuzhah Dist.
+2257,243,حي الاندلس,Al Andalus Dist.
+2258,243,حي الروضة,Ar Rawdah Dist.
+2259,243,حي غرناطة,Ghirnatah Dist.
+2260,243,حي أشبيلية,Ishbiliyah Dist.
+2261,243,حي المطار,Al Matar Dist.
+2262,243,حي المدينة,Al Madinah  Dist.
+2263,243,حي النخيل,Al Nakhil Dist.
+2264,243,حي الفردوس,Al Fardus Dist.
+2265,243,حي البساتين,Al Basatin Dist.
+2266,454,حي النابية,An Nabiyah Dist.
+2267,454,حي الديرة,Ad Dirah Dist.
+2268,454,حي غرناطة,Ghirnatah Dist.
+2269,454,حي الفردوس,Al Firdaws Dist.
+2270,454,حي السلام,As Salam Dist.
+2271,454,حي قرطبة,Qurtubah Dist.
+2272,454,حي الطف,At Tif Dist.
+2273,454,حي الخصاب,Al Khisab Dist.
+2274,454,حي الغدير,Al Ghadir Dist.
+2275,454,حي النقى,An Naqa Dist.
+2276,454,حي المنتزة,Al Muntazah Dist.
+2277,454,حي الكوثر,Al Kawthar Dist.
+2278,454,حي النسيم,Al Naseem Dist.
+2279,454,حي الخليج,Al Khalij Dist.
+2280,454,حي الزهور,Az Zuhur Dist.
+2281,454,حي النور,An Nur Dist.
+2282,454,حي غرب النابية,Gharb An Nabiyah Dist.
+2283,454,حي الصناعية,As Sinaiyah Dist.
+2284,456,حي الزمرد,Az Zomorod Dist.
+2285,456,حي الصدفة,As Sadafah Dist.
+2286,456,حي المناخ,Al Manakh Dist.
+2287,456,حي النرجس,An Narjis Dist.
+2288,456,حي الربيعية,Ar Rabeiyah Dist.
+2289,456,حي النخيل,Al Nakhil Dist.
+2290,456,حي اللؤلؤ,Al Lulu Dist.
+2291,456,حي الجامعيين,Al Jamiyin Dist.
+2292,456,حي سنابس,Sanabis Dist.
+2293,456,حي الديرة,Ad Dirah Dist.
+2294,456,حي الزور,Az Zour Dist.
+2295,456,حي اليمامة,Al Yamamah Dist.
+2296,456,حي الصواري,As Sawari Dist.
+2297,456,حي الجوهرة,Al Jawharah Dist.
+2298,456,حي الجبل,Al Jabal Dist.
+2299,2038,بلدة المطيرفي,Al Mutayrifi
+2300,2038,بلدة الشقيق الغربية,Ash Shaqiq Western
+2301,2038,بلدة الوزية,Al Wazyah
+2302,2038,الحي الرابع,Al Rabea Dist.
+2303,2038,الحي الاول,Al Awal Dist.
+2304,2038,الحي الثاني,Al Thani Dist.
+2305,2038,الحي الثالث,Al Thalith Dist.
+2306,2038,حي البساتين,Al Basatin Dist.
+2307,2038,بلدة القرين,Al Qaren
+2308,2038,حي اشبيلية,Ishbiliyah Dist.
+2309,2038,بلدة جليجلة,Julijlah
+2310,2038,حي القادسية,Al Qadisiyah Dist.
+2311,2038,حي اليرموك,Al Yarmuk Dist.
+2312,2038,حي الصفا الرابع,As Safa 4th Dist.
+2313,2038,حي الندى,An Nada Dist.
+2314,2038,حي الاسكان,Al Iskan Dist.
+2315,2038,حي الصفا الثاني,As Safa 2nd Dist.
+2316,2038,حي الصفا الثالث,As Safa 3rd Dist.
+2317,2038,حي الصفا الاول,As Safa 1st Dist.
+2318,2038,بلدة الجرن,Al Jarn
+2319,2038,حي الصناعية,As Sinaiyah Dist.
+2320,2038,حي الرابية,Ar Rabiyah Dist.
+2321,2038,حي ضاحية الامير سلطان الجنوبية,Dahiyat Prince Sultan Southern Dist.
+2322,2038,مجمع الدوائر الحكومية,Government Departments Complex
+2323,2038,حي العيون الشمالية,Al Oyon Southern Dist.
+2324,2038,بلدة العوضية,Al Awadhyah
+2325,2038,وسط العيون,Wassat Al Oyon
+2326,2038,بلدة المراح,Al Marah
+2327,2038,حي ضاحية الامير سلطان الشمالية,Dahiyat Prince Sultan Northern Dist.
+2328,2038,حي العيون الجنوبية,Al Oyon Southern Dist.
+2329,2038,بلدة الشقيق الشرقية,Ash Shaqiq Eastern
+2330,2167,حي التلال,At Talal Dist.
+2331,2167,حي النهضة,An Nahdah Dist.
+2332,2167,حي الروابي,Ar Rawabi Dist.
+2333,2167,حي الاوجام,Al Aujam Dist.
+2334,2167,حي الفيحاء,Al Fayha Dist.
+2335,2167,حي الريحان,Ar Raihan Dist.
+2336,2167,حي الدريدي,Ad Duraydi Dist.
+2337,2167,حي المروة,Al Marwah Dist.
+2338,2167,حي الرويحة,Ar Ruwaihah Dist.
+2339,2167,حي الرحاب,Al Rehab Dist.
+2340,2167,حي ابو معن,Abu Main Dist.
+2341,2167,حي الربوة,Ar Rabwah Dist.
+2342,2167,حي المصيف,Al Masif Dist.
+2343,2167,حي البدور,Al Budur Dist.
+2344,2167,حي العروبة,Al Urubah Dist.
+2345,2167,حي الصفاء,Al Safa Dist.
+2346,2167,حي الخترشية,Al Khatrashiyah Dist.
+2347,2167,حي ام الساهك,Umm As Sahik Dist.
+2348,2167,حي العمل,Al Amal Dist.
+2349,2167,حي الحزم,Al Hazm Dist.
+2350,2167,حي حزم,Hazm Dist.
+2351,2167,حي المنار,Al Manar Dist.
+2352,2167,حي الشورى,Ash Shura Dist.
+2353,2170,حي الاسكان,Al Iskan Dist.
+2354,2170,حي الراية,Ar Rayah Dist.
+2355,2170,حي الرمال,Ar Rimal Dist.
+2356,2171,حي العقيق,Al Aqiq Dist.
+2357,2171,حي البدر,Al Badr Dist.
+2358,2171,حي البستان,Al Bustan Dist.
+2359,2171,حي المحار,Al Mahar Dist.
+2360,2171,حي عنك,Anak Dist.
+2361,2176,حي الساحل,As Sahil Dist.
+2362,2176,حي المرجان,Al Murjan Dist.
+2363,2176,حي الاندلس,Al Andalus Dist.
+2364,2176,حي دارين,Darin Dist.
+2365,2464,حي السلام,As Salam Dist.
+2366,2464,حي الجوهرة,Al Jawharah Dist.
+2367,2464,حي التعاون,At Taawun Dist.
+2368,2464,حي الفيصلية,Al Faisaliyah Dist.
+2369,2464,حي الشاطئ,Ash Shati Dist.
+2370,2464,حي الروضة,Ar Rawdah Dist.
+2371,2464,حي الفيحاء,Al Fayha Dist.
+2372,2464,حي الخزامى,Al Khuzama Dist.
+2373,2464,حي الياسمين,Al Yasmin Dist.
+2374,2464,حي العزيزية,Al Aziziyah Dist.
+2375,2464,حي الدوائر الحكومية,Goverment Departments Dist.
+2376,2464,حي المحمدية,Al Muhammadiyah Dist.
+2377,2464,المنطقة الصناعية الاولى,1st Industrial Area
+2378,2464,المنطقة الصناعية الثانية,2nd Industrial Area
+2379,2464,حي الحمراء,Al Hamra Dist.
+2380,2464,حي اللؤلؤة,Al Luluah Dist.
+2381,2464,حي الريان,Ar Rayyan Dist.
+2382,2464,حي اليرموك,Al Yarmuk Dist.
+2383,2464,حي الخالدية,Al Khalidiyah Dist.
+2384,2464,حي الامل,Al Amal Dist.
+2385,2464,حي الملك فهد,King Fahd Dist.
+2386,2464,حي الامير نايف,Prince Naif Dist.
+2387,2464,حي الزهور,Az Zuhur Dist.
+2388,2464,حي الامير فهد بن سلمان,Prince Fahd Ibn Salman Dist.
+2389,2464,حي النهضة,An Nahdah Dist.
+2390,2464,حي ارامكو,Aramco Dist.
+2391,2464,حي النزهة,An Nuzhah Dist.
+2392,2464,حي المروج,Al Muruj Dist.
+2393,2590,حي الزهور,Az Zuhur Dist.
+2394,2590,حي النعيم,An Naim Dist.
+2395,2590,حي قرطبة,Qurtubah Dist.
+2396,2590,حي المنتزة,Al Montazah Dist.
+2397,2590,حي الاندلس,Al Andalus Dist.
+2398,2590,حي الصناعية,As Sinaiyah Dist.
+2399,2590,حي الفيحاء,Al Fayha Dist.
+2400,2590,حي الدانة,Ad Danah Dist.
+2401,2590,حي الروضة,Ar Rawdah Dist.
+2402,2590,حي نجمة,Najmah Dist.
+2403,2643,حي الشروق,Ash Shuruq Dist.
+2404,2643,حي يبرين,Yebrin Dist.
+2405,2643,حي الياسمين,Al Yasmin Dist.
+2406,2643,حي الدوائر الحكوميه,Government Departments Dist.
+2407,2643,حي الربيع,Ar Rabie Dist.
+2408,2643,حي المروج,Al Muruj Dist.
+2409,2643,حي الاخاء,Al Akha Dist.
+2410,2653,بلدة البطالية,Al Battaliyah
+2411,2653,بلدة الجبيل,Al Jubail
+2412,2653,حي الشروق,Ash Shuruq Dist.
+2413,2653,حي السلام,As Salam Dist.
+2414,2653,حي التمور,At Tamor Dist.
+2415,2653,بلدة القارة,Al Qarah
+2416,2653,حي المنتزه,Al Muntazah Dist.
+2417,2653,بلدة بني معن,Bani Maan
+2418,2653,حي القارة,Al Qarah Dist.
+2419,2653,بلدة الطريبيل,At Tarbil
+2420,2653,حي التويثير,Al Tuwaythir Dist.
+2421,2653,قرية العمران الغربية,Al Umran Western
+2422,2653,قرية الحوطة,Al Hotah
+2423,2653,قرية السيايرة,As Syayrah
+2424,2653,بلدة أبو ثور,Abu Ath Thoor
+2425,2653,حي الروابي,Ar Rawabi Dist.
+2426,2653,حي النرجس,An Narjis Dist.
+2427,2653,قرية الرميلة,Ar Rumaylah
+2428,2653,بلدة غمسي,Gamsy
+2429,2653,قرية العرامية,Al Aramiyah
+2430,2653,حي المحار,Al Mahar Dist.
+2431,2653,قرية العمران الشرقية,Al Umran Eastern
+2432,2653,بلدة الصبايخ,As Sabaiykh
+2433,2653,حي العقيق,Al Aqiq  Dist.
+2434,2653,قرية العمران الجنوبي,Al Umran Southern
+2435,2653,بلدة التويثير,Al Tuwaythir
+2436,2653,حي الثريا,Ath Thuraiya Dist.
+2437,2653,حي الزهراء,Az Zahra Dist.
+2438,2653,بلدة أبو الحصى,Abu Al Hasa
+2439,2653,بلدة التهيمية,At Tahemah
+2440,2653,حي البدور,Al Budur Dist.
+2441,2653,بلدة الدالوة,Al Dalwah
+2442,2748,حي الصناعية,As Sinaiyah Dist.
+2443,2748,حي الفيصل,Al Faisal Dist.
+2444,2748,حي الضباب,Al Dabab Dist.
+2445,2748,حي الفنار,Al Fanar Dist.
+2446,2748,حي أحد,Ahad Dist.
+2447,2748,حي محاسن الثاني,Mahasin 2nd Dist.
+2448,2748,حي الراشدية الثاني,Ar Rashidyah 2nd Dist.
+2449,2748,الحي الأكاديمي,Academic Quarter Dist.
+2450,2748,حي محاسن ارامكو الخامس,Mahasin Aramco 5th  Dist.
+2451,2748,حي قرطبة,Qurtubah Dist.
+2452,2748,حي الراشدية الأول,Ar Rashidyah 1st Dist.
+2453,2748,حي المطيرفي الغربي,Al Mutayrifi Al Garbi Dist.
+2454,2748,حي محيرس,Mahairis Dist.
+2455,2748,حي الفتح,Al Fath Dist.
+2456,2748,حي اليمامة,Al Yamamah Dist.
+2457,2748,حي الأمانة,Al Amanah Dist.
+2458,2748,حي عين نجم,Ayn Najm Dist.
+2459,2748,حي محاسن الأول,Mahasin 1st Dist.
+2460,2748,حي الحزام الذهبي,Al Hizam Adh Dhahabi Dist.
+2461,2748,حي مجمع الدوائر الحكومية الأول,Government Departments Complex 1st  Dist.
+2462,2748,حي عين مرجان,Ayn Marjan Dist.
+2463,2748,حي الشروفية,Al Shurofiyah Dist.
+2464,2748,حي الديوان,Ad Daywan Dist.
+2465,2748,حي اليرموك,Al Yarmuk Dist.
+2466,2748,حي السلام الأول,As Salam 1st Dist.
+2467,2748,حي محاسن ارامكو الأول,Mahasin Aramco 1st Dist.
+2468,2748,حي الأندلس,Al Andalus Dist.
+2469,2748,حي الحزم الجنوبي,Al Hazm Southern Dist.
+2470,2748,حي المسعودي,Al Masudi Dist.
+2471,2748,حي أم سبعة,Umm Sabah Dist.
+2472,2748,حي القادسية,Al Qadisiyah Dist.
+2473,2748,حي الياسمين,Al Yasmin Dist.
+2474,2748,حي الإتصالات,Al Itsalat Dist.
+2475,2748,حي النزهة,An Nuzhah Dist.
+2476,2748,حي السلام الثاني,As Salam 2nd Dist.
+2477,2748,حي المقابل,Al Muqabil Dist.
+2478,2748,حي الشعبة,Al Shuaba Dist.
+2479,2748,حي السحيمية,As Suhaimiyah Dist.
+2480,2748,حي بو سحبل الأول,Abu Sahbal 1st Dist.
+2481,2748,حي وسط المبرز التاريخي,Historical Center Al Mubarraz  Dist.
+2482,2748,حي محاسن ارامكو الثاني,Mahasin Aramco 2nd Dist.
+2483,2748,حي الراشدية الثالث,Ar Rashidyah 3rd Dist.
+2484,2748,حي بو سحبل الثاني,Abu Sahbal 3rd Dist.
+2485,2748,حي محاسن ارامكو الرابع,Mahasin Aramco 4th  Dist.
+2486,2748,حي البستان,Al Bustan Dist.
+2487,2748,حي الشراع الجنوبي,Ash Shara Southern Dist.
+2488,2748,حي الشراع الشمالي,Ash Shara Northern Dist.
+2489,2748,حي مشرفة,Mishrifah Dist.
+2490,2748,حي البساتين,Al Basatin Dist.
+2491,2748,مدينة الملك عبدالله العسكرية,King Abdullah Military City
+2492,2748,حي الحزم الشمالي,Al Hazm Northern Dist.
+2493,2748,حي محاسن ارامكو الثالث,Mahasin Aramco 3rd Dist.
+2494,2748,حي العليا,Al Olaya Dist.
+2495,2764,حي قباء,Quba Dist.
+2496,2764,حي المدينة المنورة,Al Madinah Al Munawwarah Dist.
+2497,2764,حي مثلث الشرقية,Muthalath Asharqiyah Dist.
+2498,2764,بلدة المنيزلة,Al Munaizlah
+2499,2764,بلدة المنصورة,Al Mansurah
+2500,2764,حي بدر,Badr Dist.
+2501,2764,بلدة الشهارين,Ash Shaharin
+2502,2764,بلدة المركز,Al Markaz
+2503,2764,حي الاسكان,Al Iskan Dist.
+2504,2764,حي الرياض الثاني,Ar Riyadh 2nd Dist.
+2505,2764,بلدة الفضول,Al Fudul
+2506,2764,بلدة الطرف,At Tarf
+2507,2764,بلدة العقار,Al Aqar
+2508,2764,بلدة الجفر,Al Jafr
+2509,2764,حي النزهة,An Nuzhah Dist.
+2510,2764,حي هجر الأول,Hajr 1st Dist.
+2511,2764,حي مدينة الحجاج,Madina Al Hojaj Dist.
+2512,2764,حي هجر الثاني,Hajr 2nd Dist.
+2513,2764,حي الزهور,Az Zuhur Dist.
+2514,2764,حي هجر الثامن,Hajr 8th Dist.
+2515,2764,حي هجر الحادي عشر,Hajr 11th Dist.
+2516,2764,حي الجبل,Al Jabal Dist.
+2517,2764,حي الركاز,Ar Rekaz Dist.
+2518,2764,بلدة الجشة,Al Jishah
+2519,2764,حي هجر الثالث,Hajr 3rd Dist.
+2520,2764,حي هجر التاسع,Hajr 9th Dist.
+2521,2764,حي الوادي,Al Wadi Dist.
+2522,2764,حي أحد,Ahad Dist.
+2523,2764,حي هجر الرابع,Hajr 4th Dist.
+2524,2764,حي الخزامى,Al Khuzama Dist.
+2525,2764,حي الديرة,Ad Dirah Dist.
+2526,2764,حي المجصة,Al Magassah Dist.
+2527,2764,حي النور,An Noor Dist.
+2528,2764,حي التلال,At Talal Dist.
+2529,2764,حي هجر السادس,Hajr 6th Dist.
+2530,2764,حي الرياض الاول,Ar Riyadh 1st Dist.
+2531,2764,حي الواحة الطبية,Al Wahah Medical  Dist.
+2532,2764,حي الربيع,Ar Rabie Dist.
+2533,2764,حي النخيل,Al Nakheel Dist.
+2534,2764,حي هجر السابع,Hajr 7th Dist.
+2535,2764,حي هجر الخامس,Hajr 5th Dist.
+2536,2764,بلدة المزاوي,Al Mazawi
+2537,2764,حي برزان,Barzan Dist.
+2538,2764,حي الرياض الرابع,Ar Riyadh 4th Dist.
+2539,2764,حي الخيام,Al Khyam Dist.
+2540,2764,حي العدوة,Al Adwah Dist.
+2541,2764,حي المستشفى الجا,Al Ja Hospital Dist.
+2542,2764,بلدة السباط,As Sabat
+2543,2764,حي الروضة,Ar Rawdah Dist.
+2544,2764,حي البساتين,Al Basatin Dist.
+2545,2764,حي هجر العاشر,Hajr 10th Dist.
+2546,2764,حي السهلة,As Sahlah Dist.
+2547,2764,حي نادي الفروسية,Nadi Al Forosiyah Dist.
+2548,2764,حي ابوحريف,Abu Hareef Dist.
+2549,2764,حي الجفر الشمالي,Al Jafer Northern Dist.
+2550,2764,حي الرياض الثالث,Ar Riyadh 3rd Dist.
+2551,2764,حي المعامرة,Al Maamrah Dist.
+2552,2764,حي هجر الثاني عشر,Hajr 12th Dist.
+2553,2764,حي مدينة التمور,Madina At Tomor Dist.
+2554,2764,حي مجمع الدوائر الحكومية,Government Departments Complex Dist.
+2555,2764,حي المنيزله,Al Munaizilah Dist.
+2556,3700,حي الدوائر الحكومية,Goverment Departments Dist.
+2557,3700,حي اسكان الكلابية,Al Kilabiyah Housing Dist.
+2558,3700,بلدة الكلابية,Al Kilabiyah
+2559,3700,حي جواثا,Juwatha Dist.
+2560,3700,حي الكلابية,Al Kilabiyah Dist.
+2561,3700,حي الواحة,Al Wahah Dist.
+2562,3700,بلدة الحليلة,Al Halilah
+2563,3700,بلدة المقدام,Al Miqdam
+2564,3700,حي البستان,Al Bustan Dist.
+2565,3700,حي الرفاع,Ar Rifaa Dist.
+2566,3700,حي الفيصلية,Al Faisaliyah Dist.
+2567,3700,حي الروضة,Ar Rawdah Dist.
+2568,11075,حي الانوار,Al Anwar Dist.
+2569,11075,حي ام الحمام,Um Al Hamam Dist.
+2570,15,حي المنهل,Al Manhal Dist.
+2571,15,حي النصب,An Nasb Dist.
+2572,15,وسط المدينة,City Center
+2573,15,حي النزهة,An Nuzhah Dist.
+2574,15,حي ذرة,Dhurah Dist.
+2575,15,حي شمسان,Shamsan Dist.
+2576,15,حي القرى,Al Qura Dist.
+2577,15,حي الوردتين,Al Wardatain Dist.
+2578,15,حي الربوة,Ar Rabwah Dist.
+2579,15,حي النسيم,Al Naseem Dist.
+2580,15,حي الاندلس,Al Andalus Dist.
+2581,15,حي الضباب,Ad Dabab Dist.
+2582,15,حي الوصايف,Al Wasaif Dist.
+2583,15,حي الشرفية,Ash Sharafiyah Dist.
+2584,15,حي العزيزية,Al Aziziyah Dist.
+2585,15,حي الشفاء,Ash Shifa Dist.
+2586,15,حي المفتاحة,Al Muftahah Dist.
+2587,15,حي السروات,As Sarawat Dist.
+2588,15,حي المروج,Al Muruj Dist.
+2589,15,حي السد,As Sadd Dist.
+2590,15,حي الخشع,Al Khasha Dist.
+2591,15,حي القابل,Al Qabil Dist.
+2592,15,حي الفيصلية,Al Faisaliyah Dist.
+2593,15,حي الخالدية,Al Khalidiyah Dist.
+2594,15,حي العرين,Al Arin Dist.
+2595,15,حي البديع,Al Badi Dist.
+2596,15,حي الصفا,Al Safa Dist.
+2597,15,حي ج 35,C 35 Dist.
+2598,15,حي المقضى,Al Magda Dist.
+2599,15,حي التعاون,At Taawun Dist.
+2600,15,حي الوادي,Al Wadi Dist.
+2601,15,حي الروضة,Al Rawdah Dist.
+2602,15,حي الفل,Al Fal Dist.
+2603,15,حي الروابي,Ar Rawabi Dist.
+2604,15,حي المطار,Airport Dist.
+2605,15,حي المصيف,Al Masif Dist.
+2606,15,حي سلطانة,Sultanah Dist.
+2607,15,حي الصناعية,As Sinaiyah Dist.
+2608,15,حي البحيره,Al Bhira Dist.
+2609,15,حي العقيق,Al Aqiq  Dist.
+2610,15,حي السلام,As Salam Dist.
+2611,15,حي الزهور,Az Zuhur Dist.
+2612,15,حي المسك,Al Misk Dist.
+2613,62,حي الراقي,Al Raqi Dist.
+2614,62,حي الأسواق,Al Aswaq Dist.
+2615,62,حي الواحة,Al Wahah Dist.
+2616,62,حي السد,As Sad Dist.
+2617,62,حي الجزيرة,Al Jazirah Dist.
+2618,62,حي طيب الاسم,Tayib Al Ism Dist.
+2619,62,حي الزهور,Az Zuhur Dist.
+2620,62,حي الروضة,Ar Rawdah Dist.
+2621,62,حي المنتزه,Al Muntazah Dist.
+2622,62,حي ضمك,Damak Dist.
+2623,62,حي الخزان,Al Khazzan Dist.
+2624,62,حي الخالدية,Al Khalidiyah Dist.
+2625,62,حي الفتح,Al Fath Dist.
+2626,62,حي النهضة,An Nahdah Dist.
+2627,62,حي شباعة,Shubaah Dist.
+2628,62,حي المعزاب,Al Mizab Dist.
+2629,62,حي المثناة,Al Mathnah Dist.
+2630,62,حي المعمورة,Al Mamurah Dist.
+2631,62,حي النسيم,Al Naseem Dist.
+2632,62,حي شكر,Shakar Dist.
+2633,62,حي النزهة,An Nuzhah Dist.
+2634,62,حي عتود,Atud Dist.
+2635,62,حي ال هميلة,Al Humaylah Dist.
+2636,62,حي العرق الجنوبي,Al Irq Al Janubi Dist.
+2637,62,حي الصقور,As Suqur Dist.
+2638,62,حي البوادي,Al Bawadi Dist.
+2639,62,حي النخيل,Al Nakhil Dist.
+2640,62,حي ام سرور,Umm Surur Dist.
+2641,62,حي الشرفية,Ash Sharafiyah Dist.
+2642,62,حي الربيع,Ar Rabie Dist.
+2643,62,حي قمبر,Qambar Dist.
+2644,62,حي السلام,As Salam Dist.
+2645,62,حي العرق الشمالي,Al Irq Ash Shamali Dist.
+2646,62,حي الدوحة,Ad Dawhah Dist.
+2647,62,حي العزيزية,Al Aziziyah Dist.
+2648,62,حي القافلة,Al Qafilah Dist.
+2649,62,مخطط الموسى,Al Musa Subdivision Plan
+2650,62,سكن القاعدة الجوية,Airforce Housing
+2651,62,حي الرونه,Ar Runah Dist.
+2652,62,حي الشفاء,Ash Shifa Dist.
+2653,62,حي ذلالة,Dhalalah Dist.
+2654,62,حي الرصراص 2,Ar Rasras 2 Dist.
+2655,62,سكن المدينة العسكرية,Military City Housing
+2656,62,سكن مجموعة اللواء الرابع عشر,14th Brigade Housing
+2657,62,حي الجامعيين,Al Jamiyin Dist.
+2658,62,حي الوسام,Al Wasam Dist.
+2659,62,حي اليرموك,Al Yarmuk Dist.
+2660,62,حي الحرابى,Al Harabi Dist.
+2661,62,حي شكر,Shokor Dist.
+2662,62,حي الحمراء,Al Hamra Dist.
+2663,62,حي الهرير الغربى,Al Harir Western Dist.
+2664,62,حي المراث,Al Marath Dist.
+2665,62,حي الظرفة,Al Dhurfah Dist.
+2666,62,حي تارة,Tara Dist.
+2667,62,حي النجاح,An Najah Dist.
+2668,62,حي الجبل,Al Jabal Dist.
+2669,62,حي شمال التضامن,Shamal At Tadamun Dist.
+2670,62,حي نشوان,Nashwan Dist.
+2671,62,حي المصيف,Al Masif Dist.
+2672,62,حي الصناعية,As Sinaiyah Dist.
+2673,62,حي الوفاء,Al Wafa Dist.
+2674,62,حي التعاون,At Taawun Dist.
+2675,62,حي أحد,Uhud Dist.
+2676,62,حي شعب ذهبان,Shaab Dhahban Dist.
+2677,62,حي ذهبان الغربى,Western Dhahban Dist.
+2678,62,حي ذهبان الشرقى,Eastern Dhahban Dist.
+2679,62,حي الرصراص 1,Ar Rasras 1 Dist.
+2680,62,حي الوقواق,Al Waqwaq Dist.
+2681,62,حي الهرير الشرقى,Al Harir Al Sharqi Dist.
+2682,62,حي الوقبة,Al Waqba Dist.
+2683,62,حي مصلوم,Masloum Dist.
+2684,65,حي الخالدية,Al Khalidiyah Dist.
+2685,65,حي الزيتون,Az Zaytun Dist.
+2686,65,حي العزيزية,Al Aziziyah Dist.
+2687,65,حي السلامة,As Salamah Dist.
+2688,65,حي النهضة,An Nahdah Dist.
+2689,65,حي وسط البلد,Down Town Dist.
+2690,65,حي الورود,Al Wurud Dist.
+2691,65,حي الزهور,Az Zuhur Dist.
+2692,65,حي صفوان,Safwan Dist.
+2693,65,حي الصالحية,As Salhiyah Dist.
+2694,65,حي المصيف,Al Masif Dist.
+2695,65,حي الخليج,Al Khalij Dist.
+2696,65,حي الرونه,Ar Runah Dist.
+2697,65,المدينة العسكرية,Military City
+2698,65,حي الروضه 1,Ar Rawdah 1 Dist.
+2699,256,حي التعاون,Al Taawun Dist.
+2700,256,حي النزهة,Al Nuzhah Dist.
+2701,256,حي النهضة,Al Nahdah Dist.
+2702,256,حي الخالدية,Al Khalidiyah Dist.
+2703,256,حي الفاخرية,Al Fakhriyah Dist.
+2704,256,حي الصفاء,Al Safa Dist.
+2705,256,حي العليا,Al Olaya Dist.
+2706,256,حي المنهل,Al Manhal Dist.
+2707,256,حي العروبة,Al Urubah Dist.
+2708,256,حي الملك فهد,King Fahd Dist.
+2709,256,حي الروضة,Al Rawdah Dist.
+2710,256,حي المروج,Al Muruj Dist.
+2711,256,حي الصناعية,Al Sinaiyah Dist.
+2712,256,حي النسيم,Al Naseem Dist.
+2713,1294,حي النهضة,An Nahdah Dist.
+2714,1294,حي الخليج,Al Khalij Dist.
+2715,1294,حي الفيصلية,Al Faisaliyah Dist.
+2716,1294,حي التقدم,At Taqadom Dist.
+2717,1294,حي الشرق,Ash Sharq Dist.
+2718,1294,حي الاندلس,Al Andalus Dist.
+2719,1294,حي النسيم,Al Naseem Dist.
+2720,1294,حي الخالدية,Al Khalidiyah Dist.
+2721,1294,حي الروضة,Ar Rawdah Dist.
+2722,1294,حي العدالة,Al Adalah Dist.
+2723,1294,حي الربيع,Ar Rabie Dist.
+2724,1294,حي الصناعية,As Sinaiyah Dist.
+2725,1443,حي الخزان,Al Khazzan Dist.
+2726,1443,حي الزهور,Az Zuhur Dist.
+2727,1443,حي النخيل,Al Nakhil Dist.
+2728,1443,حي الوجه,Al Wajh Dist.
+2729,1443,حي الغزالة,Al Ghazalah Dist.
+2730,1443,حي الحجاز,Al Hijaz Dist.
+2731,1443,حي الفاخرية,Al Fakhriyah Dist.
+2732,1443,حي الخالدية,Al Khalidiyah Dist.
+2733,1443,حي العزيزية,Al Aziziyah Dist.
+2734,1443,حي المدينة,Al Madinah Dist.
+2735,1443,حي التعاون,At Taawun Dist.
+2736,1443,الطويفح,Al Tuwaifah
+2737,1443,الجربوعية,Al Jarboeyyah
+2738,1443,القوزية,Al Quoziyah
+2739,1443,آل قير,Al Qeer
+2740,1514,حي الصواير,As Sawaer Dist.
+2741,1514,حي الرمال,Ar Rimal Dist.
+2742,1514,حي الاندلس,Al Andalus Dist.
+2743,1514,حي الخزان,Al Khazzan Dist.
+2744,1514,حي الربوة,Ar Rabwah Dist.
+2745,1514,حي الفيحاء,Al Fayha Dist.
+2746,1514,حي الخزامى,Al Khuzama Dist.
+2747,1514,حي الفهد,Al Fahd Dist.
+2748,1514,حي الفيصلية,Al Faisaliyah Dist.
+2749,1514,حي النخيل,Al Nakhil Dist.
+2750,1514,حي الورود,Alwurud Dist.
+2751,1514,حي التضامن,Al Tadamun Dist.
+2752,1514,حي النهضة,An Nahdah Dist.
+2753,1514,حي الريان,Ar Rayyan Dist.
+2754,1514,حي الربيع,Ar Rabie Dist.
+2755,1514,حي الروضة,Ar Rawdah Dist.
+2756,1514,حي الزهور,Az Zuhur Dist.
+2757,1514,حي البوادي,Al Bawadi Dist.
+2758,1514,حي الملك عبدالله,King Abdullah Dist.
+2759,1514,حي المطار,Airport Dist.
+2760,1514,حي الصفا,As Safa Dist.
+2761,1514,حي النسيم,Al Naseem Dist.
+2762,1514,حي النزهة,An Nuzhah Dist.
+2763,1514,حي الصناعية,As Sinaiyah Dist.
+2764,1514,حي الشفاء,Ash Shifa Dist.
+2765,1514,حي الوادي,Al Wadi Dist.
+2766,1514,حي الامير سلطان,Prince Sultan Dist.
+2767,1514,حي المروج,Al Muruj Dist.
+2768,1627,حي الواحة,Al Wahah Dist.
+2769,1627,حي الربوة,Ar Rabwah Dist.
+2770,1627,حي الشاطئ,Ash Shati Dist.
+2771,1627,حي الروضة,Ar Rawdah Dist.
+2772,1627,حي الخضراء,Al Khadra Dist.
+2773,1627,حي الروابي,Ar Rawabi Dist.
+2774,1627,حي الاندلس,Al Andalus Dist.
+2775,1627,حي العزيزية,Al Aziziyah Dist.
+2776,1627,حي الخالدية,Al Khalidiyah Dist.
+2777,1627,حي المنتزه,Al Muntazah Dist.
+2778,1627,حي الفيصلية,Al Faisaliyah Dist.
+2779,1627,حي العروبة,Al Urubah Dist.
+2780,1627,حي الشرق,Ash Sharq Dist.
+2781,1627,حي الربيع,Ar Rabie Dist.
+2782,1627,حي الصفح,Al Safh Dist.
+2783,1627,حي الجزيرة,Al Jazirah Dist.
+2784,1627,حي الامل,Al Amal Dist.
+2785,1801,حي النسيم,Al Naseem Dist.
+2786,1801,حي المنتزة,Al Montazah Dist.
+2787,1801,حي الجنادرية,Al Janadriyah Dist.
+2788,1801,حي النزهة,An Nuzhah Dist.
+2789,1801,حي الحيلة الشرقي,Al Haylah Ash Sharqi Dist.
+2790,1801,حي المقاعد,Al Maqaiid Dist.
+2791,1801,حي الظهرة,Adh Dhahrah Dist.
+2792,1801,حي الشهد,Ash Shahd Dist.
+2793,1801,حي الفيصلية,Al Faisaliyah Dist.
+2794,1801,حي الحيلة الغربي,Al Haylah Al Gharbi Dist.
+2795,1801,حي الخالدية,Al Khalidiyah Dist.
+2796,1801,حي الروضة,Ar Rawdah Dist.
+2797,1801,حي البصرة,Al Basrah Dist.
+2798,1801,حي الضرس,Ad Dirs Dist.
+2799,1801,حي البديع,Al Badi Dist.
+2800,1801,حي الزهراء,Az Zahra Dist.
+2801,1801,حي البلد,Al Balad Dist.
+2802,1801,حي السلامة,As Salamah Dist.
+2803,1801,حي الوعد,Al Waad Dist.
+2804,1847,حي الريحان,Ar Raihan Dist.
+2805,1847,حي السودة,As Suda Dist.
+2806,1847,حي المقضى,Al Magda Dist.
+2807,1847,حي ج 34,C 34 Dist.
+2808,1847,حي ج 35,C 35 Dist.
+2809,2519,حي المطل,Al Matl Dist.
+2810,2519,حي الضباب,Ad Dabab Dist.
+2811,2519,حي المروج,Al Muruj Dist.
+2812,2519,حي السروات,As Sarawat Dist.
+2813,2519,حي الفيصلية,Al Faisaliyah Dist.
+2814,2519,حي السد,As Sad Dist.
+2815,2519,حي الصديق,As Sediq Dist.
+2816,2519,حي الشروق,Ash Shuruq Dist.
+2817,2519,حي الفاروق,Al Farouq Dist.
+2818,2519,حي السلام,As Salam Dist.
+2819,2519,حي بلال,Bilal Dist.
+2820,2519,حي النسيم,Al Naseem Dist.
+2821,2519,حي النزهة,An Nuzhah Dist.
+2822,2519,حي الاندلس,Al Andalus Dist.
+2823,2519,حي الزهور,Az Zuhur Dist.
+2824,2519,حي اليمامة,Al Yamamah Dist.
+2825,2968,حي الريحان,Ar Raihan Dist.
+2826,3273,حي الامل,Al Amal Dist.
+2827,3273,حي السلام,As Salam Dist.
+2828,3273,حي الشفاء,Ash Shifa Dist.
+2829,3273,حي الشلال,Al Shlal Dist.
+2830,3273,حي الصناعية,As Sinaiyah Dist.
+2831,3273,حي الضباب,Ad Dabab Dist.
+2832,3273,حي العزيزية,Al Aziziyah Dist.
+2833,3273,حي المستقبل,Al Mustaqbal Dist.
+2834,3273,حي المصايف,Al Masyaf Dist.
+2835,3273,حي النزهة,An Nuzhah Dist.
+2836,3273,حي النسيم,Al Naseem Dist.
+2837,3273,حي النهضة,An Nahdah Dist.
+2838,3275,حي الريان,Ar Rayyan Dist.
+2839,3275,حي الربيع,Ar Rabie Dist.
+2840,3275,حي السلامة,As Salamah Dist.
+2841,3275,حي الربوة,Al Rabwah Dist.
+2842,3275,حي البساتين,Al Basatin Dist.
+2843,3275,حي السامر,As Samir Dist.
+2844,3275,حي الروضة,Ar Rawdah Dist.
+2845,3275,حي الزيتون,Az Zaytun Dist.
+2846,3275,حي السلام,As Salam Dist.
+2847,3275,حي الشفا,Ash Shifa Dist.
+2848,3275,حي الورود,Al Wurud Dist.
+2849,3275,حي العزيزية,Al Aziziyah Dist.
+2850,3275,حي الخالدية,Al Khalidiyah Dist.
+2851,3275,حي النزهة,An Nuzhah Dist.
+2852,3275,حي السروات,As Sarawat Dist.
+2853,3275,حي المنتزه,Al Muntazah Dist.
+2854,3328,حي الفهد,Al Fahd Dist.
+2855,3328,حي الشفا,Ash Shifa Dist.
+2856,3328,حي النور,An Nur Dist.
+2857,3328,المنطقة الصناعية,Industrial Area
+2858,3328,حي الربوة,Ar Rabwah Dist.
+2859,3328,حي الروضة,Ar Rawdah Dist.
+2860,3328,حي الخالدية,Al Khalidiyah Dist.
+2861,3381,حي الاطلال,Al Atlal Dist.
+2862,3381,حي الورود,Al Woroud Dist.
+2863,3381,حي البلد,Al Balad Dist.
+2864,3383,حي الربوه,Ar Rabwah Dist.
+2865,3678,حي شمال تندحة,North Tandaha Dist.
+2866,3678,حي وسط تندحة,Centeral Tandaha Dist.
+2867,3678,حي جنوب تندحة,South Tandaha Dist.
+2868,3689,حي الفيصلية,Al Faisaliyah Dist.
+2869,1,حي الإسكان,Al Iskan Dist.
+2870,1,حي العين,Al Ain Dist.
+2871,1,حي الشفا,Al Shifa Dist.
+2872,1,حي الصفا,Al Safa Dist.
+2873,1,حي الاخضر,Al Akhdar Dist.
+2874,1,حي البوادي,Al Bawadi Dist.
+2875,1,حي اليرموك,Al Yarmuk Dist.
+2876,1,الأحياء الجنوبية,Southern Districts
+2877,1,حي النظيم,Al Nadheem Dist.
+2878,1,حي غرب الخالدية,Khalidiyah West Dist.
+2879,1,حي البساتين,Al Basatin Dist.
+2880,1,حي الحمراء,Al Hamra Dist.
+2881,1,البلدة القديمة,Down Town
+2882,1,حي السعادة,Al Saadah Dist.
+2883,1,حي سلطانة,Sultanah Dist.
+2884,1,حي الفيصلية الجنوبية,Faisaliyah South Dist.
+2885,1,حي الفيصلية الشمالية,Faisaliyah North Dist.
+2886,1,حي النهضة,Al Nahdah Dist.
+2887,1,حي الروضة,Al Rawdah Dist.
+2888,1,حي المصيف الاول,Al Masif 1 Dist.
+2889,1,حي المروج الثاني,Al Muruj 2 Dist.
+2890,1,حي الريان,Al Rayan Dist.
+2891,1,حي الورود,Al Wurud Dist.
+2892,1,مخطط الراجحي,Al Rajhi Subdivision Plan
+2893,1,المدينة الجامعية,University City
+2894,1,حي الفلاح,Al Falah Dist.
+2895,1,حي الزهراء,Al Zahra Dist.
+2896,1,حي رايس,Rise Dist.
+2897,1,الدوائر الحكومية و,Government Departments Area F
+2898,1,الدوائر الحكومية ب,Government Departments Area B
+2899,1,الدوائر الحكومية د,Government Departments Area D
+2900,1,الدوائر الحكومية أ,Government Departments Area A
+2901,1,حي الجامعة,Al Jamiah Dist.
+2902,1,الدوائر الحكومية ج,Government Departments Area C
+2903,1,الدوائر الحكومية هـ,Government Departments Area E
+2904,1,منطقة خاصة,Private Area
+2905,1,حي الدفاع,Al Difa Dist.
+2906,1,حي الندى,Al Nada Dist.
+2907,1,حي الهجن,Al Hejin Dist.
+2908,1,مطــار الامير سلطان بن عبدالعزيز الدولي,Prince Sultan Bin Abdulaziz International Airport
+2909,1,حي القادسية الثاني,Al Qadisiyah 2 Dist.
+2910,1,حى طيبة,Taibah Dist.
+2911,1,المنطقة الصناعية,Industrial Area
+2912,1,حي القدس,Al Quds Dist.
+2913,1,حي التعاون,Al Taawun Dist.
+2914,1,حي القادسية الاول,Al Qadisiyah 1 Dist.
+2915,1,حي غرناطة,Ghirnatah Dist.
+2916,1,حي النخيل,Al Nakheel Dist.
+2917,1,الاستاد الرياضي,Sports Stadium
+2918,1,حي الياسمين,Al Yasmin Dist.
+2919,1,حي السليمانية,Al Sulimaniyah Dist.
+2920,1,حي الاشرافية,Al Ishrafiyah Dist.
+2921,1,حي السلام,Al Salam Dist.
+2922,1,حي قرطبة,Qurtubah Dist.
+2923,1,حي المروج الثالث,Al Muruj 3 Dist.
+2924,1,حي المروج الاول,Al Muruj 1 Dist.
+2925,1,حي الربوة,Ar Rabwah Dist.
+2926,1,حي المهرجان أ,Al Mahrajan A Dist.
+2927,1,حي المهرجان ب,Al Mahrajan B Dist.
+2928,1,حي الصالحية,As Salhiyah Dist.
+2929,1,حي العزيزية القديمة,Al Aziziyah Al Qadimah Dist.
+2930,1,حي العليا,Al Olaya Dist.
+2931,1,حي العزيزيه الجديده,Al Aziziyah Al Jadidah Dist.
+2932,1,حي السلمان,As Salman Dist.
+2933,36,حي الظهرة,Adh Dhahrah Dist.
+2934,36,حي اليرموك,Al Yarmuk Dist.
+2935,36,حي السبخة,As Sabkhah Dist.
+2936,36,حي البلدة القديمة,Al Balda Al Qadimah Dist.
+2937,36,حي الريان,Ar Rayyan Dist.
+2938,36,حي المروج1,Al Muruj 1 Dist.
+2939,36,حي القادسية,Al Qadisiyah Dist.
+2940,36,حي النهضة,An Nahdah Dist.
+2941,36,حي السلطانيه,Al Sultanih Dist.
+2942,36,حي الوصل,Al Wasl Dist.
+2943,36,حي المروج 2,Al Muruj 2 Dist.
+2944,36,حي الفيصلية,Al Faisaliyah Dist.
+2945,36,حي جنوب الحميضه,Al Humaydah South Dist.
+2946,36,حي الوادي,Al Wadi Dist.
+2947,36,حي الورود,Al Wurud Dist.
+2948,36,حي الحميضه,Al Humaydah Dist.
+2949,36,حي غرب الظهره,Al Dhahra West Dist.
+2950,36,حي ج1,C1 Dist.
+2951,36,حي ام عنم,Um Anam Dist.
+2952,36,حي الجامعه,Al Jamiah Dist.
+2953,74,حي الصفا,As Safa Dist.
+2954,74,حي الروضة,Ar Rawdah Dist.
+2955,74,حي المنتزه,Al Muntazah Dist.
+2956,74,حي الربوة,Ar Rabwah Dist.
+2957,74,حي التجاري,At Tijari  Dist.
+2958,74,حي هداج,Haddaj Dist.
+2959,74,حي القاع,Al Qaa Dist.
+2960,74,حي الفاو,Al Faw Dist.
+2961,74,حي عكاظ,Uqaz Dist.
+2962,74,حي الخبراء,Al Khobara Dist.
+2963,74,حي الشرق,Ash Sharq Dist.
+2964,74,حي الرحمانية,Ar Rahmaniyah Dist.
+2965,74,حي غرناطة,Ghirnatah Dist.
+2966,74,حي الشفاء,Ash Shifa Dist.
+2967,74,حي قريان,Qaryan Dist.
+2968,74,حي النسيم,Al Naseem Dist.
+2969,74,حي المروج,Al Muruj Dist.
+2970,74,حي الاندلس,Al Andalus Dist.
+2971,74,حي الورود,Al Wurud Dist.
+2972,74,حي الحمراء,Al Hamra Dist.
+2973,233,حي الصفا,As Safa Dist.
+2974,233,حي البلد,Al Balad Dist.
+2975,233,حي العزيزية,Al Aziziyah Dist.
+2976,233,حي الخالدية,Al Khalidiyah Dist.
+2977,233,حي النهضة,An Nahdah Dist.
+2978,233,حي الفريعة,Al Fareah Dist.
+2979,233,حي الورود,Al Wurud Dist.
+2980,323,حي قرية الجبنون,Qaryat Al Jabnon Dist.
+2981,323,حي النسيم,Al Naseem Dist.
+2982,323,حي التحلية,At Tahliyyah Dist.
+2983,323,حي المرجان,Al Murjan Dist.
+2984,323,حي الصيادية,As Sayyadih Dist.
+2985,323,حي البطحاء,Al Batha Dist.
+2986,323,حي الروضة,Ar Rawdhah Dist.
+2987,323,حي ابو شجرة,Abu Shajarah Dist.
+2988,323,حي البلد,Al Balad Dist.
+2989,323,حي العليا,Al Olaya Dist.
+2990,323,حي السلام,Al Salam Dist.
+2991,323,حي الضويحي,Al Dawayhi Dist.
+2992,1947,حي صمدة,Samdah Dist.
+2993,1947,حي المزارع,Al Mazari Dist.
+2994,1947,حي المطار,Al Matar Dist.
+2995,1947,حي البلد,Al Balad Dist.
+2996,1947,حي المقيطع,Al Muqayti Dist.
+2997,10,حي اجا,Aja Dist.
+2998,10,حي العزيزية,Al Aziziyah Dist.
+2999,10,حي المزعبر,Al Muzaabar Dist.
+3000,10,حي برزان,Barzan Dist.
+3001,10,حي المحطة,Al Mahattah Dist.
+3002,10,حي سماح,Samah Dist.
+3003,10,حي لبدة,Labdah Dist.
+3004,10,حي الزبارة,Az Zibarah Dist.
+3005,10,حي السمراء,As Samra Dist.
+3006,10,المنطقة الصناعية,Industrial Area
+3007,10,حي الزهراء,Az Zahra Dist.
+3008,10,حي الخزامى,Al Khuzama Dist.
+3009,10,حي مغيضة,Mughaydah Dist.
+3010,10,حي حدري البلاد,Hadri Al Bilad Dist.
+3011,10,حي الخريمي,Al Khuraymi Dist.
+3012,10,حي السويفلة,As Suwayfilah Dist.
+3013,10,حي ج2,2 C Dist.
+3014,10,حي البدنة,Al Badnah Dist.
+3015,10,حي الوسيطاء,Al Wusayta Dist.
+3016,10,حي صبابة,Sababah Dist.
+3017,10,حي المطار,Al Matar Dist.
+3018,10,حي البحيرة,Al Buhayrah Dist.
+3019,10,حي المدائن,Al Madaen Dist.
+3020,10,حي النقرة قفار,An Naqrah Qafar Dist.
+3021,10,حي النقرة,An Naqrah Dist.
+3022,10,حي الخماشية,Al Khamashiyah Dist.
+3023,10,مطار حائل الدولي,Hail International Airport
+3024,10,حي السويفلة,As Suwayfilah Dist.
+3025,10,حي المنتزه الغربي,Al Muntazah Al Gharbi Dist.
+3026,10,حي المصيف,Al Masif Dist.
+3027,10,حي المنتزه الشرقي,Al Muntazah Ash Sharqi Dist.
+3028,10,حي اللقيطة,Al Laqitah Dist.
+3029,10,حي الوادي,Al Wadi Dist.
+3030,10,حي الرصف,Ar Rasf Dist.
+3031,10,حي الشفا,Al Shifa Dist.
+3032,10,حي ضاحية الملك فهد,Dahiyat King Fahd Dist
+3033,10,حي البادية,Al Badiyah Dist.
+3034,10,حي الورود,Al Wurud Dist.
+3035,10,حي صلاح الدين الشرقي,Salahuddin Al Sharqi Dist.
+3036,10,حي الطريفي,Al Turaifi Dist.
+3037,10,حي النيصية,An Nasiyah Dist.
+3038,10,حي قفار,Qfaar Dist.
+3039,1228,حي السلام,As Salam Dist.
+3040,1228,حي النهضة,An Nahdah Dist.
+3041,1228,حي الصالحية,As Salhiyah Dist.
+3042,1228,حي الخليج,Al Khalij Dist.
+3043,1228,حي العزيزية,Al Aziziyah Dist.
+3044,1228,حي الازدهار,Al Izdihar Dist.
+3045,1228,حي الورود,Al Wurud Dist.
+3046,1228,حي الملك عبدالله,King Abdullah Dist.
+3047,1228,حي الحمراء,Al Hamra Dist.
+3048,1228,حي العليا,Al Olaya Dist.
+3049,1228,حي الصناعية,As Sinaiyah Dist.
+3050,2332,حي النخيل الغربي,Al Nakhil Al Gharbi Dist.
+3051,2332,حي الوادي,Al Wadi Dist.
+3052,2332,حي النهضة,An Nahdah Dist.
+3053,2332,حي الجامعة الغربي,Al Jamiah Al Gharbi Dist.
+3054,2332,حي الحفيرة الغربي,Al Hafira Al Gharbi Dist.
+3055,2332,حي حفيرة السبعة الشمالي,Hafira Al Sabaa Al Shamali Dist.
+3056,2332,حي الاستراحات الأوسط,Al Estrahat Al Awsat Dist.
+3057,2332,حي الريان الغربي,Al Rayan Al Gharbi Dist.
+3058,2332,حي الحفيرة الشرقي,Al Hafira Al Sharqi Dist.
+3059,2332,حي حفيرة السبعة الغربي,Hafira Al Sabaa Al Gharbi Dist.
+3060,2332,حي حفاير العهين الغربي,Hafair Al Eahin Al Gharbi Dist.
+3061,2332,حي حفيرة السبعة الشرقي,Hafira Al Sabaa Al Shamali Dist.
+3062,2332,حي الواحة,Al Wahah Dist.
+3063,2332,حي الرفيعة,Al Rafiea Dist.
+3064,2332,حي الريان الشرقي,Al Rayan Al Sharqi Dist.
+3065,2332,حي الصناعية,As Sinaiyah Dist.
+3066,2332,حي البلدية,Al Baladiyah Dist.
+3067,2332,حي التعاون,At Taawun Dist.
+3068,2332,حي الديرة,Ad Dirah Dist.
+3069,2332,حي الاستراحات الغربي,Al Estrahat Al Gharbi Dist.
+3070,2332,حي الجامعة الشرقي,Al Jamiah Al Sharqi Dist.
+3071,2332,حي الاستراحات الشرقي,Al Estrahat  Al Sharqi  Dist.
+3072,2332,حي الجامعة الاوسط,Al Jamiah Al Awsat Dist.
+3073,2332,حي النخيل الشرقي,Al Nakhil Al Sharqi Dist.
+3074,2332,حي حفاير العهين الشرقي,Hafair Al Eahin Al Sharqi Dist.
+3075,2370,حي بقعاء الشرقيه,Baqa Al Sharqia Dist.
+3076,2370,حي صلاح الدين,Salahuddin Dist.
+3077,2370,حي الظهيره,Al Dhahira Dist.
+3078,2370,حي الحفل,Al Hafil Dist.
+3079,2370,حي ج9,C9 Dist.
+3080,2370,حي ج8,C8 Dist.
+3081,2370,حي ج7,C7 Dist.
+3082,2370,حي ج6,C6 Dist.
+3083,2370,حي ج5,C5 Dist.
+3084,2370,حي ج4,C4 Dist.
+3085,2370,حي ج3,C3 Dist.
+3086,2370,حي ج2,C2 Dist.
+3087,2370,حي ج16,C16 Dist.
+3088,2370,حي ج15,C15 Dist.
+3089,2370,حي ج13,C13 Dist.
+3090,2370,حي ج12,C12 Dist.
+3091,2370,حي ج11,C11 Dist.
+3092,2370,حي ج10,C10 Dist.
+3093,2370,حي بقعاء القديمه,Baqa Al Qadima Dist.
+3094,2370,حي بقعاء الشرقيه القديمه,Baqa Al Sharqia Al Qadima Dist.
+3095,2370,حي الوسطى,Al Wusta Dist.
+3096,2208,حي الورود,Al Wurud Dist.
+3097,2208,حي السلطانة,Al Sultanah Dist.
+3098,2208,حي الخليج,Al Khalij Dist.
+3099,2208,حي الصالحية,As Salhiyah Dist.
+3100,2208,حي العزيزية,Al Aziziyah Dist.
+3101,2208,حي الخالدية,Al Khalidiyah Dist.
+3102,2208,حي المساعدية,Al Misadiyah Dist.
+3103,2208,حي العروبة,Al Urubah Dist.
+3104,2208,حي اليرموك,Al Yarmuk Dist.
+3105,2208,حي الواحة,Al Wahah Dist.
+3106,2208,حي النهضة,An Nahdah Dist.
+3107,2208,حي الربوة,Ar Rabwah Dist.
+3108,2208,حي المنتزه,Al Muntazah Dist.
+3109,2208,حي اسكان قوى الأمن,Security Forces Housing Dist.
+3110,2208,حي الروابي,Ar Rawabi Dist.
+3111,2208,حي الفيصلية شرق,East Al Faisaliyah Dist.
+3112,2208,حي الصناعي,Industrial Dist.
+3113,2208,حي الصناعية القديمة,Old Industrial Dist.
+3114,2208,حي الصناعية الجديدة,New Industrial Dist.
+3115,2208,حي الشفا,Ash Shifa Dist.
+3116,2208,حي الفيصلية غرب,West Al Faisaliyah Dist.
+3117,2213,حي غرناطة الشرقي,Ghirnatah Eastern Dist.
+3118,2213,أملاك الحرس الوطني,National Guard Property
+3119,2213,حي الشروق الاداري,Ash Shuruq Administrative Dist.
+3120,2213,حي القدس الشرقي,Al Quds Eastern Dist.
+3121,2213,حي النخيل الشمالي,Al Nakheel Northern Dist.
+3122,2213,حي ضاحية الملك فهد,Dahiyat King Fahd Dist
+3123,2213,حي المروج الشرقي,Al Muruj Eastern Dist.
+3124,2213,حي الروابي,Ar Rawabi Dist.
+3125,2213,حي اشبيلية الشمالي,Ishbiliyah Northern Dist.
+3126,2213,حي الشامل,Ash Shamel Dist.
+3127,2213,حي الصناعية الاولى,1st Industrial Dist.
+3128,2213,مدينة الانعام,Al Anam City
+3129,2213,حي الصقًار,As Saqar Dist.
+3130,2213,حي تشليح السيارات,Auto Shredder Dist.
+3131,2213,حي البساتين الاداري الغربي,Al Basatin Administrative Western Dist.
+3132,2213,حي الشذا,Ash Shatha Dist.
+3133,2213,حي تلال عرعر,Telal Arar Dist.
+3134,2213,حي النهضة,An Nahdah Dist.
+3135,2213,حي الرفاع,Ar Rifaa Dist.
+3136,2213,حي الفنار,Al Fanar Dist.
+3137,2213,حي الخليج الشرقي,Al Khaleej Eastern Dist.
+3138,2213,حي الصالحية,As Salhiyah Dist.
+3139,2213,حي المنصورية,Al Mansuriyah Dist.
+3140,2213,حي الارجوان الغربي,Al Orjwan Wesrtern Dist.
+3141,2213,حي السعادة,As Saadah Dist.
+3142,2213,حي الفيصلية,Al Faisaliyah Dist.
+3143,2213,حي الريان,Ar Rayaan Dist.
+3144,2213,حي النور,An Noor Dist.
+3145,2213,حي الأمانه الاداري,Al Amanah Dist.
+3146,2213,حي العزيزية,Al Aziziyah Dist.
+3147,2213,حي الخالدية,Al Khalidiyah Dist.
+3148,2213,حي بدنة,Badanah Dist.
+3149,2213,حي المطار,Al Matar Dist.
+3150,2213,حي مشرف,Mshrif Dist.
+3151,2213,حي الجوهرة,Al Jawharah Dist.
+3152,2213,حي الروضة,Ar Rawdah Dist.
+3153,2213,حي المحمدية,Al Muhammadiyah Dist.
+3154,2213,حي المساعدية,Al Musaidiyah Dist.
+3155,2213,حي الوئام,Al Weaam Dist.
+3156,2213,حي النسيم,An Naseem Dist.
+3157,2213,حي المهندسين,Al Muhandisin Dist.
+3158,2213,حي قرطبة,Qurtubah Dist.
+3159,2213,حي الربوة,Ar Rabwah Dist.
+3160,2213,حي النزهة,An Nuzhah Dist.
+3161,2213,حي النخيل الجنوبي,Al Nakheel Southern Dist.
+3162,2213,حي الجامعة,Al Jamiah Dist.
+3163,2213,حي البساتين الاداري الشرقي,Al Basatin Administrative Eastern Dist.
+3164,2213,حي البراعم,Al Baraam Dist.
+3165,2213,حي معيلة,Maaelah Dist.
+3166,2213,حي المباركية,Al Mabarakiyah Dist.
+3167,2213,حي هجرة ابن سعيد,Hijrat Bin Saeed Dist.
+3168,2213,حي الصناعية الثانية,2nd Industrial Dist.
+3169,2213,حي الهلالي,Al Helali Dist.
+3170,2213,حي الفروسية,Al Frosyah Dist.
+3171,2213,حي اشبيلية الجنوبي,Ishbiliyah Southern Dist.
+3172,2213,حي القدس الغربي,Al Quds Wesrtern Dist.
+3173,2213,محجوزات ارمكو,Aramco Property
+3174,2213,حي التقنية,Al Taqniyah Dist.
+3175,2213,حي ام الضيان,Um Al Dayan Dist.
+3176,2213,حي غرناطة الغربي,Ghirnatah Wesrtern Dist.
+3177,2213,حي الارجوان الشرقي,Al Orjwan Eastern Dist.
+3178,2213,حي الخليج الغربي,Al Khaleej Wesrtern Dist.
+3179,2213,حي الياسمين,Al Yasmin Dist.
+3180,2213,حي الزهور,Az Zuhur Dist.
+3181,2213,حي الاصداف,Al Asdaf Dist.
+3182,2213,حي المروج الغربي,Al Muruj Wesrtern Dist.
+3183,2215,حي المصيف,Al Masif Dist.
+3184,2215,مخطط المنطقة الصناعية,Industrial Area
+3185,2215,مهاجع حرس الحدود,Border Guard Housing
+3186,2215,حي المنار,Al Manar Dist.
+3187,2215,حي ج1,C1 Dist.
+3188,2215,حي الأندلس,Al Andalus Dist.
+3189,2215,حي الروضة,Ar Rawdah Dist.
+3190,2215,حي الخليج,Al Khalij Dist.
+3191,2215,مخطط  شرق مدينة العويقيلة,East Al Uwayqilah City Subdivision Plan
+3192,2215,حي الصناعية,As Sinaiyah Dist.
+3193,2215,المربع الخدمي,Al Murabba Al Khadamy
+3194,2215,حي ج4,C4 Dist.
+3195,2215,ادارة التعليم,Education Administration
+3196,2215,حي النسيم,Al Naseem Dist.
+3197,2215,حي الورود,Al Wurud Dist.
+3198,2256,حي العمال,Al Ummal Dist.
+3199,2256,حي المدينة,Al Madinah Dist.
+3200,2256,حي الفيصلية,Al Faisaliyah Dist.
+3201,2256,حي  الادارى,Al Idari Dist.
+3202,2256,حي الصناعية,As Sinaiyah Dist.
+3203,2256,حي الملز,Al Malaz Dist.
+3204,2256,حي المحمدية,Al Muhammadiyah Dist.
+3205,2256,حي الروضة,Ar Rawdah Dist.
+3206,2256,حي اليرموك,Al Yarmuk Dist.
+3207,2256,حي الشمال,Ash Shamal Dist.
+3208,2256,حي الجميماء,Al Jumayma Dist.
+3209,2256,حي المساعدية,Al Misadiyah Dist.
+3210,2256,حي العزيزية,Al Aziziyah Dist.
+3211,2256,حي القادسية,Al Qadisiyah Dist.
+3212,2256,حي الورود,Al Wurud Dist.
+3213,2256,حي الربيع,Ar Rabie Dist.
+3214,2256,حي الخالدية,Al Khalidiyah Dist.
+3215,2256,حي النموذجية,An Namudhajiyah Dist.
+3216,2256,حي التعاون,Al Taawun Dist.
+3217,2256,حي السلام,As Salam Dist.
+3218,2256,حي إسكان حرس الحدود,Border Guard Iskan Dist.
+3219,2256,حي الاسكان الخيرى,Al Iskan Al Khairy Dist.
+3220,2256,حي المروج,Al Muruj Dist.
+3221,2256,حي الجبهان,Al Jabhan Dist.
+3222,2256,جامعة الحدود الشمالية,Northern Border University
+3223,17,حي القلعة,Al Qalah Dist.
+3224,17,حي الاراك,Al Arak Dist.
+3225,17,حي الصفا,As Safa Dist.
+3226,17,حي السويس,As Suways Dist.
+3227,17,حي البشائر,Al Bashaer Dist.
+3228,17,حي المطار,Airport Dist.
+3229,17,حي الروابي,Ar Rawabi Dist.
+3230,17,حي الزهور,Az Zuhur Dist.
+3231,17,حي الشاطئ,Ash Shati Dist.
+3232,17,حي الروضة,Ar Rawdah Dist.
+3233,17,حي الشامية,Ash Shamiyah Dist.
+3234,17,المنطقة الصناعية,Industrial Area
+3235,17,حي النور,An Nur Dist.
+3236,17,حي النسيم,Al Naseem Dist.
+3237,17,حي الجبل,Al Jabal Dist.
+3238,17,حي مزهرة,Mizhirah Dist.
+3239,3479,حي الريان,Ar Rayyan Dist.
+3240,3479,حي الحسيني,Al Hussaini Dist.
+3241,3479,حي الفلاح,Al Falah Dist.
+3242,3479,حي حلة الأحوس,Hullat Al Ahwass Dist.
+3243,3479,حي جخيرة,Jukhairah Dist.
+3244,3479,حي العزيزية,Al Aziziyah Dist.
+3245,3479,حي النزهة,An Nuzhah Dist.
+3246,3479,حي الواحة,Al Wahah Dist.
+3247,3479,حي النخيل,Al Nakhil Dist.
+3248,3479,حي السعادة,As Saadah Dist.
+3249,3479,حي المجد,Al Majd Dist.
+3250,3479,الحشيبرية,Al Hushaibriyah
+3251,3479,حي الملك فهد,King Fahd Dist.
+3252,3479,حي الروضة,Ar Rawdah Dist.
+3253,3479,حي الصفاء,Al Safa Dist.
+3254,3479,حي الفردوس,Al Fardus Dist.
+3255,3479,حي النهضة,An Nahdah Dist.
+3256,3479,حي الرحاب,Al Rehab Dist.
+3257,3479,حي الربيع,Ar Rabie Dist.
+3258,3479,حي الفيصلية,Al Faisaliyah Dist.
+3259,3479,حي المروج,Al Muruj Dist.
+3260,3479,حي الخالدية,Al Khalidiyah Dist.
+3261,3479,الرونة,Ar Rawnah
+3262,3479,الغراء,Al Gharraa
+3263,3479,حي العريش,Al Arish Dist.
+3264,3479,حي بوتيشة,Butishah Dist.
+3265,3479,حي المعترض,Al Muutarid Dist.
+3266,3479,حي الظبية,Al Dhabyah Dist.
+3267,3479,الباحر,Al Bahir
+3268,3479,الفقره,Al Faqrah
+3269,3479,الشواهية,Al Shawahiyah
+3270,3479,شهده,Shahdah
+3271,3479,عبدالله العيافي (العيافي),Abdullah Al Eyafi (Al Eyafi)
+3272,3479,حله محسنالمحاسنة,Halah Muhsin Al Muhasana
+3273,3479,الجعاونه,Al Jaeawunah
+3274,3479,السروريه,Al Saruriyah
+3275,3479,حله القميري,Halah Al Qamiri
+3276,3479,ابو دنقور,Abu Danqur
+3277,3479,ام القحفه,Umm Al Qahfah
+3278,3479,حله مروعي بن شامي,Halah Maruei Bin Shamy
+3279,3479,العداية,Al Addayah
+3280,3479,قبه,Qibah
+3281,3479,العواجمه,Aleawajimuh
+3282,3479,النزلـــه,Alnzlh
+3283,3479,البطيح,Albatih
+3284,3479,الكومه,Alkawmuh
+3285,3479,العشة,Al Ashah
+3286,3479,حنقفه,Hanaqfah
+3287,3479,ابو الطيور,Abu Altuyur
+3288,3479,عوانه,Eawanah
+3289,3479,العرضه,Al Ardah
+3290,3479,حلة العرشي,Hulat Al Earshi
+3291,3479,العسيله,Aleasiluh
+3292,3479,الحقاويه,Alhaqawih
+3293,3479,الشعاره,Al Shiarah
+3294,3479,القواعة,Al Qawaea
+3295,3479,تيهان (حلة تيهان),Tyhan (Hulat Tyhan)
+3296,3479,الدواحشه,Al Dawahishah
+3297,3479,الباطنه,Al Batinah
+3298,3479,الشمه,Al Shamuh
+3299,3479,الطراشه,Alt Arashah
+3300,3479,جريبه,Jaribuh
+3301,3479,الهدوى,Alhadwaa
+3302,3479,حلة ابو حبيبه,Hulat Abu Habibuh
+3303,3479,الحرف,Alharaf
+3304,3479,المجديره,Almajdiruh
+3305,3479,السبخة,Al Sabakhah
+3306,3479,منسيه,Mansih
+3307,3479,الخواره,Al Khawarah
+3308,3479,الهجاريه,Al Hajariah
+3309,3479,الشواجرة والجرابية,Al Shawajirat Wal Jarabiyah
+3310,3479,الخواجيه,Al Khawajih
+3311,3479,السوالمه,Al Sawalimah
+3312,3479,النعامية,Al Naeamia
+3313,3479,الفقرة,Al Fiqarah
+3314,3479,الزيديه,Alzaydiuh
+3315,3479,الخوالده,Alkhawaliduh
+3316,3479,ام العرش,Umm Alearsh
+3317,3479,الحمضيه,Alhimdih
+3318,3479,الصنيف,Alsanif
+3319,3479,وجه الحسن,Wajah Alhasan
+3320,3479,قوز الجعافره,Qouz Al Jaafrah
+3321,3479,العبده,Aleabduh
+3322,3479,حلة ابراهيم عيسى,Hulat Iibrahim Eisaa
+3323,3479,الرجيع,Al Rajie
+3324,3479,الأثلة,Al Athlah
+3325,3479,زربه,Zarabah
+3326,3479,الجديين,Al Jidiayn
+3327,3479,شيبان,Shayban
+3328,3479,الحجرين,Alhajarayn
+3329,3479,زباره الجديين,Zubarah Al Jidyeen
+3330,3479,حله محمد عيسى,Halah Muhamad Eisa
+3331,3479,حله العقيبي,Halah Aleaqibiu
+3332,3479,حله الحو تين,Halah Alhawa Tyn
+3333,3479,حله الصهلولي,Halah Al Sahluli
+3334,3479,حله مشاري,Halah Mishary
+3335,3479,حله الحكمى,Halah Al Hukmaa
+3336,3479,حله عبدالله قبع,Halah Abdullah Qabea
+3337,3479,حله الكلابيه,Halah Al Kalabih
+3338,3479,حله بن علوان,Halah Bin Alwaan
+3339,3479,حلة المكي,Hulat Al Makki
+3340,3479,حله ابو مرعي,Halah Abu Marei
+3341,3479,حله عطيه,Halah Attieh
+3342,3479,الخضراء,Al Khadraa
+3343,3479,الجمالة,Al Jammalah
+3344,3479,الدحيقي,Al Daheeqi
+3345,3479,قرية الجوابره,Qaryat Al Jawabirih
+3346,3479,الزقله,Al Zaqlah
+3347,3479,نورة,Nurah
+3348,3479,جميما,Jameema
+3349,3479,المحاصيه,Al Mahasih
+3350,3479,الجاره القديمه,Al Jarah Al Qadiumah
+3351,3479,الزينيه,Al Ziniyah
+3352,3479,حلة علي بن موسى,Hulat Ali Bin Musa
+3353,3479,الصامخ,Al Samikh
+3354,3479,الشقافه والمصاوفة,Al Shiqafah Wal Musawafa
+3355,3479,الكلبه,Al Kalabah
+3356,3479,الفصاله والدغاريه,Al Fisalah Wal Dagharih
+3357,3479,الحوامضه جحيش,Al Hawamidah Jahish
+3358,3479,الشعافه,Al Shaeafah
+3359,3479,ابوالمقره,Abu Al Maqrah
+3360,3479,ام الشباقاء,Umm Al Shibaqa
+3361,3479,اللخبصية,Al Lakhabsia
+3362,3479,الشاخر,Al Shaakhir
+3363,3479,ابو السلع,Abu As Sala
+3364,3479,الزيني,Al Zayni
+3365,3479,العمارده,Al Amaridah
+3366,3479,الحواية,Al Hiwaya
+3367,3479,القصاده,Al Qasadah
+3368,3479,النجابه و الجحاجح,Al Nijabah Wal Jahajih
+3369,3479,العرجين,Al Arjeen
+3370,3479,ابو الكرش,Abu Alkarsh
+3371,3479,السداده,Alsidaduh
+3372,3479,الرافعي,Al Rafie
+3373,3525,حي السادلية,As Sadiliyah Dist.
+3374,3525,حي الورود,Al Wurud  Dist.
+3375,3525,حي الصناعية,As Sinaiyah Dist.
+3376,3525,حي القدس,Al Quds Dist.
+3377,3525,حي الملك فهد,King Fahd Dist.
+3378,3525,حي النهضة,An Nahdah Dist.
+3379,3525,حي السلام,As Salam Dist.
+3380,3525,حي الربيع,Ar Rabie Dist.
+3381,3525,حي الزهور,Az Zuhur Dist.
+3382,3525,حي النزهة,An Nuzhah Dist.
+3383,3525,حي الروضة,Ar Rawdah Dist.
+3384,3525,حي الخالدية,Al Khalidiyah Dist.
+3385,3525,حي النسيم,Al Naseem Dist.
+3386,3525,حي الاندلس,Al Andalus Dist.
+3387,3525,حي الصفا,As Safa Dist.
+3388,3525,حي العقدة,Al Uqdah Dist.
+3389,3525,حي المريخية,Al Muraikhiyah Dist.
+3390,3525,حي المهدج,Al Muhdaj Dist.
+3391,3525,حي قويعية,Quwaiyyah Dist.
+3392,3525,حي قامرة,Kamirah Dist.
+3393,3525,حي حاكمة ابي عريش,Hakimat Abi Arish Dist.
+3394,3525,حي الشاقة,Ash Shakah Dist.
+3395,3542,حي الركوبة,Ar Rakubah Dist.
+3396,3542,حي الجردية,Al Jurdiyyah Dist.
+3397,3542,حي الجرادية,Al Jaradiyah Dist.
+3398,3542,حي صامطة,Samtah Dist.
+3399,3542,حي الطرشية,Al Turshiah Dist.
+3400,3542,حي مجعر,Majaar Dist.
+3401,3542,حي الخضراء,Al Khadra Dist.
+3402,3542,الواسط,Al Wasit
+3403,3542,حي الزاوية,Al Zawiyah Dist.
+3404,3597,حي الربيع,Ar Rabie Dist.
+3405,3597,حي الروابى,Ar Rawabi Dist.
+3406,3597,حي النخيل,Al Nakhil Dist.
+3407,3652,حي الغصينية,Al Ghusainiah Dist.
+3408,3652,حي الواسط,Al Wasit Dist.
+3409,3652,حي العمارية,Al Amariyah Dist.
+3410,3652,حي القسوم,Al Qasum Dist.
+3411,3652,حي الصفا,As Safa Dist.
+3412,3652,حي البياطرية,Al Bayatirah Dist.
+3413,3652,حي خلب,Khalab Dist.
+3414,3652,حي الروضة,Ar Rawdah Dist.
+3415,3652,حي العز,Al Izz Dist.
+3416,3652,حي البلدية,Al Baladiah Dist.
+3417,3652,حي الميزاب,Al Mizab  Dist.
+3418,3652,حي المنزم,Al Manzam Dist.
+3419,3652,حي المطلع,Al Mutalla Dist.
+3420,3652,حي الحصامة,Al Hasamah Dist.
+3421,3652,المنطقة الصناعية,Industrial Area
+3422,3652,حي حكامية العز,Hakimiat Al Iz Dist.
+3423,3652,حي حاكمة الدغارير,Hakimat Al Dagharir Dist.
+3424,3652,حي الدغارير,Al Dagharir Dist.
+3425,2522,حي الصالحية,As Salihiyah Dist.
+3426,2522,حي يدمة الثاني,Yadamah Al Thani Dist.
+3427,2522,حي جنوب يدمة,Janub Yadamah Dist.
+3428,2522,حي يدمة الاول,Yadamah Al Awal Dist.
+3429,2522,حي الحزام الشرقي,Al Hizam Ash Sharqi Dist.
+3430,3347,حي الفيصلية,Al Faisaliyah Dist.
+3431,3347,حي السوق,As Suq Dist.
+3432,3347,حي جنوب المستشفى العسكري,Janub Al Mustashfa Al Askari Dist.
+3433,3347,حي سلطانة,Sultanah Dist.
+3434,3347,حي المستشفى العسكري,Al Mustashfa Al Askari Dist.
+3435,3347,حي الروضة الشمالية,Ar Rawdah Ash Shamaliyyah Dist.
+3436,3347,مخطط ا,Subdivision Plan A
+3437,3347,مخطط ب,Subdivision Plan B
+3438,3347,حي الصناعية,As Sinaiiyah Dist.
+3439,3347,حي الفهد,Al Fahd Dist.
+3440,3347,حي الروضة الجنوبية,Ar Rawdah Al Janubiyyah Dist.
+3441,3347,حي النزهة,An Nuzhah Dist.
+3442,3396,حي حبونا,Hubuna Dist.
+3443,3417,حي العان,Al Aan Dist.
+3444,3417,حي الشرفة الجنوبية,South Shurfah Dist.
+3445,3417,حي الغويلا ب,Al Ghuwayla B
+3446,3417,حي القابل,Al Qabil Dist.
+3447,3417,حي شرق رجلا,East Rajla Dist.
+3448,3417,حي الشبهان,Al Shabhan Dist.
+3449,3417,حي صهبان,Sahban Dist.
+3450,3417,حي شعب رير,Shiab Reer Dist.
+3451,3417,حي الصناعية,As Sinaiyah Dist.
+3452,3417,حي المعامر,Al Maamir Dist.
+3453,3417,حي زور الحارث,Zawr Al Harith Dist.
+3454,3417,حي ريمان,Rayman Dist.
+3455,3417,حي الخالدية,Al Khalidiyah Dist.
+3456,3417,حي الامير مشعل,Prince Mishal Dist.
+3457,3417,المطار,Airport
+3458,3417,حي الجربة,Al Jurbah Dist.
+3459,3417,حي الحصين,Al Husayn Dist.
+3460,3417,حي المركب,Al Markab Dist.
+3461,3417,حي أبا السعود,Aba Al Saud Dist.
+3462,3417,حي نهوقة,Nahuqah Dist.
+3463,3417,حي صحيفات,Sahifat Dist.
+3464,3417,حي بنى سلمان,Bani Salman Dist.
+3465,3417,حي زور العماري,Zawr Al Ammari Dist.
+3466,3417,حي تصلال,Thasallal Dist.
+3467,3417,حي جنوب الجامعة,South Of University Dist.
+3468,3417,حي الخرعاء,Al Khuraa Dist.
+3469,3417,حي الصفا,As Safa Dist.
+3470,3417,حي سقام,Suqam Dist.
+3471,3417,حي أبا الخريـت,Aba Al Khareet Dist.
+3472,3417,حي فواز,Fawaz Dist.
+3473,3417,حي الاثايبة,Al Athaybah Dist.
+3474,3417,حي العريسة,Al Uraysah Dist.
+3475,3417,حي صاغر,Saaghir Dist.
+3476,3417,حي المسماة,Al Masmat Dist.
+3477,3417,حي الفيصلية,Al Faisaliyah Dist.
+3478,3417,حي شرق المطار أ,East Airport A
+3479,3417,جامعة نجران,Najran University
+3480,3417,حي الحضن,Al Hadn Dist.
+3481,3417,حي الموفجة,Al Mawfijah Dist.
+3482,3417,حي غرب الدارة,Al Darah West Dist.
+3483,3417,حي بئر أبين,Bir Abayn Dist.
+3484,3417,حي برك,Barak Dist.
+3485,3417,حي الفهد,Al Fahd Dist.
+3486,3417,حي الحايرة,Al Hayirah Dist.
+3487,3417,حي الرويكبة,Al Ruwaikibah Dist.
+3488,3417,حي شعب بران,Shuab Bran Dist.
+3489,3417,حي النهضة,Al Nahdah Dist.
+3490,3417,حي الغويلا د,Ghuwayla D Dist.
+3491,3417,حي المشعلية الشمالية,North Mishaliyah Dist.
+3492,3417,حي الشعبة الغربية,West Shuabah Dist.
+3493,3417,حي دحضة,Dahdah Dist.
+3494,3417,حي الغويلا أ,Ghuwayla A Dist.
+3495,3417,حي الابرقين,Al Abraqeen Dist.
+3496,3417,حي ابا الرشاش,Aba Al Rashash Dist.
+3497,3417,حي العريسة,Al Uraysah Dist.
+3498,3417,حي سلوى,Salwa Dist.
+3499,3417,حي زور وادعة,Zawr Wadiah Dist.
+3500,3417,حي نهيقة,Nahiqah Dist.
+3501,3417,حي الشرفة الغربية,West Shurfah Dist.
+3502,3417,حي الغويلا ج,Ghuwayla C Dist.
+3503,3417,حي الخضراء القديمة,Al Khadra Al Qadimah Dist.
+3504,3417,حي شرق المطار ج,East Airport C
+3505,3417,حي شرق المطار د,East Airport D
+3506,3417,حي شرق المطار ب,East Airport B
+3507,3417,حي شرق الدارة,East Darah Dist.
+3508,3417,حي الشعبة الشرقية,East Shuabah Dist.
+3509,3417,حي المشعلية الجنوبية,South Mishaliyah Dist.
+3510,3417,حي الـرمال,Al Rimal Dist.
+3511,3417,حي رجلا الشماليـة,North Rajla Dist.
+3512,3417,حي الاخدود,Al Ukhdud Dist.
+3513,3417,حي رجلا الجنوبية,South Rajla Dist.
+3514,3417,حي الشرفة الشمالية,North Shurfah Dist.
+3515,3417,حي المخيم,Al Mukheem Dist.
+3516,1531,حي الشطيبة,Shateebah Dist.
+3517,1542,حي الشروق,Al Shorouk Dist.
+3518,1542,حي النسيم,Al Naseem Dist.
+3519,1542,حي السلامة,As Salamah Dist.
+3520,1542,حي الصفا,Al Safa Dist.
+3521,1542,حي الازهر,Al Azhar Dist.
+3522,1542,حي الضباب,Ad Dabab Dist.
+3523,1542,حي شهبة,Shahbah Dist.
+3524,1542,حي النزهة,An Nuzhah Dist.
+3525,1542,حي الربوة,Ar Rabwah Dist.
+3526,1542,حي الشفا,Ash Shifa Dist.
+3527,1542,حي البريدة,Al Buraydah Dist.
+3528,1542,حي المرتفعات,Al Murtafat Dist.
+3529,1542,حي الروضة,Al Rawdha Dist.
+3530,1542,حي الباهر,Al Baher Dist.
+3531,1542,حي الحجاز,Al Hijaz Dist.
+3532,1542,حي ج1,1 C Dist.
+3533,1542,حي ج2,2 C Dist.
+3534,1542,حي ج4,4 C Dist.
+3535,1542,حي ج5,5 C Dist.
+3536,1542,حي الطفير,At Tafeer Dist.
+3537,2819,مخطط المطار,Al Matar Subdivision Plan
+3538,2819,حي الغوث,Al Goth Dist.
+3539,2226,حي حصيدة,Husaydah Dist.
+3540,2226,حي الملك فهد,King Fahd Dist.
+3541,2226,حي الفيصلية,Al Faisaliyah Dist.
+3542,2226,حي الصناعية,As Sinaiyah Dist.
+3543,2226,حي الشفا,Ash Shifa Dist.
+3544,2226,حي المروج,Al Muruj Dist.
+3545,2226,حي الورود,Al Wurud Dist.
+3546,2226,حي الرحمة,Ar Rahmah Dist.
+3547,2226,حي العزيزية,Al Aziziyah Dist.
+3548,2226,حي السلام,As Salam Dist.
+3549,2226,حي الجوهرة,Al Jawharah  Dist.
+3550,2226,حي النرجس,An Narjis Dist.
+3551,2226,حي الازدهار,Al Izdihar Dist.
+3552,2226,حي النفل,Al Nafl Dist.
+3553,2226,حي الريحان,Ar Raihan Dist.
+3554,2226,حي الدانة,Ad Danah Dist.
+3555,2226,حي النخيل,Al Nakhil Dist.
+3556,2226,حي الريان,Ar Rayan Dist.
+3557,2226,حي الياسمين,Al Yasmin Dist.
+3558,2226,حي الرسالة,Al Risalah Dist.
+3559,2226,حي الاندلس,Al Andalus Dist.
+3560,2226,حي الروضة,Ar Rawdah Dist.
+3561,2226,حي الشروق,Ash Shuruq Dist.
+3562,2226,حي الوادي,Al Wadi Dist.
+3563,2226,حي الخزامى,Al Khuzama Dist.
+3564,2226,حي الرواد,Ar Ruwad Dist.
+3565,2226,حي الروابي,Ar Rawabi Dist.
+3566,2226,حي الفرسان,Al Fursan Dist.
+3567,2226,حي البادية,Al Badiyah Dist.
+3568,2226,حي المنار,Al Manar Dist.
+3569,2226,حي الامير عبدالاله بن عبدالعزيز,Prince Abdulellah Bin Abdulaziz Dist.
+3570,2226,حي الواحة,Al Wahah Dist.
+3571,2226,حي الغدير,Al Ghadir Dist.
+3572,2226,حي الرحاب,Al Rehab Dist.
+3573,2226,حي الندى,An Nada Dist.
+3574,2226,حي الربيع,Ar Rabie Dist.
+3575,2226,حي الامل,Al Amal Dist.
+3576,2226,حي الزيتون,Az Zaytun Dist.
+3577,2226,حي النهضة,An Nahdah Dist.
+3578,2226,حي الرفاع,Ar Rifaa Dist.
+3579,2226,حي الصفاء,Al Safa Dist.
+3580,2226,حي النزهة,An Nuzhah Dist.
+3581,2226,حي الزمرد,Az Zumorud Dist.
+3582,2229,حي الفيصلية,Al Faisaliyah Dist.
+3583,2229,حي السلام,As Salam Dist.
+3584,2229,حي المنار,Al Manar Dist.
+3585,2229,حي الربوة,Ar Rabwah Dist.
+3586,2229,حي العزيزية,Al Aziziyah Dist.
+3587,2229,حي الجوهرة,Al Jawharah  Dist.
+3588,2229,حي الاندلس,Al Andalus Dist.
+3589,2229,حي السليمانية,As Sulimaniyah Dist.
+3590,2229,حي البستان,Al Bustan Dist.
+3591,2234,حي الصالحية,As Salhiyah Dist.
+3592,2234,حي الفرسان,Al Fursan Dist.
+3593,2234,حي النزهة,An Nuzhah Dist.
+3594,2234,حي الربوة,Ar Rabwah Dist.
+3595,2234,حي الشفاء,Ash Shifa Dist.
+3596,2234,حي الريان,Ar Rayaan Dist.
+3597,2234,حي التلال,At Talal Dist.
+3598,2234,حي الحزم,Al Hazm Dist.
+3599,2234,حي الهدا,Al Hada Dist.
+3600,2234,حي الفيصلية,Al Faisaliyah Dist.
+3601,2234,حي العزيزية,Al Aziziyah Dist.
+3602,2237,حي العزيزية,Al Aziziyah Dist.
+3603,2237,حي الشعلة,Ash Shulah Dist.
+3604,2237,حي الهدا,Al Hada Dist.
+3605,2237,حي الاندلس,Al Andalus Dist.
+3606,2237,حي الرحمانية,Ar Rahmaniyah Dist.
+3607,2237,حي البديعة,Al Badiah Dist.
+3608,2237,حي الصالحية,As Salhiyah Dist.
+3609,2237,حي الزهور,Az Zuhur Dist.
+3610,2237,حي الرواد,Ruwad Dist.
+3611,2237,حي المنار,Al Manar Dist.
+3612,2237,حي النور,An Nur Dist.
+3613,2237,حي النخيل,Al Nakhil Dist.
+3614,2237,حي الزهراء,Az Zahra Dist.
+3615,2237,حي السليمانية,As Sulaymaniyah Dist.
+3616,2237,حي الروضة,Ar Rawdah Dist.
+3617,2237,حي الندى,An Nada Dist.
+3618,2237,حي الحزم,Al Hazm Dist.
+3619,2237,حي الغدير,Al Ghadir Dist.
+3620,2237,حي الزيتون,Az Zaytun Dist.
+3621,2237,حي المروج,Al Muruj Dist.
+3622,2237,حي الازدهار,Al Izdihar Dist.
+3623,2237,حي الجوهرة,Al Jawharah Dist.
+3624,2237,حي الصناعية,As Sinaiyah Dist.
+3625,2237,حي المجد,Al Majd Dist.
+3626,2237,حي الريان,Ar Rayaan Dist.
+3627,2237,حي الربيع,Ar Rabie Dist.
+3628,2237,حي النهضة,An Nahdah Dist.
+3629,2237,حي أحد,Ahad Dist.
+3630,2237,حي الفرسان,Al Fursan Dist.
+3631,2237,حي الرسالة,Al Risalah Dist.
+3632,2237,حي العروبة,Al Urubah Dist.
+3633,2237,حي الشفاء,Ash Shifa Dist.
+3634,2237,حي الشروق,Ash Shrouk Dist.
+3635,2237,حي الرحاب,Al Rehab Dist.
+3636,2237,حي النزهة,An Nuzhah Dist.
+3637,2237,حي الفاروق,Al Farouk Dist.
+3638,2237,حي الياسمين,Al Yasmin Dist.
+3639,2237,حي الطوير,At Tuwair Dist.
+3640,2237,حي سلطانة,Sultanah Dist.
+3641,2237,حي السنابل,As Sanabel Dist.
+3642,2237,حي الضاحية,Ad Dahiah Dist.
+3643,2237,حي الشعيب,Ash Shuaib Dist.
+3644,2237,حي الواحة,Al Wahah Dist.
+3645,2237,حي الفيصلية,Al Faisaliyah Dist.
+3646,2237,حي المعاقلة,Al Muaqilah Dist.
+3647,2237,حي المطر,Al Matr Dist.
+3648,2237,حي الصديق,As Sediq Dist.
+3649,2237,حي البستان,Al Bustan Dist.
+3650,2237,حي الخليج,Al Khalij Dist.
+3651,2237,حي الفتح,Al Fath Dist.
+3652,2237,حي الورود,Al Wurud Dist.
+3653,2237,حي السلام,As Salam Dist.
+3654,2237,حي السوق,As Suq Dist.
+3655,2237,حي الشلهوب,Ash Shalhub Dist.
+3656,2237,حي المحمدية,Al Muhammadiyah Dist.
+3657,2237,حي الزعفران,Al Zaafran Dist.
+3658,2237,حي النفل,An Naql Dist.
+3659,2237,حي الربوة,Ar Rabwah Dist.
+3660,2237,حي اليرموك,Al Yarmuk Dist.
+3661,2237,حي الصفاء,Al Safa Dist.
+3662,2237,حي الكوثر,Al Kawthar Dist.
+3663,2237,حي الضلع,Al Dil Dist.
+3664,2237,حي بدر,Badr Dist.
+3665,2237,حي التلال,At Talal Dist.
+3666,2237,حي الياقوت,Al Yaqoot Dist.
+3667,2237,حي السنبلة,As Sunbulah Dist.
+3668,2237,حي المرجان,Al Murjan Dist.
+3669,2237,حي الظلال,Adh Dhilal Dist.
+3670,2237,حي اليمام,Al Yamam Dist.
+3671,2237,حي اجياد,Ajyad Dist.
+3672,2237,حي الروابي,Ar Rawabi Dist.
+3673,2237,حي الرابية,Ar Rabiyah Dist.
+3674,2240,حي الزيتون,Al Zaytun Dist.
+3675,2240,حي العزيزية,Al Aziziyah Dist.
+3676,2240,حي الخالدية,Al Khalidiyah Dist.
+3677,2240,حي الرحمانية,Ar Rahmaniyah Dist.
+3678,2240,حي الخزامى,Al Khuzama Dist.
+3679,2240,حي حدرج,Hadraj Dist.
+3680,2240,حي الربيع,Ar Rabie Dist.
+3681,2240,حي النسيم,Al Naseem Dist.
+3682,2240,حي البستان,Al Bustan Dist.
+3683,2240,حي الصفا,Al Safa Dist.
+3684,2240,حي الاندلس,Al Andalus Dist.
+3685,2240,حي المروج,Al Muruj Dist.
+3686,2240,حي النفل,Al Nafl Dist.
+3687,2240,حي النخيل,Al Nakhil Dist.
+3688,2240,حي الحزم,Al Hazm Dist.
+3689,2240,حي الواحة,Al Wahah Dist.
+3690,2240,حي السلام,Al Salam Dist.
+3691,2240,حي الشفاء,Al Shifa Dist.
+3692,2240,حي الورود,Al Wurud Dist.
+3693,2240,حي المروة,Al Marwah Dist.
+3694,2240,حي السمح,Al Samh Dist.
+3695,2240,حي النزهة,Al Nuzhah Dist.
+3696,2240,حي الصالحية,As Salhiyah Dist.
+3697,2240,حي الروابي,Al Rawabi Dist.
+3698,2240,حي الربوة,Ar Rabwah Dist.
+3699,2240,حي العروبة,Al Urubah Dist.
+3700,2240,حي المنتزة,Al Montazah Dist.
+3701,2240,حي الرحاب,Al Rehab Dist.
+3702,2268,حي الغروب,Al Ghurub Dist.
+3703,2268,حي التحكيم,At Tahkim Dist.
+3704,2268,حي غرب دومة الجندل,West Dawmat Al Jandal Dist.
+3705,2268,حي الغربي,Al Gharbi Dist.
+3706,2268,حي الوادي,Al Wadi Dist.
+3707,2268,حي البحيرات,Al Buhayrat Dist.
+3708,2268,حي الربوة,Ar Rabwah Dist.
+3709,2268,حي الملك فهد,King Fahd Dist.
+3710,2268,حي خذماء,Khazma Dist.
+3711,2268,حي العزيزية,Al Aziziyah Dist.
+3712,2268,حي الفيصلية,Al Faisaliyah Dist.
+3713,2268,حي سيل الدلهمية,Sayl Al Dalhimiyah Dist.
+3714,2268,حي الملك عبدالعزيز,King Abdulaziz Dist.
+3715,2268,حي اليمامة,Al Yamamah Dist.
+3716,2268,حي الخالدية,Al Khalidiyah Dist.
+3717,2268,حي المروج,Al Muruj Dist.
+3718,2268,حي الصفاه الاول,Al Safat 1 Dist.
+3719,2268,حي أصفان,Asfan Dist.
+3720,2268,حي الرديفة والرافعية,Ar Radifah Wal Rafeiyah Dist.
+3721,2268,حي الدانة,Ad Danah Dist.
+3722,2268,حي التلال,At Talal Dist.
+3723,2268,حي البوداي,Al Bawadi Dist.
+3724,2268,حي الصناعي,Industrial Dist.
+3725,2268,حي النزهة,An Nuzhah Dist.
+3726,2268,حي الشفاء,Ash Shifa Dist.
+3727,2268,حي الغدير,Al Ghadir Dist.
+3728,2268,حي الجوهرة,Al Jawharah Dist.
+3729,2268,حي الصفاه الثاني,Al Safat 2 Dist.
+3730,2268,حي المصيف,Al Masif Dist.
+3731,2270,حي الملك فهد,King Fahd Dist.
+3732,2270,حي السلام,As Salam Dist.

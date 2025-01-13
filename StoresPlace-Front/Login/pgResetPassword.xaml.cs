@@ -34,43 +34,40 @@ public partial class pgResetPassword : ContentPage
         }
           
 
+
         DateTime dtCash = Preferences.Default.Get(clsAppConstants.LastTimeRestPassword, DateTime.Now);
 
         ctvActiveIndector1.IsRunning = true;
 
-        await Task.Delay(1);
-
-        if (dtCash.AddMinutes(15) < DateTime.Now)
-        {
-            Random random = new Random();  
-
-            int randomInt = random.Next(1000, 9999);
-
-            string TempCode = randomInt.ToString();
-
-            string Message = $"We received a request to reset your password. please use the following Temporary Code : {TempCode}  \n\n" +
-                  $"áÞÏ ÊáÞíäÇ ØáÈðÇ áÅÚÇÏÉ ÊÚííä ßáãÉ ÇáãÑæÑ ÇáÎÇÕÉ Èß " + $"ÇáÑÌÇÁ ÅÏÎÇá ÇáÑãÒ ÇáÊÇáí áÊÛííÑ ßáãÉ ÇáãÑæÑ : {TempCode}";
+        await Task.Delay(100);
 
 
+        Random random = new Random();
 
-            clsUtil.Send_Message(Message, "ResetPassword", enEmail.Text.Trim());
+        int randomInt = random.Next(1000, 9999);
 
-            ctvActiveIndector1.IsRunning = false;
+        string TempCode = randomInt.ToString();
 
-            await DisplayAlert(AppStrings.Done, AppStrings.code_has_been_sent_Please_check_your_email, AppStrings.Ok);
-
-            Preferences.Default.Set(clsAppConstants.LastTimeRestPassword, DateTime.Now);
-
-            await Navigation.PushAsync(new pgResetPsswordAndChangePassword(TempCode,enEmail.Text.Trim()));
+        string Message = $"We received a request to reset your password. please use the following Temporary Code : {TempCode}  \n\n" +
+              $"áÞÏ ÊáÞíäÇ ØáÈðÇ áÅÚÇÏÉ ÊÚííä ßáãÉ ÇáãÑæÑ ÇáÎÇÕÉ Èß " + $"ÇáÑÌÇÁ ÅÏÎÇá ÇáÑãÒ ÇáÊÇáí áÊÛííÑ ßáãÉ ÇáãÑæÑ : {TempCode}";
 
 
-        }
-        else
-        {
-            await DisplayAlert(AppStrings.Error, AppStrings.The_temporary_code_has_been_sent_to_your_email_Please_try_again_after_15_minutes, AppStrings.Ok);
-            ctvActiveIndector1.IsRunning = false;
 
-        }
+        clsUtil.Send_Message(Message, "ResetPassword", enEmail.Text.Trim());
+
+        ctvActiveIndector1.IsRunning = false;
+
+        await DisplayAlert(AppStrings.Done, AppStrings.code_has_been_sent_Please_check_your_email, AppStrings.Ok);
+
+        Preferences.Default.Set(clsAppConstants.LastTimeRestPassword, DateTime.Now);
+
+        await Navigation.PushAsync(new pgResetPsswordAndChangePassword(TempCode, enEmail.Text.Trim()));
+
+        ctvActiveIndector1.IsRunning = false;
+
+        btnSend.IsEnabled = false;
+
+       
 
 
 

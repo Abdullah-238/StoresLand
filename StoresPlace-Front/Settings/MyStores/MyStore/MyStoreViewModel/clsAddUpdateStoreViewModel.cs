@@ -12,7 +12,7 @@ using System.Net;
 using System.Windows.Input;
 
 namespace StoresPlace_Front.Settings.SettingsViewModel
-{   
+{
     public class clsAddUpdateStoreViewModel : INotifyPropertyChanged
     {
         private bool _isBusy;
@@ -86,6 +86,8 @@ namespace StoresPlace_Front.Settings.SettingsViewModel
             get { return _isAccept; }
             set { _isAccept = value; }
         }
+
+        private string? OldPath { get; set; }
 
         private string _selectedRegion;
 
@@ -198,11 +200,11 @@ namespace StoresPlace_Front.Settings.SettingsViewModel
 
             if (CultureInfo.CurrentCulture.Name.StartsWith("ar"))
             {
-                Districts = await  clsDistrictLite.GetAllDistrictByCityNameAr(selectedCity); 
+                Districts = await clsDistrictLite.GetAllDistrictByCityNameAr(selectedCity);
             }
             else
             {
-                Districts = await clsDistrictLite.GetAllDistrictByCityNameEn(selectedCity); 
+                Districts = await clsDistrictLite.GetAllDistrictByCityNameEn(selectedCity);
             }
         }
 
@@ -211,17 +213,8 @@ namespace StoresPlace_Front.Settings.SettingsViewModel
         {
             IsBusy = true;
 
-            Task.Delay(10);
-
             if (CultureInfo.CurrentCulture.Name.StartsWith("ar"))
             {
-                if (!clsRegionLite.IsRegionsSaved())
-                {
-                    List<RegionDTO> AllRegions = await clsRegion.GetAllRegions();
-
-                    await clsRegionLite.SaveRegionsAsync(AllRegions);
-                }
-
                 Regions = await clsRegionLite.GetAllRegionsByNameAr();
 
                 Types = await clsTypeLite.GetAllTypesAr();
@@ -230,12 +223,6 @@ namespace StoresPlace_Front.Settings.SettingsViewModel
             }
             else
             {
-                if (!clsRegionLite.IsRegionsSaved())
-                {
-                    List<RegionDTO> AllRegions = await clsRegion.GetAllRegions();
-
-                    await clsRegionLite.SaveRegionsAsync(AllRegions);
-                }
 
                 Regions = await clsRegionLite.GetAllRegionsByNameEn();
 
@@ -244,13 +231,13 @@ namespace StoresPlace_Front.Settings.SettingsViewModel
                 Types = await clsTypeLite.GetAllTypesEn();
             }
 
-            Store = new StoreDTO(null, "", "", null, "", "", null, null, null, null, null, null, "", null,null , null , null);
+            Store = new StoreDTO(null, "", "", null, "", "", null, null, null, null, null, null, "", null, null, null, null);
             Store.Rating = 5;
             Store.NumbersOfClick = 1;
             Store.NumberOfRates = 1;
             Store.Status = 2;
             Store.PeronID = clsGlobal.CurrentUser.PersonID;
-
+            OldPath = null;
 
             IsBusy = false;
 
@@ -260,51 +247,53 @@ namespace StoresPlace_Front.Settings.SettingsViewModel
         {
             IsBusy = true;
 
+            Store = await clsStore.GetStore(StoreID);
+
             if (CultureInfo.CurrentCulture.Name.StartsWith("ar"))
             {
                 Regions = await clsRegionLite.GetAllRegionsByNameAr();
-
-                Store = await clsStore.GetStore(StoreID);
 
                 Types = await clsTypeLite.GetAllTypesAr();
 
                 Categories = await clsCategoryLite.GetAllCategoryAr();
 
 
+                SelectedRegion = await clsRegionLite.GetRegionNameArByCityID(Store.CityID);
 
-                SelectedRegion = await clsRegionLite.GetRegionNameArByDistrictsID(Store.DistrictsID);
+                SelectedCity = await clsCityLite.GetCityNameArByCityID(Store.CityID);
 
-                SelectedCity = await clsCityLite.GetCityNameArByDistrictsID(Store.DistrictsID);
-
-                SelectedCategory = await  clsCategoryLite.GetCategoryNameArByCategoryID(Store.CategoryID);
+                SelectedCategory = await clsCategoryLite.GetCategoryNameArByCategoryID(Store.CategoryID);
 
                 SelectedType = await clsTypeLite.GetTypeNameArByTypeID(Store.TypeID);
 
-                SelectedDistrict = await clsDistrictLite.GetDistrictsNameArByDistrictsID(Store.DistrictsID);
+                if (Store.DistrictsID != null)
+                    SelectedDistrict = await clsDistrictLite.GetDistrictsNameArByDistrictsID(Store.DistrictsID);
 
             }
             else
             {
-                Regions =await clsRegionLite.GetAllRegionsByNameEn();
-
-                Store = await clsStore.GetStore(StoreID);
+                Regions = await clsRegionLite.GetAllRegionsByNameEn();
 
                 Categories = await clsCategoryLite.GetAllCategoryEn();
 
                 Types = await clsTypeLite.GetAllTypesEn();
 
 
-                SelectedRegion = await clsRegionLite.GetRegionNameEnByDistrictsID(Store.DistrictsID);
+                SelectedRegion = await clsRegionLite.GetRegionNameEnByCityID(Store.CityID);
 
-                SelectedCity = await clsCityLite.GetCityNameEnByDistrictsID(Store.DistrictsID);
-    
+                SelectedCity = await clsCityLite.GetCityNameEnByCityID(Store.CityID);
+
                 SelectedCategory = await clsCategoryLite.GetCategoryNameEnByCategoryID(Store.CategoryID);
 
                 SelectedType = await clsTypeLite.GetTypeNameEnByTypeID(Store.TypeID);
-          
-                SelectedDistrict = await clsDistrictLite.GetDistrictsNameArByDistrictsID(Store.DistrictsID);
+
+                if (Store.DistrictsID != null)
+                    SelectedDistrict = await clsDistrictLite.GetDistrictsNameEnByDistrictsID(Store.DistrictsID);
 
             }
+
+            if (Store.Photo != null)
+                OldPath = Store.Photo;
 
             IsBusy = false;
 
@@ -324,8 +313,8 @@ namespace StoresPlace_Front.Settings.SettingsViewModel
 
         private async void btCreate_Clicked()
         {
-         
-            if (string.IsNullOrEmpty(Store.Name)  || string.IsNullOrEmpty(Store.Address))
+
+            if (string.IsNullOrEmpty(Store.Name) || string.IsNullOrEmpty(Store.Address))
             {
                 await AppShell.Current.DisplayAlert(null, AppStrings.Please_fill_all_fields_before_continue, AppStrings.Ok);
 
@@ -368,6 +357,9 @@ namespace StoresPlace_Front.Settings.SettingsViewModel
                     Store.DistrictsID = await clsDistrictLite.GetDistrictsIDByDistrictNameAr(SelectedDistrict);
                 else
                     Store.DistrictsID = null;
+
+                Store.CityID = clsCityLite.GetCityIDByCityNameAr(SelectedCity);
+
             }
             else
             {
@@ -380,22 +372,16 @@ namespace StoresPlace_Front.Settings.SettingsViewModel
                 else
                     Store.DistrictsID = null;
 
-               // Store.CityID = await clsCity.G
+                Store.CityID = clsCityLite.GetCityIDByCityNameEn(SelectedCity);
             }
 
-            if (ImagePath != Store.Photo)
-            UploadImageToFtpAsync();
+            _handleStoreImage();
 
-            //UploadImageToFTP(Store.Photo);
 
-            if (Store.StoreID != null )
+            if (Store.StoreID != null)
             {
                 if (await clsStore.UpdateStore(Store.StoreID, Store) != null)
                 {
-                    IsBusy = true;
-
-                    await Task.Delay(10);
-
                     await AppShell.Current.DisplayAlert(AppStrings.Done, AppStrings.Data_Saved_Successfully, AppStrings.Ok);
 
                     await Shell.Current.GoToAsync("..");
@@ -411,9 +397,6 @@ namespace StoresPlace_Front.Settings.SettingsViewModel
             {
                 if (await clsStore.AddStore(Store) != null)
                 {
-                    IsBusy = true;
-
-                    await Task.Delay(10);
 
                     await AppShell.Current.DisplayAlert(AppStrings.Done, AppStrings.Data_Saved_Successfully, AppStrings.Ok);
 
@@ -437,7 +420,7 @@ namespace StoresPlace_Front.Settings.SettingsViewModel
         private async void TakePhoto()
         {
 
-           
+
             FileResult photo = await MediaPicker.Default.PickPhotoAsync();
 
             if (MediaPicker.Default.IsCaptureSupported)
@@ -454,7 +437,7 @@ namespace StoresPlace_Front.Settings.SettingsViewModel
 
                     await sourceStream.CopyToAsync(localFileStream);
 
-                    string publicUrl = $"http://storesland.com/Images/{fileName}";
+                    string publicUrl = $"https://storesland.com/Images/{fileName}";
 
                     Store.Photo = publicUrl;
 
@@ -463,31 +446,103 @@ namespace StoresPlace_Front.Settings.SettingsViewModel
 
         }
 
-        private async void UploadImageToFtpAsync()
+
+        //private async void _handleStoreImage()
+        //{
+        //    if (Store.Photo != OldPath && !string.IsNullOrEmpty(OldPath))
+        //    {
+        //        try
+        //        {
+        //            string ftpServer = "ftp://win6057.site4now.net", ftpUsername = @"abdullah0-001", ftpPassword = @"Qq-12341234", remoteFolder = "storesplace/Images";
+
+
+
+        //            using (WebClient client = new WebClient())
+        //            {
+        //                client.Credentials = new NetworkCredential(ftpUsername, ftpPassword);
+        //                client.UploadFile(new Uri(OldPath), WebRequestMethods.Ftp.DeleteFile); 
+        //            }
+        //        }
+        //        catch (Exception ex)
+        //        {
+        //            clsUtil.WriteExceptionError(ex);  
+        //        }
+        //    }
+
+        //    if (Store.Photo != null)
+        //    {
+        //        try
+        //        {
+        //            string ftpServer = "ftp://win6057.site4now.net", ftpUsername = @"abdullah0-001", ftpPassword = @"Qq-12341234", remoteFolder = "storesplace/Images";
+        //            string fileName = Path.GetFileName(Store.Photo); 
+        //            string fileUrl = $"{ftpServer}{remoteFolder}/{fileName}";
+
+        //            using (WebClient client = new WebClient())
+        //            {
+        //                client.Credentials = new NetworkCredential(ftpUsername, ftpPassword);
+
+        //                await client.UploadFileTaskAsync(new Uri(fileUrl), WebRequestMethods.Ftp.UploadFile, Store.Photo);
+
+        //                Console.WriteLine("New image uploaded successfully to FTP server.");
+        //            }
+        //        }
+        //        catch (Exception ex)
+        //        {
+        //            clsUtil.WriteExceptionError(ex);  
+        //        }
+        //    }
+        //}
+
+
+
+        private async void _handleStoreImage()
         {
-
-            string ftpServer = "ftp://win6057.site4now.net", ftpUsername = @"abdullah0-001", ftpPassword = @"Qq-12341234", remoteFolder = "storesplace/Images";    
-
-            string fileName = Path.GetFileName(ImagePath); 
-
-            string fileUrl = $"{ftpServer}/{remoteFolder}/{fileName}"; 
-
-            using (WebClient client = new WebClient())
-            {
-                client.Credentials = new NetworkCredential(ftpUsername, ftpPassword);
-
-                try
+            if (Store.Photo != OldPath)
+                if (OldPath != null)
                 {
-                    client.UploadFileAsync(new Uri(fileUrl), WebRequestMethods.Ftp.UploadFile, ImagePath);
+
+
+                    try
+                    {
+                        string ftpServer = "ftp://win6057.site4now.net", ftpUsername = @"abdullah0-001", ftpPassword = @"Qq-12341234", remoteFolder = "storesplace/Images";
+
+                        Uri fileUri = new Uri($"{ftpServer}/{remoteFolder}/{Path.GetFileName(OldPath)}");
+
+                        FtpWebRequest request = (FtpWebRequest)WebRequest.Create(fileUri);
+                        request.Method = WebRequestMethods.Ftp.DeleteFile;
+                        request.Credentials = new NetworkCredential(ftpUsername, ftpPassword);
+
+                        request.GetResponse();
+
+                    }
+                    catch (Exception ex)
+                    {
+                        clsUtil.WriteExceptionError(ex);
+                    }
                 }
-                catch (Exception ex)
+            if (Store.Photo != null)
+            {
+                string ftpServer = "ftp://win6057.site4now.net", ftpUsername = @"abdullah0-001", ftpPassword = @"Qq-12341234", remoteFolder = "storesplace/Images";
+
+                string fileName = Path.GetFileName(ImagePath);
+
+                string fileUrl = $"{ftpServer}/{remoteFolder}/{fileName}";
+
+                using (WebClient client = new WebClient())
                 {
-                    clsUtil.WriteExceptionError(ex.Message);
+                    client.Credentials = new NetworkCredential(ftpUsername, ftpPassword);
+
+                    try
+                    {
+                        client.UploadFileAsync(new Uri(fileUrl), WebRequestMethods.Ftp.UploadFile, ImagePath);
+                    }
+                    catch (Exception ex)
+                    {
+                        clsUtil.WriteExceptionError(ex);
+                    }
                 }
             }
-
         }
-
 
         public event PropertyChangedEventHandler? PropertyChanged;
         protected virtual void OnPropertyChanged(string propertyName = null)

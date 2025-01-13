@@ -1,5 +1,6 @@
 ﻿
 using Microsoft.Data.Sqlite;
+using StoresLand_API;
 using StoresLand_API.Categories;
 using System;
 using System.Collections.Generic;
@@ -37,7 +38,7 @@ namespace StoresPlace_Front.Sqlite
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message); // Replace with appropriate logging
+                clsUtil.WriteExceptionError(ex);
             }
         }
 
@@ -88,7 +89,7 @@ namespace StoresPlace_Front.Sqlite
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message); // Replace with appropriate logging
+                clsUtil.WriteExceptionError(ex);
             }
         }
 
@@ -120,7 +121,7 @@ namespace StoresPlace_Front.Sqlite
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message);
+                clsUtil.WriteExceptionError(ex);
             }
         }
 
@@ -152,7 +153,7 @@ namespace StoresPlace_Front.Sqlite
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message); // Replace with appropriate logging
+                clsUtil.WriteExceptionError(ex); // Replace with appropriate logging
             }
             return categories;
         }
@@ -183,7 +184,7 @@ namespace StoresPlace_Front.Sqlite
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message); // Log the exception
+                clsUtil.WriteExceptionError(ex); // Log the exception
             }
 
             return isFound; // Returns true if any category is found, otherwise false
@@ -216,7 +217,7 @@ namespace StoresPlace_Front.Sqlite
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message); // Replace with appropriate logging
+                clsUtil.WriteExceptionError(ex); // Replace with appropriate logging
             }
             return null;
         }
@@ -245,7 +246,7 @@ namespace StoresPlace_Front.Sqlite
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message); // Replace with appropriate logging
+                clsUtil.WriteExceptionError(ex); // Replace with appropriate logging
             }
             return categoryNamesAr;
         }
@@ -274,7 +275,7 @@ namespace StoresPlace_Front.Sqlite
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message); // Replace with appropriate logging
+                clsUtil.WriteExceptionError(ex); // Replace with appropriate logging
             }
             return categoryNamesEn;
         }
@@ -297,7 +298,7 @@ namespace StoresPlace_Front.Sqlite
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message); // Replace with appropriate logging
+                clsUtil.WriteExceptionError(ex); // Replace with appropriate logging
             }
             return null;
         }
@@ -320,36 +321,46 @@ namespace StoresPlace_Front.Sqlite
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message); // Replace with appropriate logging
+                clsUtil.WriteExceptionError(ex); // Replace with appropriate logging
             }
             return null;
         }
 
+
+
         public static async Task<int?> GetCategoryIDByCategoryNameEn(string categoryNameEn)
         {
+            int? CategoryID = null; 
             try
             {
                 using (var connection = new SqliteConnection(clsSqliteString.connectionString))
                 {
-                    connection.Open();
+                    await connection.OpenAsync();  
+
                     string query = "SELECT CategoryID FROM Categories WHERE CategoryNameEn = @CategoryNameEn";
+
                     using (var command = new SqliteCommand(query, connection))
                     {
                         command.Parameters.AddWithValue("@CategoryNameEn", categoryNameEn);
+
                         var result = await command.ExecuteScalarAsync();
-                        return result as int?;
+
+                        CategoryID = int.Parse(result.ToString());
+
                     }
                 }
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message); // Replace with appropriate logging
+                clsUtil.WriteExceptionError(ex);
             }
-            return null;
-        }
 
+            return CategoryID;  
+        }
         public static async Task<int?> GetCategoryIDByCategoryNameAr(string categoryNameAr)
         {
+            int? CategoryID = null;
+
             try
             {
                 using (var connection = new SqliteConnection(clsSqliteString.connectionString))
@@ -360,15 +371,16 @@ namespace StoresPlace_Front.Sqlite
                     {
                         command.Parameters.AddWithValue("@CategoryNameAr", categoryNameAr);
                         var result = await command.ExecuteScalarAsync();
-                        return result as int?;
+
+                        CategoryID = int.Parse(result.ToString());
                     }
                 }
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message); // Replace with appropriate logging
+                clsUtil.WriteExceptionError(ex); // Replace with appropriate logging
             }
-            return null;
+            return CategoryID;
         }
 
 

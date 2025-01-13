@@ -49,23 +49,55 @@ public class clsCityLite
                 {
                     command.CommandText = @"
                         CREATE TABLE IF NOT EXISTS Cities (
-                            CityID INTEGER PRIMARY KEY AUTOINCREMENT,
+                            CityID INTEGER PRIMARY KEY,  
                             CityNameAr TEXT NOT NULL,
                             CityNameEn TEXT NOT NULL,
-                            RegionID INTEGER,
-                            FOREIGN KEY (RegionID) REFERENCES Regions(RegionID) ON DELETE SET NULL)";
+                            RegionID INTEGER)";
+
                     command.ExecuteNonQuery();
                 }
             }
         }
         catch (Exception ex)
         {
-            clsUtil.WriteExceptionError(ex.Message);
+            clsUtil.WriteExceptionError(ex);
 
         }
 
     }
 
+    public async static Task<List<CityDTO>> ReadCitiesFromFile()
+    {
+        List<CityDTO> cities = new List<CityDTO>();
+
+        using var stream = await FileSystem.OpenAppPackageFileAsync("Cities.txt");
+        using var reader = new StreamReader(stream);
+
+        var contents = reader.ReadToEnd();
+
+        var lines = contents.Split(new[] { '\n', '\r' }, StringSplitOptions.RemoveEmptyEntries);
+
+        foreach (var line in lines)
+        {
+            var parts = line.Split('\t');
+
+            if (parts.Length == 4)
+            {
+                if (int.TryParse(parts[0], out int cityID) &&
+                    int.TryParse(parts[3], out int regionID))
+                {
+                    string cityNameAr = parts[1];
+                    string cityNameEn = parts[2];
+
+                    var cityDTO = new CityDTO(cityID, cityNameAr, cityNameEn, regionID);
+
+                    cities.Add(cityDTO);
+                }
+            }
+        }
+
+        return cities;
+    }
     public static async Task SaveCitiesAsync(List<CityDTO> cities)
     {
 
@@ -82,13 +114,14 @@ public class clsCityLite
                     using (var command = connection.CreateCommand())
                     {
                         command.CommandText = @"
-                        INSERT OR REPLACE INTO Cities (CityNameAr, CityNameEn, RegionID)
-                        VALUES ($CityNameAr, $CityNameEn, $RegionID)";
+                        INSERT OR REPLACE INTO Cities (CityID, CityNameAr, CityNameEn, RegionID)
+                        VALUES ($CityID, $CityNameAr, $CityNameEn, $RegionID)";
 
 
+                        command.Parameters.AddWithValue("$CityID", city.CityID);
                         command.Parameters.AddWithValue("$CityNameAr", city.CityNameAr);
                         command.Parameters.AddWithValue("$CityNameEn", city.CityNameEn);
-                        command.Parameters.AddWithValue("$RegionID", city.RegionID.HasValue ? (object)city.RegionID.Value : DBNull.Value);
+                        command.Parameters.AddWithValue("$RegionID", city.RegionID);
 
                         await command.ExecuteNonQueryAsync();
                     }
@@ -97,7 +130,7 @@ public class clsCityLite
         }
         catch (Exception ex)
         {
-            clsUtil.WriteExceptionError(ex.Message);
+            clsUtil.WriteExceptionError(ex);
         }
     }
 
@@ -117,13 +150,14 @@ public class clsCityLite
                     using (var command = connection.CreateCommand())
                     {
                         command.CommandText = @"
-                        INSERT OR REPLACE INTO Cities (CityNameAr, CityNameEn, RegionID)
-                        VALUES ($CityNameAr, $CityNameEn, $RegionID)";
+                        INSERT OR REPLACE INTO Cities (CityID, CityNameAr, CityNameEn, RegionID)
+                        VALUES ($CityID, $CityNameAr, $CityNameEn, $RegionID)";
 
 
+                        command.Parameters.AddWithValue("$CityID", city.CityID);
                         command.Parameters.AddWithValue("$CityNameAr", city.CityNameAr);
                         command.Parameters.AddWithValue("$CityNameEn", city.CityNameEn);
-                        command.Parameters.AddWithValue("$RegionID", city.RegionID.HasValue ? (object)city.RegionID.Value : DBNull.Value);
+                        command.Parameters.AddWithValue("$RegionID", city.RegionID);
 
                         command.ExecuteNonQuery();
                     }
@@ -132,7 +166,7 @@ public class clsCityLite
         }
         catch (Exception ex)
         {
-            clsUtil.WriteExceptionError(ex.Message);
+            clsUtil.WriteExceptionError(ex);
         }
     }
     public static bool IsCitiesSaved()
@@ -161,7 +195,7 @@ public class clsCityLite
         }
         catch (Exception ex)
         {
-            clsUtil.WriteExceptionError(ex.Message);
+            clsUtil.WriteExceptionError(ex);
         }
 
         return isFound;
@@ -197,7 +231,7 @@ public class clsCityLite
             catch (Exception ex)
             {
                 await transaction.RollbackAsync();
-                clsUtil.WriteExceptionError(ex.Message);
+                clsUtil.WriteExceptionError(ex);
 
                 return false;
             }
@@ -237,7 +271,7 @@ public class clsCityLite
         }
         catch (Exception ex)
         {
-            clsUtil.WriteExceptionError(ex.Message);
+            clsUtil.WriteExceptionError(ex);
         }
 
         return null;
@@ -273,7 +307,7 @@ public class clsCityLite
         }
         catch (Exception ex)
         {
-            clsUtil.WriteExceptionError(ex.Message);
+            clsUtil.WriteExceptionError(ex);
         }
         return cities;
 
@@ -310,7 +344,7 @@ public class clsCityLite
         }
         catch (Exception ex)
         {
-            clsUtil.WriteExceptionError(ex.Message);
+            clsUtil.WriteExceptionError(ex);
         }
 
         return cities;
@@ -473,6 +507,161 @@ public class clsCityLite
         }
 
         return null; 
+    }
+
+    public static async Task<string> GetCityNameEnByCityID(int? CityID)
+    {
+        if (!CityID.HasValue)
+        {
+            return null; // Return null if CityID is null
+        }
+
+        try
+        {
+            using (var connection = new SqliteConnection(clsSqliteString.connectionString))
+            {
+                await connection.OpenAsync();  // Ensure connection is opened asynchronously
+
+                // SQL query to retrieve the CityNameEn for the given CityID
+                string query = @"
+            SELECT CityNameEn 
+            FROM Cities 
+            WHERE CityID = @CityID";  // Using parameterized query
+
+                using (var command = new SqliteCommand(query, connection))
+                {
+                    // Add the parameter to prevent SQL injection
+                    command.Parameters.AddWithValue("@CityID", CityID.Value);
+
+                    using (var reader = await command.ExecuteReaderAsync())  // Execute asynchronously
+                    {
+                        if (await reader.ReadAsync())  // Asynchronously read
+                        {
+                            return reader.IsDBNull(reader.GetOrdinal("CityNameEn"))
+                                ? null : reader.GetString(reader.GetOrdinal("CityNameEn"));
+                        }
+                    }
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            clsUtil.WriteExceptionError(ex); // Consider replacing this with appropriate logging
+        }
+
+        return null;  // Return null if not found or exception occurs
+    }
+
+
+    public static async Task<string> GetCityNameArByCityID(int? CityID)
+    {
+        if (!CityID.HasValue)
+        {
+            return null; // Return null if CityID is null
+        }
+
+        try
+        {
+            using (var connection = new SqliteConnection(clsSqliteString.connectionString))
+            {
+                await connection.OpenAsync();  // Ensure connection is opened asynchronously
+
+                // SQL query to retrieve the CityNameAr for the given CityID
+                string query = @"
+            SELECT CityNameAr 
+            FROM Cities 
+            WHERE CityID = @CityID";  // Using parameterized query
+
+                using (var command = new SqliteCommand(query, connection))
+                {
+                    // Add the parameter to prevent SQL injection
+                    command.Parameters.AddWithValue("@CityID", CityID.Value);
+
+                    using (var reader = await command.ExecuteReaderAsync())  // Execute asynchronously
+                    {
+                        if (await reader.ReadAsync())  // Asynchronously read
+                        {
+                            return reader.IsDBNull(reader.GetOrdinal("CityNameAr"))
+                                ? null : reader.GetString(reader.GetOrdinal("CityNameAr"));
+                        }
+                    }
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            clsUtil.WriteExceptionError(ex); // Consider replacing this with appropriate logging
+        }
+
+        return null;  // Return null if not found or exception occurs
+    }
+
+    public static int? GetCityIDByCityNameEn(string cityNameEn)
+    {
+        int? cityID = null;
+
+        try
+        {
+            using (var connection = new SqliteConnection(clsSqliteString.connectionString))
+            {
+                connection.Open();
+
+                using (var command = connection.CreateCommand())
+                {
+                    // Prepare the query to fetch the CityID based on the CityNameEn
+                    command.CommandText = "SELECT CityID FROM Cities WHERE CityNameEn = $CityNameEn LIMIT 1";
+                    command.Parameters.AddWithValue("$CityNameEn", cityNameEn);
+
+                    using (var reader = command.ExecuteReader())
+                    {
+                        if (reader.Read())
+                        {
+                            cityID = reader.GetInt32(0); // Assuming CityID is the first column
+                        }
+                    }
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error occurred while fetching CityID: {ex.Message}");
+        }
+
+        return cityID;
+    }
+
+    public static int? GetCityIDByCityNameAr(string cityNameEn)
+    {
+        int? cityID = null;
+
+        try
+        {
+            using (var connection = new SqliteConnection(clsSqliteString.connectionString))
+            {
+                connection.Open();
+
+                using (var command = connection.CreateCommand())
+                {
+
+                    command.CommandText = "SELECT CityID FROM Cities WHERE CityNameAr = $CityNameAr LIMIT 1";
+                    command.Parameters.AddWithValue("$CityNameAr", cityNameEn);
+
+                    using (var reader = command.ExecuteReader())
+                    {
+                        if (reader.Read())
+                        {
+                            cityID = reader.GetInt32(0); // Assuming CityID is the first column
+                        }
+                    }
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error occurred while fetching CityID: {ex.Message}");
+        }
+
+        return cityID;
     }
 }
 

@@ -5,7 +5,7 @@ namespace StoresPlace_Front.Settings;
 
 public partial class pgMySavedStores : ContentPage
 {
-    StoreViewModel clsMyStoreViewModel = new StoreViewModel();
+    StoreViewModel SavedStores = new StoreViewModel();
 
     public pgMySavedStores()
 	{
@@ -14,15 +14,29 @@ public partial class pgMySavedStores : ContentPage
 
     private void RefreshView_Refreshing(object sender, EventArgs e)
     {
-        clsMyStoreViewModel.LoadSavedStores();
+        SavedStores.LoadSavedStores();
 
         refresh.IsRefreshing = false;
     }
 
+ 
+    private void Button_Clicked(object sender, EventArgs e)
+    {
+        SavedStores.LoadMoreSavedStores();
+    }
+
+    private async void PersonStore_Loaded(object sender, EventArgs e)
+    {
+      
+
+    }
+
     private void PersonStore_Appearing(object sender, EventArgs e)
     {
-        clsMyStoreViewModel.LoadSavedStores();
+        SavedStores.LoadSavedStores();
 
-        this.BindingContext = clsMyStoreViewModel;
+        this.BindingContext = SavedStores;
+
+        btnIsVisble.IsVisible = true;
     }
 }

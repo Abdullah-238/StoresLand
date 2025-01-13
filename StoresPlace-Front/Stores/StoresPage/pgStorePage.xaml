@@ -87,7 +87,13 @@
                     </Label>
                 </Border>
 
+                <Label TextColor="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}" FontSize="Caption"   Text="{x:Static str:AppStrings.Phone}" MaxLines="1" FontAttributes="Bold"/>
+                <Label FontSize="Caption" Text="{Binding Phone}" LineBreakMode="TailTruncation" MaxLines="2"/>
+
+
             </VerticalStackLayout>
+
+      
 
 
 

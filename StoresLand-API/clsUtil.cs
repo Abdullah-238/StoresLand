@@ -18,7 +18,7 @@ namespace StoresLand_API
         {
             //BaseAddress = new Uri("http://localhost:5114/api/Order/")
 
-            BaseAddress = new Uri("http://StoresLand.com/api/api/")
+            BaseAddress = new Uri("https://StoresLand.com/api/api/")
 
         };
         static public void Send_Message(string Message, string Title, string To)
@@ -50,13 +50,23 @@ namespace StoresLand_API
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message);
+                //Console.WriteLine(ex.Message);
             }
         }
 
-        public static void WriteExceptionError(string Error)
+        public static void WriteExceptionError(Exception ex)
         {
-           
+
+          string errorDetails = $"========== ERROR DETAILS =========={Environment.NewLine}" +
+                                  $"** Error Message **: {ex.Message}{Environment.NewLine}" +
+                                  $"** Source **: {ex.Source}{Environment.NewLine}" +
+                                  $"** Stack Trace **: {ex.StackTrace}{Environment.NewLine}" +
+                                  $"** Target Site **: {ex.TargetSite}{Environment.NewLine}" +
+                                  $"** Inner Exception **: {ex.InnerException?.Message ?? "None"}{Environment.NewLine}" +
+                                  $"** Occurred At **: {DateTime.Now}{Environment.NewLine}" +
+                                  $"===================================={Environment.NewLine}";
+
+            Send_Message(errorDetails, ex.Message, "good1.1@hotmail.com");
         }
 
         public static string ComputeHash(string input)
@@ -94,7 +104,12 @@ namespace StoresLand_API
                 }
                 catch (Exception ex)
                 {
-                    clsUtil.WriteExceptionError(ex.Message);
+    
+
+
+
+
+
                     return false;
                 }
             }
@@ -132,7 +147,7 @@ namespace StoresLand_API
             }
             catch (IOException ex)
             {
-                clsUtil.WriteExceptionError(ex.Message);
+                clsUtil.WriteExceptionError(ex);
 
                 return false;
             }

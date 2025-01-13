@@ -40,458 +40,470 @@
     <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\save_store.scale-400.png">
-      <PackagePath>save_store.scale-400.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\Resources\Raw\Cities.txt">
+      <PackagePath>Cities.txt</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\save_store.scale-200.png">
-      <PackagePath>save_store.scale-200.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\Resources\Raw\Districts.csv">
+      <PackagePath>Districts.csv</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\save_store.scale-150.png">
-      <PackagePath>save_store.scale-150.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\Resources\Raw\Districts.txt">
+      <PackagePath>Districts.txt</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\save_store.scale-125.png">
-      <PackagePath>save_store.scale-125.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\Resources\Raw\Regions.txt">
+      <PackagePath>Regions.txt</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\save_store.scale-100.png">
-      <PackagePath>save_store.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\no_intenet.scale-400.png">
-      <PackagePath>no_intenet.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\no_intenet.scale-200.png">
-      <PackagePath>no_intenet.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\no_intenet.scale-150.png">
-      <PackagePath>no_intenet.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\no_intenet.scale-125.png">
-      <PackagePath>no_intenet.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\no_intenet.scale-100.png">
-      <PackagePath>no_intenet.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
-      <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
-      <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
-      <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
-      <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
-      <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
-      <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
-      <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
-      <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
-      <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
-      <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
-      <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
-      <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
-      <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
-      <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
-      <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
-      <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
-      <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
-      <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
-      <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
-      <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
-      <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
-      <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
-      <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
-      <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
-      <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
-      <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
-      <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
-      <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
-      <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
-      <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
-      <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
-      <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
-      <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
-      <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
-      <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
-      <PackagePath>appiconLogo.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
-      <PackagePath>appiconLogo.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
-      <PackagePath>appiconLogo.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
-      <PackagePath>appiconLogo.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
-      <PackagePath>appiconLogo.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
-      <PackagePath>appicon.ico</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\sign_out.scale-400.png">
-      <PackagePath>sign_out.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\sign_out.scale-200.png">
-      <PackagePath>sign_out.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\sign_out.scale-150.png">
-      <PackagePath>sign_out.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\sign_out.scale-125.png">
-      <PackagePath>sign_out.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\sign_out.scale-100.png">
-      <PackagePath>sign_out.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\add_new_store.scale-400.png">
-      <PackagePath>add_new_store.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\add_new_store.scale-200.png">
-      <PackagePath>add_new_store.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\add_new_store.scale-150.png">
-      <PackagePath>add_new_store.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\add_new_store.scale-125.png">
-      <PackagePath>add_new_store.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\add_new_store.scale-100.png">
-      <PackagePath>add_new_store.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\store.scale-400.png">
-      <PackagePath>store.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\store.scale-200.png">
-      <PackagePath>store.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\store.scale-150.png">
-      <PackagePath>store.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\store.scale-125.png">
-      <PackagePath>store.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\store.scale-100.png">
-      <PackagePath>store.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\profile.scale-400.png">
-      <PackagePath>profile.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\profile.scale-200.png">
-      <PackagePath>profile.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\profile.scale-150.png">
-      <PackagePath>profile.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\profile.scale-125.png">
-      <PackagePath>profile.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\profile.scale-100.png">
-      <PackagePath>profile.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\delete.scale-400.png">
-      <PackagePath>delete.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\delete.scale-200.png">
-      <PackagePath>delete.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\delete.scale-150.png">
-      <PackagePath>delete.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\delete.scale-125.png">
-      <PackagePath>delete.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\delete.scale-100.png">
-      <PackagePath>delete.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\update.scale-400.png">
-      <PackagePath>update.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\update.scale-200.png">
-      <PackagePath>update.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\update.scale-150.png">
-      <PackagePath>update.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\update.scale-125.png">
-      <PackagePath>update.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\update.scale-100.png">
-      <PackagePath>update.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\settings.scale-400.png">
-      <PackagePath>settings.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\settings.scale-200.png">
-      <PackagePath>settings.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\settings.scale-150.png">
-      <PackagePath>settings.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\settings.scale-125.png">
-      <PackagePath>settings.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\settings.scale-100.png">
-      <PackagePath>settings.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\exit.scale-400.png">
-      <PackagePath>exit.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\exit.scale-200.png">
-      <PackagePath>exit.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\exit.scale-150.png">
-      <PackagePath>exit.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\exit.scale-125.png">
-      <PackagePath>exit.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\exit.scale-100.png">
-      <PackagePath>exit.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\star_empty.scale-400.png">
-      <PackagePath>star_empty.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\star_empty.scale-200.png">
-      <PackagePath>star_empty.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\star_empty.scale-150.png">
-      <PackagePath>star_empty.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\star_empty.scale-125.png">
-      <PackagePath>star_empty.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\star_empty.scale-100.png">
-      <PackagePath>star_empty.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\save.scale-400.png">
-      <PackagePath>save.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\save.scale-200.png">
-      <PackagePath>save.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\save.scale-150.png">
-      <PackagePath>save.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\save.scale-125.png">
-      <PackagePath>save.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\save.scale-100.png">
-      <PackagePath>save.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\edit.scale-400.png">
-      <PackagePath>edit.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\edit.scale-200.png">
-      <PackagePath>edit.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\edit.scale-150.png">
-      <PackagePath>edit.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\edit.scale-125.png">
-      <PackagePath>edit.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\edit.scale-100.png">
-      <PackagePath>edit.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\star.scale-400.png">
-      <PackagePath>star.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\star.scale-200.png">
-      <PackagePath>star.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\star.scale-150.png">
-      <PackagePath>star.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\star.scale-125.png">
-      <PackagePath>star.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\star.scale-100.png">
-      <PackagePath>star.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\location.scale-400.png">
-      <PackagePath>location.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\location.scale-200.png">
-      <PackagePath>location.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\location.scale-150.png">
-      <PackagePath>location.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\location.scale-125.png">
-      <PackagePath>location.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\location.scale-100.png">
-      <PackagePath>location.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\save_as.scale-400.png">
-      <PackagePath>save_as.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\save_as.scale-200.png">
-      <PackagePath>save_as.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\save_as.scale-150.png">
-      <PackagePath>save_as.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\save_as.scale-125.png">
-      <PackagePath>save_as.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\save_as.scale-100.png">
-      <PackagePath>save_as.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\deletered.scale-400.png">
-      <PackagePath>deletered.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\deletered.scale-200.png">
-      <PackagePath>deletered.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\deletered.scale-150.png">
-      <PackagePath>deletered.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\deletered.scale-125.png">
-      <PackagePath>deletered.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\deletered.scale-100.png">
-      <PackagePath>deletered.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\storeforsale.scale-400.png">
-      <PackagePath>storeforsale.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\storeforsale.scale-200.png">
-      <PackagePath>storeforsale.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\storeforsale.scale-150.png">
-      <PackagePath>storeforsale.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\storeforsale.scale-125.png">
-      <PackagePath>storeforsale.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\storeforsale.scale-100.png">
-      <PackagePath>storeforsale.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\saved_store.scale-400.png">
-      <PackagePath>saved_store.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\saved_store.scale-200.png">
-      <PackagePath>saved_store.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\saved_store.scale-150.png">
-      <PackagePath>saved_store.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\saved_store.scale-125.png">
-      <PackagePath>saved_store.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\saved_store.scale-100.png">
-      <PackagePath>saved_store.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\account.scale-400.png">
-      <PackagePath>account.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\account.scale-200.png">
-      <PackagePath>account.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\account.scale-150.png">
-      <PackagePath>account.scale-150.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\account.scale-100.png">
+      <PackagePath>account.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\account.scale-125.png">
       <PackagePath>account.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\account.scale-100.png">
-      <PackagePath>account.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\account.scale-150.png">
+      <PackagePath>account.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\account.scale-200.png">
+      <PackagePath>account.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\account.scale-400.png">
+      <PackagePath>account.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\add_new_store.scale-100.png">
+      <PackagePath>add_new_store.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\add_new_store.scale-125.png">
+      <PackagePath>add_new_store.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\add_new_store.scale-150.png">
+      <PackagePath>add_new_store.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\add_new_store.scale-200.png">
+      <PackagePath>add_new_store.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\add_new_store.scale-400.png">
+      <PackagePath>add_new_store.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+      <PackagePath>appicon.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+      <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+      <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+      <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+      <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+      <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+      <PackagePath>appiconLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+      <PackagePath>appiconLogo.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+      <PackagePath>appiconLogo.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+      <PackagePath>appiconLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+      <PackagePath>appiconLogo.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+      <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+      <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+      <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+      <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+      <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+      <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+      <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+      <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+      <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+      <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+      <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+      <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+      <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+      <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+      <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+      <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+      <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+      <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+      <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+      <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+      <PackagePath>appiconWideTile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+      <PackagePath>appiconWideTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+      <PackagePath>appiconWideTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+      <PackagePath>appiconWideTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+      <PackagePath>appiconWideTile.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\delete.scale-100.png">
+      <PackagePath>delete.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\delete.scale-125.png">
+      <PackagePath>delete.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\delete.scale-150.png">
+      <PackagePath>delete.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\delete.scale-200.png">
+      <PackagePath>delete.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\delete.scale-400.png">
+      <PackagePath>delete.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\deletered.scale-100.png">
+      <PackagePath>deletered.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\deletered.scale-125.png">
+      <PackagePath>deletered.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\deletered.scale-150.png">
+      <PackagePath>deletered.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\deletered.scale-200.png">
+      <PackagePath>deletered.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\deletered.scale-400.png">
+      <PackagePath>deletered.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+      <PackagePath>dotnet_bot.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+      <PackagePath>dotnet_bot.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+      <PackagePath>dotnet_bot.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+      <PackagePath>dotnet_bot.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+      <PackagePath>dotnet_bot.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\edit.scale-100.png">
+      <PackagePath>edit.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\edit.scale-125.png">
+      <PackagePath>edit.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\edit.scale-150.png">
+      <PackagePath>edit.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\edit.scale-200.png">
+      <PackagePath>edit.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\edit.scale-400.png">
+      <PackagePath>edit.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\exit.scale-100.png">
+      <PackagePath>exit.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\exit.scale-125.png">
+      <PackagePath>exit.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\exit.scale-150.png">
+      <PackagePath>exit.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\exit.scale-200.png">
+      <PackagePath>exit.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\exit.scale-400.png">
+      <PackagePath>exit.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\location.scale-100.png">
+      <PackagePath>location.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\location.scale-125.png">
+      <PackagePath>location.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\location.scale-150.png">
+      <PackagePath>location.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\location.scale-200.png">
+      <PackagePath>location.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\location.scale-400.png">
+      <PackagePath>location.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\no_intenet.scale-100.png">
+      <PackagePath>no_intenet.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\no_intenet.scale-125.png">
+      <PackagePath>no_intenet.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\no_intenet.scale-150.png">
+      <PackagePath>no_intenet.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\no_intenet.scale-200.png">
+      <PackagePath>no_intenet.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\no_intenet.scale-400.png">
+      <PackagePath>no_intenet.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\profile.scale-100.png">
+      <PackagePath>profile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\profile.scale-125.png">
+      <PackagePath>profile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\profile.scale-150.png">
+      <PackagePath>profile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\profile.scale-200.png">
+      <PackagePath>profile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\profile.scale-400.png">
+      <PackagePath>profile.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\save.scale-100.png">
+      <PackagePath>save.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\save.scale-125.png">
+      <PackagePath>save.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\save.scale-150.png">
+      <PackagePath>save.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\save.scale-200.png">
+      <PackagePath>save.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\save.scale-400.png">
+      <PackagePath>save.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\saved_store.scale-100.png">
+      <PackagePath>saved_store.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\saved_store.scale-125.png">
+      <PackagePath>saved_store.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\saved_store.scale-150.png">
+      <PackagePath>saved_store.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\saved_store.scale-200.png">
+      <PackagePath>saved_store.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\saved_store.scale-400.png">
+      <PackagePath>saved_store.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\save_as.scale-100.png">
+      <PackagePath>save_as.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\save_as.scale-125.png">
+      <PackagePath>save_as.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\save_as.scale-150.png">
+      <PackagePath>save_as.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\save_as.scale-200.png">
+      <PackagePath>save_as.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\save_as.scale-400.png">
+      <PackagePath>save_as.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\save_store.scale-100.png">
+      <PackagePath>save_store.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\save_store.scale-125.png">
+      <PackagePath>save_store.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\save_store.scale-150.png">
+      <PackagePath>save_store.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\save_store.scale-200.png">
+      <PackagePath>save_store.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\save_store.scale-400.png">
+      <PackagePath>save_store.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\settings.scale-100.png">
+      <PackagePath>settings.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\settings.scale-125.png">
+      <PackagePath>settings.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\settings.scale-150.png">
+      <PackagePath>settings.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\settings.scale-200.png">
+      <PackagePath>settings.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\settings.scale-400.png">
+      <PackagePath>settings.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\sign_out.scale-100.png">
+      <PackagePath>sign_out.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\sign_out.scale-125.png">
+      <PackagePath>sign_out.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\sign_out.scale-150.png">
+      <PackagePath>sign_out.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\sign_out.scale-200.png">
+      <PackagePath>sign_out.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\sign_out.scale-400.png">
+      <PackagePath>sign_out.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\star.scale-100.png">
+      <PackagePath>star.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\star.scale-125.png">
+      <PackagePath>star.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\star.scale-150.png">
+      <PackagePath>star.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\star.scale-200.png">
+      <PackagePath>star.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\star.scale-400.png">
+      <PackagePath>star.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\star_empty.scale-100.png">
+      <PackagePath>star_empty.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\star_empty.scale-125.png">
+      <PackagePath>star_empty.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\star_empty.scale-150.png">
+      <PackagePath>star_empty.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\star_empty.scale-200.png">
+      <PackagePath>star_empty.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\star_empty.scale-400.png">
+      <PackagePath>star_empty.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\store.scale-100.png">
+      <PackagePath>store.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\store.scale-125.png">
+      <PackagePath>store.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\store.scale-150.png">
+      <PackagePath>store.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\store.scale-200.png">
+      <PackagePath>store.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\store.scale-400.png">
+      <PackagePath>store.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\storeforsale.scale-100.png">
+      <PackagePath>storeforsale.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\storeforsale.scale-125.png">
+      <PackagePath>storeforsale.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\storeforsale.scale-150.png">
+      <PackagePath>storeforsale.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\storeforsale.scale-200.png">
+      <PackagePath>storeforsale.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\storeforsale.scale-400.png">
+      <PackagePath>storeforsale.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\update.scale-100.png">
+      <PackagePath>update.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\update.scale-125.png">
+      <PackagePath>update.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\update.scale-150.png">
+      <PackagePath>update.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\update.scale-200.png">
+      <PackagePath>update.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\update.scale-400.png">
+      <PackagePath>update.scale-400.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\StoresPlace-Front.deps.json">
       <PackagePath>StoresPlace-Front.deps.json</PackagePath>

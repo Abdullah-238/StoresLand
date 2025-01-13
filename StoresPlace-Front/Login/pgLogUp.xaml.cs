@@ -19,14 +19,6 @@ public partial class pgLogUp : ContentPage
     private async void btCreate_Clicked(object sender, EventArgs e)
     {
 
-        if (!clsValidation.ValidateEmail(enEmail.Text))
-        {
-            await DisplayAlert(AppStrings.Email, AppStrings.Please_Enter_Valid_Email, AppStrings.Ok);
-
-            return;
-        }
-
-
         if (string.IsNullOrEmpty(enEmail.Text) || string.IsNullOrEmpty(enPassword.Text)        ||
             string.IsNullOrEmpty(enName.Text)  || string.IsNullOrEmpty(enPhone.Text)    || 
             string.IsNullOrEmpty(EnRePassword.Text))
@@ -35,6 +27,14 @@ public partial class pgLogUp : ContentPage
 
             return;
         }
+
+        if (!clsValidation.ValidateEmail(enEmail.Text))
+        {
+            await DisplayAlert(AppStrings.Email, AppStrings.Please_Enter_Valid_Email, AppStrings.Ok);
+
+            return;
+        }
+
 
         if (await clsPerson.IsPersonExistsByEmail(enEmail.Text.Trim()))
         {

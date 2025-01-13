@@ -4,6 +4,7 @@ using StoresLand_API.DistrictServices;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -11,7 +12,59 @@ namespace StoresPlace_Front.Sqlite
 {
     class clsDistrictLite
     {
-      
+
+
+        public static string ReadAssetFile(string filename)
+        {
+            var assembly = Assembly.GetExecutingAssembly();
+
+            var resourceName = @"C:\Users\good1\source\repos\StoresLand\StoresPlace-Front\Resources\Raw\Districts.txt";
+
+            using (Stream stream = assembly.GetManifestResourceStream(resourceName))
+            using (StreamReader reader = new StreamReader(stream))
+            {
+                return reader.ReadToEnd();
+            }
+        }
+
+
+        public async static Task<List<DistrictDTO>> ReadDistrictsFromFile()
+        {
+            List<DistrictDTO> districts = new List<DistrictDTO>();
+
+
+            using var stream = await FileSystem.OpenAppPackageFileAsync("Districts.txt");
+            using var reader = new StreamReader(stream);
+
+            var contents = reader.ReadToEnd();
+
+            var lines = contents.Split(new[] { '\n', '\r' }, StringSplitOptions.RemoveEmptyEntries);
+
+            foreach (var line in lines)
+            {
+                var parts = line.Split('\t');
+
+                if (parts.Length == 4)
+                {
+
+                    if (int.TryParse(parts[0], out int districtID) &&
+                        int.TryParse(parts[1], out int cityID))
+                    {
+                        string districtNameAr = parts[2];
+                        string districtNameEn = parts[3];
+
+                        var districtDTO = new DistrictDTO(districtID, cityID, districtNameAr, districtNameEn);
+
+                        districts.Add(districtDTO);
+                    }
+                }
+            }
+
+            return districts;
+        }
+
+
+
         private static void InitializeDatabase()
         {
             if (TableExists("Districts"))
@@ -30,16 +83,15 @@ namespace StoresPlace_Front.Sqlite
                             DistrictID INTEGER PRIMARY KEY AUTOINCREMENT,
                             CityID INTEGER,
                             DistrictsNameAr TEXT NOT NULL,
-                            DistrictsNameEn TEXT NOT NULL,
-                            FOREIGN KEY (CityID) REFERENCES Cities(CityID) ON DELETE SET NULL
-                        )";
+                            DistrictsNameEn TEXT NOT NULL)";
+
                         command.ExecuteNonQuery();
                     }
                 }
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message);
+                clsUtil.WriteExceptionError(ex);
             }
         }
 
@@ -72,61 +124,164 @@ namespace StoresPlace_Front.Sqlite
                 {
                     await connection.OpenAsync();
 
-                    foreach (var district in districts)
+                    try
                     {
-                        using (var command = connection.CreateCommand())
+                        using (var transaction = connection.BeginTransaction())
                         {
-                            command.CommandText = @"
-                        INSERT OR REPLACE INTO Districts (CityID, DistrictsNameAr, DistrictsNameEn)
-                        VALUES ($CityID, $DistrictsNameAr, $DistrictsNameEn)";
+                            try
+                            {
+                                foreach (var district in districts)
+                                {
+                                    using (var command = connection.CreateCommand())
+                                    {
+                                        command.CommandText = @"
+                                    INSERT OR REPLACE INTO Districts (CityID, DistrictsNameAr, DistrictsNameEn)
+                                    VALUES ($CityID, $DistrictsNameAr, $DistrictsNameEn)";
 
-                            command.Parameters.AddWithValue("$CityID", district.CityID.HasValue ? (object)district.CityID.Value : DBNull.Value);
-                            command.Parameters.AddWithValue("$DistrictsNameAr", district.DistrictsNameAr);
-                            command.Parameters.AddWithValue("$DistrictsNameEn", district.DistrictsNameEn);
+                                        command.Parameters.AddWithValue("$CityID", district.CityID.HasValue ? (object)district.CityID.Value : DBNull.Value);
+                                        command.Parameters.AddWithValue("$DistrictsNameAr", district.DistrictsNameAr);
+                                        command.Parameters.AddWithValue("$DistrictsNameEn", district.DistrictsNameEn);
 
-                            await command.ExecuteNonQueryAsync();
+                                        await command.ExecuteNonQueryAsync();
+                                    }
+                                }
+
+                                // Commit the transaction after all inserts are completed
+                                transaction.Commit();
+                            }
+                            catch (Exception ex)
+                            {
+                                // Rollback transaction if an error occurs
+                                transaction.Rollback();
+                                clsUtil.WriteExceptionError(ex);
+                            }
                         }
+                    }
+                    catch (Exception ex)
+                    {
+                        clsUtil.WriteExceptionError(ex);
                     }
                 }
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message); // Replace with appropriate logging
+                clsUtil.WriteExceptionError(ex);
             }
         }
+
 
         public static void SaveDistricts(List<DistrictDTO> districts)
         {
             InitializeDatabase();
 
-            try
+            using (var connection = new SqliteConnection(clsSqliteString.connectionString))
             {
-                using (var connection = new SqliteConnection(clsSqliteString.connectionString))
+
+                connection.Open();
+
+                try
                 {
-                    connection.Open();
-
-                    foreach (var district in districts)
+                    using (var transaction = connection.BeginTransaction())
                     {
-                        using (var command = connection.CreateCommand())
+                        try
                         {
-                            command.CommandText = @"
-                        INSERT OR REPLACE INTO Districts (CityID, DistrictsNameAr, DistrictsNameEn)
-                        VALUES ($CityID, $DistrictsNameAr, $DistrictsNameEn)";
 
-                            command.Parameters.AddWithValue("$CityID", district.CityID.HasValue ? (object)district.CityID.Value : DBNull.Value);
-                            command.Parameters.AddWithValue("$DistrictsNameAr", district.DistrictsNameAr);
-                            command.Parameters.AddWithValue("$DistrictsNameEn", district.DistrictsNameEn);
+                            foreach (var district in districts)
+                            {
+                                using (var command = connection.CreateCommand())
+                                {
+                                    command.CommandText = @"
+                            INSERT INTO Districts (DistrictID,CityID, DistrictsNameAr, DistrictsNameEn)
+                            VALUES ($DistrictID, $CityID, $DistrictsNameAr, $DistrictsNameEn)";
 
-                            command.ExecuteNonQuery();
+                                    command.Parameters.AddWithValue("$DistrictID", district.DistrictsID);
+                                    command.Parameters.AddWithValue("$CityID", district.CityID);
+                                    command.Parameters.AddWithValue("$DistrictsNameAr", district.DistrictsNameAr);
+                                    command.Parameters.AddWithValue("$DistrictsNameEn", district.DistrictsNameEn);
+
+                                    command.ExecuteNonQuery();
+                                }
+                                transaction.Commit();
+
+                            }
+                        }
+                        catch (Exception ex)
+                        {
+                            transaction.Rollback();
+
+                            clsUtil.WriteExceptionError(ex);
+
                         }
                     }
                 }
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.Message); // Replace with appropriate logging
+                catch (Exception ex)
+                {
+                    clsUtil.WriteExceptionError(ex);
+
+                }
             }
         }
+
+
+        //public static void SaveDistricts(List<DistrictDTO> districts)
+        //{
+        //    InitializeDatabase();
+
+        //    using (var connection = new SqliteConnection(clsSqliteString.connectionString))
+        //    {
+        //        connection.Open();
+
+        //        try
+        //        {
+        //            using (var transaction = connection.BeginTransaction())
+        //            {
+        //                try
+        //                {
+        //                    foreach (var district in districts)
+        //                    {
+        //                        using (var command = connection.CreateCommand())
+        //                        {
+        //                            command.CommandText = "SELECT COUNT(1) FROM Cities WHERE CityID = $CityID";
+        //                            command.Parameters.AddWithValue("$CityID", district.CityID);
+
+        //                            var cityExists = (long)command.ExecuteScalar() > 0;
+
+        //                            if (!cityExists)
+        //                            {
+        //                                Console.WriteLine($"CityID {district.CityID} does not exist in Cities table, skipping district.");
+        //                                continue; // Skip district if CityID is invalid
+        //                            }
+
+        //                            // Insert the district if CityID exists
+        //                            using (var districtCommand = connection.CreateCommand())
+        //                            {
+        //                                districtCommand.CommandText = @"
+        //                            INSERT OR REPLACE INTO Districts (CityID, DistrictsNameAr, DistrictsNameEn)
+        //                            VALUES ($CityID, $DistrictsNameAr, $DistrictsNameEn)";
+        //                                districtCommand.Parameters.AddWithValue("$CityID", district.CityID);
+        //                                districtCommand.Parameters.AddWithValue("$DistrictsNameAr", district.DistrictsNameAr);
+        //                                districtCommand.Parameters.AddWithValue("$DistrictsNameEn", district.DistrictsNameEn);
+
+        //                                districtCommand.ExecuteNonQuery();
+        //                            }
+        //                        }
+        //                    }
+
+        //                    transaction.Commit();
+        //                }
+        //                catch (Exception ex)
+        //                {
+        //                    transaction.Rollback();
+        //                    Console.WriteLine($"Error during insert: {ex.Message}");
+        //                }
+        //            }
+        //        }
+        //        catch (Exception ex)
+        //        {
+        //            Console.WriteLine($"Error opening connection or starting transaction: {ex.Message}");
+        //        }
+        //    }
+        //}
 
         public static async Task<List<DistrictDTO>> GetAllDistricts()
         {
@@ -157,7 +312,7 @@ namespace StoresPlace_Front.Sqlite
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message); // Replace with appropriate logging
+                clsUtil.WriteExceptionError(ex);
             }
             return districts;
         }
@@ -190,7 +345,7 @@ namespace StoresPlace_Front.Sqlite
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message); // Replace with appropriate logging
+                clsUtil.WriteExceptionError(ex);
             }
             return null;
         }
@@ -225,7 +380,7 @@ namespace StoresPlace_Front.Sqlite
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message); // Replace with appropriate logging
+                clsUtil.WriteExceptionError(ex);
             }
             return districts;
         }
@@ -261,7 +416,7 @@ namespace StoresPlace_Front.Sqlite
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message);
+                clsUtil.WriteExceptionError(ex);
             }
 
             return null;
@@ -298,7 +453,7 @@ namespace StoresPlace_Front.Sqlite
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message);
+                clsUtil.WriteExceptionError(ex);
             }
 
             return null;
@@ -335,7 +490,7 @@ namespace StoresPlace_Front.Sqlite
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message); // Replace with appropriate logging
+                clsUtil.WriteExceptionError(ex);
             }
 
             return null; // Return null if not found
@@ -372,7 +527,7 @@ namespace StoresPlace_Front.Sqlite
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message); // Replace with appropriate logging
+                clsUtil.WriteExceptionError(ex);
             }
 
             return null; // Return null if not found
@@ -413,7 +568,7 @@ namespace StoresPlace_Front.Sqlite
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message); // Replace with appropriate logging
+                clsUtil.WriteExceptionError(ex);
             }
 
             return districts;
@@ -454,7 +609,7 @@ namespace StoresPlace_Front.Sqlite
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message); // Replace with appropriate logging
+                clsUtil.WriteExceptionError(ex);
             }
 
             return districts;
@@ -486,7 +641,7 @@ namespace StoresPlace_Front.Sqlite
             }
             catch (Exception ex)
             {
-                clsUtil.WriteExceptionError(ex.Message); 
+                clsUtil.WriteExceptionError(ex); 
             }
 
             return isFound; 

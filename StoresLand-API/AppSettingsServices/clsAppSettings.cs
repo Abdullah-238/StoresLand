@@ -22,13 +22,12 @@ namespace StoresLand_API.AppSettingsServices
                 }
                 else
                 {
-                    Console.WriteLine($"Error: {response.StatusCode}");
                     return null;
                 }
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Error: {ex.Message}");
+                clsUtil.WriteExceptionError(ex);
                 return null;
             }
         }

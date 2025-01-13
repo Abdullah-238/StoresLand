@@ -44,7 +44,7 @@ namespace StoresLand_API.CouponsServices
             }
             catch (Exception ex)
             {
-                clsUtil.WriteExceptionError(ex.Message);
+                clsUtil.WriteExceptionError(ex);
             }
             return null;
         }
@@ -65,7 +65,7 @@ namespace StoresLand_API.CouponsServices
             }
             catch (Exception ex)
             {
-                clsUtil.WriteExceptionError(ex.Message);
+                clsUtil.WriteExceptionError(ex);
             }
             return null;
         }
@@ -83,7 +83,7 @@ namespace StoresLand_API.CouponsServices
             }
             catch (Exception ex)
             {
-                clsUtil.WriteExceptionError(ex.Message);
+                clsUtil.WriteExceptionError(ex);
             }
             return null;
         }
@@ -100,27 +100,9 @@ namespace StoresLand_API.CouponsServices
             }
             catch (Exception ex)
             {
-                clsUtil.WriteExceptionError(ex.Message);
+                clsUtil.WriteExceptionError(ex);
             }
             return false;
-        }
-
-        public static async Task<List<CouponDTO>> GetAllCoupons()
-        {
-            try
-            {
-                var response = await clsUtil.httpClient.GetAsync("Coupons/GetAllCoupons");
-                if (response.IsSuccessStatusCode)
-                {
-                    var coupons = await response.Content.ReadFromJsonAsync<List<CouponDTO>>();
-                    return coupons;
-                }
-            }
-            catch (Exception ex)
-            {
-                clsUtil.WriteExceptionError(ex.Message);
-            }
-            return null;
         }
 
         public static async Task<ObservableCollection<CouponDTO>> GetCouponsByStoreID(int? storeID)
@@ -136,7 +118,7 @@ namespace StoresLand_API.CouponsServices
             }
             catch (Exception ex)
             {
-                clsUtil.WriteExceptionError(ex.Message);
+                clsUtil.WriteExceptionError(ex);
             }
             return null;
         }
@@ -154,7 +136,7 @@ namespace StoresLand_API.CouponsServices
             }
             catch (Exception ex)
             {
-                clsUtil.WriteExceptionError(ex.Message);
+                clsUtil.WriteExceptionError(ex);
             }
             return null;
         }

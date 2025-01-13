@@ -29,22 +29,22 @@ namespace StoresPlace_Front.Sqlite.Regions
                         // Create Regions table
                         command.CommandText = @"
                         CREATE TABLE IF NOT EXISTS Regions (
-                            RegionID INTEGER PRIMARY KEY AUTOINCREMENT,
+                            RegionID INTEGER PRIMARY KEY ,
                             Code TEXT NOT NULL,
                             RegionNameAr TEXT NOT NULL,
-                            RegionNameEn TEXT NOT NULL
-                        )";
+                            RegionNameEn TEXT NOT NULL)";
                         command.ExecuteNonQuery();
                     }
                 }
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message); // Replace with appropriate logging
+
+                // Replace with appropriate logging
             }
         }
 
-        private static bool TableExists(string tableName)
+        public static bool TableExists(string tableName = "Regions")
         {
             bool exists = false;
             using (SqliteConnection connection = new SqliteConnection(clsSqliteString.connectionString))
@@ -78,9 +78,10 @@ namespace StoresPlace_Front.Sqlite.Regions
                         using (var command = connection.CreateCommand())
                         {
                             command.CommandText = @"
-                        INSERT OR REPLACE INTO Regions (Code, RegionNameAr, RegionNameEn)
-                        VALUES ($Code, $RegionNameAr, $RegionNameEn)";
+                        INSERT OR REPLACE INTO Regions (RegionID , Code, RegionNameAr, RegionNameEn)
+                        VALUES ($RegionID, $Code, $RegionNameAr, $RegionNameEn)";
 
+                            command.Parameters.AddWithValue("$RegionID", region.RegionID);
                             command.Parameters.AddWithValue("$Code", region.Code);
                             command.Parameters.AddWithValue("$RegionNameAr", region.RegionNameAr);
                             command.Parameters.AddWithValue("$RegionNameEn", region.RegionNameEn);
@@ -92,10 +93,42 @@ namespace StoresPlace_Front.Sqlite.Regions
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message); 
+                clsUtil.WriteExceptionError(ex);
             }
         }
 
+        public async static Task<List<RegionDTO>> ReadRegionsFromFile()
+        {
+            List<RegionDTO> regions = new List<RegionDTO>();
+
+            using var stream = await FileSystem.OpenAppPackageFileAsync("Regions.txt");
+            using var reader = new StreamReader(stream);
+
+            var contents = reader.ReadToEnd();
+
+            var lines = contents.Split(new[] { '\n', '\r' }, StringSplitOptions.RemoveEmptyEntries);
+
+            foreach (var line in lines)
+            {
+                var parts = line.Split('\t');
+
+                if (parts.Length == 4)
+                {
+                    if (int.TryParse(parts[0], out int regionID))
+                    {
+                        string code = parts[1];
+                        string regionNameAr = parts[2];
+                        string regionNameEn = parts[3];
+
+                        var regionDTO = new RegionDTO(regionID, code, regionNameAr, regionNameEn);
+
+                        regions.Add(regionDTO);
+                    }
+                }
+            }
+
+            return regions;
+        }
         public static void SaveRegions(List<RegionDTO> regions)
         {
             InitializeDatabase();
@@ -125,7 +158,7 @@ namespace StoresPlace_Front.Sqlite.Regions
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message);
+                clsUtil.WriteExceptionError(ex);
             }
         }
 
@@ -158,7 +191,7 @@ namespace StoresPlace_Front.Sqlite.Regions
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message); // Replace with appropriate logging
+                clsUtil.WriteExceptionError(ex);
             }
             return regions;
         }
@@ -189,7 +222,7 @@ namespace StoresPlace_Front.Sqlite.Regions
             }
             catch (Exception ex)
             {
-                clsUtil.WriteExceptionError(ex.Message); // Log the exception
+                clsUtil.WriteExceptionError(ex); // Log the exception
             }
 
             return isFound; // Returns true if any region is found, otherwise false
@@ -223,7 +256,7 @@ namespace StoresPlace_Front.Sqlite.Regions
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message); // Replace with appropriate logging
+        //        clsUtil.WriteExceptionError(ex.Message);// Replace with appropriate logging
             }
             return null;
         }
@@ -258,7 +291,7 @@ namespace StoresPlace_Front.Sqlite.Regions
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message); // Replace with appropriate logging
+        //        clsUtil.WriteExceptionError(ex.Message);// Replace with appropriate logging
             }
             return regions;
         }
@@ -301,7 +334,7 @@ namespace StoresPlace_Front.Sqlite.Regions
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message);  // Consider replacing this with appropriate logging
+        //        clsUtil.WriteExceptionError(ex.Message); // Consider replacing this with appropriate logging
             }
 
             return null;  // Return null if not found or exception occurs
@@ -345,10 +378,93 @@ namespace StoresPlace_Front.Sqlite.Regions
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message);  // Consider replacing this with appropriate logging
+                clsUtil.WriteExceptionError(ex);
             }
 
             return null;  // Return null if not found or exception occurs
+        }
+
+        public static async Task<string> GetRegionNameArByCityID(int? CityID)
+        {
+            if (!CityID.HasValue)
+            {
+                return null; 
+            }
+
+            try
+            {
+                using (var connection = new SqliteConnection(clsSqliteString.connectionString))
+                {
+                    await connection.OpenAsync();  
+
+                    string query = @"
+            SELECT Regions.RegionNameAr 
+            FROM Cities 
+            JOIN Regions ON Cities.RegionID = Regions.RegionID
+            WHERE Cities.CityID = @CityID";  
+
+                    using (var command = new SqliteCommand(query, connection))
+                    {
+                        command.Parameters.AddWithValue("@CityID", CityID.Value);
+
+                        using (var reader = await command.ExecuteReaderAsync())  
+                        {
+                            if (await reader.ReadAsync())  
+                            {
+                                return reader.IsDBNull(reader.GetOrdinal("RegionNameAr"))
+                                    ? null : reader.GetString(reader.GetOrdinal("RegionNameAr"));
+                            }
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                clsUtil.WriteExceptionError(ex); // Consider replacing this with appropriate logging
+            }
+
+            return null;  // Return null if not found or exception occurs
+        }
+
+        public static async Task<string> GetRegionNameEnByCityID(int? CityID)
+        {
+            if (!CityID.HasValue)
+            {
+                return null; 
+            }
+
+            try
+            {
+                using (var connection = new SqliteConnection(clsSqliteString.connectionString))
+                {
+                    await connection.OpenAsync();  
+
+                    string query = @"
+            SELECT Regions.RegionNameEn 
+            FROM Cities 
+            JOIN Regions ON Cities.RegionID = Regions.RegionID
+            WHERE Cities.CityID = @CityID"; 
+
+                    using (var command = new SqliteCommand(query, connection))
+                    {
+                        command.Parameters.AddWithValue("@CityID", CityID.Value);
+
+                        using (var reader = await command.ExecuteReaderAsync())  
+                        {
+                            if (await reader.ReadAsync())  
+                            {
+                                return reader.IsDBNull(reader.GetOrdinal("RegionNameEn")) ? null : reader.GetString(reader.GetOrdinal("RegionNameEn"));
+                            }
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                clsUtil.WriteExceptionError(ex); 
+            }
+
+            return null;  
         }
 
         public static async Task<string> GetRegionNameArByRegionID(int? RegionID)
@@ -382,7 +498,7 @@ namespace StoresPlace_Front.Sqlite.Regions
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message); // Replace with appropriate logging
+        //        clsUtil.WriteExceptionError(ex.Message);// Replace with appropriate logging
             }
 
             return null; // Return null if not found
@@ -420,7 +536,7 @@ namespace StoresPlace_Front.Sqlite.Regions
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message);  
+        //        clsUtil.WriteExceptionError(ex.Message); 
             }
 
             return null;  
@@ -452,7 +568,7 @@ namespace StoresPlace_Front.Sqlite.Regions
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message); 
+               clsUtil.WriteExceptionError(ex);
             }
 
             return regions;
@@ -484,7 +600,7 @@ namespace StoresPlace_Front.Sqlite.Regions
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message); 
+                clsUtil.WriteExceptionError(ex);
             }
 
             return regions;
